@@ -255,6 +255,21 @@
       ]
     },
     {
+      "key": "Misc/item_barter_l3harris_prc117g.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/backpacks/item_equipment_backpack_highland_radio.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Misc/item_barter_l3harris_prc117g.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/backpacks/platatacBullock/platatac_bullock_m81.bundle",
       "dependencyKeys": [
         "cubemaps",
