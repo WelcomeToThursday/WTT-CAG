@@ -1390,7 +1390,7 @@
     "addWeaponPreset": false,
     "weaponPresets": []
   },
-  "6a544e49fef7b3ad4ae36356": { // Goplit-S Front
+  "6a544e49fef7b3ad4ae36356": { // WARTECH TV-124 Groin
     "itemTplToClone": "6575ce8bdc9932aed601c61e",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
@@ -1402,7 +1402,7 @@
       "Name": "goplit_level2_soft_armor_front",
       "Durability": 37,
       "MaxDurability": 37,
-      "armorClass": "2",
+      "armorClass": "3",
       "armorColliders": [
         "RibcageUp"
       ]
@@ -1455,6 +1455,32 @@
     "addtoTraders": false,
     "fleaPriceRoubles": 24320,
     "handbookPriceRoubles": 27770,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6ab6c33ae2eab0117bd2839f": { // WARTECH TV-124 Groin Insert
+    "itemTplToClone": "6575ce8bdc9932aed601c61e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Durability": 25,
+      "MaxDurability": 25
+    },
+    "locales": {
+      "en": {
+        "name": "Aramid insert",
+        "shortName": "",
+        "description": "Aramid groin insert for the Wartech TV-124 plate carrier."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 24320,
+    "handbookPriceRoubles": 22140,
     "addtoStaticLootContainers": false,
     "staticLootContainers": [],
     "addWeaponPreset": false,
