@@ -7200,5 +7200,303 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6a90fe58bb0f96bbb75866f3": { // Ars Arma AVS Mod.1 plate carrier (A-TACS FG)
+    "itemTplToClone": "66b6295178bbc0200425f995",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_ars_avsmod1.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_ars_arma_avsmod1",
+      "ExaminedByDefault": true,
+      "RigLayoutName": "rig_stich_defence",
+      "Width": 3,
+      "Height": 4,
+      "Weight": 1.56,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": -2,
+      "Slots": [
+        {
+          "_id": "6ab6fe3aae31f2e8ab578f37",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "656fa61e94b480b8a500c0e8",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ab6fe3cb7c8ac880b578f38",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "64afc71497cf3a403c01ff38",
+                  "65573fa5655447403702a816"
+                ],
+                "Plate": "656fa61e94b480b8a500c0e8",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ab6fe3fa78718d255578f39",
+          "_mergeSlotWithChildren": true,
+          "_name": "soft_armor_left",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575ef78da698a4e980677eb"
+                ],
+                "Plate": "6575ef78da698a4e980677eb",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ab6fe40f7b5f50e3d578f3a",
+          "_mergeSlotWithChildren": true,
+          "_name": "soft_armor_right",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575ef7f9c7cad336508e457"
+                ],
+                "Plate": "6575ef7f9c7cad336508e457",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ab6fe4115af188fb7578f3b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575d561b15fef3dd4051670"
+                ],
+                "Plate": "6575d561b15fef3dd4051670",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ab6fe4354d19b7570578f3c",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6a90fe58bb0f96bbb75866f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575d56b16c2762fba005818"
+                ],
+                "Plate": "6575d56b16c2762fba005818",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ars Arma AVS MOD.1 plate carrier (A-TACS FG)",
+        "shortName": "AVS MOD.1",
+        "description": "A first generation version of the modified AVS plate carrier originally designed by Crye Precision and adapted by Ars Arma for Russian military units. Designed to combine the modularity of the original Crye product with the creature-comforts typically offered with Russian plate carriers. Equipped with a pouch setup in assault configuration. Manufactured by Ars Arma."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 34035,
+    "handbookPriceRoubles": 15015,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6a90fe58bb0f96bbb75866f3",
+        "_id": "6ab6fe518e51bac327578f43",
+        "_items": [
+          {
+            "_id": "6ab6fb59225360f8e9578f34",
+            "_tpl": "6a90fe58bb0f96bbb75866f3",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ab6fe48b744591305578f3d",
+            "_tpl": "6575d561b15fef3dd4051670",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6ab6fe48844b6f601f578f3e",
+            "_tpl": "6575d56b16c2762fba005818",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6ab6fe4983919f66b3578f3f",
+            "_tpl": "6575ef78da698a4e980677eb",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "soft_armor_left"
+          },
+          {
+            "_id": "6ab6fe4a64297a40fa578f40",
+            "_tpl": "6575ef7f9c7cad336508e457",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6ab6fe4b61d3550b0a578f41",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ab6fe4bcf81d110e4578f42",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "6ab6fb59225360f8e9578f34",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest Ars Arma AVS Mod.1 Standard",
+        "_parent": "6ab6fb59225360f8e9578f34",
+        "_type": "Preset"
+      }
+    ]
   }
 }
