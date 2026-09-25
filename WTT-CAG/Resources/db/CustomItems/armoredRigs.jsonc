@@ -6434,5 +6434,53 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6ab6bd7c8800fe21d523911b": { // Ars Arma A-18 "Skanda" (MM-14)
+    "itemTplToClone": "5d5d87f786f77427997cfaef",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "RigLayoutName": "A18"
+    },
+    "locales": {
+      "en": {
+        "name": "Ars Arma A-18 \"Skanda\" (MM-14)",
+        "shortName": "A18 Skanda",
+        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 25718,
+    "handbookPriceRoubles": 12344,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }
