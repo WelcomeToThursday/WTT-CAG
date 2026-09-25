@@ -1,0 +1,48 @@
+﻿{
+  "6a9100fa656e7f55615866f5": { // AN/PRC-117G
+    "itemTplToClone": "5d03794386f77420415576f5",
+    "parentId": "57864ee62459775490116fc1",
+    "handbookParentId": "56742c324bdc2d150f8b456d",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Misc/item_barter_l3harris_prc117g.bundle",
+        "rcid": ""
+      },
+      "Weight": 5.4,
+      "CanSellOnRagfair": true,
+      "Height": 2,
+      "Width": 4,
+      "Durability": 100,
+      "StackMaxSize": 1,
+      "Slots": [],
+      "BackgroundColor": "yellow"
+    },
+    "locales": {
+      "en": {
+        "name": "L3Harris AN/PRC-117G \"Falcon III\" long-range radio",
+        "shortName": "AN/PRC117G",
+        "description": "The AN/PRC117G, or Falcon III, Multi-Band networking radio is a long-range radio system designed for the U.S. Military's Joint Tactical Radio Systems (JTRS) program as a revised design from the PRC-117F. Featuring new Software-Defined Radio (or SDR/SCA) and a wideband network of up to 5Mbps. Manufactured by L3Harris."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 112572,
+    "handbookPriceRoubles": 98472,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  }
+}

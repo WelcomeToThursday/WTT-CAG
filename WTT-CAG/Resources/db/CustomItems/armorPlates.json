@@ -161,5 +161,143 @@
         }
       }
     }
+  },
+  "6a92274138db677519d467dc": {
+    "itemTplToClone": "655746010177119f4a097ff7",
+    "parentId": "644120aa86ffbe10ee032b6f",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Misc/armorPlates/bronyx_4/armor_plate_bronyx_level4_pristine.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Weight": 2.84,
+      "ArmorType": "Light",
+      "ArmorMaterial": "Combined",
+      "BluntThroughput": 0.16,
+      "Durability": 44,
+      "MaxDurability": 44,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -3,
+      "armorClass": 4,
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
+      ],
+      "Lower75Prefab": {
+        "path": "Misc/armorPlates/bronyx_4/armor_plate_bronyx_level4_destroyed.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "BRONYX CAP4 ballistic plate",
+        "shortName": "CAP4",
+        "description": "A lightweight ballistic plate for torso front and back pouches of plate carrier made of a composite of UHMWPE and Silicon Carbide (SiC). Manufactured by BRONYX."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 65500,
+    "handbookPriceRoubles": 38472,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 30
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6a9228c5d3830f24b7d467dd": {
+    "itemTplToClone": "655746010177119f4a097ff7",
+    "parentId": "644120aa86ffbe10ee032b6f",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Misc/armorPlates/bronyx_5/armor_plate_bronyx_level5_pristine.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Weight": 2.94,
+      "ArmorType": "Light",
+      "ArmorMaterial": "Combined",
+      "BluntThroughput": 0.21,
+      "Durability": 44,
+      "MaxDurability": 44,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": -3.5,
+      "armorClass": 5,
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
+      ],
+      "Lower75Prefab": {
+        "path": "Misc/armorPlates/bronyx_5/armor_plate_bronyx_level5_destroyed.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "BRONYX BRO-CAP5 ballistic plate (Olive Drab)",
+        "shortName": "BRO-CAP5",
+        "description": "A lightweight ballistic plate for torso front and back pouches of plate carrier made of a composite of UHMWPE and Silicon Carbide (SiC). Manufactured by BRONYX."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Front_plate",
+      "Back_plate"
+    ],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 90500,
+    "handbookPriceRoubles": 55000,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 30
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
   }
 }
