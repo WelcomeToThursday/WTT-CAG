@@ -6539,8 +6539,6 @@
         "_type": "Preset"
       }
     ]
-    "addWeaponPreset": false,
-    "weaponPresets": []
   },
   "6ab6c1e9e2eab0117bd2839e": { // WARTECH TV-124 plate carrier (MultiCam)
     "itemTplToClone": "639343fce101f4caa40a4ef3",
@@ -6548,17 +6546,293 @@
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
       "Prefab": {
-        "path": "Bodywear/armoredRigs/item_equipment_vest_wartech_tv124_plate_carrier.bundle",
+        "path": "Bodywear/armoredRigs/cr_wartech_tv124_mc.bundle",
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "RigLayoutName": "TV124",
+      "RigLayoutName": "cr_tv124",
+      "Grids": [
+        {
+          "_id": "88aac3a99e1953900e2ac557",
+          "_name": "GridView (1)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "42201c4f4e0aee212f2ccde0",
+          "_name": "GridView (2)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7afdb9a13027638257d673e1",
+          "_name": "GridView (3)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "be77b553a778b3a443c74f5d",
+          "_name": "GridView (4)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d43ecf50568ba08298cbc91f",
+          "_name": "GridView (5)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "44beab59256ffbcf91cd0cdc",
+          "_name": "GridView (6)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a6a67dcc33b4857366d6c1c2",
+          "_name": "GridView (7)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "9a4482f4faab57da2f0a01b0",
+          "_name": "GridView (8)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "52a20e5de445044556c3a5e5",
+          "_name": "GridView (9)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b673d5a723001795b76e8537",
+          "_name": "GridView (10)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448f3ac4bdc2dce718b4569",
+                  "5448f39d4bdc2d0a728b4568",
+                  "5448f3a64bdc2d60728b456a"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "676f5b42285e710b0f55d0e9",
+          "_name": "GridView (11)",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448f3ac4bdc2dce718b4569",
+                  "5448f39d4bdc2d0a728b4568",
+                  "5448f3a64bdc2d60728b456a"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Width": 4,
+      "Height": 4,
+      "Weight": 3.4,
+      "mousePenalty": -5,
+      "speedPenaltyPercent": -8,
+      "weaponErgonomicPenalty": -8,
       "Slots": [
         {
-          "_id": "6575d74816c2762fba00582c",
+          "_id": "6ab6e32369a1582738578f12",
           "_mergeSlotWithChildren": true,
           "_name": "Front_plate",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6598,10 +6872,10 @@
           "_required": false
         },
         {
-          "_id": "6575d74816c2762fba00582d",
+          "_id": "6ab6e326c8efd4871e578f13",
           "_mergeSlotWithChildren": true,
           "_name": "Back_plate",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6641,10 +6915,10 @@
           "_required": false
         },
         {
-          "_id": "6575d74816c2762fba00582e",
+          "_id": "6ab6e3293120801376578f14",
           "_mergeSlotWithChildren": true,
           "_name": "Left_side_plate",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6667,10 +6941,10 @@
           "_required": false
         },
         {
-          "_id": "6575d74816c2762fba00582f",
+          "_id": "6ab6e32b70a45d9828578f15",
           "_mergeSlotWithChildren": true,
           "_name": "Right_side_plate",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6693,10 +6967,10 @@
           "_required": false
         },
         {
-          "_id": "6575d74816c2762fba005830",
+          "_id": "6ab6e32e68e529f2f8578f16",
           "_mergeSlotWithChildren": true,
           "_name": "Soft_armor_front",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6718,10 +6992,10 @@
           "_required": true
         },
         {
-          "_id": "6575d74816c2762fba005831",
+          "_id": "6ab6e33048dc2f9a4a578f17",
           "_mergeSlotWithChildren": true,
           "_name": "Soft_armor_back",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6743,10 +7017,10 @@
           "_required": true
         },
         {
-          "_id": "6575d74816c2762fba005835",
+          "_id": "6ab6e332911bf7e1bd578f18",
           "_mergeSlotWithChildren": true,
           "_name": "Shoulder_l",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6767,10 +7041,10 @@
           "_required": true
         },
         {
-          "_id": "6575d74816c2762fba005836",
+          "_id": "6ab6e33441e24c43e1578f19",
           "_mergeSlotWithChildren": true,
           "_name": "Shoulder_r",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6791,10 +7065,10 @@
           "_required": true
         },
         {
-          "_id": "6575d74816c2762fba005837",
+          "_id": "6ab6e33621842ede37578f1a",
           "_mergeSlotWithChildren": true,
           "_name": "Groin",
-          "_parent": "60a283193cb70855c43a381d",
+          "_parent": "6ab6c1e9e2eab0117bd2839e",
           "_props": {
             "filters": [
               {
@@ -6818,9 +7092,9 @@
     },
     "locales": {
       "en": {
-        "name": "WARTECH TV-124 plate carrier (MultiCam)",
+        "name": "WARTECH TV-124 \"North\" plate carrier (MultiCam)",
         "shortName": "TV-124",
-        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma."
+        "description": "The TV-124 North (Russian: \"Cевер\") is an upgraded and refined version of the prior TV-103 plate carrier, featuring a quick-release system and swimmer-cut contouring for better Ergonomics. Manufactured by WARTECH."
       }
     },
     "addtoInventorySlots": [],
@@ -6828,8 +7102,8 @@
     "modSlot": [],
     "addtoTraders": false,
     "traders": {},
-    "fleaPriceRoubles": 25718,
-    "handbookPriceRoubles": 12344,
+    "fleaPriceRoubles": 64064,
+    "handbookPriceRoubles": 44444,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
@@ -6849,7 +7123,82 @@
         "probability": 1
       }
     ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ab6c1e9e2eab0117bd2839e",
+        "_id": "6ab6e56a305adc93b2578f1d",
+        "_items": [
+          {
+            "_id": "6ab6e55a164926e084578f1b",
+            "_tpl": "6ab6c1e9e2eab0117bd2839e",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ab6e5848ecbce5563578f25",
+            "_tpl": "6575d561b15fef3dd4051670",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6ab6e5843eee6e5027578f24",
+            "_tpl": "6575d56b16c2762fba005818",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6ab6e5ac3e009738b9578f27",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6ab6e5ac523f9283db578f26",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6ab6e581aa881ce67e578f21",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ab6e57f72a0ee323f578f20",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6ab6e5c7eb2acd0caf578f29",
+            "_tpl": "6575d5bd16c2762fba005828",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "6ab6e5d811bd8aa906578f2b",
+            "_tpl": "6575d5b316c2762fba005824",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "6ab6e5b2dbd999b649578f28",
+            "_tpl": "6ab6c33ae2eab0117bd2839f",
+            "parentId": "6ab6e55a164926e084578f1b",
+            "slotId": "Groin"
+          }
+        ],
+        "_name": "Vest WARTECH TV-124 Standard",
+        "_parent": "6ab6e55a164926e084578f1b",
+        "_type": "Preset"
+      }
+    ]
   }
 }
