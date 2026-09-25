@@ -141,6 +141,17 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_ars_18_skanda_mm14.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/rig_tv115/item_equipment_rig_tv115.bundle",
+        "assets/content/weapons/usable_items/item_gsm_gps_jammer/item_gsm_gps_jammer_v2_container.bundle",
+        "assets/content/items/mods/magazines/mag_pp-19-01_izhmash_izh-9x19_sb7_9x19_30.bundle",
+        "assets/content/items/mods/flashlights/flashlight_armytek_predator_pro_v3_xhp35_hi.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/cr_msa_paraclete_odg.bundle",
       "dependencyKeys": [
         "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",

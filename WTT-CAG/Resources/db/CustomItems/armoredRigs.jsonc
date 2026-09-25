@@ -6441,7 +6441,7 @@
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
       "Prefab": {
-        "path": "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle",
+        "path": "Bodywear/armoredRigs/cr_ars_18_skanda_mm14.bundle",
         "rcid": ""
       },
       "ExaminedByDefault": true,
@@ -6449,9 +6449,9 @@
     },
     "locales": {
       "en": {
-        "name": "Ars Arma A-18 \"Skanda\" (MM-14)",
+        "name": "Ars Arma A18 Skanda plate carrier (MM-14)",
         "shortName": "A18 Skanda",
-        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma."
+        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma. MM-14 version."
       }
     },
     "addtoInventorySlots": [],
