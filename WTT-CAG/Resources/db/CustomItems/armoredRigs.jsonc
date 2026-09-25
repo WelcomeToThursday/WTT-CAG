@@ -6480,7 +6480,64 @@
         "probability": 1
       }
     ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ab6bd7c8800fe21d523911b",
+        "_id": "6ab6dde3e39b4f821c578f11",
+        "_items": [
+          {
+            "_id": "6ab6dd79327ea89c9d578f0a",
+            "_tpl": "6ab6bd7c8800fe21d523911b",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ab6dd86ffe6ec513d578f0b",
+            "_tpl": "6570e5100b57c03ec90b970a",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6ab6dd87357c10a899578f0c",
+            "_tpl": "6570e479a6560e4ee50c2b02",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6ab6dd88014ae3c63d578f0d",
+            "_tpl": "6570e5674cc0d2ab1e05edbb",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6ab6dd888ccb2f0037578f0e",
+            "_tpl": "6570e59b0b57c03ec90b970e",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6ab6dd8a04cf6fdd11578f0f",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ab6dd8a92c7d8e3e4578f10",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6ab6dd79327ea89c9d578f0a",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest Ars Arma A18 Skanda MM14",
+        "_parent": "6ab6dd79327ea89c9d578f0a",
+        "_type": "Preset"
+      }
+    ]
   }
 }
