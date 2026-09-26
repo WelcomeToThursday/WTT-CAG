@@ -1717,5 +1717,205 @@
     ],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6ab84eeea7c7bf7b2c72fb90": { // Arktis Pattern 42 chest rig (DPM)
+    "itemTplToClone": "5e4abc1f86f774069619fbaa",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/unarmoredRigs/item_equipment_rig_arktis_pat42_dpm.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 2.1,
+      "Height": 3,
+      "Width": 4,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -1,
+      "RigLayoutName": "cr_arktis_pat42",
+      "Grids": [
+        {
+          "_id": "74a5f75bd7850bd459f2ac00",
+          "_name": "GridView (1)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7eaf353ef7815c06ccd3f6ae",
+          "_name": "GridView (2)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f570ba33d7765685898dbe47",
+          "_name": "GridView (3)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3605898657d996b36a855187",
+          "_name": "GridView (4)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "88b8ea67ebd9ec7b1ceb4a63",
+          "_name": "GridView (5)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0a89dc6a8445268875985a2e",
+          "_name": "GridView (6)",
+          "_parent": "6ab84eeea7c7bf7b2c72fb90",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Arktis Pattern 42 chest rig (DPM)",
+        "shortName": "Pat.42",
+        "description": "A classic chest rig designed as a modern reproduction of the vintage LBCE Pattern 42 Webbing used by the British military in the 1980's. Manufactured by Arktis."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 51020,
+    "handbookPriceRoubles": 12500,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 10000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1000
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1100
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }
