@@ -103,8 +103,8 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "cab-0ecb975fbe41f74ffcd4e76c747ab787",
-        "ca8-ee042a3513i43adf515526f11b8178a8",
+        "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle",
         "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle"
       ]
     },
@@ -155,11 +155,11 @@
         "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
         "shaders",
         "cubemaps",
-        "ca8-ee042a3513i43adf515526f11b8178a8"
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle"
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/cr_msv_gen2_gunner.bundle",
+      "key": "Bodywear/armoredRigs/MSV/cr_msv_gen2_gunner.bundle",
       "dependencyKeys": [
         "shaders",
         "cubemaps"
@@ -172,7 +172,7 @@
         "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
         "assets/content/weapons/usable_items/item_meds_cat/client_assets.bundle",
         "assets/content/weapons/usable_items/item_meds_hemostatic/client_assets.bundle",
-        "ca8-ee042a3513i43adf515526f11b8178a8",
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle",
         "shaders"
       ]
     },
@@ -412,7 +412,7 @@
         "shaders",
         "cubemaps",
         "assets/content/items/spec/multitul/item_spec_multitul.bundle",
-        "ca8-ee042a3513i43adf515526f11b8178a8"
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle"
       ]
     },
     {
@@ -423,7 +423,7 @@
         "Bodywear/armoredRigs/SPC/cr_crye_airlite_spc_blk.bundle",
         "cubemaps",
         "assets/content/items/spec/multitul/item_spec_multitul.bundle",
-        "ca8-ee042a3513i43adf515526f11b8178a8"
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle"
       ]
     },
     {
