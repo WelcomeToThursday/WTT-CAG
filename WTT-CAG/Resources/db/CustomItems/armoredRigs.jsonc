@@ -9165,8 +9165,8 @@
     "modSlot": [],
     "addtoTraders": false,
     "traders": {},
-    "fleaPriceRoubles": 21020,
-    "handbookPriceRoubles": 6523,
+    "fleaPriceRoubles": 50000,
+    "handbookPriceRoubles": 25556,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
@@ -9242,6 +9242,278 @@
         ],
         "_name": "Vest Paraclete RAV Standard",
         "_parent": "6ab97a2cdc20378421b76463",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6abaabce62687ca9970ba4b5": { // S&S Precision PlateFrame-Modular plate carrier (Pigeon Edition)
+    "itemTplToClone": "628b9784bcf6e2659e09b8a2",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_ss_pfm_pigeon.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_ss_pfm_pigeon",
+      "ExaminedByDefault": true,
+      "RigLayoutName": "pigeon_pframe",
+      "Width": 3,
+      "Height": 4,
+      "Weight": 1.42,
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -1,
+      "CanSellOnRagfair": true,
+      "Grids": [
+        {
+          "_id": "384161ccc489710bccd975db",
+          "_name": "GridView (1)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "700dae72e04fd7f950cb1abd",
+          "_name": "GridView (2)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7f411b12893b1e0e0328ae5e",
+          "_name": "GridView (3)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "6f6b1e92c3cc400129df3868",
+          "_name": "GridView (4)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "8818f6b1b72f836657f50aed",
+          "_name": "GridView (5)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "778901ec550a513f0e3af4bc",
+          "_name": "GridView (6)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "209a958a7c5e1f4ddc9af28f",
+          "_name": "GridView (7)",
+          "_parent": "6abaabce62687ca9970ba4b5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "S&S Precision PlateFrame-Modular plate carrier (Pigeon Edition)",
+        "shortName": "PF-M PE",
+        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by a reknowned British USEC PMC. Manufactured by S&S Precision."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 75750,
+    "handbookPriceRoubles": 35035,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6abaabce62687ca9970ba4b5",
+        "_id": "6abaabdc8e56d84be20ba4b6",
+        "_items": [
+          {
+            "_id": "6abaabdf651046910b0ba4b7",
+            "_tpl": "6abaabce62687ca9970ba4b5",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6abaac04f7320f149d0ba4bf",
+            "_tpl": "6943c85be2f21398e70378cc",
+            "parentId": "6abaabdf651046910b0ba4b7",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6abaac03355bd088bf0ba4be",
+            "_tpl": "6943c85be2f21398e70378cc",
+            "parentId": "6abaabdf651046910b0ba4b7",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6abaac01125d5362380ba4bc",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abaabdf651046910b0ba4b7",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6abaac0281c55607720ba4bd",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abaabdf651046910b0ba4b7",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_name": "Vest PF-M Pigeon Standard",
+        "_parent": "6abaabdf651046910b0ba4b7",
         "_type": "Preset"
       }
     ]
