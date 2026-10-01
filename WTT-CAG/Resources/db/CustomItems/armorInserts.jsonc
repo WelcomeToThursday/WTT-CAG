@@ -1485,5 +1485,77 @@
     "staticLootContainers": [],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6abeac107b81045a5f8b07ee": { // MSV Front
+    "itemTplToClone": "65733312ca0ca984940a2d53",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+        "rcid": ""
+      },
+      "Name": "msv_level3_soft_armor_front",
+      "Durability": 40,
+      "MaxDurability": 40,
+      "armorClass": "3",
+      "armorColliders": [
+        "RibcageUp",
+        "RibcageLow"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Aramid insert",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 24320,
+    "handbookPriceRoubles": 27770,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6abeac3cfdf421eef68b07ef": { // MSV Back
+    "itemTplToClone": "6575ce8bdc9932aed601c61e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+        "rcid": ""
+      },
+      "Name": "msv_level3_soft_armor_back",
+      "Durability": 40,
+      "MaxDurability": 40,
+      "armorClass": "2",
+      "armorColliders": [
+        "SpineTop",
+        "SpineDown"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Aramid insert",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 24320,
+    "handbookPriceRoubles": 27770,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }

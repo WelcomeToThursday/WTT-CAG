@@ -8296,7 +8296,7 @@
       "en": {
         "name": "Crye Precision CPC plate carrier (MultiCam)",
         "shortName": "CPC",
-        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made for use by USEC combat lifesavers. MultiCam version."
+        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made for use by BEAR combat lifesavers. MultiCam version."
       }
     },
     "addtoInventorySlots": [],
@@ -9242,6 +9242,735 @@
         ],
         "_name": "Vest Paraclete RAV Standard",
         "_parent": "6ab97a2cdc20378421b76463",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6abeb364c8ca1bf0608b07f3": { // MSV Gen.2 plate carrier (General Purpose)
+    "itemTplToClone": "64a536392d2c4e6e970f4121",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/MSV/item_equipment_armor_msv_gen2_general.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_msv_gen2_gp",
+      "ExaminedByDefault": true,
+      "Width": 4,
+      "Height": 3,
+      "Weight": 2.3,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -3,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "6abeb36b19f84766478b07f4",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9d5900d62bcd2e02407c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abeb36dde7d676e528b07f5",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9d5900d62bcd2e02407c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abeb37067ebd0bc3c8b07f6",
+          "_mergeSlotWithChildren": true,
+          "_name": "Left_side_plate",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abeb373d044d429a98b07f7",
+          "_mergeSlotWithChildren": true,
+          "_name": "Right_side_plate",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abeb375e51441aafc8b07f8",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6abeac107b81045a5f8b07ee"
+                ],
+                "Plate": "6abeac107b81045a5f8b07ee",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6abeb3779e1b3a99ed8b07f9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6abeb364c8ca1bf0608b07f3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6abeac3cfdf421eef68b07ef"
+                ],
+                "Plate": "6abeac3cfdf421eef68b07ef",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "MSV Gen.2 plate carrier (General Purpose)",
+        "shortName": "MSV GP",
+        "description": "The Modular Scalable Vest (MSV) Gen.2 is the main body armor of the U.S. Army, designed to carry heavy armor and equipment loads by utilising modern technology and load-bearing developments compared to the IOTV that it replaces. Configured with an Assault Pouch setup."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 95830,
+    "handbookPriceRoubles": 58032,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6abeb364c8ca1bf0608b07f3",
+        "_id": "6abeb38949305c6d588b07fa",
+        "_items": [
+          {
+            "_id": "6abeb38a6b30bf55368b07fb",
+            "_tpl": "6abeb364c8ca1bf0608b07f3",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6abeb3952fcf77b7b98b0801",
+            "_tpl": "656f9d5900d62bcd2e02407c",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6abeb395c6abb3ec2d8b0800",
+            "_tpl": "656f9d5900d62bcd2e02407c",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6abeb3945f9ae6ce988b07ff",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6abeb3936e490c0c988b07fe",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6abeb392873cb18a8e8b07fd",
+            "_tpl": "6abeac107b81045a5f8b07ee",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6abeb391b55ddb261c8b07fc",
+            "_tpl": "6abeac3cfdf421eef68b07ef",
+            "parentId": "6abeb38a6b30bf55368b07fb",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Vest MSV Gen2 Standard",
+        "_parent": "6abeb38a6b30bf55368b07fb",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6abea72d4d2b98fa898b07e1": { // MSV Gen.2 plate carrier (Machinegunner)
+    "itemTplToClone": "628b9784bcf6e2659e09b8a2",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/MSV/cr_msv_gen2_gunner.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_msv_gen2_gunner",
+      "ExaminedByDefault": true,
+      "RigLayoutName": "cr_msv_heavy",
+      "Width": 4,
+      "Height": 4,
+      "Weight": 4,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -4,
+      "CanSellOnRagfair": false,
+      "Grids": [
+        {
+          "_id": "31e354e91b70f5ee54c121e4",
+          "_name": "GridView (1)",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "573255a7daeb265a7cccad42",
+          "_name": "GridView (2)",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "62d36b9a74f9e83440cfa0a5",
+          "_name": "GridView (3)",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "ae8e1b4773c69eaa7115433d",
+          "_name": "GridView (4)",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "46e4f9abb4d8306ef7244da9",
+          "_name": "GridView (5)",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6abea77ec70c49abe48b07e3",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa53d94b480b8a500c0e4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abea7803911f292888b07e4",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa53d94b480b8a500c0e4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abea7836b077ccce68b07e5",
+          "_mergeSlotWithChildren": true,
+          "_name": "Left_side_plate",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abea7856e5dfbce9d8b07e6",
+          "_mergeSlotWithChildren": true,
+          "_name": "Right_side_plate",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abea7879609a175fd8b07e7",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6abeac107b81045a5f8b07ee"
+                ],
+                "Plate": "6abeac107b81045a5f8b07ee",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6abea78b68e5506ce88b07ea",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6abea72d4d2b98fa898b07e1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6abeac3cfdf421eef68b07ef"
+                ],
+                "Plate": "6abeac3cfdf421eef68b07ef",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "MSV Gen.2 plate carrier (Machinegunner)",
+        "shortName": "MSV MG",
+        "description": "The Modular Scalable Vest (MSV) Gen.2 is the main body armor of the U.S. Army, designed to carry heavy armor and equipment loads by utilising modern technology and load-bearing developments compared to the IOTV that it replaces. Configured with a Machinegunner Pouch setup."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 125202,
+    "handbookPriceRoubles": 65650,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6abea72d4d2b98fa898b07e1",
+        "_id": "6abea72f07110de0cf8b07e2",
+        "_items": [
+          {
+            "_id": "6abea71242b116a1e98b07dc",
+            "_tpl": "6abea72d4d2b98fa898b07e1",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6abea7211bde2b69968b07dd",
+            "_tpl": "656f9d5900d62bcd2e02407c",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6abea723bc92e9a1cc8b07e0",
+            "_tpl": "656f9d5900d62bcd2e02407c",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6abea72171820f8a318b07de",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6abead471a5172b3bf8b07f2",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "6abead3f990f2f32548b07f0",
+            "_tpl": "6abeac107b81045a5f8b07ee",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6abead400d9cc09aee8b07f1",
+            "_tpl": "6abeac3cfdf421eef68b07ef",
+            "parentId": "6abea71242b116a1e98b07dc",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Vest MSV Gen2 Gunner",
+        "_parent": "6abea71242b116a1e98b07dc",
         "_type": "Preset"
       }
     ]
