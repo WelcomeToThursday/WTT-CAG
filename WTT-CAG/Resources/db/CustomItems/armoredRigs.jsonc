@@ -4081,7 +4081,15 @@
                   "5448bf274bdc2dfc2f8b456a"
                 ],
                 "Filter": [
-                  "543be6564bdc2df4348b4568"
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
                 ]
               }
             ],
@@ -8560,7 +8568,15 @@
                   "5448bf274bdc2dfc2f8b456a"
                 ],
                 "Filter": [
-                  "543be6564bdc2df4348b4568"
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
                 ]
               }
             ],
@@ -8584,7 +8600,15 @@
                   "5448bf274bdc2dfc2f8b456a"
                 ],
                 "Filter": [
-                  "543be6564bdc2df4348b4568"
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
                 ]
               }
             ],
@@ -10243,6 +10267,528 @@
         ],
         "_name": "Vest PF-M Pigeon Standard",
         "_parent": "6abaabdf651046910b0ba4b7",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6abfd772f6734e1e3b6a2b22": { // TYR Pico-DSX plate carrier (Wolf Grey)
+    "itemTplToClone": "64a536392d2c4e6e970f4121",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_tyr_tactical_pico-dsx_grey.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_tyr_tactical_pico_dsx_grey",
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 4,
+      "Weight":1.3,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": -2,
+      "CanSellOnRagfair": true,
+      "RigLayoutName": "cr_pico_dsx_grenadier",
+      "Grids": [
+        {
+          "_id": "4e2b7d7d2bd4b553802326bf",
+          "_name": "GridView (1)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "20fc2a61fc279608df645c76",
+          "_name": "GridView (2)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3acb5f651243787feba3c1b9",
+          "_name": "GridView (3)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "afdeb7a0631dd46b38c34292",
+          "_name": "GridView (4)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a5288b70e38412b70484fb7a",
+          "_name": "GridView (5)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "30abb9d611ebc244633f1e62",
+          "_name": "GridView (6)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "455c27df407fb88f303eee7d",
+          "_name": "GridView (7)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "8da30de8d5df53ac616713d1",
+          "_name": "GridView (8)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "bd0a9a6c19f253eb206cf4e7",
+          "_name": "GridView (9)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "bf375b3458d14a08f3a60fc4",
+          "_name": "GridView (10)",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6abfd789935f2955c46a2b23",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fad8c498d1b7e3e071da0",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abfd78c1739a388be6a2b24",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fad8c498d1b7e3e071da0",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6abfd7bd3a16c2f28d6a2b27",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6572fc809a866b80ab07eb59"
+                ],
+                "Plate": "6572fc809a866b80ab07eb59",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6abfd7bfe74bfc4d4e6a2b28",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6abfd772f6734e1e3b6a2b22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6572fc8c9a866b80ab07eb5d"
+                ],
+                "Plate": "6572fc8c9a866b80ab07eb5d",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "TYR Tactical PICO-DSX plate carrier (Wolf Grey)",
+        "shortName": "PICO-DSX",
+        "description": "The TYR Tactical PICO-DSX is a lightweight modular plate carrier with an integrated ballistic framework and quick-release system. This vest is configured for a grenadier, with additional equipment for carrying 40mm grenades."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 75000,
+    "handbookPriceRoubles": 35000,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 850
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 86
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 55
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 25
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6abfd772f6734e1e3b6a2b22",
+        "_id": "6abfd8309aa1b9e4136a2b2e",
+        "_items": [
+          {
+            "_id": "6abfd82be4d55e16616a2b2d",
+            "_tpl": "6abfd772f6734e1e3b6a2b22",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6abfd829f28a3d52b46a2b29",
+            "_tpl": "656fad8c498d1b7e3e071da0",
+            "parentId": "6abfd82be4d55e16616a2b2d",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6abfd8292b983655ef6a2b2a",
+            "_tpl": "656fad8c498d1b7e3e071da0",
+            "parentId": "6abfd82be4d55e16616a2b2d",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6abfd82a3caadd2f916a2b2b",
+            "_tpl": "6572fc809a866b80ab07eb59",
+            "parentId": "6abfd82be4d55e16616a2b2d",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6abfd82a520b7a5f366a2b2c",
+            "_tpl": "6572fc8c9a866b80ab07eb5d",
+            "parentId": "6abfd82be4d55e16616a2b2d",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Vest Tyr Pico-DSX Standard",
+        "_parent": "6abfd82be4d55e16616a2b2d",
         "_type": "Preset"
       }
     ]
