@@ -91,6 +91,12 @@ public class BaseGameItemEdits(
                 case "67ab49aab9c7a1e18c095686":
                     item.Properties.Prefab.Path = "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_mc.bundle";
                     break; // Replace AVS (MultiCam) bundle
+                case "5b44cad286f77402a54ae7e5":
+                    item.Properties.Prefab.Path = "Bodywear/armoredRigs/TACTEC_replace/cr_511_tactec_tan.bundle";
+                    break; // Replace TacTec bundle
+                case "67ab4b2d6f7ae4aa550bbcf6":
+                    item.Properties.Prefab.Path = "Bodywear/armoredRigs/TACTEC_replace/cr_511_tactec_storm.bundle";
+                    break; // Replace TacTec bundle (Storm)
             }
         }
     }
