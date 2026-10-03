@@ -12717,5 +12717,468 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6ac1316b38ca737925750d0e": { // Crye Precision AirLite SPC plate carrier (MultiCam Arid)
+    "itemTplToClone": "66b6295a8ca68c6461709efa",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/SPC/cr_crye_airlite_spc_mca.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_crye_airlite_spc_mca",
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 3,
+      "Weight": 1.32,
+      "CanSellOnRagfair": true,
+      "RigLayoutName": "cr_crye_spc",
+      "Grids": [
+        {
+          "_id": "b5ad0836cd0a038155697ee5",
+          "_name": "GridView (1)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "db81acb749fc0b72db6a9593",
+          "_name": "GridView (2)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "086ba1da73645afc5db73f3c",
+          "_name": "GridView (3)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5b3d92eb7986239ad6883faa",
+          "_name": "GridView (4)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d95b611a97ff5545f88e6fa1",
+          "_name": "GridView (5)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "543be6564bdc2df4348b4568",
+                  "5656eb674bdc2d35148b457c", // VOG
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "db3ce88ba8c6fea3e2635d63",
+          "_name": "GridView (6)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4fc3261fc2459a7c6e9b9172",
+          "_name": "GridView (7)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4120f638e525075f38981ad6",
+          "_name": "GridView (8)",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6ac13172570304682f750d10",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ac1316fd835069a2c750d0f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6ac1316b38ca737925750d0e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AirLite SPC plate carrier (MultiCam Arid)",
+        "shortName": "SPC",
+        "description": "The AirLite SPC is a lightweight plate carrier designed for high-mobility combat use. Its low-profile construction combines AirLite material with structural support for carrying heavy loads without unnecessary bulk. MultiCam Arid version."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 65600,
+    "handbookPriceRoubles": 35353,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 85
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac1316b38ca737925750d0e",
+        "_id": "6ac1316a18a35af91f750d0d",
+        "_items": [
+          {
+            "_id": "6ac1316572c7a33a21750d0a",
+            "_tpl": "6ac1316b38ca737925750d0e",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac1316896d6c8b71e750d0b",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac1316572c7a33a21750d0a",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ac131690d5c6b7d58750d0c",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac1316572c7a33a21750d0a",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest Airlite SPC Standard",
+        "_parent": "6ac1316572c7a33a21750d0a",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6ac1326595cc95e441750d11": { // Crye Precision AirLite SPC plate carrier
+    "itemTplToClone": "6ac1316b38ca737925750d0e", // MC Arid one
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/SPC/cr_crye_airlite_spc_blk.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_crye_airlite_spc_blk",
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AirLite SPC plate carrier",
+        "shortName": "SPC",
+        "description": "The AirLite SPC is a lightweight plate carrier designed for high-mobility combat use. Its low-profile construction combines AirLite material with structural support for carrying heavy loads without unnecessary bulk."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 65600,
+    "handbookPriceRoubles": 35353,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 85
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac1326595cc95e441750d11",
+        "_id": "6ac1326978548e83ee750d12",
+        "_items": [
+          {
+            "_id": "6ac1326a9e88e8b39f750d13",
+            "_tpl": "6ac1326595cc95e441750d11",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac1326f4967505711750d15",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac1326a9e88e8b39f750d13",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ac1326ebac0b5e204750d14",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac1326a9e88e8b39f750d13",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest Airlite SPC Black Standard",
+        "_parent": "6ac1326a9e88e8b39f750d13",
+        "_type": "Preset"
+      }
+    ]
   }
 }
