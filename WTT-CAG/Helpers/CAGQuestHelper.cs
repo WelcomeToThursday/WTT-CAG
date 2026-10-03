@@ -123,6 +123,8 @@ namespace WTTClothingAndGear.Helpers
         private const string RigJpcCoyote = "69786ec0c5d74f55c1c91ceb";
         private const string RigJpcMcTropic = "6a1b1aafbeb04b2149da1b1a";
         private const string RigLv120Ge = "6959f5cefa310a108862b798";
+        private const string RigLv120Olive = "6a7791cc2c3b30e6d1a0d6de";
+        private const string RigLv119Tiger = "6ac039ca5884f6d1266a2b62";
         private const string RigMsvGenPurpose = "6abeb364c8ca1bf0608b07f3";
         private const string RigMsvGunner = "6abea72d4d2b98fa898b07e1";
         private const string RigParaclete = "6aba9b43d60b630f910ba49e";
@@ -132,10 +134,12 @@ namespace WTTClothingAndGear.Helpers
         private const string RigPigeonFrame = "6abaabce62687ca9970ba4b5";
         private const string RigRampage = "6a1445f45e02d6066dff6c1c";
         private const string RigSlickster = "6a18c320614dfcaac696e174";
+        private const string RigShawM81 = "6ac08023371f61ec7b6a2b82";
         private const string RigThorMcvs = "695751925e767177d0975afe";
         private const string RigThorMcvsMulticam = "69577b2faab33d9b959d4f9e";
         private const string RigTv110Omon = "69749476189c0d08d9a28f1d";
         private const string RigTv119Boss = "6a4d4f9bc90d6800f79ee73a";
+        private const string RigTbasV5 = "6ac04ca8ef6feb35406a2b6c";
         private const string RigVelocityScarab = "6ac00b0abb1eb0d1db6a2b33";
         private const string RigWartechTv124 = "6ab6c1e9e2eab0117bd2839e";
         private const string RigWasDcs = "6ac01bb7a6d378ee556a2b37";
@@ -157,7 +161,7 @@ namespace WTTClothingAndGear.Helpers
 
             var allArmors = new[]
             {
-                ArmorAc1,ArmorGoplitS,ArmorRhinoDpm,ArmorRhinoMtp,ArmorTv119Multicam,ArmorTv119Olive,Rig6B46,RigArsA18Mm14,RigAvsArsArma,RigC2Fulcrum,RigCgpc3Black,RigCgpc3Small,RigCryeCpc,RigEffPc,RigGen4Taps,RigHaleyThorax,RigJpcBlackDiv,RigJpcCoyote,RigJpcMcTropic,RigLv120Ge,RigMsvGenPurpose,RigMsvGunner,RigParaclete,RigPerun6,RigPico1M,RigPicoDsx,RigPigeonFrame,RigRampage,RigSlickster,RigThorMcvs,RigThorMcvsMulticam,RigTv110Omon,RigTv119Boss,RigVelocityScarab,RigWartechTv124, RigWasDcs
+                ArmorAc1,ArmorGoplitS,ArmorRhinoDpm,ArmorRhinoMtp,ArmorTv119Multicam,ArmorTv119Olive,Rig6B46,RigArsA18Mm14,RigAvsArsArma,RigC2Fulcrum,RigCgpc3Black,RigCgpc3Small,RigCryeCpc,RigEffPc,RigGen4Taps,RigHaleyThorax,RigJpcBlackDiv,RigJpcCoyote,RigJpcMcTropic,RigLv119Tiger,RigLv120Ge,RigLv120Olive,RigMsvGenPurpose,RigMsvGunner,RigParaclete,RigPerun6,RigPico1M,RigPicoDsx,RigPigeonFrame,RigRampage,RigSlickster,RigShawM81,RigThorMcvs,RigThorMcvsMulticam,RigTv110Omon,RigTv119Boss,RigTbasV5,RigVelocityScarab,RigWartechTv124, RigWasDcs
             };
             var allHelmets = new[]
             { HelmetUntarFast, HelmetIhps, HelmetFastXpTan, HelmetFastXpMulticam, HelmetFastXpBlack, HelmetBtsh6, HelmetB826, HelmetAm95, HelmetTc2000, HelmetTc2000Tan, HelmetTc2000Mesh, HelmetFastSf, HelmetFastSfTan, HelmetFastSfMulticam, HelmetF1000H, HelmetCaimanTl, HelmetCaimanTlOlive, HelmetBatlskinCobra, HelmetGalletTc500, HelmetIbh, HelmetTor2Black, Helmet6B27, Helmet6B27Flora, HelmetViperp2Black, HelmetViperp2Tan, Helmet6B71M, HelmetAirframeTan, HelmetAirframeBlack, HelmetLshzLowcut, HelmetRifletech, HelmetRifletechMulticam, HelmetKiverRsp, HelmetBk3
