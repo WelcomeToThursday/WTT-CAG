@@ -188,6 +188,18 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_shaw_arcv2_m81.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
+        "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle",
+        "assets/content/items/equipment/rig_bd1_spiritus/item_equipment_armor_bd1_spiritus.bundle",
+        "assets/content/items/mods/magazines/mag_ar10_kac_steel_762x51_20.bundle",
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/cr_warrior_assault_systems_dcs_multicam.bundle",
       "dependencyKeys": [
         "shaders",
