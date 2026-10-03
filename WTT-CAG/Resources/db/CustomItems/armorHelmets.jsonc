@@ -5715,5 +5715,216 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6ac149692d0674b21e750d22": { // ATLAS Mk2 Gen.3 
+    "itemTplToClone": "5a154d5cfcdbcb001a3b00da",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets//helmet_atlas_mk2_gry.bundle",
+        "rcid": ""
+      },
+      "ConflictingItems": [],
+      "Weight": 1.1,
+      "Height": 2,
+      "Width": 2,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "6ac1497d42f6fcc2c6750d29",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_000",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a16b672fcdbcb001912fa83",
+                  "5a16b7e1fcdbcb00165aa6c9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6ac1497a7c49444a73750d28",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ea058e01dbce517f324b3e2",
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6ac149776c0dd4f294750d27",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a398b75c4a282000a51a266",
+                  "5a398ab9c4a282000c5a9842"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6ac1497187c459d71e750d25",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_002",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e66e2d174af02a96252f4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6ac1496ccdaede0732750d23",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a1cb67a820f1fcf1b05dfd2"
+                ],
+                "Plate": "6a1cb67a820f1fcf1b05dfd2",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ac1496ef5c55a0f2f750d24",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "6ac149692d0674b21e750d22",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a1cb64d378df173dd05dfd1"
+                ],
+                "Plate": "6a1cb64d378df173dd05dfd1",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "ATLAS Mk2 Gen.3 ballistic helmet (Wraith Grey)",
+        "shortName": "Mk2 Gen.3",
+        "description": "The ATLAS Armor Mk2 Gen.3 helmet is a russian-made clone of the FAST-style helmet shell. Featuring a similar profile and modularity as the Ops-Core counterpart while compromising on weight and armor quality. Manufactured by ATLAS."
+      }
+    },
+    "fleaPriceRoubles": 35000,
+    "handbookPriceRoubles": 15000,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 150
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 15
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 20
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 40
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac149692d0674b21e750d22",
+        "_id": "6ac149d4824024df23750d31",
+        "_items": [
+          {
+            "_id": "6ac149cef5ae59fde4750d2e",
+            "_tpl": "6ac149692d0674b21e750d22",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac149d348799d1a58750d30",
+            "_tpl": "6a1cb67a820f1fcf1b05dfd2",
+            "slotId": "Helmet_top",
+            "parentId": "6ac149cef5ae59fde4750d2e"
+          },
+          {
+            "_id": "6ac149d2d485bf3340750d2f",
+            "_tpl": "6a1cb64d378df173dd05dfd1",
+            "slotId": "Helmet_back",
+            "parentId": "6ac149cef5ae59fde4750d2e"
+          }
+        ],
+        "_name": "ATLAS Mk2 Stock Preset",
+        "_parent": "6ac149cef5ae59fde4750d2e",
+        "_type": "Preset"
+      }
+    ]
   }
 }

@@ -22,13 +22,6 @@
       ]
     },
     {
-      "key": "assets/content/items/equipment/facecover_boss_blackknight/item_equipment_facecover_boss_blackknight.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders"
-      ]
-    },
-    {
       "key": "assets/content/items/equipment/helmet_un/item_equipment_helmet_un.bundle",
       "dependencyKeys": [
         "Headwear/helmets/mich_2000/mich2000_shared",
@@ -1580,6 +1573,13 @@
       "dependencyKeys": [
         "shaders",
         "Headwear/helmets/tor-2/item_equipment_helmet_tor_2.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets//helmet_atlas_mk2_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
       ]
     },
     {
