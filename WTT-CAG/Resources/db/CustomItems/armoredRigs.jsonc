@@ -7507,6 +7507,244 @@
       }
     ]
   },
+  "6ac13ad1b14916ebca750d16": { // Ars Arma AVS Mod.1 plate carrier (A-TACS FG)
+    "itemTplToClone": "544a5caa4bdc2d1a388b4568",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_blackdiv.bundle",
+        "rcid": ""
+      },
+      "Name": "item_equipment_armor_crye_avs_blackdiv",
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 4,
+      "Weight": 2.44,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": 0,
+      "CanSellOnRagfair": false,
+      "Slots": [
+        {
+          "_id": "6ac13adb756720bebf750d17",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6ac13ad1b14916ebca750d16",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "656fafe3498d1b7e3e071da4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ac13adfc31b430794750d18",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6ac13ad1b14916ebca750d16",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "64afc71497cf3a403c01ff38",
+                  "65573fa5655447403702a816"
+                ],
+                "Plate": "656fafe3498d1b7e3e071da4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ac13ae2724afe4586750d19",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6ac13ad1b14916ebca750d16",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e83223c1f638ef0b0ede"
+                ],
+                "Plate": "6570e83223c1f638ef0b0ede",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ac13ae63af9fc8714750d1b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6ac13ad1b14916ebca750d16",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e87c23c1f638ef0b0ee2"
+                ],
+                "Plate": "6570e87c23c1f638ef0b0ee2",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AVS plate carrier (Black Division)",
+        "shortName": "AVS",
+        "description": "The Crye Precision AVS plate carrier equipped with pouches in assault configuration. One of the most comfortable to wear plate carriers. Black Division version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 34035,
+    "handbookPriceRoubles": 15015,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac13ad1b14916ebca750d16",
+        "_id": "6ac13b1d02121b3a3a750d1c",
+        "_items": [
+          {
+            "_id": "6ac13b2472c937dc9f750d1d",
+            "_tpl": "6ac13ad1b14916ebca750d16",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac13b6c39e3f038b1750d21",
+            "_tpl": "6570e83223c1f638ef0b0ede",
+            "parentId": "6ac13b2472c937dc9f750d1d",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6ac13b6be59f567bb3750d20",
+            "_tpl": "6570e87c23c1f638ef0b0ee2",
+            "parentId": "6ac13b2472c937dc9f750d1d",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6ac13b6bc0c1f3807e750d1f",
+            "_tpl": "656fafe3498d1b7e3e071da4",
+            "parentId": "6ac13b2472c937dc9f750d1d",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ac13b6a79dd9edf8c750d1e",
+            "_tpl": "656fafe3498d1b7e3e071da4",
+            "parentId": "6ac13b2472c937dc9f750d1d",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest AVS Black Div Standard",
+        "_parent": "6ac13b2472c937dc9f750d1d",
+        "_type": "Preset"
+      }
+    ]
+  },
   "6ab95488e937d74e02b76447": { // C2R Fast FULCRUM plate carrier (MC Black)
     "itemTplToClone": "61bc85697113f767765c7fe7",
     "parentId": "5448e5284bdc2dcb718b4567",
