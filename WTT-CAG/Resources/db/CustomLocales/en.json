@@ -1,4 +1,5 @@
 ﻿{
+  "mod_cover": "Cover",
   "69eccbae0764116786033c2e description": "A Canadian PMC of unknown allegiance who split from his section during the Blue Fire. Now hiding along the Shoreline, he mostly deals in imported tactical equipment, scavenged from USEC shipping containers or RUAF supply caches.",
   "69eccbae0764116786033c2e fullName": "Christian Thierry Wiseman",
   "69eccbae0764116786033c2e firstName": "Christian",
@@ -19,5 +20,10 @@
   "5b432d215acfc4771e1c6624 Name": "LShZ-1+ lightweight helmet (Olive Drab)",
   "5b432d215acfc4771e1c6624 ShortName": "LShZ-1+",
   "5b44cad286f77402a54ae7e5 Name": "5.11 Tactical TacTec plate carrier (Coyote Tan)",
-  "mod_cover": "Cover"
+  "6745895717824b1ec20570a6 Name": "6B47 Ratnik-BSh helmet (Mobilisation)",
+  "6745895717824b1ec20570a6 ShortName": "6B47 Mob.",
+  "6745895717824b1ec20570a6 Description": "6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments. Mobilisation variant created during the initial operations into the Norvinsk Region, featuring no NVG shroud or side rail for mounting accessories.",
+  "5aa7cfc0e5b5b00015693143 Name": "6B47 Ratnik-BSh helmet (Syrian Tan)",
+  "5aa7cfc0e5b5b00015693143 ShortName": "6B47",
+  "5aa7cfc0e5b5b00015693143 Description": "6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments. Syrian Desert Tan version."
 }

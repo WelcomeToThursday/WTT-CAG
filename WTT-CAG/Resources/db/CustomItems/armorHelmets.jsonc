@@ -5722,7 +5722,7 @@
     "handbookParentId": "5b47574386f77428ca22b330",
     "overrideProperties": {
       "Prefab": {
-        "path": "Headwear/helmets//helmet_atlas_mk2_gry.bundle",
+        "path": "Headwear/helmets/helmet_atlas_mk2_gry.bundle",
         "rcid": ""
       },
       "ConflictingItems": [],

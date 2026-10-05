@@ -24,7 +24,7 @@
     {
       "key": "assets/content/items/equipment/helmet_un/item_equipment_helmet_un.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -78,8 +78,15 @@
       "dependencyKeys": [
         "Bodywear/armoredRigs/CGPC3/cr_customgear_cgpc3_normals.bundle",
         "shaders",
-        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle",
-        "assets/content/items/mods/magazines/mag_aug_steyr_std_556x45_30.bundle"
+        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/cr_ars_18_skanda_mm14.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
       ]
     },
     {
@@ -104,8 +111,8 @@
     {
       "key": "Bodywear/armoredRigs/cr_crye_cpc_multicam.bundle",
       "dependencyKeys": [
-        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
         "assets/content/items/mods/magazines/mag_ak_izhmash_ak_std_55_762x39_30.bundle",
+        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
         "shaders",
         "cubemaps",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
@@ -123,14 +130,6 @@
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/cr_ars_18_skanda_mm14.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
-      ]
-    },
-    {
       "key": "Bodywear/armoredRigs/cr_msa_paraclete_odg.bundle",
       "dependencyKeys": [
         "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
@@ -141,10 +140,14 @@
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/MSV/cr_msv_gen2_gunner.bundle",
+      "key": "Bodywear/armoredRigs/cr_shaw_arcv2_m81.bundle",
       "dependencyKeys": [
+        "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_bd1_spiritus/item_equipment_armor_bd1_spiritus.bundle",
         "shaders",
-        "cubemaps"
+        "assets/content/items/mods/magazines/mag_ar10_kac_steel_762x51_20.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
+        "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle"
       ]
     },
     {
@@ -181,18 +184,6 @@
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/cr_shaw_arcv2_m81.bundle",
-      "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
-        "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle",
-        "assets/content/items/equipment/rig_bd1_spiritus/item_equipment_armor_bd1_spiritus.bundle",
-        "assets/content/items/mods/magazines/mag_ar10_kac_steel_762x51_20.bundle",
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
       "key": "Bodywear/armoredRigs/cr_warrior_assault_systems_dcs_multicam.bundle",
       "dependencyKeys": [
         "shaders",
@@ -211,22 +202,34 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
+        "cubemaps",
+        "shaders",
+        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_fde.bundle",
+        "assets/content/items/equipment/rig_m2/item_equipment_rig_m2.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/item_equipment_armor_spiritus_lv119_tiger.bundle",
       "dependencyKeys": [
         "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
-        "assets/content/items/mods/magazines/mag_usp_hk_usp_tactical_1143x23_12.bundle",
-        "cab-c09ed39971c57bc856544d3a6527e406",
-        "shaders",
         "cubemaps",
-        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle"
+        "shaders",
+        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle",
+        "cab-c09ed39971c57bc856544d3a6527e406",
+        "assets/content/items/mods/magazines/mag_usp_hk_usp_tactical_1143x23_12.bundle"
       ]
     },
     {
       "key": "Bodywear/armoredRigs/item_equipment_rig_tbas_od.bundle",
       "dependencyKeys": [
-        "cubemaps",
-        "shaders",
         "assets/content/items/ammo/patrons/patron_40x46_m406.bundle",
+        "shaders",
+        "cubemaps",
         "assets/content/items/mods/magazines/mag_aug_steyr_std_556x45_42.bundle"
       ]
     },
@@ -314,16 +317,22 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/MSV/cr_msv_gen2_gunner.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/MSV/item_equipment_armor_msv_gen2_general.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_fde.bundle",
         "assets/content/items/equipment/rig_m2/item_equipment_rig_m2.bundle",
         "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
         "shaders",
-        "cubemaps",
-        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_fde.bundle",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+        "cubemaps"
       ]
     },
     {
@@ -556,12 +565,12 @@
       "key": "Bodywear/unarmoredRigs/item_equipment_eberlestock_recon_bino.bundle",
       "dependencyKeys": [
         "assets/content/items/mods/magazines/mag_glock_glock_w_pad_9x19_19_fde.bundle",
-        "assets/content/items/mods/recievers/reciever_glock_zev_tech_spartan_rmr_cut_gen_3.bundle",
-        "cubemaps",
-        "shaders",
-        "assets/content/items/mods/barrels/barrel_glock_glock_114mm_9x19_std.bundle",
         "assets/content/weapons/glock17/client_assets.bundle",
-        "assets/systems/effects/particlesystems/effects.bundle"
+        "assets/content/items/mods/barrels/barrel_glock_glock_114mm_9x19_std.bundle",
+        "assets/systems/effects/particlesystems/effects.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/mods/recievers/reciever_glock_zev_tech_spartan_rmr_cut_gen_3.bundle"
       ]
     },
     {
@@ -907,6 +916,74 @@
       ]
     },
     {
+      "key": "Headwear/helmets/6b47/cover_6b47_atacs.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders",
+        "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/cover_6b47_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/cover_6b47_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/cover_6b47_ruaf.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/helmet_6b47_mobilisation.bundle",
+      "dependencyKeys": [
+        "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/6b47/helmet_6b47_tan.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle",
+        "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Headwear/helmets/6b7-1m/cover_6b7-1m_emr.bundle",
       "dependencyKeys": [
         "shaders",
@@ -1164,6 +1241,13 @@
       ]
     },
     {
+      "key": "Headwear/helmets/helmet_atlas_mk2_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Headwear/helmets/ibh/helmet_ilc_dover_ibh_black.bundle",
       "dependencyKeys": [
         "shaders",
@@ -1293,14 +1377,14 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_blk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/mich_2000/mich2000_fde.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -1311,7 +1395,7 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_spray.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -1384,42 +1468,42 @@
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
@@ -1573,13 +1657,6 @@
       "dependencyKeys": [
         "shaders",
         "Headwear/helmets/tor-2/item_equipment_helmet_tor_2.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets//helmet_atlas_mk2_gry.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
       ]
     },
     {

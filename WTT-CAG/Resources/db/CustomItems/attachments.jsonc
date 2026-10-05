@@ -2155,5 +2155,195 @@
     "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {}
+  },
+  "6ac3e949fffff507f5f10169": { // 6B47 cover (RUAF)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/6b47/cover_6b47_ruaf.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "6B47 Ratnik-BSh cover (RUAF)",
+        "shortName": "6B47",
+        "description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6ac3e95ea990adde97f1016a": { // 6B47 cover (ATACS)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/6b47/cover_6b47_atacs.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "6B47 Ratnik-BSh cover (A-TACS FG)",
+        "shortName": "6B47",
+        "description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6ac3e96f813c8d4718f1016b": { // 6B47 cover (OD)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/6b47/cover_6b47_od.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "6B47 Ratnik-BSh cover (Olive Drab)",
+        "shortName": "6B47",
+        "description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6ac3e97bbff9d7e291f1016c": { // 6B47 cover (ATACS)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "6B47 Ratnik-BSh cover (Black)",
+        "shortName": "6B47",
+        "description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6ac3e98d3b9c90d2f7f1016d": { // 6B47 cover (MC)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/6b47/cover_6b47_mc.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "6B47 Ratnik-BSh cover (MultiCam)",
+        "shortName": "6B47",
+        "description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
   }
 }

@@ -97,6 +97,31 @@ public class BaseGameItemEdits(
                 case "67ab4b2d6f7ae4aa550bbcf6":
                     item.Properties.Prefab.Path = "Bodywear/armoredRigs/TACTEC_replace/cr_511_tactec_storm.bundle";
                     break; // Replace TacTec bundle (Storm)
+                case "6745895717824b1ec20570a6":
+                    item.Properties.Prefab.Path = "Headwear/helmets/6b47/helmet_6b47_mobilisation.bundle";
+                    ReplaceSlotFilters(item, 0, 0, []);
+                    ReplaceSlotFilters(item, 1, 0, []);
+                    break; // 6B47 Mobilisation stuff
+                case "5aa7cfc0e5b5b00015693143":
+                    item.Properties.Prefab.Path = "Headwear/helmets/6b47/helmet_6b47_tan.bundle"; // LShZ prefab path
+                    slotHelper.EnsureSlot(item, "mod_cover", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_cover",
+                        "6ac3e98d3b9c90d2f7f1016d",
+                        "6ac3e97bbff9d7e291f1016c",
+                        "6ac3e96f813c8d4718f1016b",
+                        "6ac3e95ea990adde97f1016a",
+                        "6ac3e949fffff507f5f10169"); // Cover Slot
+                    break;
+                case "5a7c4850e899ef00150be885":
+                    item.Properties.Prefab.Path = "Headwear/helmets/6b47/helmet_6b47_olive.bundle"; // LShZ prefab path
+                    slotHelper.EnsureSlot(item, "mod_cover", "55d30c4c4bdc2db4468b457e", false, false, 0);
+                    slotHelper.AddIdsToNamedSlot(item, "mod_cover",
+                        "6ac3e98d3b9c90d2f7f1016d",
+                        "6ac3e97bbff9d7e291f1016c",
+                        "6ac3e96f813c8d4718f1016b",
+                        "6ac3e95ea990adde97f1016a",
+                        "6ac3e949fffff507f5f10169"); // Cover Slot
+                    break;
             }
         }
     }
