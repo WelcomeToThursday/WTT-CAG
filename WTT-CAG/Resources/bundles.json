@@ -184,11 +184,18 @@
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/cr_warrior_assault_systems_dcs_multicam.bundle",
+      "key": "Bodywear/armoredRigs/DCS/cr_warrior_assault_systems_dcs_multicam.bundle",
       "dependencyKeys": [
         "shaders",
         "cubemaps",
         "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/DCS/cr_was_dcs_olive_light.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
       ]
     },
     {
