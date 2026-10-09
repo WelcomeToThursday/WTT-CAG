@@ -13454,6 +13454,379 @@
       }
     ]
   },
+  "6ac84b4cf18dd99754fbeac6": { // Shaw Concepts ARC V2 plate carrier (Black)
+    "itemTplToClone": "639343fce101f4caa40a4ef3",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_shaw_arc_v2_p90_heavy.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_shaw_arc_v2_black",
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 4,
+      "Weight": 5.3,
+      "CanSellOnRagfair": true,
+      "RigLayoutName": "cr_shaw_heavy",
+      "Grids": [
+        {
+          "_id": "8bc9fbd37851362e058a34ef",
+          "_name": "GridView (1)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3dbd7a431e4aabfea5a0b417",
+          "_name": "GridView (2)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "07ad7b624e31d8cfee4b67a9",
+          "_name": "GridView (3)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e30e69f92ec803f816dfbea0",
+          "_name": "GridView (4)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5922b77908e18866128fdc00",
+          "_name": "GridView (5)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "94edf5cff53c38d7784888a7",
+          "_name": "GridView (6)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "9e5886fe40864df7fe3b7d4a",
+          "_name": "GridView (7)",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "5448f3ac4bdc2dce718b4569",
+                  "5448f39d4bdc2d0a728b4568",
+                  "5448f3a64bdc2d60728b456a"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6ac84b4e3d15580c46fbeac7",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ac84b5154cbc6a88cfbeac8",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ac84b70e18b1a45dbfbeac9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Groin",
+          "_parent": "6ac84b4cf18dd99754fbeac6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575d5a616c2762fba005820"
+                ],
+                "Plate": "6575d5a616c2762fba005820",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Shaw Concept ARC V2 plate carrier (Black)",
+        "shortName": "ARC V2",
+        "description": "The ARC V2 is a modular plate carrier designed for infantry and special operations use. Features adjustable plate bags, quick-release hardware and extensive MOLLE mounting space for mission-specific equipment. Heavy configuration in a Black color."
+
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 155555,
+    "handbookPriceRoubles": 85000,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 85
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 8
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 2
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac84b4cf18dd99754fbeac6",
+        "_id": "6ac84c7fe6d6d160a2fbead0",
+        "_items": [
+          {
+            "_id": "6ac84bd0d812a8dd54fbeacb",
+            "_tpl": "6ac84b4cf18dd99754fbeac6",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac84bd3da356be451fbeacc",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac84bd0d812a8dd54fbeacb",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6ac84bd4457a73fd28fbeacd",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6ac84bd0d812a8dd54fbeacb",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6ac84bd5a75015a9a9fbeace",
+            "_tpl": "6575d5a616c2762fba005820",
+            "parentId": "6ac84bd0d812a8dd54fbeacb",
+            "slotId": "Groin"
+          }
+        ],
+        "_name": "Vest ARC V2 Black Standard",
+        "_parent": "6ac84bd0d812a8dd54fbeacb",
+        "_type": "Preset"
+      }
+    ]
+  },
   "6ac1316b38ca737925750d0e": { // Crye Precision AirLite SPC plate carrier (MultiCam Arid)
     "itemTplToClone": "66b6295a8ca68c6461709efa",
     "parentId": "5448e5284bdc2dcb718b4567",
