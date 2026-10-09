@@ -177,6 +177,57 @@
       "slotId": "Soft_armor_back",
       "parentId": "6a6d5db80e8ebddb3fec8b71"
     },
+    // -  -  -  -   -   -   -   -   -   -   -  BODY ARMOR  -   -   -   -   -   -   -   -   -   -
+    {
+      "_id": "6ac93111f862cf98cb08451a", //CRYE LVS OVERT (MARPAT)
+      "_tpl": "6ac850f422dd2e932ffbead1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ac9313204889affe108451e",
+      "_tpl": "6ac85164feedc400e2fbead4",
+      "slotId": "Soft_armor_front",
+      "parentId": "6ac93111f862cf98cb08451a"
+    },
+    {
+      "_id": "6ac93131396b1ad45b08451d",
+      "_tpl": "6ac851c30c7ec3675bfbead6",
+      "slotId": "Soft_armor_back",
+      "parentId": "6ac93111f862cf98cb08451a"
+    },
+    {
+      "_id": "6ac9314921dba7a36b08451f", //CRYE LVS OVERT (Woodland)
+      "_tpl": "6ac8525c2003a742e2fbeade",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ac9314f18740b9d47084521",
+      "_tpl": "6ac85164feedc400e2fbead4",
+      "slotId": "Soft_armor_front",
+      "parentId": "6ac9314921dba7a36b08451f"
+    },
+    {
+      "_id": "6ac9314e89b7b7179c084520",
+      "_tpl": "6ac851c30c7ec3675bfbead6",
+      "slotId": "Soft_armor_back",
+      "parentId": "6ac9314921dba7a36b08451f"
+    },
     {
       "_id": "6a6d5c485365c8af1ccdc724", //CQC Rhino body armor (DPM Pat.90) 
       "_tpl": "697df0ab5e5a47675734105c",
@@ -2871,6 +2922,12 @@
     
     //WARTECH TV-119 plate carrier (MC) 
     "6a6d5db80e8ebddb3fec8b71":  [ [ { "count": 138093,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
+
+    //CRTE LVS (MARPAT)
+    "6ac93111f862cf98cb08451a":  [ [ { "count": 165659,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
+
+    //CRYE LVS (Woodland)
+    "6ac9314921dba7a36b08451f":  [ [ { "count": 165659,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
     
     //CQC Rhino body armor (MTP) 
     "6a6d5d3346f39f71072ce21a":  [ [ { "count": 127063,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
@@ -3235,6 +3292,8 @@
     "6a6d5e743042dba3a70711af": 4, //T.REX ARMS AC1 plate carrier (MultiCam) 
     "6a6d5e11b56acf99c0ca8876": 3, //WARTECH TV-119 plate carrier 
     "6a6d5db80e8ebddb3fec8b71": 3, //WARTECH TV-119 plate carrier (MC) 
+    "6ac93111f862cf98cb08451a": 4, //CRYE LVS (MARPAT)
+    "6ac9314921dba7a36b08451f": 4, //CRYE LVS (Woodland)
     "6a6d5d3346f39f71072ce21a": 3, //CQC Rhino body armor (MTP) 
     "6a6d5c485365c8af1ccdc724": 3, //CQC Rhino body armor (DPM Pat.90) 
     "6a6d4c0d3b14c0da01e5e18f": 4, //TYR Tactical PICO-DS Assaulters plate carrier (MultiCam) 
