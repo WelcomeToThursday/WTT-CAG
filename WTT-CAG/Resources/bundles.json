@@ -78,7 +78,8 @@
       "dependencyKeys": [
         "Bodywear/armoredRigs/CGPC3/cr_customgear_cgpc3_normals.bundle",
         "shaders",
-        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle"
+        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle",
+        "assets/content/items/mods/magazines/mag_aug_steyr_std_556x45_30.bundle"
       ]
     },
     {
@@ -148,6 +149,17 @@
         "assets/content/items/mods/magazines/mag_ar10_kac_steel_762x51_20.bundle",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
         "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/cr_shaw_arc_v2_p90_heavy.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/rig_arscpc/cr_arscpc.bundle",
+        "assets/content/items/mods/magazines/mag_usp_hk_usp_tactical_1143x23_12.bundle",
+        "assets/content/items/mods/magazines/mag_p90_fn_p90_std_57x28_50.bundle",
+        "assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_profi_plate_carrier_v2.bundle"
       ]
     },
     {
@@ -526,10 +538,18 @@
       ]
     },
     {
-      "key": "Bodywear/bodyArmor/armor_vest_trexarms_ac1_mc.bundle",
+      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle",
       "dependencyKeys": [
         "cubemaps",
         "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_woodland.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle"
       ]
     },
     {

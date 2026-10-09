@@ -1557,5 +1557,85 @@
     "staticLootContainers": [],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6ac85164feedc400e2fbead4": { // LVS front
+    "itemTplToClone": "6575ce8bdc9932aed601c61e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+        "rcid": ""
+      },
+      "Name": "lvs_level5_soft_armor_back",
+      "Durability": 35,
+      "MaxDurability": 35,
+      "armorClass": "5",
+      "armorColliders": [
+        "RibcageUp",
+        "RibcageLow"
+      ],
+      "Lower75Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Integrated ballistic plate",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 23000,
+    "handbookPriceRoubles": 15000,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6ac851c30c7ec3675bfbead6": { // LVS back
+    "itemTplToClone": "6575ce8bdc9932aed601c61e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+        "rcid": ""
+      },
+      "Name": "lvs_level5_soft_armor_back",
+      "Durability": 35,
+      "MaxDurability": 35,
+      "armorClass": "5",
+      "armorColliders": [
+        "SpineTop",
+        "SpineDown"
+      ],
+      "Lower75Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Integrated ballistic plate",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 23000,
+    "handbookPriceRoubles": 15000,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }

@@ -903,7 +903,7 @@
         "rcid": ""
       },
       "Name": "armor_vest_fort_goplit_slick",
-      "Weight": 0.33,
+      "Weight": 1.55,
       "Width": 3,
       "Height": 3,
       "mousePenalty": 0,
@@ -1174,6 +1174,191 @@
         ],
         "_name": "Body Armor GOPLIT-S Stock Preset",
         "_parent": "6a544eb42a06633318e3635e",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6ac850f422dd2e932ffbead1": { // Crye Precision LVS Overt body armor (MARPAT Woodland)
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle",
+        "rcid": ""
+      },
+      "Name": "lvs/ar_crye_lvs_overt_marpat",
+      "Weight": 6.5,
+      "Width": 3,
+      "Height": 3,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -3.5,
+      "weaponErgonomicPenalty": -4,
+      "Grids": [],
+      "Slots": [
+        {
+          "_id": "6ac8522dfd1d0795c5fbeadc",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6ac850f422dd2e932ffbead1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6ac85164feedc400e2fbead4"
+                ],
+                "Plate": "6ac85164feedc400e2fbead4",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6ac8522f6dcc3a7fd3fbeadd",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6ac850f422dd2e932ffbead1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6ac851c30c7ec3675bfbead6"
+                ],
+                "Plate": "6ac851c30c7ec3675bfbead6",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision LVS OVERT body armor (MARPAT Woodland)",
+        "shortName": "LVS",
+        "description": "The LVS OVERT is a modified version of the LVS plate carrier designed to be worn as external body armor, best paired with thinner, concealable plates. Manufactured by Crye Precision. MARPAT Woodland version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 66666,
+    "handbookPriceRoubles": 21020,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac850f422dd2e932ffbead1",
+        "_id": "6ac851f13de134aac9fbeadb",
+        "_items": [
+          {
+            "_id": "6ac851f02dad47b7b8fbeada",
+            "_tpl": "6ac850f422dd2e932ffbead1",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac851ee0e8c3a8d74fbead8",
+            "_tpl": "6ac85164feedc400e2fbead4",
+            "slotId": "Soft_armor_front",
+            "parentId": "6ac851f02dad47b7b8fbeada"
+          },
+          {
+            "_id": "6ac851ef28afbff2b0fbead9",
+            "_tpl": "6ac851c30c7ec3675bfbead6",
+            "slotId": "Soft_armor_back",
+            "parentId": "6ac851f02dad47b7b8fbeada"
+          }
+        ],
+        "_name": "Body Armor LVS Stock Preset",
+        "_parent": "6ac851f02dad47b7b8fbeada",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6ac8525c2003a742e2fbeade": { // Crye Precision LVS Overt body armor (Woodland Spray)
+    "itemTplToClone": "6ac850f422dd2e932ffbead1",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_woodland.bundle",
+        "rcid": ""
+      },
+      "Name": "ar_crye_lvs_overt_woodland"
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision LVS OVERT body armor (Woodland Spray)",
+        "shortName": "LVS",
+        "description": "The LVS OVERT is a modified version of the LVS plate carrier designed to be worn as external body armor, best paired with thinner, concealable plates. Manufactured by Crye Precision. Improvised Woodland Spray version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 66666,
+    "handbookPriceRoubles": 21020,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ac8525c2003a742e2fbeade",
+        "_id": "6ac852758e4a984a85fbeadf",
+        "_items": [
+          {
+            "_id": "6ac85276ad893a9187fbeae0",
+            "_tpl": "6ac8525c2003a742e2fbeade",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ac8527aa300bffd19fbeae2",
+            "_tpl": "6ac85164feedc400e2fbead4",
+            "slotId": "Soft_armor_front",
+            "parentId": "6ac85276ad893a9187fbeae0"
+          },
+          {
+            "_id": "6ac8527ad7c39dc989fbeae1",
+            "_tpl": "6ac851c30c7ec3675bfbead6",
+            "slotId": "Soft_armor_back",
+            "parentId": "6ac85276ad893a9187fbeae0"
+          }
+        ],
+        "_name": "Body Armor LVS Spray Preset",
+        "_parent": "6ac85276ad893a9187fbeae0",
         "_type": "Preset"
       }
     ]
