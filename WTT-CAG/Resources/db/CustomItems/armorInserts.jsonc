@@ -1637,5 +1637,37 @@
     "staticLootContainers": [],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6acac9c8ddd36d1bc0b5be47": { // SENTRY XP SIDE ARMOR
+    "itemTplToClone": "657112ce22996eaf110881fb",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+        "rcid": ""
+      },
+      "Name": "sentry_level4_helmet_armor_ears",
+      "Durability": 15,
+      "MaxDurability": 15,
+      "armorClass": "4"
+    },
+    "locales": {
+      "en": {
+        "name": "Hybrid composite materials",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 66582,
+    "handbookPriceRoubles": 24377,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }

@@ -2345,5 +2345,424 @@
     "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {}
+  },
+  "6acaec2156139f13d0b5be50": { // SENTRY XP cover (AOR2)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_aor2.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (AOR2)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf1df4e867f0a60b5be51": { // SENTRY XP cover (Black)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Black)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf281cbd40076b9b5be52": { // SENTRY XP cover (Tan)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_tan.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Coyote Tan)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf29567c74aca7bb5be53": { // SENTRY XP cover (DNC)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_dnc.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Desert Night)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf2b0f7a574eda1b5be54": { // SENTRY XP cover (Frogskin Jungle)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_frog.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Frogskin Jungle)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf31d258703563eb5be55": { // SENTRY XP cover (Wolf Grey)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_gry.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Wolf Grey)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf3350a926405d6b5be56": { // SENTRY XP cover (M 81 WOodland)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_m81.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (M81 Woodland)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf33c2bcc0a30bfb5be57": { // SENTRY XP cover (MultiCam)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mc.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (MultiCam)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf352206e675667b5be58": { // SENTRY XP cover (MultiCam Black)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mcb.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (MultiCam Black)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf3733b1a226113b5be59": { // SENTRY XP cover (Olive Drab)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_od.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Olive Drab)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6acaf3857edb52f753b5be5a": { // SENTRY XP cover (Olive Drab)
+    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_splatter.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "violet"
+    },
+    "locales": {
+      "en": {
+        "name": "SENTRY XP cover (Arcade Splatter)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 1500,
+    "handbookPriceRoubles": 800,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
   }
 }

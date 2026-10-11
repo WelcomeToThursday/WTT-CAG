@@ -5926,5 +5926,363 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6acac46d054706956ab5be30": { // Ops-Core SENTRY XP mid-cut helmet
+    "itemTplToClone": "5a154d5cfcdbcb001a3b00da",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle",
+        "rcid": ""
+      },
+      "Name": "helmet_opscore_sentry_blk",
+      "ConflictingItems": [],
+      "Weight": 1.17,
+      "mousePenalty": -3,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -1,
+      "CanSellOnRagfair": false,
+      "Slots": [
+        {
+          "_id": "6acaeb2f69957e6906b5be4f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_cover",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6acaec2156139f13d0b5be50",
+                  "6acaf1df4e867f0a60b5be51",
+                  "6acaf281cbd40076b9b5be52",
+                  "6acaf29567c74aca7bb5be53",
+                  "6acaf2b0f7a574eda1b5be54",
+                  "6acaf31d258703563eb5be55",
+                  "6acaf3350a926405d6b5be56",
+                  "6acaf33c2bcc0a30bfb5be57",
+                  "6acaf352206e675667b5be58",
+                  "6acaf3733b1a226113b5be59",
+                  "6acaf3857edb52f753b5be5a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6acac4d7d42d44b941b5be3b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_000",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a16b672fcdbcb001912fa83",
+                  "5a16b7e1fcdbcb00165aa6c9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6acac4da0dad9579e9b5be3d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ea058e01dbce517f324b3e2",
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6acac4d909d9fef509b5be3c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a398b75c4a282000a51a266",
+                  "5a398ab9c4a282000c5a9842"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6acac4dc9394bc36fdb5be3e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_002",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e66e2d174af02a96252f4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6acac4df3bd45a255db5be3f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "695573f047936dde03d8e2ab"
+                ],
+                "Plate": "695573f047936dde03d8e2ab",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6acac4e1cb5aae9e46b5be40",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6955743c3cc456ac9fd8e2ac"
+                ],
+                "Plate": "6955743c3cc456ac9fd8e2ac",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6acac4e3f20408d2e1b5be41",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_ears",
+          "_parent": "6acac46d054706956ab5be30",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6acac9c8ddd36d1bc0b5be47"
+                ],
+                "Plate": "6acac9c8ddd36d1bc0b5be47",
+                "armorColliders": [
+                  "Ears"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ops-Core SENTRY XP mid cut helmet",
+        "shortName": "SENTRY XP",
+        "description": "The SENTRY XP helmet is a mid-cut version of the popular FAST XP (eXtra Protection) helmet used frequently in special forces circles. This version of the helmet provides slight ear protection and, as such, has found its way into Law Enforcement and other domestic applications. Manufactured by Ops-Core."
+      }
+    },
+    "fleaPriceRoubles": 10,
+    "handbookPriceRoubles": 54604,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 15
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 4
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6acac46d054706956ab5be30",
+        "_id": "6acac5cbb9cb1f9aefb5be42",
+        "_items": [
+          {
+            "_id": "6acac5d3575d3820a0b5be43",
+            "_tpl": "6acac46d054706956ab5be30",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6acac5d6b8e0347f36b5be44",
+            "_tpl": "695573f047936dde03d8e2ab",
+            "slotId": "Helmet_top",
+            "parentId": "6acac5d3575d3820a0b5be43"
+          },
+          {
+            "_id": "6acac5d7db0d367e5fb5be45",
+            "_tpl": "6955743c3cc456ac9fd8e2ac",
+            "slotId": "Helmet_back",
+            "parentId": "6acac5d3575d3820a0b5be43"
+          },
+          {
+            "_id": "6acad114e226c5010bb5be48",
+            "_tpl": "6acac9c8ddd36d1bc0b5be47",
+            "slotId": "Helmet_ears",
+            "parentId": "6acac5d3575d3820a0b5be43"
+          }
+        ],
+        "_name": "SENTRY Stock Preset",
+        "_parent": "6acac5d3575d3820a0b5be43",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6acae5e4e4411fb50db5be4e": { // Ops-Core SENTRY XP mid-cut helmet (
+    "itemTplToClone": "6acac46d054706956ab5be30", // Sentry XP BLK
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_tan.bundle",
+        "rcid": ""
+      },
+      "Name": "helmet_opscore_sentry_tan"
+    },
+    "locales": {
+      "en": {
+        "name": "Ops-Core SENTRY XP mid cut helmet (Tan 499)",
+        "shortName": "SENTRY XP",
+        "description": "The SENTRY XP helmet is a mid-cut version of the popular FAST XP (eXtra Protection) helmet used frequently in special forces circles. This version of the helmet provides slight ear protection and, as such, has found its way into Law Enforcement and other domestic applications. Manufactured by Ops-Core. Tan 499 version."
+      }
+    },
+    "fleaPriceRoubles": 10,
+    "handbookPriceRoubles": 54604,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 15
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 2
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 4
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6acae5e4e4411fb50db5be4e",
+        "_id": "6acae5e3fe3f8e7b4ab5be4d",
+        "_items": [
+          {
+            "_id": "6acae5db6c8d8327a2b5be49",
+            "_tpl": "6acae5e4e4411fb50db5be4e",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6acae5e13cbadb5643b5be4c",
+            "_tpl": "695573f047936dde03d8e2ab",
+            "slotId": "Helmet_top",
+            "parentId": "6acae5db6c8d8327a2b5be49"
+          },
+          {
+            "_id": "6acae5e0e3a1ebbdadb5be4b",
+            "_tpl": "6955743c3cc456ac9fd8e2ac",
+            "slotId": "Helmet_back",
+            "parentId": "6acae5db6c8d8327a2b5be49"
+          },
+          {
+            "_id": "6acae5e0e9e3f2bfe4b5be4a",
+            "_tpl": "6acac9c8ddd36d1bc0b5be47",
+            "slotId": "Helmet_ears",
+            "parentId": "6acae5db6c8d8327a2b5be49"
+          }
+        ],
+        "_name": "SENTRY MultiCam Preset",
+        "_parent": "6acae5db6c8d8327a2b5be49",
+        "_type": "Preset"
+      }
+    ]
   }
 }

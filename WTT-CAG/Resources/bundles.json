@@ -1687,6 +1687,108 @@
       ]
     },
     {
+      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_tan.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_aor2.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_tan.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_dnc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_frog.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_m81.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_splatter.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
       "key": "Headwear/masks/gas_mask_m50_black.bundle",
       "dependencyKeys": [
         "Headwear/masks/gas_mask_m50_textures.bundle",
