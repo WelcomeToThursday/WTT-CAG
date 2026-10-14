@@ -247,5 +247,105 @@
     "price": 25000,
     "questRequirements": [],
     "achievementRequirements": []
+  },
+  { // AEM01 - Gray
+    "type": "top",
+    "suiteId": "6acedbe83c6b9d004f7eb404",
+    "outfitId": "6acedbe96ea5d2ad027eb405",
+    "topId": "6acedbe928310958ea7eb406",
+    "handsId": "6acedbeae2002474f17eb407",
+    "locales": {
+      "en": {
+        "name": "AEM01 Jacket (Gray)",
+        "description": "Sankami Industries"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+    "handsBundlePath": "Clothing/Hands/aem01/hands_aem01_gry.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 26,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 187652
+  },
+  { // AEM01 - MultiCam
+    "type": "top",
+    "suiteId": "6acedcd0c9100b27247eb417",
+    "outfitId": "6acedcd0531ffb939a7eb416",
+    "topId": "6acedccfe98f15bf397eb415",
+    "handsId": "6acedccf24382d27fa7eb414",
+    "locales": {
+      "en": {
+        "name": "AEM01 Jacket (MC)",
+        "description": "Sankami Industries"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/aem01/top_aem01_mc.bundle",
+    "handsBundlePath": "Clothing/Hands/aem01/hands_aem01_mc.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 26,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 187652
+  },
+  { // AEM01 - MultiCam Black
+    "type": "top",
+    "suiteId": "6acedccd9a0b815fda7eb413",
+    "outfitId": "6acedccd94eba5794b7eb412",
+    "topId": "6acedccc0e9adb88d47eb411",
+    "handsId": "6acedccc2f5f64c5717eb410",
+    "locales": {
+      "en": {
+        "name": "AEM01 Jacket (MC Black)",
+        "description": "Sankami Industries"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/aem01/top_aem01_mcb.bundle",
+    "handsBundlePath": "Clothing/Hands/aem01/hands_aem01_mcb.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 26,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 187652
+  },
+  { // AEM01 - Olive Drab
+    "type": "top",
+    "suiteId": "6acedccae945d4c3f47eb40f",
+    "outfitId": "6acedcca6484c314757eb40e",
+    "topId": "6acedcc96966fc96537eb40d",
+    "handsId": "6acedcc9e454025b547eb40c",
+    "locales": {
+      "en": {
+        "name": "AEM01 Jacket (Olive)",
+        "description": "Sankami Industries"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/aem01/top_aem01_od.bundle",
+    "handsBundlePath": "Clothing/Hands/aem01/hands_aem01_od.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 26,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 187652
   }
 ]

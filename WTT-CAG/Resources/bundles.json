@@ -768,6 +768,77 @@
       ]
     },
     {
+      "key": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Lowers/Gorka/trousers_gorka_norm.bundle",
       "dependencyKeys": [
         "shaders"
