@@ -768,6 +768,53 @@
       ]
     },
     {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_m90.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_olive.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_blue.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_m90.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_olive.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
       "dependencyKeys": [
         "shaders",
@@ -839,9 +886,47 @@
       ]
     },
     {
+      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_brush.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_ucp.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/fjallraven/pants_fjallraven_buckwheat.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/fjallraven/pants_fjallraven_oak.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Lowers/Gorka/trousers_gorka_norm.bundle",
       "dependencyKeys": [
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {

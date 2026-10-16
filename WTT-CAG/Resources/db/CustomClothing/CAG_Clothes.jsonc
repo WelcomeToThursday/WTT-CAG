@@ -347,5 +347,195 @@
     "standing": 0,
     "currencyId": "MONEY_ROUBLES",
     "price": 187652
+  },
+  { // Brandit Windbreaker - Blue
+    "type": "top",
+    "suiteId": "6acfd4c723995780a66676fe",
+    "outfitId": "6acfd4c6c09917cf4c6676fd",
+    "topId": "6acfd4c6c3a8f581b46676fc",
+    "handsId": "6acfd4c68c86a285c36676fb",
+    "locales": {
+      "en": {
+        "name": "Windbreaker (Coral Blue)",
+        "description": "Brandit"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+    "handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_blue.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 1,
+    "profileLevel": 15,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 103723
+  },
+  { // Brandit Windbreaker - M90 Night
+    "type": "top",
+    "suiteId": "6acff1a96b44c8470b667702",
+    "outfitId": "6acff1a86eafb24853667701",
+    "topId": "6acff1a8ad32979d4d667700",
+    "handsId": "6acff1a794019eeceb6676ff",
+    "locales": {
+      "en": {
+        "name": "Windbreaker (M90 Night)",
+        "description": "Brandit"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_m90.bundle",
+    "handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_m90.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 1,
+    "profileLevel": 15,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 103723
+  },
+  { // Brandit Windbreaker - OD Green
+    "type": "top",
+    "suiteId": "6acff1c4e08d68d3cd667703",
+    "outfitId": "6acff1c471b8fdb7f2667704",
+    "topId": "6acff1c5d925a910a0667705",
+    "handsId": "6acff1c55df6b523db667706",
+    "locales": {
+      "en": {
+        "name": "Windbreaker (Olive)",
+        "description": "Brandit"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_olive.bundle",
+    "handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_olive.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 1,
+    "profileLevel": 15,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 103723
+  },
+  { // FJallraven Pants - Black
+    "type": "bottom",
+    "suiteId": "6ad0e8cfa22b4474700abd7b",
+    "outfitId": "6ad0e8cf5b7f5d18e50abd7a",
+    "bottomId": "6ad0e8cede53cad0670abd79",
+    "locales": {
+      "en": {
+        "name": "Vitta Pro trousers (Black)",
+        "description": "Fjallraven"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 18,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 75938
+  },
+  { // FJallraven Pants - Buckwheat
+    "type": "bottom",
+    "suiteId": "6ad0e938c3d48a77d50abd81",
+    "outfitId": "6ad0e93788ccf55ff90abd80",
+    "bottomId": "6ad0e937ffc01b95ed0abd7f",
+    "locales": {
+      "en": {
+        "name": "Vitta Pro trousers (Buckwheat)",
+        "description": "Fjallraven"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_buckwheat.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 18,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 75938
+  },
+  { // FJallraven Pants - Black Oak
+    "type": "bottom",
+    "suiteId": "6ad0e934a7afc52aa10abd7c",
+    "outfitId": "6ad0e93526993666730abd7d",
+    "bottomId": "6ad0e93588a972cf2e0abd7e",
+    "locales": {
+      "en": {
+        "name": "Vitta Pro trousers (Oak)",
+        "description": "Fjallraven"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_oak.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 18,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 75938
+  },
+  { // Crye G2 shorts
+    "type": "bottom",
+    "suiteId": "6ad0e9b1554e41f7ee0abd88",
+    "outfitId": "6ad0e9b1a0c5bf3b430abd89",
+    "bottomId": "6ad0e9b13dcaf8d41d0abd8a",
+    "locales": {
+      "en": {
+        "name": "G2 Shorts (Rhod. Brushstroke)",
+        "description": "Crye Precision"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_brush.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 150323
+  },
+  { // Crye G2 shorts - UCP
+    "type": "bottom",
+    "suiteId": "6ad0e9ade238a50bf00abd87",
+    "outfitId": "6ad0e9ad2288cc145e0abd86",
+    "bottomId": "6ad0e9ac1511dc85d30abd85",
+    "locales": {
+      "en": {
+        "name": "G2 Shorts (UCP)",
+        "description": "Crye Precision"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_ucp.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 150323
   }
 ]
