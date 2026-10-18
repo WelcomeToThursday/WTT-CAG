@@ -78,8 +78,8 @@
       "dependencyKeys": [
         "Bodywear/armoredRigs/CGPC3/cr_customgear_cgpc3_normals.bundle",
         "shaders",
-        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle",
-        "assets/content/items/mods/magazines/mag_aug_steyr_std_556x45_30.bundle"
+        "assets/content/items/mods/magazines/mag_aug_steyr_std_556x45_30.bundle",
+        "assets/content/items/equipment/armor_ars_arma_a18/item_equipment_armor_a18.bundle"
       ]
     },
     {
@@ -97,6 +97,20 @@
         "cubemaps",
         "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle",
         "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/cr_ars_jpc_bogatyrs.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_03.bundle",
+        "assets/content/weapons/rsp30/client_assets.bundle",
+        "assets/content/items/mods/magazines/mag_mp443_izhmeh_std_9x19_18.bundle",
+        "cubemaps",
+        "shaders",
+        "assets/content/items/mods/magazines/mag_ak_arsenal_cwp_mag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_01.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle"
       ]
     },
     {
@@ -141,6 +155,17 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_shaw_arc_v2_p90_heavy.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/rig_arscpc/cr_arscpc.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/mods/magazines/mag_usp_hk_usp_tactical_1143x23_12.bundle",
+        "assets/content/items/mods/magazines/mag_p90_fn_p90_std_57x28_50.bundle",
+        "assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_profi_plate_carrier_v2.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/cr_shaw_arcv2_m81.bundle",
       "dependencyKeys": [
         "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
@@ -149,17 +174,6 @@
         "assets/content/items/mods/magazines/mag_ar10_kac_steel_762x51_20.bundle",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
         "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle"
-      ]
-    },
-    {
-      "key": "Bodywear/armoredRigs/cr_shaw_arc_v2_p90_heavy.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "assets/content/items/equipment/rig_arscpc/cr_arscpc.bundle",
-        "assets/content/items/mods/magazines/mag_usp_hk_usp_tactical_1143x23_12.bundle",
-        "assets/content/items/mods/magazines/mag_p90_fn_p90_std_57x28_50.bundle",
-        "assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_profi_plate_carrier_v2.bundle"
       ]
     },
     {
@@ -196,6 +210,16 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_wartech_tv124_mc.bundle",
+      "dependencyKeys": [
+        "assets/content/items/mods/magazines/mag_mp443_izhmeh_std_9x19_18.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/armor_custom_thorintcar/item_equipment_armor_custom_thorintcar.bundle",
+        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/DCS/cr_warrior_assault_systems_dcs_multicam.bundle",
       "dependencyKeys": [
         "shaders",
@@ -208,16 +232,6 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps"
-      ]
-    },
-    {
-      "key": "Bodywear/armoredRigs/cr_wartech_tv124_mc.bundle",
-      "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_mp443_izhmeh_std_9x19_18.bundle",
-        "shaders",
-        "cubemaps",
-        "assets/content/items/equipment/armor_custom_thorintcar/item_equipment_armor_custom_thorintcar.bundle",
-        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
       ]
     },
     {
@@ -538,18 +552,10 @@
       ]
     },
     {
-      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle",
+      "key": "Bodywear/bodyArmor/armor_vest_trexarms_ac1_mc.bundle",
       "dependencyKeys": [
         "cubemaps",
         "shaders"
-      ]
-    },
-    {
-      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_woodland.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders",
-        "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle"
       ]
     },
     {
@@ -564,6 +570,21 @@
       "dependencyKeys": [
         "assets/content/items/equipment/rig_custom_osprey_defence/item_equipment_rig_custom_osprey_defence.bundle",
         "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_woodland.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Bodywear/bodyArmor/lvs/ar_crye_lvs_overt_marpat.bundle",
+        "cubemaps"
       ]
     },
     {
@@ -702,6 +723,42 @@
       ]
     },
     {
+      "key": "Clothing/Hands/aem01/hands_aem01_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/aem01/hands_aem01_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Hands/bear_leaf/hands_leaf_aor1.bundle",
       "dependencyKeys": [
         "Clothing/Uppers/bear_leaf/top_leaf_aor1.bundle",
@@ -715,6 +772,30 @@
         "Clothing/Uppers/bear_leaf/top_leaf_aor1.bundle",
         "shaders",
         "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_blue.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_m90.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/brandit/hands_windbreaker_olive.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
       ]
     },
     {
@@ -744,6 +825,33 @@
       ]
     },
     {
+      "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor1.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_grey.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Hands/USEC_GRYPHON/hands_usec_gryphon_mc.bundle",
       "dependencyKeys": [
         "Clothing/Uppers/USEC_GRYPHON/top_usec_gryphon_textures.bundle",
@@ -768,165 +876,46 @@
       ]
     },
     {
-      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_m90.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_olive.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/brandit/hands_windbreaker_blue.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/brandit/hands_windbreaker_m90.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/brandit/hands_windbreaker_olive.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/aem01/top_aem01_mc.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/aem01/top_aem01_mcb.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Uppers/aem01/top_aem01_od.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/aem01/hands_aem01_gry.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/aem01/hands_aem01_od.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/aem01/hands_aem01_mc.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Hands/aem01/hands_aem01_mcb.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
-        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
-      ]
-    },
-    {
-      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_brush.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
-      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_ucp.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
       "key": "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle",
       "dependencyKeys": [
-        "shaders",
-        "cubemaps"
+        "cubemaps",
+        "shaders"
       ]
     },
     {
       "key": "Clothing/Lowers/fjallraven/pants_fjallraven_buckwheat.bundle",
       "dependencyKeys": [
-        "shaders",
         "cubemaps",
+        "shaders",
         "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle"
       ]
     },
     {
       "key": "Clothing/Lowers/fjallraven/pants_fjallraven_oak.bundle",
       "dependencyKeys": [
-        "shaders",
         "cubemaps",
+        "shaders",
         "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_brush.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_ucp.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
       ]
     },
     {
       "key": "Clothing/Lowers/Gorka/trousers_gorka_norm.bundle",
       "dependencyKeys": [
-        "shaders",
-        "cubemaps"
+        "shaders"
       ]
     },
     {
@@ -947,6 +936,41 @@
       "key": "Clothing/Lowers/NPC_UNTAR_PANTERA/untar_pol_bottom.bundle",
       "dependencyKeys": [
         "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/aem01/top_aem01_od.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+        "cubemaps",
+        "Clothing/Hands/gloves_ferro_pig_fdt_shared.bundle"
       ]
     },
     {
@@ -977,6 +1001,29 @@
       ]
     },
     {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_m90.bundle",
+      "dependencyKeys": [
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/brandit/top_brandit_windbreaker_olive.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Clothing/Uppers/NPC_UNTAR_PANTERA/untar_pol_top.bundle",
       "dependencyKeys": [
         "shaders"
@@ -986,6 +1033,32 @@
       "key": "Clothing/Uppers/OPS_MGS_TTsKO/ttsko_bear_ops_main.bundle",
       "dependencyKeys": [
         "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_grey.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
       ]
     },
     {
@@ -1143,27 +1216,24 @@
     {
       "key": "Headwear/helmets/6b47/helmet_6b47_mobilisation.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
         "shaders",
         "cubemaps",
-        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle"
+        "Headwear/helmets/6b47/helmet_6b47_olive.bundle"
       ]
     },
     {
       "key": "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
       "dependencyKeys": [
         "shaders",
-        "cubemaps",
-        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle"
+        "cubemaps"
       ]
     },
     {
       "key": "Headwear/helmets/6b47/helmet_6b47_tan.bundle",
       "dependencyKeys": [
-        "assets/content/items/equipment/helmet_6b47/item_equipment_helmet_6b47.bundle.bundle",
-        "Headwear/helmets/6b47/helmet_6b47_olive.bundle",
         "shaders",
-        "cubemaps"
+        "cubemaps",
+        "Headwear/helmets/6b47/helmet_6b47_olive.bundle"
       ]
     },
     {
@@ -1583,6 +1653,119 @@
       ]
     },
     {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_dnc.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_frog.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_gry.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_m81.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mc.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mcb.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_od.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_splatter.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_tan.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_tan.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle"
+      ]
+    },
+    {
       "key": "Headwear/helmets/opscore_sfhc/helmet_fast_sfhc_textures.bundle",
       "dependencyKeys": []
     },
@@ -1840,108 +2023,6 @@
       "dependencyKeys": [
         "shaders",
         "Headwear/helmets/tor-2/item_equipment_helmet_tor_2.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_tan.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/helmet_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_aor2.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_tan.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_dnc.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_frog.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_gry.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_m81.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mc.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mcb.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_od.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_splatter.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle"
       ]
     },
     {

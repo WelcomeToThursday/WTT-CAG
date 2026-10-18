@@ -537,5 +537,80 @@
     "standing": 0,
     "currencyId": "MONEY_ROUBLES",
     "price": 150323
+  },
+  { // QILO x SC Irreg Puffer Jacket - AOR1
+    "type": "top",
+    "suiteId": "6ad404c12ca810c70c82e244",
+    "outfitId": "6ad404c162270a115582e243",
+    "topId": "6ad404c01ddcfd286182e242",
+    "handsId": "6ad404c0f658eea85282e241",
+    "locales": {
+      "en": {
+        "name": "Lhotse Down Jacket (AOR1)",
+        "description": "QILO Tactical"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor1.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 3,
+    "profileLevel": 41,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350283
+  },
+  { // QILO x SC Irreg Puffer Jacket - AOR2
+    "type": "top",
+    "suiteId": "6ad404f5404093e52c82e245",
+    "outfitId": "6ad404f6b4b86e4d4582e246",
+    "topId": "6ad404f6b43a39dae382e247",
+    "handsId": "6ad404f7e11d9e7c3182e248",
+    "locales": {
+      "en": {
+        "name": "Lhotse Down Jacket (AOR2)",
+        "description": "QILO Tactical"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor2.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor2.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 3,
+    "profileLevel": 41,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350283
+  },
+  { // QILO x SC Irreg Puffer Jacket - Maritime Grey
+    "type": "top",
+    "suiteId": "6ad40504cda2f6be0482e249",
+    "outfitId": "6ad405057cd0eb63be82e24a",
+    "topId": "6ad40505ee7ead2d7782e24b",
+    "handsId": "6ad4050613e525bf9782e24c",
+    "locales": {
+      "en": {
+        "name": "Lhotse Down Jacket (Grey)",
+        "description": "QILO Tactical"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_grey.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_grey.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 3,
+    "profileLevel": 41,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350283
   }
 ]
