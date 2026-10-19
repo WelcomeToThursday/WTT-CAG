@@ -102,15 +102,15 @@
     {
       "key": "Bodywear/armoredRigs/cr_ars_jpc_bogatyrs.bundle",
       "dependencyKeys": [
-        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_03.bundle",
-        "assets/content/weapons/rsp30/client_assets.bundle",
         "assets/content/items/mods/magazines/mag_mp443_izhmeh_std_9x19_18.bundle",
-        "cubemaps",
-        "shaders",
-        "assets/content/items/mods/magazines/mag_ak_arsenal_cwp_mag_556x45_30.bundle",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
         "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_01.bundle",
-        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle"
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_03.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/weapons/rsp30/client_assets.bundle",
+        "assets/content/items/mods/magazines/mag_ak_arsenal_cwp_mag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
     {
@@ -312,7 +312,8 @@
       "dependencyKeys": [
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
-        "Bodywear/armoredRigs/JPC/cr_crye_jpc_sharedmaps.bundle"
+        "Bodywear/armoredRigs/JPC/cr_crye_jpc_sharedmaps.bundle",
+        "cubemaps"
       ]
     },
     {
@@ -827,28 +828,68 @@
     {
       "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor1.bundle",
       "dependencyKeys": [
-        "cubemaps",
-        "shaders",
         "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+        "shaders",
+        "cubemaps",
         "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
       ]
     },
     {
       "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor2.bundle",
       "dependencyKeys": [
-        "cubemaps",
-        "shaders",
+        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle",
         "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
-        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
       "key": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_grey.bundle",
       "dependencyKeys": [
-        "cubemaps",
-        "shaders",
+        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle",
         "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
-        "assets/content/hands/hands_bear_ops_windshirt/hands_bear_ops_windshirt.skin.bundle"
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_blueberry.bundle",
+      "dependencyKeys": [
+        "assets/content/hands/hands_usec_deadly_frog/hands_usec_deadly_frog.skin.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dark_tiger.bundle",
+      "dependencyKeys": [
+        "assets/content/hands/hands_usec_deadly_frog/hands_usec_deadly_frog.skin.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dbdu.bundle",
+      "dependencyKeys": [
+        "assets/content/hands/hands_usec_deadly_frog/hands_usec_deadly_frog.skin.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_houndsteeth.bundle",
+      "dependencyKeys": [
+        "assets/content/hands/hands_usec_deadly_frog/hands_usec_deadly_frog.skin.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_noveske.bundle",
+      "dependencyKeys": [
+        "assets/content/hands/hands_usec_deadly_frog/hands_usec_deadly_frog.skin.bundle",
+        "cubemaps",
+        "shaders"
       ]
     },
     {
@@ -1038,27 +1079,67 @@
     {
       "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
+        "cubemaps",
         "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
       ]
     },
     {
       "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor2.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
-        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
+        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle",
+        "cubemaps",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle"
       ]
     },
     {
       "key": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_grey.bundle",
       "dependencyKeys": [
+        "shaders",
+        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle",
+        "cubemaps",
+        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_blueberry.bundle",
+      "dependencyKeys": [
         "cubemaps",
         "shaders",
-        "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
-        "assets/content/characters/character/prefabs/top_bear_ops_windshirt.bundle"
+        "assets/content/characters/character/prefabs/top_usec_deadly_frog.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dark_tiger.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/top_usec_deadly_frog.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dbdu.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/top_usec_deadly_frog.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_houndsteeth.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/top_usec_deadly_frog.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_noveske.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/top_usec_deadly_frog.bundle"
       ]
     },
     {

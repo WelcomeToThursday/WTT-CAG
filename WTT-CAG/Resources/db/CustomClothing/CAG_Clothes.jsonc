@@ -612,5 +612,130 @@
     "standing": 0,
     "currencyId": "MONEY_ROUBLES",
     "price": 350283
+  },
+  { // QILO Sherp - Blueberry Choco Chip
+    "type": "top",
+    "suiteId": "6ad552f41a02af1886c91d59",
+    "outfitId": "6ad552f40dfd810b34c91d58",
+    "topId": "6ad552f3c3156f082fc91d57",
+    "handsId": "6ad552f3426fb2afabc91d56",
+    "locales": {
+      "en": {
+        "name": "Sherp Jacket (Blueberry Choco Chip)",
+        "description": "QILO x Whitephosphor"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_blueberry.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_blueberry.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 29,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 250421
+  },
+  { // QILO Sherp - 6-Color DBDU
+    "type": "top",
+    "suiteId": "6ad553e2d185d15c3ac91d65",
+    "outfitId": "6ad553e20ea04490dbc91d64",
+    "topId": "6ad553e195f60710c1c91d63",
+    "handsId": "6ad553e17272906bf9c91d62",
+    "locales": {
+      "en": {
+        "name": "Sherp Jacket (DBDU)",
+        "description": "QILO Tactical"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dbdu.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dbdu.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 29,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 250421
+  },
+  { // QILO Sherp - Dark Tiger Stripe
+    "type": "top",
+    "suiteId": "6ad5534a8712ef52d0c91d5d",
+    "outfitId": "6ad55349575854ce69c91d5c",
+    "topId": "6ad553490d9cef4779c91d5b",
+    "handsId": "6ad55348fd870c432dc91d5a",
+    "locales": {
+      "en": {
+        "name": "Sherp Jacket (Dark Tigerstripe)",
+        "description": "QILO Tactical"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dark_tiger.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dark_tiger.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 29,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 250421
+  },
+  { // QILO Sherp - Noveske Tigerstripe
+    "type": "top",
+    "suiteId": "6ad5538f6a90eac3e1c91d5e",
+    "outfitId": "6ad55390e11f769b95c91d5f",
+    "topId": "6ad55390a504444d5ac91d60",
+    "handsId": "6ad55391f85f717e95c91d61",
+    "locales": {
+      "en": {
+        "name": "Sherp Jacket (Agent Orange)",
+        "description": "QILO x Noveske"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_noveske.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_noveske.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 29,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 250421
+  },
+  { // QILO Sherp - Houndsteeh
+    "type": "top",
+    "suiteId": "6ad556b2d5520ba280c91d69",
+    "outfitId": "6ad556b1753404c9f7c91d68",
+    "topId": "6ad556b1082ec9254fc91d67",
+    "handsId": "6ad556b09d8875c517c91d66",
+    "locales": {
+      "en": {
+        "name": "Sherp Jacket (Houndstooth)",
+        "description": "QILO x Whitephosphor"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_houndsteeth.bundle",
+    "handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_houndsteeth.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 29,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 250421
   }
 ]
