@@ -14289,5 +14289,235 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6ad56919615d1a4070c91d6c": { // Crye Precision JPC 2.0 (Bogatyrs)
+    "itemTplToClone": "5ab8dced86f774646209ec87",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_ars_jpc_bogatyrs.bundle",
+        "rcid": ""
+      },
+      "RarityPvE": "Rare",
+      "RepairCost": 108,
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Weight": 1.83,
+      "Height": 3,
+      "Width": 3,
+      "BlocksArmorVest": true,
+      "SearchSound": "looting_body_extended",
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Light",
+      "BluntThroughput": 0.35,
+      "MetascoreGroup": "Utility",
+      "armorClass": 0,
+      "armorZone": [],
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": -1,
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "6ad5692082fdb0c776c91d6e",
+          "_parent": "6ad56919615d1a4070c91d6c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "655746010177119f4a097ff7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "6ad56923dbaededc3ac91d6f",
+          "_parent": "6ad56919615d1a4070c91d6c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "655746010177119f4a097ff7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_id": "6ad56991e1a3dba7a8c91d70",
+          "_mergeSlotWithChildren": true,
+          "_name": "Left_side_plate",
+          "_parent": "6ad56919615d1a4070c91d6c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6ad5699384486e6517c91d71",
+          "_mergeSlotWithChildren": true,
+          "_name": "Right_side_plate",
+          "_parent": "6ad56919615d1a4070c91d6c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision JPC 2.0 plate carrier (Bogatyrs)",
+        "shortName": "JPC",
+        "description": "The widely beloved Jumpable Plate Carrier (JPC) was designed to maximize operator mobility by reducing weight and bulk. Its modular system allows for personalized loadouts and quick gear adjustments depending on the mission. Manufactured by Crye Precision. A version configured by a member of the illusive BEAR SOF group \"Bogatyrs\"."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 105724,
+    "handbookPriceRoubles": 25028,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6ad56919615d1a4070c91d6c",
+        "_id": "6ad56b6e9755ec40d3c91d72",
+        "_items": [
+          {
+            "_id": "6ad56b6f829f94c8bfc91d73",
+            "_tpl": "6ad56919615d1a4070c91d6c",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6ad56b717c7cbcfaf3c91d74",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "slotId": "Front_plate",
+            "parentId": "6ad56b6f829f94c8bfc91d73"
+          },
+          {
+            "_id": "6ad56b7238a2853aa0c91d75",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "slotId": "Back_plate",
+            "parentId": "6ad56b6f829f94c8bfc91d73"
+          },
+          {
+            "_id": "6ad56b7403a656117ec91d76",
+            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "slotId": "Left_side_plate",
+            "parentId": "6ad56b6f829f94c8bfc91d73"
+          },
+          {
+            "_id": "6ad56b766e6afbcfc3c91d77",
+            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "slotId": "Right_side_plate",
+            "parentId": "6ad56b6f829f94c8bfc91d73"
+          }
+        ],
+        "_name": "Vest JPC Bogatyrs Stock Preset",
+        "_parent": "6ad56b6f829f94c8bfc91d73",
+        "_type": "Preset"
+      }
+    ]
   }
 }
