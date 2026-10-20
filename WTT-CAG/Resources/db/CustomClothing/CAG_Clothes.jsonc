@@ -737,5 +737,97 @@
     "standing": 0,
     "currencyId": "MONEY_ROUBLES",
     "price": 250421
+  },
+  { // Patagonia L9 pants - AOR1
+    "type": "bottom",
+    "suiteId": "6ad6b67a4d3a07344e5b67a4",
+    "outfitId": "6ad6b67b89a4e740115b67a5",
+    "bottomId": "6ad6b67c59e70cc9885b67a6",
+    "locales": {
+      "en": {
+        "name": "L9 pants (AOR1)",
+        "description": "Patagonia"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 21,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 248492
+  },
+  { // Patagonia L9 pants - AOR2
+    "type": "bottom",
+    "suiteId": "6ad6b74c46e4bb49135b67a9",
+    "outfitId": "6ad6b74b9f5a9c53525b67a8",
+    "bottomId": "6ad6b74be0a447496a5b67a7",
+    "locales": {
+      "en": {
+        "name": "L9 pants (AOR2)",
+        "description": "Patagonia"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor2.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 21,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 248492
+  },
+  { // Patagonia L9 pants - MAS Grey
+    "type": "bottom",
+    "suiteId": "6ad6b752954eac00715b67aa",
+    "outfitId": "6ad6b7525bcafcc7285b67ab",
+    "bottomId": "6ad6b75313dcc5a02b5b67ac",
+    "locales": {
+      "en": {
+        "name": "L9 pants (MAS Grey)",
+        "description": "Patagonia"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_grey.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 21,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 248492
+  },
+  { // Patagonia L9 pants - MM14
+    "type": "bottom",
+    "suiteId": "6ad6b78fc0db809ea65b67b3",
+    "outfitId": "6ad6b78f728cac8b575b67b2",
+    "bottomId": "6ad6b78e95a74e59eb5b67b1",
+    "locales": {
+      "en": {
+        "name": "L9 pants (MM-14)",
+        "description": "Patagonia"
+      }
+    },
+    "bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_mm14.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 21,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 248492
   }
 ]

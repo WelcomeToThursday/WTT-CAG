@@ -917,6 +917,41 @@
       ]
     },
     {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_grey.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_mm14.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+      ]
+    },
+    {
       "key": "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle",
       "dependencyKeys": [
         "cubemaps",
