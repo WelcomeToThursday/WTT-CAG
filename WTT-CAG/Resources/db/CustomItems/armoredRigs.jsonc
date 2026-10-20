@@ -9514,7 +9514,7 @@
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
       "Prefab": {
-        "path": "Bodywear/armoredRigs/MSV/item_equipment_armor_msv_gen2_general.bundle",
+        "path": "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
         "rcid": ""
       },
       "Name": "cr_msv_gen2_gp",
@@ -14305,7 +14305,7 @@
       "CanSellOnRagfair": true,
       "Weight": 1.83,
       "Height": 3,
-      "Width": 3,
+      "Width": 4,
       "BlocksArmorVest": true,
       "SearchSound": "looting_body_extended",
       "ArmorMaterial": "Aramid",
