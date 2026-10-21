@@ -2894,9 +2894,36 @@
             {
               "UnlimitedCount": true,
               "StackObjectsCount": 100,
-              "BuyRestrictionMax": 3,
+              "BuyRestrictionMax": 2,
               "BuyRestrictionCurrent": 0
             }
+    },
+
+    {
+      "_id": "6ad8ead6b4837d156e05456c", // BRONYX CAP4
+      "_tpl": "6a92274138db677519d467dc",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 5,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad8eac884f5d4b71d05456b", // BRONYX CAP5
+      "_tpl": "6a9228c5d3830f24b7d467dd",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
     }
     
   ],
@@ -3281,7 +3308,13 @@
     "69653b6560fcf0a0300ac580":  [ [ { "count": 25641,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
     // DFNDR Armor SAPI Level III++ ballistic plate  
-    "69653b6560fcf0a0300ac581":  [ [ { "count": 46513,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ]
+    "69653b6560fcf0a0300ac581":  [ [ { "count": 50105,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // Bronyx CAP4
+    "6ad8ead6b4837d156e05456c":  [ [ { "count": 36683,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // Bronyx CAP5 
+    "6ad8eac884f5d4b71d05456b":  [ [ { "count": 56857,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ]
   },
   "loyal_level_items":
   {
@@ -3411,6 +3444,8 @@
     "69653b6560fcf0a0300ac57e": 2, // Kiver RSP cover (MultiCam)  
     "69653b6560fcf0a0300ac57f": 2, // Kiver RSP cover (A-TACS FG)  
     "69653b6560fcf0a0300ac580": 2, // Granit Br3 ballistic plate  
-    "69653b6560fcf0a0300ac581": 4  // DFNDR Armor SAPI Level III++ ballistic plate  
+    "69653b6560fcf0a0300ac581": 4,  // DFNDR Armor SAPI Level III++ ballistic plate  
+    "6ad8ead6b4837d156e05456c": 3,  // BRONYX CAP4  
+    "6ad8eac884f5d4b71d05456b": 4  // BRONYX CAP5
   }
 }
