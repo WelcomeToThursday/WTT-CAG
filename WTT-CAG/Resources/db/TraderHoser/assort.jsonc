@@ -1772,7 +1772,7 @@
                 {
                   "UnlimitedCount": true,
                   "StackObjectsCount": 200,
-                  "BuyRestrictionMax": 3,
+                  "BuyRestrictionMax": 1,
                   "BuyRestrictionCurrent": 0
                 }
         },
@@ -1798,7 +1798,7 @@
                 {
                   "UnlimitedCount": true,
                   "StackObjectsCount": 200,
-                  "BuyRestrictionMax": 3,
+                  "BuyRestrictionMax": 1,
                   "BuyRestrictionCurrent": 0
                 }
         },
@@ -1846,39 +1846,123 @@
                           "slotId": "Helmet_ears",
                           "parentId": "69653b6560fcf0a0300ac5e5"
                         },
-    
-        {
-          "_id": "69653b6560fcf0a0300ac5e9", // Šestan-Busch BK3 ballistic helmet (Olive Drab)  
-          "_tpl": "689a138a035e1c4298c32357",
-          "parentId": "hideout",
-          "slotId": "hideout",
-          "upd": 
-                {
-                  "UnlimitedCount": true,
-                  "StackObjectsCount": 200,
-                  "BuyRestrictionMax": 3,
-                  "BuyRestrictionCurrent": 0
-                }
-        },
-                        {
-                          "_id": "69653b6560fcf0a0300ac5ea",
-                          "_tpl": "657baaf0b7e9ca9a02045c02",
-                          "slotId": "Helmet_top",
-                          "parentId": "69653b6560fcf0a0300ac5e9"
-                        },
-                        {
-                          "_id": "69653b6560fcf0a0300ac5eb",
-                          "_tpl": "657bab6ec6f689d3a205b85f",
-                          "slotId": "Helmet_back",
-                          "parentId": "69653b6560fcf0a0300ac5e9"
-                        },
-                        {
-                          "_id": "69653b6560fcf0a0300ac5ec",
-                          "_tpl": "657babc6f58ba5a6250107a2",
-                          "slotId": "Helmet_ears",
-                          "parentId": "69653b6560fcf0a0300ac5e9"
-                        },
-        
+    {
+      "_id": "69653b6560fcf0a0300ac5e9", // Šestan-Busch BK3 ballistic helmet (Olive Drab)  
+      "_tpl": "689a138a035e1c4298c32357",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "69653b6560fcf0a0300ac5ea",
+      "_tpl": "657baaf0b7e9ca9a02045c02",
+      "slotId": "Helmet_top",
+      "parentId": "69653b6560fcf0a0300ac5e9"
+    },
+    {
+      "_id": "69653b6560fcf0a0300ac5eb",
+      "_tpl": "657bab6ec6f689d3a205b85f",
+      "slotId": "Helmet_back",
+      "parentId": "69653b6560fcf0a0300ac5e9"
+    },
+    {
+      "_id": "69653b6560fcf0a0300ac5ec",
+      "_tpl": "657babc6f58ba5a6250107a2",
+      "slotId": "Helmet_ears",
+      "parentId": "69653b6560fcf0a0300ac5e9"
+    },
+
+    {
+      "_id": "6ad8f65213bfb6200b05456f", // Atlas Mk2 Gen.3
+      "_tpl": "6ac149692d0674b21e750d22",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 4,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad8fa890327d67c38054581",
+      "_tpl": "657baaf0b7e9ca9a02045c02",
+      "slotId": "Helmet_top",
+      "parentId": "6ad8f65213bfb6200b05456f"
+    },
+    {
+      "_id": "6ad8fa88b846eb0494054580",
+      "_tpl": "657bab6ec6f689d3a205b85f",
+      "slotId": "Helmet_back",
+      "parentId": "6ad8f65213bfb6200b05456f"
+    },
+
+    {
+      "_id": "6ad8f6e23772ddef8e054572", // OPS-CORE SENTRY XP (BLK)
+      "_tpl": "6acac46d054706956ab5be30",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad8f70001bfa3850105457a",
+      "_tpl": "695573f047936dde03d8e2ab",
+      "slotId": "Helmet_top",
+      "parentId": "6ad8f6e23772ddef8e054572"
+    },
+    {
+      "_id": "6ad8f6ffa4df1febd3054579",
+      "_tpl": "6955743c3cc456ac9fd8e2ac",
+      "slotId": "Helmet_back",
+      "parentId": "6ad8f6e23772ddef8e054572"
+    },
+    {
+      "_id": "6ad8f7190494ca1a3f05457b",
+      "_tpl": "695573f047936dde03d8e2ab",
+      "slotId": "Helmet_ears",
+      "parentId": "6ad8f6e23772ddef8e054572"
+    },
+
+    {
+      "_id": "6ad8f7a303c5796ad805457c", // OPS-CORE SENTRY XP (TAN)
+      "_tpl": "6acae5e4e4411fb50db5be4e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad8f7a9dff89c0b5f05457f",
+      "_tpl": "695573f047936dde03d8e2ab",
+      "slotId": "Helmet_top",
+      "parentId": "6ad8f7a303c5796ad805457c"
+    },
+    {
+      "_id": "6ad8f7a8674158543005457e",
+      "_tpl": "6955743c3cc456ac9fd8e2ac",
+      "slotId": "Helmet_back",
+      "parentId": "6ad8f7a303c5796ad805457c"
+    },
+    {
+      "_id": "6ad8f7a742a43082bb05457d",
+      "_tpl": "695573f047936dde03d8e2ab",
+      "slotId": "Helmet_ears",
+      "parentId": "6ad8f7a303c5796ad805457c"
+    },
     // -  -  -  -   -   -   -   -   -   -   -  MASKS  -   -   -   -   -   -   -   -   -   -
 
     {
@@ -3100,6 +3184,15 @@
     // Šestan-Busch BK3 ballistic helmet (Olive Drab)  
     "69653b6560fcf0a0300ac5e9":  [ [ { "count": 39843,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
+    // ATLAS MK2 Gen.3
+    "6ad8f65213bfb6200b05456f":  [ [ { "count": 55723,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // OPS-CORE SENTRY XP
+    "6ad8f6e23772ddef8e054572":  [ [ { "count": 131683,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // OPS-CORE SENTRY XP
+    "6ad8f7a303c5796ad805457c":  [ [ { "count": 131683,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+          
     // PMG gas mask  
     "69653b6560fcf0a0300ac53a":  [ [ { "count": 16651,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
@@ -3374,7 +3467,10 @@
     "69653b6560fcf0a0300ac5df": 4, // Team Wendy RIFLETECH ballistic helmet  
     "69653b6560fcf0a0300ac5e2": 4, // Team Wendy RIFLETECH ballistic helmet (MultiCam)  
     "69653b6560fcf0a0300ac5e5": 3, // FORT Kiver RSP ballistic helmet  
-    "69653b6560fcf0a0300ac5e9": 1, // Šestan-Busch BK3 ballistic helmet (Olive Drab)  
+    "69653b6560fcf0a0300ac5e9": 1, // Šestan-Busch BK3 ballistic helmet (Olive Drab) 
+    "6ad8f65213bfb6200b05456f": 2, // ATLAS MK2 Gen.3 (Wolf Grey)
+    "6ad8f6e23772ddef8e054572": 4, // OPS-CORE SENTRY XP
+    "6ad8f7a303c5796ad805457c": 4, // OPS-CORE SENTRY XP (TAN)
     "69653b6560fcf0a0300ac53a": 1, // PMG gas mask  
     "69653b6560fcf0a0300ac53b": 2, // MSA Millennium gas mask  
     "69653b6560fcf0a0300ac53c": 3, // PMK-4 Ratnik gas mask  
