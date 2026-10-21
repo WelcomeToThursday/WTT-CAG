@@ -1,5 +1,5 @@
 {
-  "68c97696add4b269e8234d18": {
+  "68c97696add4b269e8234d18": { // Oakley Holbrook
     "itemTplToClone": "5d6d2e22a4b9361bd5780d05",
     "parentId": "5448e5724bdc2ddf718b4568",
     "handbookParentId": "5b47574386f77428ca22b331",
@@ -52,7 +52,7 @@
     "weaponPresets": [],
     "traders": {}
   },
-  "68c976b771f2a8984783fdf9": {
+  "68c976b771f2a8984783fdf9": { // Oakley Holbrook (Purple Lenses)
     "itemTplToClone": "5d6d2e22a4b9361bd5780d05",
     "parentId": "5448e5724bdc2ddf718b4568",
     "handbookParentId": "5b47574386f77428ca22b331",

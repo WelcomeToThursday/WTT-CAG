@@ -1,5 +1,5 @@
 {
-  "689b7d32e920d74a02e5a63c": {
+  "689b7d32e920d74a02e5a63c": { // PMG gasmask
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -141,7 +141,7 @@
       }
     }
   },
-  "689cefd7c6d829d1c30a8404": {
+  "689cefd7c6d829d1c30a8404": { // MSA Millenium
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -283,7 +283,7 @@
       }
     }
   },
-  "68a60e568c72b73e32842085": {
+  "68a60e568c72b73e32842085": { // PMK-4
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -364,7 +364,7 @@
       }
     }
   },
-  "68a8dac9242e2efa4a35ecc0": {
+  "68a8dac9242e2efa4a35ecc0": { // PMK-4A
     "itemTplToClone": "68a60e568c72b73e32842085",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -430,7 +430,7 @@
       }
     }
   },
-  "6954a787a8530d7fbd513bd8": {
+  "6954a787a8530d7fbd513bd8": { // HAFM ballistic half-mask
     "itemTplToClone": "6570aead4d84f81fd002a033",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -532,7 +532,7 @@
     "weaponPresets": [],
     "traders": {}
   },
-  "697df1cc71b3b5b6c5341071": {
+  "697df1cc71b3b5b6c5341071": { // M50 JSGPM
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -586,7 +586,7 @@
     "weaponPresets": [],
     "traders": {}
   },
-  "697df3bad7387ce0f2341072": {
+  "697df3bad7387ce0f2341072": { // M50 JSGPM (Green)
     "itemTplToClone": "697df1cc71b3b5b6c5341071",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
@@ -640,7 +640,7 @@
     "weaponPresets": [],
     "traders": {}
   },
-  "6a090656da8c0b1a1fb424eb": {
+  "6a090656da8c0b1a1fb424eb": { // FM12 gas mask
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",

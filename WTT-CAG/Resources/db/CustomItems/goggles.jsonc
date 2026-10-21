@@ -1,5 +1,5 @@
 ﻿{
-  "6974ce066e50d4be623b8d9b": {
+  "6974ce066e50d4be623b8d9b": { // DTNVS (white phos)
     "itemTplToClone": "5c0696830db834001d23f5da",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
@@ -67,7 +67,7 @@
     "addWeaponPreset": false,
     "weaponPresets": []
   },
-  "6974cf52ee1fb8a0683b8d9d": {
+  "6974cf52ee1fb8a0683b8d9d": { // DTNVS (green phos)
     "itemTplToClone": "6974ce066e50d4be623b8d9b",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
