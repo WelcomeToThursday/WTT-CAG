@@ -1,5 +1,5 @@
 {
-  "68a553f9e1f415c456114c6a": {
+  "68a553f9e1f415c456114c6a": { // Granit Br3
     "itemTplToClone": "65573fa5655447403702a816",
     "parentId": "644120aa86ffbe10ee032b6f",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
@@ -77,7 +77,7 @@
       }
     }
   },
-  "69579caededef04b864ee4c6": {
+  "69579caededef04b864ee4c6": { // DFNDR III+
     "itemTplToClone": "655746010177119f4a097ff7",
     "parentId": "644120aa86ffbe10ee032b6f",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
@@ -162,7 +162,7 @@
       }
     }
   },
-  "6a92274138db677519d467dc": {
+  "6a92274138db677519d467dc": {  // Bronyx CAP4
     "itemTplToClone": "655746010177119f4a097ff7",
     "parentId": "644120aa86ffbe10ee032b6f",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
@@ -231,7 +231,7 @@
     "weaponPresets": [],
     "traders": {}
   },
-  "6a9228c5d3830f24b7d467dd": {
+  "6a9228c5d3830f24b7d467dd": { // Bronyx CAP5
     "itemTplToClone": "655746010177119f4a097ff7",
     "parentId": "644120aa86ffbe10ee032b6f",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
