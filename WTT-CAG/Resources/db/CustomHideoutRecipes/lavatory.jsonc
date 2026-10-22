@@ -1,49 +1,50 @@
 ﻿{
-  "_id": "6972b757b10855d8938e8df3", // IOTV TAPS Craft
-  "areaType": 2,
-  "requirements": [
-    {
-      "areaType": 2,
-      "requiredLevel": 3,
-      "type": "Area"
-    },
-    {
-      "templateId": "5b44cf1486f77431723e3d05",
-      "count": 1,
-      "isEncoded": false,
-      "isFunctional": false,
-      "isSpawnedInSession": false,
-      "type": "Item"
-    },
-    {
-      "templateId": "5ca20abf86f77418567a43f2",
-      "count": 1,
-      "isEncoded": false,
-      "isFunctional": false,
-      "isSpawnedInSession": false,
-      "type": "Item"
-    },
-    {
-      "templateId": "5e2af4a786f7746d3f3c3400",
-      "count": 2,
-      "isEncoded": false,
-      "isFunctional": false,
-      "isSpawnedInSession": false,
-      "type": "Item"
-    },
-    {
-      "templateId": "61bf83814088ec1a363d7097",
-      "type": "Tool"
-    }
-  ],
-  "productionTime": 900,
-  // Time - Measured in seconds
-  "endProduct": "6962818af5c4204e1844033a",
-  "isEncoded": false,
-  "locked": false,
-  "needFuelForAllProductionTime": false,
-  "continuous": false,
-  "count": 1,
-  "productionLimitCount": 0,
-  "isCodeProduction": false
+	"_id": "6972b757b10855d8938e8df3",
+	// IOTV TAPS Craft
+	"areaType": 2,
+	"requirements": [
+		{
+			"areaType": 2,
+			"requiredLevel": 3,
+			"type": "Area"
+		},
+		{
+			"templateId": "5b44cf1486f77431723e3d05",
+			"count": 1,
+			"isEncoded": false,
+			"isFunctional": false,
+			"isSpawnedInSession": false,
+			"type": "Item"
+		},
+		{
+			"templateId": "5ca20abf86f77418567a43f2",
+			"count": 1,
+			"isEncoded": false,
+			"isFunctional": false,
+			"isSpawnedInSession": false,
+			"type": "Item"
+		},
+		{
+			"templateId": "5e2af4a786f7746d3f3c3400",
+			"count": 2,
+			"isEncoded": false,
+			"isFunctional": false,
+			"isSpawnedInSession": false,
+			"type": "Item"
+		},
+		{
+			"templateId": "61bf83814088ec1a363d7097",
+			"type": "Tool"
+		}
+	],
+	"productionTime": 900,
+	// Time - Measured in seconds
+	"endProduct": "6962818af5c4204e1844033a",
+	"isEncoded": false,
+	"locked": false,
+	"needFuelForAllProductionTime": false,
+	"continuous": false,
+	"count": 1,
+	"productionLimitCount": 0,
+	"isCodeProduction": false
 }

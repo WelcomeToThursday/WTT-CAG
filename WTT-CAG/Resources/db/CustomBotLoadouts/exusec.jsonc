@@ -1,87 +1,91 @@
 {
-  "inventory": {
-    "equipment": {
-      "Eyewear": {
-        // Oakley Holbrook
-        "68c97696add4b269e8234d18": 6113,
-        // Oakley Holbrook
-        "68c976b771f2a8984783fdf9": 6113
-      },
-      "Headwear": {
-        // Viper P2 (Black)
-        "69e92bd85a9f81b04fa1e934": 1403,
-        // Viper P2 (Tan)
-        "69e9629ebde4a54efca1e93f": 1403,
-        // Caiman Bump (Gray)
-        "5f60b34a41e30a4ab12a6947": 2201,
-        // Caiman TL
-        "69d422d93ea0e62623eb31e0": 867,
-        // Caiman TL (Olive)
-        "69d4257f0655878dcbeb31ed": 867
-      },
-      "TacticalVest": {
-        // Spiritus 34A (Olive Drab)
-        "6953624c2484d8d5f5f6cd44": 14624,
-        // Spiritus 34A (Multicam)
-        "69534dfbedb3d1c75c40ffb3": 14624,
-        // Platatac Peacekeeper (MCT)
-        "68bb4520b4883cef1fd7726e": 9219
-      }
-    },
-    "mods": {
-      ///////////////
-      // HEADWEAR //
-      //////////////
-      "69e92bd85a9f81b04fa1e934": { // Viper P2 (Black)
-        "Helmet_top": [
-          "69e93cb339ab9c5660a1e938"
-        ],
-        "Helmet_back": [
-          "69e93cb164025aa97ca1e937"
-        ],
-        "mod_nvg": [
-          "5a16b8a9fcdbcb00165aa6ca"
-        ]
-      },
-      "69e9629ebde4a54efca1e93f": { // Viper P2 (Tan)
-        "Helmet_top": [
-          "69e93cb339ab9c5660a1e938"
-        ],
-        "Helmet_back": [
-          "69e93cb164025aa97ca1e937"
-        ],
-        "mod_nvg": [
-          "5a16b8a9fcdbcb00165aa6ca"
-        ]
-      },
-      "69d422d93ea0e62623eb31e0": { // Caiman TL
-        "Helmet_top": [
-          "69d4241a7179e6df13eb31ec"
-        ],
-        "Helmet_back": [
-          "69d424178da70bbf80eb31eb"
-        ],
-        "mod_equipment_002": [
-          "5f60b85bbdb8e27dee3dc985"
-        ],
-        "mod_equipment_000": [
-          "5f60c076f2bcbb675b00dac2"
-        ]
-      },
-      "69d4257f0655878dcbeb31ed": { // Caiman TL (Olive)
-        "Helmet_top": [
-          "69d4241a7179e6df13eb31ec"
-        ],
-        "Helmet_back": [
-          "69d424178da70bbf80eb31eb"
-        ],
-        "mod_equipment_002": [
-          "5f60b85bbdb8e27dee3dc985"
-        ],
-        "mod_equipment_000": [
-          "5f60c076f2bcbb675b00dac2"
-        ]
-      }
-    }
-  }
+	"inventory": {
+		"equipment": {
+			"Eyewear": {
+				// Oakley Holbrook
+				"68c97696add4b269e8234d18": 6113,
+				// Oakley Holbrook
+				"68c976b771f2a8984783fdf9": 6113
+			},
+			"Headwear": {
+				// Viper P2 (Black)
+				"69e92bd85a9f81b04fa1e934": 1403,
+				// Viper P2 (Tan)
+				"69e9629ebde4a54efca1e93f": 1403,
+				// Caiman Bump (Gray)
+				"5f60b34a41e30a4ab12a6947": 2201,
+				// Caiman TL
+				"69d422d93ea0e62623eb31e0": 867,
+				// Caiman TL (Olive)
+				"69d4257f0655878dcbeb31ed": 867
+			},
+			"TacticalVest": {
+				// Spiritus 34A (Olive Drab)
+				"6953624c2484d8d5f5f6cd44": 14624,
+				// Spiritus 34A (Multicam)
+				"69534dfbedb3d1c75c40ffb3": 14624,
+				// Platatac Peacekeeper (MCT)
+				"68bb4520b4883cef1fd7726e": 9219
+			}
+		},
+		"mods": {
+			///////////////
+			// HEADWEAR //
+			//////////////
+			"69e92bd85a9f81b04fa1e934": {
+				// Viper P2 (Black)
+				"Helmet_top": [
+					"69e93cb339ab9c5660a1e938"
+				],
+				"Helmet_back": [
+					"69e93cb164025aa97ca1e937"
+				],
+				"mod_nvg": [
+					"5a16b8a9fcdbcb00165aa6ca"
+				]
+			},
+			"69e9629ebde4a54efca1e93f": {
+				// Viper P2 (Tan)
+				"Helmet_top": [
+					"69e93cb339ab9c5660a1e938"
+				],
+				"Helmet_back": [
+					"69e93cb164025aa97ca1e937"
+				],
+				"mod_nvg": [
+					"5a16b8a9fcdbcb00165aa6ca"
+				]
+			},
+			"69d422d93ea0e62623eb31e0": {
+				// Caiman TL
+				"Helmet_top": [
+					"69d4241a7179e6df13eb31ec"
+				],
+				"Helmet_back": [
+					"69d424178da70bbf80eb31eb"
+				],
+				"mod_equipment_002": [
+					"5f60b85bbdb8e27dee3dc985"
+				],
+				"mod_equipment_000": [
+					"5f60c076f2bcbb675b00dac2"
+				]
+			},
+			"69d4257f0655878dcbeb31ed": {
+				// Caiman TL (Olive)
+				"Helmet_top": [
+					"69d4241a7179e6df13eb31ec"
+				],
+				"Helmet_back": [
+					"69d424178da70bbf80eb31eb"
+				],
+				"mod_equipment_002": [
+					"5f60b85bbdb8e27dee3dc985"
+				],
+				"mod_equipment_000": [
+					"5f60c076f2bcbb675b00dac2"
+				]
+			}
+		}
+	}
 }

@@ -1,242 +1,509 @@
 {
-  "68bf98e1f2f8268bb7c10592": { // F2 Bergan (Black)
-    "itemTplToClone": "59e763f286f7742ee57895da",
-    "parentId": "5448e53e4bdc2d60728b4567",
-    "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/backpacks/Bergan/backpack_f2_bergan.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 3.65,
-      "Height": 6,
-      "Width": 4,
-      "CanSellOnRagfair": true,
-      "weaponErgonomicPenalty": -8,
-      "speedPenaltyPercent": -6,
-      "mousePenalty": -4.5,
-      "Grids": [
-        {
-          "_id": "68bf981a88c87174770bf387",
-          "_name": "main",
-          "_parent": "68bf98e1f2f8268bb7c10592",
-          "_props": {
-            "cellsH": 5,
-            "cellsV": 7,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a",
-                  "5c093db286f7740a1b2617e3",
-                  "5e2af55f86f7746d4159f07c",
-                  "5c0a840b86f7742ffa4f2482",
-                  "5b7c710788a4506dec015957",
-                  "5c127c4486f7745625356c13",
-                  "5aafbcd986f7745e590fff23",
-                  "59fb016586f7746d0d4b423a",
-                  "59fb042886f7746c5005a7b2",
-                  "59fb023c86f7746d0d4b423c",
-                  "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Bergan F2 military backpack",
-        "shortName": "Bergan",
-        "description": "The Bergan F2 backpack is a military-issues backpack similar to that of the Pilgrim Tourist backpack, as such it holds a similar capacity of around 55 liters."
-      }
-    },
-    "addtoInventorySlots": [
-      "Backpack"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 91912,
-    "handbookPriceRoubles": 78999,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1200
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69f9c3a90471f43d0b158eef": { // Arc'teryx LEAF 30L assault pack (MultiCam)
-    "itemTplToClone": "639346cc1c8f182ad90c8972",
-    "parentId": "5448e53e4bdc2d60728b4567",
-    "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/backpacks/arcteryx_leaf30/bag_arcteryx_assault_30l_mc.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 1.022,
-      "Height": 6,
-      "Width": 5,
-      "CanSellOnRagfair": false,
-      "weaponErgonomicPenalty": -4.5,
-      "speedPenaltyPercent": -3.3,
-      "mousePenalty": -1,
-      "Grids": [
-        {
-          "_id": "69f9c41a5bf2630de9158ef0",
-          "_name": "main",
-          "_parent": "69f9c3a90471f43d0b158eef",
-          "_props": {
-            "cellsH": 5,
-            "cellsV": 7,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a",
-                  "5c093db286f7740a1b2617e3",
-                  "5e2af55f86f7746d4159f07c",
-                  "5c0a840b86f7742ffa4f2482",
-                  "5b7c710788a4506dec015957",
-                  "5c127c4486f7745625356c13",
-                  "5aafbcd986f7745e590fff23",
-                  "59fb016586f7746d0d4b423a",
-                  "59fb042886f7746c5005a7b2",
-                  "59fb023c86f7746d0d4b423c",
-                  "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Arc'teryx LEAF 30L assault pack (MultiCam)",
-        "shortName": "LEAF",
-        "description": "A compact 30L assault pack built for mobility and durability, the Arc’teryx LEAF features weather-resistant construction with a streamlined storage layout. Its ergonomic harness and modular mounting points support stable load distribution and mission adaptability in dynamic environments. MultiCam version."
-      }
-    },
-    "addtoInventorySlots": [
-      "Backpack"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 91912,
-    "handbookPriceRoubles": 78999,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1500
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69f9c49fd1ae750b94158ef1": { // Arc'teryx LEAF 30L assault pack (Black)
-    "itemTplToClone": "639346cc1c8f182ad90c8972",
-    "parentId": "5448e53e4bdc2d60728b4567",
-    "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/backpacks/arcteryx_leaf30/bag_arcteryx_assault_30l_blk.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 1.022,
-      "Height": 6,
-      "Width": 5,
-      "CanSellOnRagfair": false,
-      "weaponErgonomicPenalty": -4.5,
-      "speedPenaltyPercent": -3.3,
-      "mousePenalty": -1,
-      "Grids": [
-        {
-          "_id": "69f9c41a5bf2630de9158ef0",
-          "_name": "main",
-          "_parent": "69f9c49fd1ae750b94158ef1",
-          "_props": {
-            "cellsH": 5,
-            "cellsV": 6,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a",
-                  "5c093db286f7740a1b2617e3",
-                  "5e2af55f86f7746d4159f07c",
-                  "5c0a840b86f7742ffa4f2482",
-                  "5b7c710788a4506dec015957",
-                  "5c127c4486f7745625356c13",
-                  "5aafbcd986f7745e590fff23",
-                  "59fb016586f7746d0d4b423a",
-                  "59fb042886f7746c5005a7b2",
-                  "59fb023c86f7746d0d4b423c",
-                  "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Arc'teryx LEAF 30L assault pack",
-        "shortName": "LEAF",
-        "description": "A compact 30L assault pack built for mobility and durability, the Arc’teryx LEAF features weather-resistant construction with a streamlined storage layout. Its ergonomic harness and modular mounting points support stable load distribution and mission adaptability in dynamic environments."
-      }
-    },
-    "addtoInventorySlots": [
-      "Backpack"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 91912,
-    "handbookPriceRoubles": 78999,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1500
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  }
+	"68bf98e1f2f8268bb7c10592": {
+		// F2 Bergan (Black)
+		"itemTplToClone": "59e763f286f7742ee57895da",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/Bergan/backpack_f2_bergan.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 3.65,
+			"Height": 6,
+			"Width": 4,
+			"CanSellOnRagfair": true,
+			"weaponErgonomicPenalty": -8,
+			"speedPenaltyPercent": -6,
+			"mousePenalty": -4.5,
+			"Grids": [
+				{
+					"_id": "68bf981a88c87174770bf387",
+					"_name": "main",
+					"_parent": "68bf98e1f2f8268bb7c10592",
+					"_props": {
+						"cellsH": 5,
+						"cellsV": 7,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"5c093db286f7740a1b2617e3",
+									"5e2af55f86f7746d4159f07c",
+									"5c0a840b86f7742ffa4f2482",
+									"5b7c710788a4506dec015957",
+									"5c127c4486f7745625356c13",
+									"5aafbcd986f7745e590fff23",
+									"59fb016586f7746d0d4b423a",
+									"59fb042886f7746c5005a7b2",
+									"59fb023c86f7746d0d4b423c",
+									"5b6d9ce188a4501afc1b2b25"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Bergan F2 military backpack",
+				"shortName": "Bergan",
+				"description": "The Bergan F2 backpack is a military-issues backpack similar to that of the Pilgrim Tourist backpack, as such it holds a similar capacity of around 55 liters."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 91912,
+		"handbookPriceRoubles": 78999,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1200
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69f9c3a90471f43d0b158eef": {
+		// Arc'teryx LEAF 30L assault pack (MultiCam)
+		"itemTplToClone": "639346cc1c8f182ad90c8972",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/arcteryx_leaf30/bag_arcteryx_assault_30l_mc.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 1.022,
+			"Height": 6,
+			"Width": 5,
+			"CanSellOnRagfair": false,
+			"weaponErgonomicPenalty": -4.5,
+			"speedPenaltyPercent": -3.3,
+			"mousePenalty": -1,
+			"Grids": [
+				{
+					"_id": "69f9c41a5bf2630de9158ef0",
+					"_name": "main",
+					"_parent": "69f9c3a90471f43d0b158eef",
+					"_props": {
+						"cellsH": 5,
+						"cellsV": 7,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"5c093db286f7740a1b2617e3",
+									"5e2af55f86f7746d4159f07c",
+									"5c0a840b86f7742ffa4f2482",
+									"5b7c710788a4506dec015957",
+									"5c127c4486f7745625356c13",
+									"5aafbcd986f7745e590fff23",
+									"59fb016586f7746d0d4b423a",
+									"59fb042886f7746c5005a7b2",
+									"59fb023c86f7746d0d4b423c",
+									"5b6d9ce188a4501afc1b2b25"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Arc'teryx LEAF 30L assault pack (MultiCam)",
+				"shortName": "LEAF",
+				"description": "A compact 30L assault pack built for mobility and durability, the Arc’teryx LEAF features weather-resistant construction with a streamlined storage layout. Its ergonomic harness and modular mounting points support stable load distribution and mission adaptability in dynamic environments. MultiCam version."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 91912,
+		"handbookPriceRoubles": 78999,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1500
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69f9c49fd1ae750b94158ef1": {
+		// Arc'teryx LEAF 30L assault pack (Black)
+		"itemTplToClone": "639346cc1c8f182ad90c8972",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/arcteryx_leaf30/bag_arcteryx_assault_30l_blk.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 1.022,
+			"Height": 6,
+			"Width": 5,
+			"CanSellOnRagfair": false,
+			"weaponErgonomicPenalty": -4.5,
+			"speedPenaltyPercent": -3.3,
+			"mousePenalty": -1,
+			"Grids": [
+				{
+					"_id": "69f9c41a5bf2630de9158ef0",
+					"_name": "main",
+					"_parent": "69f9c49fd1ae750b94158ef1",
+					"_props": {
+						"cellsH": 5,
+						"cellsV": 6,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"5c093db286f7740a1b2617e3",
+									"5e2af55f86f7746d4159f07c",
+									"5c0a840b86f7742ffa4f2482",
+									"5b7c710788a4506dec015957",
+									"5c127c4486f7745625356c13",
+									"5aafbcd986f7745e590fff23",
+									"59fb016586f7746d0d4b423a",
+									"59fb042886f7746c5005a7b2",
+									"59fb023c86f7746d0d4b423c",
+									"5b6d9ce188a4501afc1b2b25"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Arc'teryx LEAF 30L assault pack",
+				"shortName": "LEAF",
+				"description": "A compact 30L assault pack built for mobility and durability, the Arc’teryx LEAF features weather-resistant construction with a streamlined storage layout. Its ergonomic harness and modular mounting points support stable load distribution and mission adaptability in dynamic environments."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 91912,
+		"handbookPriceRoubles": 78999,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1500
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a761e7dc5205217d8375020": {
+		// Platatac Bullock Echo (M81)
+		"itemTplToClone": "618bb76513f5097c8d5aa2d5",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/platatacBullock/platatac_bullock_m81.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 2.01,
+			"Height": 4,
+			"Width": 4,
+			"CanSellOnRagfair": true,
+			"weaponErgonomicPenalty": -5,
+			"speedPenaltyPercent": -4.5,
+			"mousePenalty": -3,
+			"GridLayoutName": "bag_bullock",
+			"Grids": [
+				{
+					"_id": "6e516f92fc1249f51bd2c321",
+					"_name": "GridView (1)",
+					"_parent": "6a761e7dc5205217d8375020",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 3,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e6d42da5c61ad5bc66d0aac6",
+					"_name": "GridView (2)",
+					"_parent": "6a761e7dc5205217d8375020",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 3,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "f49db96743b077c6c9d53804",
+					"_name": "GridView (3)",
+					"_parent": "6a761e7dc5205217d8375020",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 3,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e4e55330cfa55a8e73b9ed2b",
+					"_name": "GridView (4)",
+					"_parent": "6a761e7dc5205217d8375020",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Platatac Bullock Echo backpack (M81 Woodland)",
+				"shortName": "Bullock-E",
+				"description": "The Bullock Echo V4 is the newest addition to Platatac's long-running assault sustainment range. While only small, it featues an increased capacity and more MOLLE to mount accessories compared to its prior iterations. Manufactured by Platatac. M81 Woodland version."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 68423,
+		"handbookPriceRoubles": 45331,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1200
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a761fed216a4b3d06375021": {
+		// Platatac Bullock Echo (Tan)
+		"itemTplToClone": "6a761e7dc5205217d8375020",
+		// Platatac Bullock Echo (M81)
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/platatacBullock/platatac_bullock_tan.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Platatac Bullock Echo backpack (Coyote Tan)",
+				"shortName": "Bullock-E",
+				"description": "The Bullock Echo V4 is the newest addition to Platatac's long-running assault sustainment range. While only small, it featues an increased capacity and more MOLLE to mount accessories compared to its prior iterations. Manufactured by Platatac. Coyote Tan version."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 68423,
+		"handbookPriceRoubles": 45331,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1200
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a8f611c68da1d142981b302": {
+		// EVOC Sports Ride 12 daypack
+		"itemTplToClone": "544a5cde4bdc2d39388b456b",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/backpacks/backpack_evoc_ride12_olive.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 0.65,
+			"Height": 4,
+			"Width": 3,
+			"CanSellOnRagfair": true,
+			"weaponErgonomicPenalty": -2,
+			"speedPenaltyPercent": -1,
+			"mousePenalty": -1,
+			"Grids": [
+				{
+					"_id": "6a8f61d2497551059b81b304",
+					"_name": "main",
+					"_parent": "6a8f611c68da1d142981b302",
+					"_props": {
+						"cellsH": 4,
+						"cellsV": 4,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"5c093db286f7740a1b2617e3",
+									"5e2af55f86f7746d4159f07c",
+									"5c0a840b86f7742ffa4f2482",
+									"5b7c710788a4506dec015957",
+									"5c127c4486f7745625356c13",
+									"5aafbcd986f7745e590fff23",
+									"59fb016586f7746d0d4b423a",
+									"59fb042886f7746c5005a7b2",
+									"59fb023c86f7746d0d4b423c",
+									"5b6d9ce188a4501afc1b2b25"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "EVOC Sports Ride 12 daypack",
+				"shortName": "Ride 12",
+				"description": "The Ride 12 is a compact daypack designed to preserve comfort and functionality for cyclists while carrying equipment alongside optimised airflow to prevent the user from overheating. Manufactured by EVOC Sports USA."
+			}
+		},
+		"addtoInventorySlots": [
+			"Backpack"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 30312,
+		"handbookPriceRoubles": 15028,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1683
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	}
 }

@@ -1,0 +1,125 @@
+﻿{
+	"6974ce066e50d4be623b8d9b": {
+		// DTNVS (white phos)
+		"itemTplToClone": "5c0696830db834001d23f5da",
+		"parentId": "5a2c3a9486f774688b05e574",
+		"handbookParentId": "5b5f749986f774094242f199",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/nvgs/nvg_actinblack_dtnvg.bundle",
+				"rcid": ""
+			},
+			"Name": "nvg_actinblack_dtnvg_white_phosphor",
+			"ConflictingItems": [
+				"5a16b672fcdbcb001912fa83",
+				"5a16b7e1fcdbcb00165aa6c9",
+				"5e00cdd986f7747473332240",
+				"5e01f37686f774773c6f6c15"
+			],
+			"CanRequireOnRagfair": false,
+			"CanSellOnRagfair": false,
+			"DiffuseIntensity": 0.03,
+			"HasHinge": true,
+			"Intensity": 2.4,
+			"Mask": "Binocular",
+			"MaskSize": 0.83,
+			"NoiseIntensity": 0.05,
+			"NoiseScale": 4,
+			"Color": {
+				"r": 70,
+				"g": 225,
+				"b": 230,
+				"a": 0
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "ACTinBLACK DTNVS night vision goggles (White Phos.)",
+				"shortName": "DTNVS",
+				"description": "High-end dual-tube night vision binoculars built for professional use with rugged, lightweight construction and articulating pods that flip up to save power and clear your view. Offers 1x magnification and long battery life for extended operation."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 75578,
+		"handbookPriceRoubles": 36742,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 17
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6974cf52ee1fb8a0683b8d9d": {
+		// DTNVS (green phos)
+		"itemTplToClone": "6974ce066e50d4be623b8d9b",
+		"parentId": "5a2c3a9486f774688b05e574",
+		"handbookParentId": "5b5f749986f774094242f199",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/nvgs/nvg_actinblack_dtnvg.bundle",
+				"rcid": ""
+			},
+			"Name": "nvg_actinblack_dtnvg_green_phosphor",
+			"Color": {
+				"r": 254,
+				"g": 69,
+				"b": 255,
+				"a": 0
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "ACTinBLACK DTNVS night vision goggles (Green Phos.)",
+				"shortName": "DTNVS",
+				"description": "High-end dual-tube night vision binoculars built for professional use with rugged, lightweight construction and articulating pods that flip up to save power and clear your view. Offers 1x magnification and long battery life for extended operation."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 75578,
+		"handbookPriceRoubles": 36742,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 17
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"PEACEKEEPER": {
+		"items": [
+			{
+				//UNTAR helmet (High Cut) - LL3 - Dollars
+				"_id": "6a762c3fea523894f23a6394",
+				"_tpl": "6a71ce2a1f7262198d264238",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+					"UnlimitedCount": true,
+					"StackObjectsCount": 9999999,
+					"BuyRestrictionMax": 5,
+					"BuyRestrictionCurrent": 0
+				}
+			},
+			{
+				"_id": "6a762cc676e48e393a9b0a97",
+				"_tpl": "657f9c78ada5fadd1f07a58d",
+				"slotId": "Helmet_top",
+				"parentId": "6a762c3fea523894f23a6394"
+			},
+			{
+				"_id": "6a762cc86f4b64d257cad0a5",
+				"_tpl": "657f9cb587e11c61f70bfaca",
+				"slotId": "Helmet_back",
+				"parentId": "6a762c3fea523894f23a6394"
+			}
+		],
+		"barter_scheme": {
+			"6a762c3fea523894f23a6394": [
+				//UNTAR helmet (High Cut) - LL3 - Dollars
+				[
+					{
+						"count": 424,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			]
+		},
+		"loyal_level_items": {
+			"6a762c3fea523894f23a6394": 3
+			//UNTAR helmet (High Cut) - LL3 - Dollars
+		}
+	}
+}

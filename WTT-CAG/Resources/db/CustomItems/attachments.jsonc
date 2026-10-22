@@ -1,2159 +1,2821 @@
 {
-  "6897d6a13858711f63d149c3": {
-    "itemTplToClone": "5991b51486f77447b112d44f",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Attachments/ms2000_helmet.bundle",
-        "rcid": ""
-      },
-      "Height": 1,
-      "Width": 1,
-      "Unlootable": false,
-      "BackgroundColor": "blue"
-    },
-    "locales": {
-      "en": {
-        "name": "MS2000 Helmet-mounted Marker",
-        "shortName": "MS2000H",
-        "description": "A strobe marker light that is used during nighttime operations. It emits signals in the IR region which are visible through NVGs. Uses a special filter when operating in the IR mode. If the filter is removed, it appears as a bright flash in the visible spectrum. In the extended mode operates with a blue flash."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 15177,
-    "handbookPriceRoubles": 11923,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "689a1818a272a33734640f2c": { // BK3 Cover (CADPAT)
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_cadpat.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "BK3 helmet cover (CADPAT)",
-        "shortName": "BK3",
-        "description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. CADPAT version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 340,
-    "handbookPriceRoubles": 211,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 252,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "689a1a005d2915b23e564474": { // BK3 Cover (DCU)
-    "itemTplToClone": "689a1818a272a33734640f2c",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_dcu.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BK3 helmet cover (DCU)",
-        "shortName": "BK3",
-        "description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. U.S. DCU version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 340,
-    "handbookPriceRoubles": 211,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc617980": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 252,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "689a1a2ff797960777c1300c": { // BK3 Cover (Jigsaw)
-    "itemTplToClone": "689a1818a272a33734640f2c",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_jigsaw.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BK3 helmet cover (Jigsaw)",
-        "shortName": "BK3",
-        "description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Belgian Jigsaw version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 340,
-    "handbookPriceRoubles": 211,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc617981": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 252,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "689a1a614ddad2e5404cd6b5": { // BK3 Cover (M81)
-    "itemTplToClone": "689a1818a272a33734640f2c",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_m81.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BK3 helmet cover (M81)",
-        "shortName": "BK3",
-        "description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. M81 Woodland version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 340,
-    "handbookPriceRoubles": 211,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc617982": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 252,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6952e2acf69d4f7575c90345": {  // IHPS helmet cover (MultiCam)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/ihps/mount_ihps_cover_ocp.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "IHPS cover (OCP)",
-        "shortName": "IHPS",
-        "description": "A fabric camouflage cover tailored for the Ceradyne IHPS combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. OCP version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 650,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6952e55ac789bb8d2ec9034c": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 3390,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a3404f599063c08f6488012": {  // IHPS helmet cover (Tan)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/ihps/mount_ihps_cover_tan.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "IHPS cover (Coyote Tan)",
-        "shortName": "IHPS",
-        "description": "A fabric camouflage cover tailored for the Ceradyne IHPS combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. OCP version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 650,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6952e55ac789bb8d2ec9034c": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 3390,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "695572c471cdc428e9d8e2a6": {  // FAST XP helmet cover (MultiCam)
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (MultiCam)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6955730889003c4e23d8e2aa": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "695572ff13710213b5d8e2a8": {  // FAST XP helmet cover (MC Alpine)
-    "itemTplToClone": "695572c471cdc428e9d8e2a6",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (MultiCam Alpine)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam Alpine version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "69557306cb2adcbbc6d8e2a9": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6955a797ea9f2f0f0bc5ccb2": {  // FAST XP helmet cover (MC Black)
-    "itemTplToClone": "695572c471cdc428e9d8e2a6",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (MultiCam Black)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam Black version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6955a795059a7c9decc5ccb1": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6955a7fee96a66f2b6c5ccb3": {  // FAST XP helmet cover (AOR2)
-    "itemTplToClone": "695572c471cdc428e9d8e2a6",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (AOR2)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. AOR2 version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6955a7ffd61677addfc5ccb4": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6955a83da2a2fb80a8c5ccb5": {  // FAST XP helmet cover (Desert Night Pattern)
-    "itemTplToClone": "695572c471cdc428e9d8e2a6",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (DNC)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Desert Night version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6955a83f134a1452ddc5ccb6": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6955a85cf6e2edacacc5ccb8": { // FAST XP helmet cover (Olive Drab)
-    "itemTplToClone": "695572c471cdc428e9d8e2a6",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "FAST XP helmet cover (Olive Drab)",
-        "shortName": "FAST XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Olive Drab version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6955a85a3173c785d2c5ccb7": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2109,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "697e361f1c1def3c45411c73": { // Ops-Core Mandible
-    "itemTplToClone": "5a16badafcdbcb001865f72d",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_sfhc/mask_ops_core_ballistic_mandible_tan.bundle",
-        "rcid": ""
-      },
-      "Name": "gear_ops_core_ballistic_mandible_tan",
-      "ConflictingItems": [
-        "5a16b9fffcdbcb0176308b34",
-        "657089638db3adca1009f4ca",
-        "67a4b71ad3228756b6088ee2",
-        "67a5c5b6dfdf568c9009af66",
-        "67a5c5df782ce4655104db14",
-        "67a5c5f37f52620c5b05b4d6",
-        "67a5c6068fcd9fb73f0752cf",
-        "67a5c61c7f52620c5b05b4d8",
-        "67a5c657782ce4655104db16",
-        "6570aead4d84f81fd002a033",
-        "5a398b75c4a282000a51a266",
-        "5a398ab9c4a282000c5a9842",
-        "689b7d32e920d74a02e5a63c",
-        "689cefd7c6d829d1c30a8404",
-        "68a60e568c72b73e32842085",
-        "68a8dac9242e2efa4a35ecc0",
-        "6954a787a8530d7fbd513bd8",
-        "697df1cc71b3b5b6c5341071",
-        "697df3bad7387ce0f2341072",
-        "6a090656da8c0b1a1fb424eb"
-      ],
-      "Height": 2,
-      "Width": 2,
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.198,
-      "ArmorMaterial": "Aramid",
-      "ArmorType": "Light",
-      "MaxDurability": 35,
-      "Durability": 35,
-      "RicochetParams": {
-        "x": 0.9,
-        "y": 0.4,
-        "z": 70
-      },
-      "armorClass": "3",
-      "armorColliders": [
-        "Jaw",
-        "HeadCommon"
-      ],
-      "armorPlateColliders": [],
-      "mousePenalty": -1,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": 0,
-      "Weight": 0.4
-    },
-    "locales": {
-      "en": {
-        "name": "Ops-Core FAST Ballstic Mandible",
-        "shortName": "FAST Mand.",
-        "description": "The FAST Ballistic mandible provides protection for the mouth, nose, ear and neck areas with flexible armor which allows for the operator to still obtain a solid cheeck weld on their weapon."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 110282,
-    "handbookPriceRoubles": 34624,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "697e37feb6af1bab60411c74": { // Ops-Core STEP-IN Visor
-    "itemTplToClone": "5a16badafcdbcb001865f72d",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/opscore_sfhc/mount_visor_ops_core_stepin.bundle",
-        "rcid": ""
-      },
-      "Name": "mount_visor_ops_core_stepin",
-      "ConflictingItems": [
-        "5a16b672fcdbcb001912fa83",
-        "5a16b7e1fcdbcb00165aa6c9",
-        "5a398b75c4a282000a51a266",
-        "5a398ab9c4a282000c5a9842"
-      ],
-      "FaceShieldComponent": true,
-      "FaceShieldMask": "NoMask",
-      "HasHinge": false,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 2,
-      "BlindnessProtection": 0.25,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": true,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.15,
-      "ArmorMaterial": "Glass",
-      "MaterialType": "GlassVisor",
-      "ArmorType": "Light",
-      "MaxDurability": 15,
-      "Durability": 15,
-      "RicochetParams": {
-        "x": 0.7,
-        "y": 0.3,
-        "z": 55
-      },
-      "armorClass": "3",
-      "armorColliders": [
-        "Eyes"
-      ],
-      "armorPlateColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": -2,
-      "Weight": 0.4
-    },
-    "locales": {
-      "en": {
-        "name": "Ops-Core STEP-IN Visor",
-        "shortName": "STEP-IN",
-        "description": "The STEP-IN Visor system is a low-profile protective visor, designed with unique geometry that allows it to sit comfortably behind NVGs, while also providing high-performing vision protection."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 56683,
-    "handbookPriceRoubles": 22222,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d44ec7654cae9510eb3203": { // BATLSKIN Cobra helmet cover (MTP)
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_mtp.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "BATLSKIN Cobra helmet cover (MTP)",
-        "shortName": "Cobra",
-        "description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. MTP version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 2222,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d44b8eabb346e484eb31f1": { // BATLSKIN Cobra helmet cover (MCB)
-    "itemTplToClone": "69d44ec7654cae9510eb3203",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_mcb.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BATLSKIN Cobra helmet cover (MultiCam Black)",
-        "shortName": "Cobra",
-        "description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. MC Black version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 2222,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a25f0258842dada135ac1cf": { // BATLSKIN Cobra helmet cover (Irish DPM)
-    "itemTplToClone": "69d44ec7654cae9510eb3203",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/batlskin_cobra/helmet_cover_batlskin_irishdpm.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BATLSKIN Cobra helmet cover (Irish DPM)",
-        "shortName": "Cobra",
-        "description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. Irish DPM version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 2222,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d44b914ddaf5e11feb31f2": { // BATLSKIN Cobra helmet cover (NFP)
-    "itemTplToClone": "69d44ec7654cae9510eb3203",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_nfp.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "BATLSKIN Cobra helmet cover (NFP Woodland)",
-        "shortName": "Cobra",
-        "description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. Dutch NFP Woodland version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 2222,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d6dcfb46cc268b92906d4e": { // Tor-2 helmet cover
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/tor-2/cover_tor_2_black.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "NPP KIASS Tor-2 helmet cover (Black)",
-        "shortName": "Tor-2",
-        "description": "A black anti-glare cover for the Tor-2 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 550,
-    "handbookPriceRoubles": 125,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d6df1e2053bc5e41906d4f": { // Tor-2 helmet cover (A-TAC FG)
-    "itemTplToClone": "69d6dcfb46cc268b92906d4e",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/tor-2/cover_tor_2_atacs_fg.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "NPP KIASS Tor-2 helmet cover (A-TACS FG)",
-        "shortName": "Tor-2",
-        "description": "An A-TACS FG anti-glare cover for the Tor-2 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 550,
-    "handbookPriceRoubles": 125,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d6df883c2d93f229906d51": { // Tor-2 helmet cover (Coyote Tan)
-    "itemTplToClone": "69d6dcfb46cc268b92906d4e",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/tor-2/cover_tor_2_coyote_tan.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "NPP KIASS Tor-2 helmet cover (Coyote Tan)",
-        "shortName": "Tor-2",
-        "description": "A coyote tan anti-glare cover for the Tor-2 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 550,
-    "handbookPriceRoubles": 125,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d6dfa9f3b8a5d1b4906d52": { // Tor-2 helmet cover (EMR)
-    "itemTplToClone": "69d6dcfb46cc268b92906d4e",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/tor-2/cover_tor_2_emr.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "NPP KIASS Tor-2 helmet cover (EMR)",
-        "shortName": "Tor-2",
-        "description": "An EMR anti-glare cover for the Tor-2 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 550,
-    "handbookPriceRoubles": 125,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69d6dfc41d822714a7906d53": { // Tor-2 helmet cover (EMR Winter)
-    "itemTplToClone": "69d6dcfb46cc268b92906d4e",
-    "parentId": "57bef4c42459772e8d35a53b",
-    "handbookParentId": "5b5f704686f77447ec5d76d7",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/tor-2/cover_tor_2_emr_winter.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "NPP KIASS Tor-2 helmet cover (EMR Winter)",
-        "shortName": "Tor-2",
-        "description": "An EMR winter anti-glare cover for the Tor-2 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 550,
-    "handbookPriceRoubles": 125,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a0a1bef44d169794db4a862": { // Airframe cover multicam
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_multicam.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (MultiCam)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2112,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a1d1b98bfa8da0db4a863": { // Airframe cover aor1
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_aor1.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (AOR1)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2112,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a22700f67790a19b4a864": { // Airframe cover aor2
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_aor2.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (AOR2)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 3011,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 2112,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a2299714cddeb91b4a865": { // Airframe cover choc
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_choc.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (DBDU)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 753,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 653,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a22bbfc1a34cac6b4a866": { // Airframe cover desert night camo
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_desert_night_camo.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-      
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (DNC)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 753,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 653,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a22edf4bbd75165b4a867": { // Airframe cover kryptek
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_kryptek.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (Kryptek Mandrake)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 753,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 653,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a0a230b3d283d711cb4a868": { // Airframe cover (T Block)
-    "itemTplToClone": "5c0e66e2d174af02a96252f4",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_t_block.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.01,
-      "CanSellOnRagfair": true,
-      "Height": 1,
-      "Width": 1,
-      "ItemSound": "item_cloth_generic",
-      "Unlootable": false,
-      "CanPutIntoDuringTheRaid": false,
-      "Indestructibility": 0,
-      "ArmorType": "None",
-      "BluntThroughput": 1,
-      "armorClass": 0,
-      "armorColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "Durability": 100,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 1
-      },
-      "weaponErgonomicPenalty": 0
-    },
-    "locales": {
-      "en": {
-        "name": "Crye Airframe helmet cover (T-Block)",
-        "shortName": "Airframe",
-        "description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 753,
-    "handbookPriceRoubles": 500,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {
-      "HOSER": {
-        "6930973fc00b2b15fc61797f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 10
-          },
-          "barters": [
-            {
-              "count": 653,
-              "_tpl": "MONEY_ROUBLES"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "6a32b342d54ecde6786ffadf": { // LShZ Cover
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/lshz/mount_lshz_cover_emr.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "LShZ-1+ cover (EMR)",
-        "shortName": "LShZ",
-        "description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a32bd63cdc9d6712b6ffae0": { // LShZ Cover
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/lshz/mount_lshz_cover_atacs_fg.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "LShZ-1+ cover (A-TACS FG)",
-        "shortName": "LShZ",
-        "description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a32bd8954d48c508b6ffae1": { // LShZ Cover (ATACS AU)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/lshz/mount_lshz_cover_atacs_au.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "LShZ-1+ cover (A-TACS AU)",
-        "shortName": "LShZ",
-        "description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a32c1e01b484ff5e86ffae2": { // LShZ Cover (Black)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/lshz/mount_lshz_cover_black.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "LShZ-1+ cover (Black)",
-        "shortName": "LShZ",
-        "description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a32c3bfef7e9753a16ffae3": { // LShZ Cover (Black)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/lshz/mount_lshz_cover_mc.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "LShZ-1+ cover (MultiCam)",
-        "shortName": "LShZ",
-        "description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a359b9f33f60a4f7a85c447": { // Kiver RSP cover (EMR)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/kiver_rsp/kiver_cover_emr.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "Kiver RSP cover (EMR)",
-        "shortName": "Kiver RSP",
-        "description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a359beed1c05df6e185c448": { // Kiver RSP cover (MultiCam)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/kiver_rsp/kiver_cover_mc.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "Kiver RSP cover (MultiCam)",
-        "shortName": "Kiver RSP",
-        "description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "6a359c0a41516351d285c449": { // Kiver RSP cover (A-TACS FG)
-    "itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "5b5f755f86f77447ec5d770e",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/helmets/kiver_rsp/kiver_cover_atacs.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "Kiver RSP cover (A-TACS FG)",
-        "shortName": "Kiver RSP",
-        "description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 1500,
-    "handbookPriceRoubles": 800,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  }
+	"6897d6a13858711f63d149c3": {
+		"itemTplToClone": "5991b51486f77447b112d44f",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Attachments/ms2000_helmet.bundle",
+				"rcid": ""
+			},
+			"Height": 1,
+			"Width": 1,
+			"Unlootable": false,
+			"BackgroundColor": "blue"
+		},
+		"locales": {
+			"en": {
+				"name": "MS2000 Helmet-mounted Marker",
+				"shortName": "MS2000H",
+				"description": "A strobe marker light that is used during nighttime operations. It emits signals in the IR region which are visible through NVGs. Uses a special filter when operating in the IR mode. If the filter is removed, it appears as a bright flash in the visible spectrum. In the extended mode operates with a blue flash."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 15177,
+		"handbookPriceRoubles": 11923,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"689a1818a272a33734640f2c": {
+		// BK3 Cover (CADPAT)
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_cadpat.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "BK3 helmet cover (CADPAT)",
+				"shortName": "BK3",
+				"description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. CADPAT version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 340,
+		"handbookPriceRoubles": 211,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 252,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"689a1a005d2915b23e564474": {
+		// BK3 Cover (DCU)
+		"itemTplToClone": "689a1818a272a33734640f2c",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_dcu.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BK3 helmet cover (DCU)",
+				"shortName": "BK3",
+				"description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. U.S. DCU version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 340,
+		"handbookPriceRoubles": 211,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc617980": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 252,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"689a1a2ff797960777c1300c": {
+		// BK3 Cover (Jigsaw)
+		"itemTplToClone": "689a1818a272a33734640f2c",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_jigsaw.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BK3 helmet cover (Jigsaw)",
+				"shortName": "BK3",
+				"description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Belgian Jigsaw version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 340,
+		"handbookPriceRoubles": 211,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc617981": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 252,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"689a1a614ddad2e5404cd6b5": {
+		// BK3 Cover (M81)
+		"itemTplToClone": "689a1818a272a33734640f2c",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_m81.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BK3 helmet cover (M81)",
+				"shortName": "BK3",
+				"description": "A fabric camouflage cover tailored for the BK3 combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. M81 Woodland version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 340,
+		"handbookPriceRoubles": 211,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc617982": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 252,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6952e2acf69d4f7575c90345": {
+		// IHPS helmet cover (MultiCam)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/ihps/mount_ihps_cover_ocp.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "IHPS cover (OCP)",
+				"shortName": "IHPS",
+				"description": "A fabric camouflage cover tailored for the Ceradyne IHPS combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. OCP version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 650,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6952e55ac789bb8d2ec9034c": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 3390,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a3404f599063c08f6488012": {
+		// IHPS helmet cover (Tan)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/ihps/mount_ihps_cover_tan.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "IHPS cover (Coyote Tan)",
+				"shortName": "IHPS",
+				"description": "A fabric camouflage cover tailored for the Ceradyne IHPS combat helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. OCP version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 650,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6952e55ac789bb8d2ec9034c": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 3390,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"695572c471cdc428e9d8e2a6": {
+		// FAST XP helmet cover (MultiCam)
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (MultiCam)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6955730889003c4e23d8e2aa": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"695572ff13710213b5d8e2a8": {
+		// FAST XP helmet cover (MC Alpine)
+		"itemTplToClone": "695572c471cdc428e9d8e2a6",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (MultiCam Alpine)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam Alpine version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"69557306cb2adcbbc6d8e2a9": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6955a797ea9f2f0f0bc5ccb2": {
+		// FAST XP helmet cover (MC Black)
+		"itemTplToClone": "695572c471cdc428e9d8e2a6",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (MultiCam Black)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. MultiCam Black version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6955a795059a7c9decc5ccb1": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6955a7fee96a66f2b6c5ccb3": {
+		// FAST XP helmet cover (AOR2)
+		"itemTplToClone": "695572c471cdc428e9d8e2a6",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (AOR2)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. AOR2 version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6955a7ffd61677addfc5ccb4": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6955a83da2a2fb80a8c5ccb5": {
+		// FAST XP helmet cover (Desert Night Pattern)
+		"itemTplToClone": "695572c471cdc428e9d8e2a6",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (DNC)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Desert Night version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6955a83f134a1452ddc5ccb6": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6955a85cf6e2edacacc5ccb8": {
+		// FAST XP helmet cover (Olive Drab)
+		"itemTplToClone": "695572c471cdc428e9d8e2a6",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "FAST XP helmet cover (Olive Drab)",
+				"shortName": "FAST XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core FAST XP high cut helmet used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment. Olive Drab version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6955a85a3173c785d2c5ccb7": {
+					"barterSettings": {
+						"loyalLevel": 4,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2109,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"697e361f1c1def3c45411c73": {
+		// Ops-Core Mandible
+		"itemTplToClone": "5a16badafcdbcb001865f72d",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sfhc/mask_ops_core_ballistic_mandible_tan.bundle",
+				"rcid": ""
+			},
+			"Name": "gear_ops_core_ballistic_mandible_tan",
+			"ConflictingItems": [
+				"5a16b9fffcdbcb0176308b34",
+				"657089638db3adca1009f4ca",
+				"67a4b71ad3228756b6088ee2",
+				"67a5c5b6dfdf568c9009af66",
+				"67a5c5df782ce4655104db14",
+				"67a5c5f37f52620c5b05b4d6",
+				"67a5c6068fcd9fb73f0752cf",
+				"67a5c61c7f52620c5b05b4d8",
+				"67a5c657782ce4655104db16",
+				"6570aead4d84f81fd002a033",
+				"5a398b75c4a282000a51a266",
+				"5a398ab9c4a282000c5a9842",
+				"689b7d32e920d74a02e5a63c",
+				"689cefd7c6d829d1c30a8404",
+				"68a60e568c72b73e32842085",
+				"68a8dac9242e2efa4a35ecc0",
+				"6954a787a8530d7fbd513bd8",
+				"697df1cc71b3b5b6c5341071",
+				"697df3bad7387ce0f2341072",
+				"6a090656da8c0b1a1fb424eb"
+			],
+			"Height": 2,
+			"Width": 2,
+			"BlindnessProtection": 0,
+			"BlocksEarpiece": false,
+			"BlocksEyewear": false,
+			"BlocksFaceCover": false,
+			"BlocksHeadwear": false,
+			"BluntThroughput": 0.198,
+			"ArmorMaterial": "Aramid",
+			"ArmorType": "Light",
+			"MaxDurability": 35,
+			"Durability": 35,
+			"RicochetParams": {
+				"x": 0.9,
+				"y": 0.4,
+				"z": 70
+			},
+			"armorClass": "3",
+			"armorColliders": [
+				"Jaw",
+				"HeadCommon"
+			],
+			"armorPlateColliders": [],
+			"mousePenalty": -1,
+			"speedPenaltyPercent": 0,
+			"weaponErgonomicPenalty": 0,
+			"Weight": 0.4
+		},
+		"locales": {
+			"en": {
+				"name": "Ops-Core FAST Ballstic Mandible",
+				"shortName": "FAST Mand.",
+				"description": "The FAST Ballistic mandible provides protection for the mouth, nose, ear and neck areas with flexible armor which allows for the operator to still obtain a solid cheeck weld on their weapon."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 110282,
+		"handbookPriceRoubles": 34624,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"697e37feb6af1bab60411c74": {
+		// Ops-Core STEP-IN Visor
+		"itemTplToClone": "5a16badafcdbcb001865f72d",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sfhc/mount_visor_ops_core_stepin.bundle",
+				"rcid": ""
+			},
+			"Name": "mount_visor_ops_core_stepin",
+			"ConflictingItems": [
+				"5a16b672fcdbcb001912fa83",
+				"5a16b7e1fcdbcb00165aa6c9",
+				"5a398b75c4a282000a51a266",
+				"5a398ab9c4a282000c5a9842"
+			],
+			"FaceShieldComponent": true,
+			"FaceShieldMask": "NoMask",
+			"HasHinge": false,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 2,
+			"BlindnessProtection": 0.25,
+			"BlocksEarpiece": false,
+			"BlocksEyewear": true,
+			"BlocksFaceCover": false,
+			"BlocksHeadwear": false,
+			"BluntThroughput": 0.15,
+			"ArmorMaterial": "Glass",
+			"MaterialType": "GlassVisor",
+			"ArmorType": "Light",
+			"MaxDurability": 15,
+			"Durability": 15,
+			"RicochetParams": {
+				"x": 0.7,
+				"y": 0.3,
+				"z": 55
+			},
+			"armorClass": "3",
+			"armorColliders": [
+				"Eyes"
+			],
+			"armorPlateColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"weaponErgonomicPenalty": -2,
+			"Weight": 0.4
+		},
+		"locales": {
+			"en": {
+				"name": "Ops-Core STEP-IN Visor",
+				"shortName": "STEP-IN",
+				"description": "The STEP-IN Visor system is a low-profile protective visor, designed with unique geometry that allows it to sit comfortably behind NVGs, while also providing high-performing vision protection."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 56683,
+		"handbookPriceRoubles": 22222,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d44ec7654cae9510eb3203": {
+		// BATLSKIN Cobra helmet cover (MTP)
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_mtp.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0,
+			"Slots": []
+		},
+		"locales": {
+			"en": {
+				"name": "BATLSKIN Cobra helmet cover (MTP)",
+				"shortName": "Cobra",
+				"description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. MTP version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 2222,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d44b8eabb346e484eb31f1": {
+		// BATLSKIN Cobra helmet cover (MCB)
+		"itemTplToClone": "69d44ec7654cae9510eb3203",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_mcb.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BATLSKIN Cobra helmet cover (MultiCam Black)",
+				"shortName": "Cobra",
+				"description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. MC Black version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 2222,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a25f0258842dada135ac1cf": {
+		// BATLSKIN Cobra helmet cover (Irish DPM)
+		"itemTplToClone": "69d44ec7654cae9510eb3203",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/batlskin_cobra/helmet_cover_batlskin_irishdpm.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BATLSKIN Cobra helmet cover (Irish DPM)",
+				"shortName": "Cobra",
+				"description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. Irish DPM version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 2222,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d44b914ddaf5e11feb31f2": {
+		// BATLSKIN Cobra helmet cover (NFP)
+		"itemTplToClone": "69d44ec7654cae9510eb3203",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/batlskin_cobra/helmet_batlskin_cover_nfp.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "BATLSKIN Cobra helmet cover (NFP Woodland)",
+				"shortName": "Cobra",
+				"description": "A fabric camouflage cover tailored for the Galvion BATLSKIN Cobra ballistic helmet. Dutch NFP Woodland version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 2222,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d6dcfb46cc268b92906d4e": {
+		// Tor-2 helmet cover
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/tor-2/cover_tor_2_black.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "NPP KIASS Tor-2 helmet cover (Black)",
+				"shortName": "Tor-2",
+				"description": "A black anti-glare cover for the Tor-2 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 550,
+		"handbookPriceRoubles": 125,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d6df1e2053bc5e41906d4f": {
+		// Tor-2 helmet cover (A-TAC FG)
+		"itemTplToClone": "69d6dcfb46cc268b92906d4e",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/tor-2/cover_tor_2_atacs_fg.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "NPP KIASS Tor-2 helmet cover (A-TACS FG)",
+				"shortName": "Tor-2",
+				"description": "An A-TACS FG anti-glare cover for the Tor-2 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 550,
+		"handbookPriceRoubles": 125,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d6df883c2d93f229906d51": {
+		// Tor-2 helmet cover (Coyote Tan)
+		"itemTplToClone": "69d6dcfb46cc268b92906d4e",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/tor-2/cover_tor_2_coyote_tan.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "NPP KIASS Tor-2 helmet cover (Coyote Tan)",
+				"shortName": "Tor-2",
+				"description": "A coyote tan anti-glare cover for the Tor-2 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 550,
+		"handbookPriceRoubles": 125,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d6dfa9f3b8a5d1b4906d52": {
+		// Tor-2 helmet cover (EMR)
+		"itemTplToClone": "69d6dcfb46cc268b92906d4e",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/tor-2/cover_tor_2_emr.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "NPP KIASS Tor-2 helmet cover (EMR)",
+				"shortName": "Tor-2",
+				"description": "An EMR anti-glare cover for the Tor-2 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 550,
+		"handbookPriceRoubles": 125,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69d6dfc41d822714a7906d53": {
+		// Tor-2 helmet cover (EMR Winter)
+		"itemTplToClone": "69d6dcfb46cc268b92906d4e",
+		"parentId": "57bef4c42459772e8d35a53b",
+		"handbookParentId": "5b5f704686f77447ec5d76d7",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/tor-2/cover_tor_2_emr_winter.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "NPP KIASS Tor-2 helmet cover (EMR Winter)",
+				"shortName": "Tor-2",
+				"description": "An EMR winter anti-glare cover for the Tor-2 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 550,
+		"handbookPriceRoubles": 125,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a0a1bef44d169794db4a862": {
+		// Airframe cover multicam
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_multicam.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (MultiCam)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2112,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a1d1b98bfa8da0db4a863": {
+		// Airframe cover aor1
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_aor1.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (AOR1)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2112,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a22700f67790a19b4a864": {
+		// Airframe cover aor2
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_aor2.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (AOR2)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 3011,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 2112,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a2299714cddeb91b4a865": {
+		// Airframe cover choc
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_choc.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (DBDU)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 753,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 653,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a22bbfc1a34cac6b4a866": {
+		// Airframe cover desert night camo
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_desert_night_camo.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (DNC)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 753,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 653,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a22edf4bbd75165b4a867": {
+		// Airframe cover kryptek
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_kryptek.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (Kryptek Mandrake)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 753,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 653,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a0a230b3d283d711cb4a868": {
+		// Airframe cover (T Block)
+		"itemTplToClone": "5c0e66e2d174af02a96252f4",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/crye_airframe/item_equipment_cover_crye_t_block.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.01,
+			"CanSellOnRagfair": true,
+			"Height": 1,
+			"Width": 1,
+			"ItemSound": "item_cloth_generic",
+			"Unlootable": false,
+			"CanPutIntoDuringTheRaid": false,
+			"Indestructibility": 0,
+			"ArmorType": "None",
+			"BluntThroughput": 1,
+			"armorClass": 0,
+			"armorColliders": [],
+			"mousePenalty": 0,
+			"speedPenaltyPercent": 0,
+			"Durability": 100,
+			"RicochetParams": {
+				"x": 0,
+				"y": 0,
+				"z": 1
+			},
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Crye Airframe helmet cover (T-Block)",
+				"shortName": "Airframe",
+				"description": "A fabric camouflage cover tailored for the Crye Airframe used to help break up the helmet’s outline and reduce glare, offering a slight edge in concealment."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 753,
+		"handbookPriceRoubles": 500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {
+			"HOSER": {
+				"6930973fc00b2b15fc61797f": {
+					"barterSettings": {
+						"loyalLevel": 2,
+						"unlimitedCount": true,
+						"stackObjectsCount": 10
+					},
+					"barters": [
+						{
+							"count": 653,
+							"_tpl": "MONEY_ROUBLES"
+						}
+					]
+				}
+			}
+		}
+	},
+	"6a32b342d54ecde6786ffadf": {
+		// LShZ Cover
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/lshz/mount_lshz_cover_emr.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "LShZ-1+ cover (EMR)",
+				"shortName": "LShZ",
+				"description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a32bd63cdc9d6712b6ffae0": {
+		// LShZ Cover
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/lshz/mount_lshz_cover_atacs_fg.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "LShZ-1+ cover (A-TACS FG)",
+				"shortName": "LShZ",
+				"description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a32bd8954d48c508b6ffae1": {
+		// LShZ Cover (ATACS AU)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/lshz/mount_lshz_cover_atacs_au.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "LShZ-1+ cover (A-TACS AU)",
+				"shortName": "LShZ",
+				"description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a32c1e01b484ff5e86ffae2": {
+		// LShZ Cover (Black)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/lshz/mount_lshz_cover_black.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "LShZ-1+ cover (Black)",
+				"shortName": "LShZ",
+				"description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a32c3bfef7e9753a16ffae3": {
+		// LShZ Cover (Black)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/lshz/mount_lshz_cover_mc.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "LShZ-1+ cover (MultiCam)",
+				"shortName": "LShZ",
+				"description": "A fabric camouflage cover tailored for the LShZ-1+ lightweight helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a359b9f33f60a4f7a85c447": {
+		// Kiver RSP cover (EMR)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/kiver_rsp/kiver_cover_emr.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Kiver RSP cover (EMR)",
+				"shortName": "Kiver RSP",
+				"description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a359beed1c05df6e185c448": {
+		// Kiver RSP cover (MultiCam)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/kiver_rsp/kiver_cover_mc.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Kiver RSP cover (MultiCam)",
+				"shortName": "Kiver RSP",
+				"description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6a359c0a41516351d285c449": {
+		// Kiver RSP cover (A-TACS FG)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/kiver_rsp/kiver_cover_atacs.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Kiver RSP cover (A-TACS FG)",
+				"shortName": "Kiver RSP",
+				"description": "A fabric camouflage cover tailored for the Kiver RSP ballistic helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6ac3e949fffff507f5f10169": {
+		// 6B47 cover (RUAF)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/6b47/cover_6b47_ruaf.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "6B47 Ratnik-BSh cover (RUAF)",
+				"shortName": "6B47",
+				"description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6ac3e95ea990adde97f1016a": {
+		// 6B47 cover (ATACS)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/6b47/cover_6b47_atacs.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "6B47 Ratnik-BSh cover (A-TACS FG)",
+				"shortName": "6B47",
+				"description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6ac3e96f813c8d4718f1016b": {
+		// 6B47 cover (OD)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/6b47/cover_6b47_od.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "6B47 Ratnik-BSh cover (Olive Drab)",
+				"shortName": "6B47",
+				"description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6ac3e97bbff9d7e291f1016c": {
+		// 6B47 cover (ATACS)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/6b47/cover_6b47_blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "6B47 Ratnik-BSh cover (Black)",
+				"shortName": "6B47",
+				"description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6ac3e98d3b9c90d2f7f1016d": {
+		// 6B47 cover (MC)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/6b47/cover_6b47_mc.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "6B47 Ratnik-BSh cover (MultiCam)",
+				"shortName": "6B47",
+				"description": "A fabric camouflage cover tailored for the 6B47 Ratnik-BSh helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaec2156139f13d0b5be50": {
+		// SENTRY XP cover (AOR2)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_aor2.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (AOR2)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf1df4e867f0a60b5be51": {
+		// SENTRY XP cover (Black)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Black)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf281cbd40076b9b5be52": {
+		// SENTRY XP cover (Tan)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_tan.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Coyote Tan)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf29567c74aca7bb5be53": {
+		// SENTRY XP cover (DNC)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_dnc.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Desert Night)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf2b0f7a574eda1b5be54": {
+		// SENTRY XP cover (Frogskin Jungle)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_frog.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Frogskin Jungle)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf31d258703563eb5be55": {
+		// SENTRY XP cover (Wolf Grey)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_gry.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Wolf Grey)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf3350a926405d6b5be56": {
+		// SENTRY XP cover (M 81 WOodland)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_m81.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (M81 Woodland)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf33c2bcc0a30bfb5be57": {
+		// SENTRY XP cover (MultiCam)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mc.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (MultiCam)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf352206e675667b5be58": {
+		// SENTRY XP cover (MultiCam Black)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_mcb.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (MultiCam Black)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf3733b1a226113b5be59": {
+		// SENTRY XP cover (Olive Drab)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_od.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Olive Drab)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"6acaf3857edb52f753b5be5a": {
+		// SENTRY XP cover (Olive Drab)
+		"itemTplToClone": "5d6d3943a4b9360dbc46d0cc",
+		"parentId": "55818b224bdc2dde698b456f",
+		"handbookParentId": "5b5f755f86f77447ec5d770e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/helmets/opscore_sentry/cover_opscore_sentry_splatter.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "violet"
+		},
+		"locales": {
+			"en": {
+				"name": "SENTRY XP cover (Arcade Splatter)",
+				"shortName": "SENTRY XP",
+				"description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 1500,
+		"handbookPriceRoubles": 800,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	}
 }

@@ -7,10 +7,18 @@
 		},
 		"mods": {
 			"6959f5cefa310a108862b798": {
-				"Front_plate": ["656fa53d94b480b8a500c0e4"],
-				"Back_plate": ["656fa53d94b480b8a500c0e4"],
-				"Soft_armor_front": ["6959f5328aa6eaf6ea62b797"],
-				"Soft_armor_back": ["6959f60089e07cdf6f62b79d"]
+				"Front_plate": [
+					"656fa53d94b480b8a500c0e4"
+				],
+				"Back_plate": [
+					"656fa53d94b480b8a500c0e4"
+				],
+				"Soft_armor_front": [
+					"6959f5328aa6eaf6ea62b797"
+				],
+				"Soft_armor_back": [
+					"6959f60089e07cdf6f62b79d"
+				]
 			}
 		}
 	}

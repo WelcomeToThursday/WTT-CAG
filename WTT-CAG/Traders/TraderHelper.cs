@@ -43,13 +43,20 @@ public class TraderHelper(
             Base = cloner.Clone(traderDetailsToAdd)!,
             QuestAssort = new Dictionary<string, Dictionary<MongoId, MongoId>>
             {
-                { "Started", new Dictionary<MongoId, MongoId>() },
-                { "Success", new Dictionary<MongoId, MongoId>() },
-                { "Fail", new Dictionary<MongoId, MongoId>() }
+                {
+                    "Started", new Dictionary<MongoId, MongoId>()
+                },
+                {
+                    "Success", new Dictionary<MongoId, MongoId>()
+                },
+                {
+                    "Fail", new Dictionary<MongoId, MongoId>()
+                }
             },
             Dialogue = [],
             Suits = []
         };
+
         // Add the new trader id and data to the server
         if (!tradersTable.TryAdd(traderDetailsToAdd.Id, traderDataToAdd))
         {
@@ -61,7 +68,6 @@ public class TraderHelper(
     /// Add traders name/location/description to all locales (e.g. German/French/English)
     /// </summary>
     /// <param name="baseJson">json file for trader (db/base.json)</param>
-    /// <param name="firstName">First name of trader</param>
     /// <param name="description">Flavor text of whom the trader is</param>
     public void AddTraderToLocales(TraderBase baseJson, string description)
     {

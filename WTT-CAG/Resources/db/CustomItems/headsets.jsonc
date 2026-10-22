@@ -1,263 +1,277 @@
 ﻿{
-  "6a343ff7cee26b50ce488014": { // Rex-V headset
-    "itemTplToClone": "628e4e576d783146b124c64d",
-    "parentId": "5645bcb74bdc2ded0b8b4578",
-    "handbookParentId": "5b5f6f3c86f774094242ef87",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/headsets/headset_atlanticsig_revx_coyote.bundle",
-        "rcid": ""
-      },
-      "Weight": 0.58,
-      "AmbientVolume": -44,
-      "AmbientCompressorSendLevel": -12,
-      "ClientPlayerCompressorSendLevel": -5,
-      "CompressorAttack": 32,
-      "CompressorRelease": 95,
-      "CompressorThreshold": -24,
-      "CompressorGain": 4,
-      "Distortion": 0.07,
-      "EQBand1Frequency": 380,
-      "EQBand1Gain": 1.05,
-      "EQBand1Q": 1.2,
-      "EQBand2Frequency": 3200,
-      "EQBand2Gain": 1.15,
-      "EQBand2Q": 0.8,
-      "EQBand3Frequency": 5500,
-      "EQBand3Gain": 1.10,
-      "EQBand3Q": 1.0,
-      "EnvCommonCompressorSendLevel": -6,
-      "EnvNatureCompressorSendLevel": -3,
-      "EnvTechnicalCompressorSendLevel": -8,
-      "GunsCompressorSendLevel": -5,
-      "HighpassFreq": 180,
-      "HighpassResonance": 2.0,
-      "LowpassFreq": 22000,
-      "RolloffMultiplier": 1.12
-    },
-    "locales": {
-      "en": {
-        "name": "Atlantic Signal REV-X hybrid headset (Coyote Brown)",
-        "shortName": "REV-X",
-        "description": "A standard head strap mounting system for various standard night-vision devices."
-      }
-    },
-    "fleaPriceRoubles": 87878,
-    "handbookPriceRoubles": 55555,
-    "addtoInventorySlots": [
-      "Earpiece"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 150
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 15
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 20
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 40
-      }
-    ],
-    "masteries": false,
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "masterySections": []
-  },
-  "6a4709b1251cadcb5d21a494": { // AMP Headset (Blk)
-    "itemTplToClone": "5645bcc04bdc2d363b8b4572",
-    "parentId": "5645bcb74bdc2ded0b8b4578",
-    "handbookParentId": "5b5f6f3c86f774094242ef87",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/headsets/headset_opscore_amp_blk.bundle",
-        "rcid": ""
-      },
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [
-        "5a16b9fffcdbcb0176308b34",
-        "66b5f6a28ca68c6461709ed8",
-        "66b5f69ea7f72d197e70bcdb",
-        "5c06c6a80db834001b735491",
-        "59e7708286f7742cbd762753",
-        "5b4327aa5acfc400175496e0",
-        "618aef6d0a5a59657e5f55ee",
-        "60b52e5bc7d8103275739d67",
-        "5d96141523f0ea1b7f2aacab"
-      ],
-      "Weight": 0.426,
-      "AmbientVolume": -65,
-      "ClientPlayerCompressorSendLevel": -7,
-      "CompressorAttack": 35,
-      "CompressorGain": 8,
-      "CompressorRelease": 160,
-      "CompressorThreshold": -24,
-      "Distortion": 0.05,
-      "DryVolume": -60,
-      "EQBand1Frequency": 307,
-      "EQBand1Gain": 1.15,
-      "EQBand1Q": 1.35,
-      "EQBand2Frequency": 2500,
-      "EQBand2Gain": 1.35,
-      "EQBand2Q": 0.5,
-      "EQBand3Frequency": 4861,
-      "EQBand3Gain": 1.35,
-      "EQBand3Q": 0.6,
-      "EffectsReturnsCompressorSendLevel": -80,
-      "EffectsReturnsGroupVolume": -8,
-      "EnvCommonCompressorSendLevel": -8.5,
-      "EnvNatureCompressorSendLevel": -7,
-      "EnvTechnicalCompressorSendLevel": -15.5,
-      "GunsCompressorSendLevel": -7,
-      "HeadphonesMixerVolume": -7,
-      "HighpassFreq": 200,
-      "HighpassResonance": 2.2,
-      "LowpassFreq": 22000,
-      "RolloffMultiplier": 1.135
-    },
-    "locales": {
-      "en": {
-        "name": "Ops-Core AMP headset",
-        "shortName": "AMP",
-        "description": "Cutting-edge tactical headset used by top-tier operators for battlefield awareness. Offers active electronic hearing protection, amplifying quiet sounds like footsteps and distant reloads while dampening gunfire."
-      }
-    },
-    "fleaPriceRoubles": 87878,
-    "handbookPriceRoubles": 55555,
-    "addtoInventorySlots": [
-      "Earpiece"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 150
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 15
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 20
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 40
-      }
-    ],
-    "masteries": false,
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "masterySections": []
-  },
-  "6a4709fce8b57eddf421a495": { // AMP Headset (FDE)
-    "itemTplToClone": "5645bcc04bdc2d363b8b4572",
-    "parentId": "5645bcb74bdc2ded0b8b4578",
-    "handbookParentId": "5b5f6f3c86f774094242ef87",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Headwear/headsets/headset_opscore_amp_fde.bundle",
-        "rcid": ""
-      },
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [
-        "5a16b9fffcdbcb0176308b34",
-        "66b5f6a28ca68c6461709ed8",
-        "66b5f69ea7f72d197e70bcdb",
-        "5c06c6a80db834001b735491",
-        "59e7708286f7742cbd762753",
-        "5b4327aa5acfc400175496e0",
-        "618aef6d0a5a59657e5f55ee",
-        "60b52e5bc7d8103275739d67",
-        "5d96141523f0ea1b7f2aacab"
-      ],
-      "Weight": 0.426,
-      "AmbientVolume": -65,
-      "ClientPlayerCompressorSendLevel": -7,
-      "CompressorAttack": 35,
-      "CompressorGain": 8,
-      "CompressorRelease": 160,
-      "CompressorThreshold": -24,
-      "Distortion": 0.05,
-      "DryVolume": -60,
-      "EQBand1Frequency": 307,
-      "EQBand1Gain": 1.15,
-      "EQBand1Q": 1.35,
-      "EQBand2Frequency": 2500,
-      "EQBand2Gain": 1.35,
-      "EQBand2Q": 0.5,
-      "EQBand3Frequency": 4861,
-      "EQBand3Gain": 1.35,
-      "EQBand3Q": 0.6,
-      "EffectsReturnsCompressorSendLevel": -80,
-      "EffectsReturnsGroupVolume": -8,
-      "EnvCommonCompressorSendLevel": -8.5,
-      "EnvNatureCompressorSendLevel": -7,
-      "EnvTechnicalCompressorSendLevel": -15.5,
-      "GunsCompressorSendLevel": -7,
-      "HeadphonesMixerVolume": -7,
-      "HighpassFreq": 200,
-      "HighpassResonance": 2.2,
-      "LowpassFreq": 22000,
-      "RolloffMultiplier": 1.135
-    },
-    "locales": {
-      "en": {
-        "name": "Ops-Core AMP headset (Coyote Tan)",
-        "shortName": "AMP",
-        "description": "Cutting-edge tactical headset used by top-tier operators for battlefield awareness. Offers active electronic hearing protection, amplifying quiet sounds like footsteps and distant reloads while dampening gunfire."
-      }
-    },
-    "fleaPriceRoubles": 87878,
-    "handbookPriceRoubles": 55555,
-    "addtoInventorySlots": [
-      "Earpiece"
-    ],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 150
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 15
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 20
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 40
-      }
-    ],
-    "masteries": false,
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "masterySections": []
-  }
+	"6a343ff7cee26b50ce488014": {
+		// Rev-X headset
+		"itemTplToClone": "628e4e576d783146b124c64d",
+		"parentId": "5645bcb74bdc2ded0b8b4578",
+		"handbookParentId": "5b5f6f3c86f774094242ef87",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/headsets/headset_atlanticsig_revx_coyote.bundle",
+				"rcid": ""
+			},
+			"ConflictingItems": [
+				"5a16b9fffcdbcb0176308b34",
+				"66b5f6a28ca68c6461709ed8",
+				"66b5f69ea7f72d197e70bcdb",
+				"69c264c00f660b3f0d058fcf",
+				// TW Exfil Black
+				"69c26593ea474c30ad069f8f",
+				// TW Exfil Ranger Green
+				"5c06c6a80db834001b735491",
+				"59e7708286f7742cbd762753",
+				"5b4327aa5acfc400175496e0",
+				"618aef6d0a5a59657e5f55ee",
+				"60b52e5bc7d8103275739d67",
+				"5d96141523f0ea1b7f2aacab",
+				"68bf405779c8186398099017",
+				// TEP-300
+				"69413241b1ce1e5fbb09ed0a"
+				// CENS ProFlex
+			],
+			"Weight": 0.58,
+			"AmbientVolume": -44,
+			"AmbientCompressorSendLevel": -12,
+			"ClientPlayerCompressorSendLevel": -5,
+			"CompressorAttack": 32,
+			"CompressorRelease": 95,
+			"CompressorThreshold": -24,
+			"CompressorGain": 4,
+			"Distortion": 0.07,
+			"EQBand1Frequency": 380,
+			"EQBand1Gain": 1.05,
+			"EQBand1Q": 1.2,
+			"EQBand2Frequency": 3200,
+			"EQBand2Gain": 1.15,
+			"EQBand2Q": 0.8,
+			"EQBand3Frequency": 5500,
+			"EQBand3Gain": 1.10,
+			"EQBand3Q": 1.0,
+			"EnvCommonCompressorSendLevel": -6,
+			"EnvNatureCompressorSendLevel": -3,
+			"EnvTechnicalCompressorSendLevel": -8,
+			"GunsCompressorSendLevel": -5,
+			"HighpassFreq": 180,
+			"HighpassResonance": 2.0,
+			"LowpassFreq": 22000,
+			"RolloffMultiplier": 1.12
+		},
+		"locales": {
+			"en": {
+				"name": "Atlantic Signal REV-X hybrid headset (Coyote Brown)",
+				"shortName": "REV-X",
+				"description": "The Revolution-X (or REV-X) headset was developed for US Special Operations Forces who were looking for a headset that could provide dual-radio audio systems while remaining open-eared for ventilation, as well as being able to survive up to 1 meter of saltwater submersion. Designed by Atlantic Signal."
+			}
+		},
+		"fleaPriceRoubles": 87878,
+		"handbookPriceRoubles": 55555,
+		"addtoInventorySlots": [
+			"Earpiece"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 150
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 15
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 20
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 40
+			}
+		],
+		"masteries": false,
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"masterySections": []
+	},
+	"6a4709b1251cadcb5d21a494": {
+		// AMP Headset (Blk)
+		"itemTplToClone": "66b5f6985891c84aab75ca76",
+		"parentId": "5645bcb74bdc2ded0b8b4578",
+		"handbookParentId": "5b5f6f3c86f774094242ef87",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/headsets/headset_opscore_amp_blk.bundle",
+				"rcid": ""
+			},
+			"CanSellOnRagfair": true,
+			"ConflictingItems": [
+				"5a16b9fffcdbcb0176308b34",
+				"66b5f6a28ca68c6461709ed8",
+				"66b5f69ea7f72d197e70bcdb",
+				"69c264c00f660b3f0d058fcf",
+				// TW Exfil Black
+				"69c26593ea474c30ad069f8f",
+				// TW Exfil Ranger Green
+				"5c06c6a80db834001b735491",
+				"59e7708286f7742cbd762753",
+				"5b4327aa5acfc400175496e0",
+				"618aef6d0a5a59657e5f55ee",
+				"60b52e5bc7d8103275739d67",
+				"5d96141523f0ea1b7f2aacab",
+				"68bf405779c8186398099017",
+				// TEP-300
+				"69413241b1ce1e5fbb09ed0a"
+				// CENS ProFlex
+			],
+			"Weight": 0.426,
+			"ClientPlayerCompressorSendLevel": -7,
+			"CompressorAttack": 35,
+			"CompressorThreshold": -24,
+			"Distortion": 0.05,
+			"DryVolume": -60,
+			"EQBand1Frequency": 307,
+			"EQBand1Gain": 1.15,
+			"EQBand1Q": 1.2,
+			"EffectsReturnsCompressorSendLevel": -80,
+			"EffectsReturnsGroupVolume": -8,
+			"EnvCommonCompressorSendLevel": -8.5,
+			"EnvNatureCompressorSendLevel": -7,
+			"EnvTechnicalCompressorSendLevel": -15.5,
+			"HighpassFreq": 200,
+			"HighpassResonance": 2.2,
+			"RolloffMultiplier": 1.135
+		},
+		"locales": {
+			"en": {
+				"name": "Ops-Core AMP headset",
+				"shortName": "AMP",
+				"description": "Cutting-edge tactical headset used by top-tier operators for battlefield awareness. Offers active electronic hearing protection, amplifying quiet sounds like footsteps and distant reloads while dampening gunfire."
+			}
+		},
+		"fleaPriceRoubles": 87878,
+		"handbookPriceRoubles": 55555,
+		"addtoInventorySlots": [
+			"Earpiece"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 150
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 15
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 20
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 40
+			}
+		],
+		"masteries": false,
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"masterySections": []
+	},
+	"6a4709fce8b57eddf421a495": {
+		// AMP Headset (FDE)
+		"itemTplToClone": "66b5f6985891c84aab75ca76",
+		"parentId": "5645bcb74bdc2ded0b8b4578",
+		"handbookParentId": "5b5f6f3c86f774094242ef87",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Headwear/headsets/headset_opscore_amp_fde.bundle",
+				"rcid": ""
+			},
+			"CanSellOnRagfair": true,
+			"ConflictingItems": [
+				"5a16b9fffcdbcb0176308b34",
+				"66b5f6a28ca68c6461709ed8",
+				"66b5f69ea7f72d197e70bcdb",
+				"69c264c00f660b3f0d058fcf",
+				// TW Exfil Black
+				"69c26593ea474c30ad069f8f",
+				// TW Exfil Ranger Green
+				"5c06c6a80db834001b735491",
+				"59e7708286f7742cbd762753",
+				"5b4327aa5acfc400175496e0",
+				"618aef6d0a5a59657e5f55ee",
+				"60b52e5bc7d8103275739d67",
+				"5d96141523f0ea1b7f2aacab",
+				"68bf405779c8186398099017",
+				// TEP-300
+				"69413241b1ce1e5fbb09ed0a"
+				// CENS ProFlex
+			],
+			"Weight": 0.426,
+			"ClientPlayerCompressorSendLevel": -7,
+			"CompressorAttack": 35,
+			"CompressorThreshold": -24,
+			"Distortion": 0.05,
+			"DryVolume": -60,
+			"EQBand1Frequency": 307,
+			"EQBand1Gain": 1.15,
+			"EQBand1Q": 1.2,
+			"EffectsReturnsCompressorSendLevel": -80,
+			"EffectsReturnsGroupVolume": -8,
+			"EnvCommonCompressorSendLevel": -8.5,
+			"EnvNatureCompressorSendLevel": -7,
+			"EnvTechnicalCompressorSendLevel": -15.5,
+			"HighpassFreq": 200,
+			"HighpassResonance": 2.2,
+			"RolloffMultiplier": 1.135
+		},
+		"locales": {
+			"en": {
+				"name": "Ops-Core AMP headset (Coyote Tan)",
+				"shortName": "AMP",
+				"description": "Cutting-edge tactical headset used by top-tier operators for battlefield awareness. Offers active electronic hearing protection, amplifying quiet sounds like footsteps and distant reloads while dampening gunfire."
+			}
+		},
+		"fleaPriceRoubles": 87878,
+		"handbookPriceRoubles": 55555,
+		"addtoInventorySlots": [
+			"Earpiece"
+		],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 150
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 15
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 20
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 40
+			}
+		],
+		"masteries": false,
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"masterySections": []
+	}
 }

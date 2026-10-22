@@ -1,1721 +1,1935 @@
 {
-  "68bd04c1cee1ad932ea3c3aa": { // Smersh NEWGEN
-    "itemTplToClone": "63611865ba5b90db0c0399d1",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/smersh/item_equipment_rig_smersh_newgen.bundle",
-        "rcid": ""
-      },
-      "Name": "item_equipment_rig_smersh_newgen_olive",
-      "ExaminedByDefault": true,
-      "Weight": 1.2,
-      "Height": 4,
-      "Width": 3,
-      "RigLayoutName": "Smersh_AK",
-      "Slots": [],
-      "Grids": [
-        {
-          "_id": "69ec74c5313ca9e0d47c90c0",
-          "_name": "GridView (1)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "69ec74c6b79f61cf3c7c90c1",
-          "_name": "GridView (2)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "69ec74c89be51db20d7c90c2",
-          "_name": "GridView (3)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "69ec74c9888854c52d7c90c3",
-          "_name": "GridView (4)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "69ec74cb6a0e590d817c90c4",
-          "_name": "GridView (5)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "69ec74cc6ad06f38a47c90c5",
-          "_name": "GridView (6)",
-          "_parent": "68bd04c1cee1ad932ea3c3aa",
-          "_props": {
-            "cellsH": 3,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a",
-                  "5795f317245977243854e041",
-                  "5b5f6f8786f77447ed563642"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "SSO Smersh \"New-Gen\" chest rig (Olive Drab)",
-        "shortName": "Smersh",
-        "description": "The modernised Smersh rig provides a balanced platform for carrying essential equipment. Built from durable, lightweight materials, it features an updated harness system and modular pouch layout for improved weight distribution and accessibility. Manufactured by SSO."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 64310,
-    "handbookPriceRoubles": 55320,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "68bb4520b4883cef1fd7726e": { // Platatac Peacekeeper (MCT)
-    "itemTplToClone": "5e9db13186f7742f845ee9d3",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_mc_tropic.bundle",
-        "rcid": ""
-      },
-      "Weight": 1.24,
-      "Height": 3,
-      "Width": 4,
-      "RigLayoutName": "PTac_PK_MK3_Layout",
-      "Grids": [
-        {
-          "_id": "b0f105a6d4b97749b562cb01",
-          "_name": "GridView (1)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 3,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "9a7c02a8ed830d920d6d37da",
-          "_name": "GridView (2)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "db2a1df78bfea6d73158cd3e",
-          "_name": "GridView (3)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "272534de59757cd6a774704a",
-          "_name": "GridView (4)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "665e6b80df63d66453553daf",
-          "_name": "GridView (5)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 3,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "655b14a78542f85052c82cad",
-          "_name": "GridView (6)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "02b6f2e62ccdd14ec1624c60",
-          "_name": "GridView (7)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "dd133c1ba74c8927a2e47714",
-          "_name": "GridView (8)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "1c5b548f4cd6cfdcb007bce0",
-          "_name": "GridView (9)",
-          "_parent": "68bb4520b4883cef1fd7726e",
-          "_props": {
-            "cellsH": 3,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Platatac Peacekeeper Mk.5 chest rig (Multicam Tropic)",
-        "shortName": "Peacekeeper",
-        "description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. Multicam Tropic version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 64310,
-    "handbookPriceRoubles": 55320,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "68bb48062701bb673faca8af": { // Platatac Peacekeeper (ATACS FG)
-    "itemTplToClone": "68bb4520b4883cef1fd7726e",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_dpm_desert.bundle",
-        "rcid": ""
-      },
-      "RigLayoutName": "PTac_PK_MK3_Layout"
-    },
-    "locales": {
-      "en": {
-        "name": "Platatac Peacekeeper Mk.5 chest rig (DPM Desert)",
-        "shortName": "Peacekeeper",
-        "description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. DPM Desert version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 64310,
-    "handbookPriceRoubles": 55320,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "68bb484b1ea04700566271e9": { // Platatac Peacekeeper (Coyote)
-    "itemTplToClone": "68bb4520b4883cef1fd7726e",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_coyote.bundle",
-        "rcid": ""
-      },
-      "RigLayoutName": "PTac_PK_MK3_Layout"
-    },
-    "locales": {
-      "en": {
-        "name": "Platatac Peacekeeper Mk.5 chest rig (Coyote Tan)",
-        "shortName": "Peacekeeper",
-        "description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. Coyote Tan version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 64310,
-    "handbookPriceRoubles": 55320,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 7
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-    "traders": {}
-  },
-  "69534dfbedb3d1c75c40ffb3": { // Spiritus 34A (Multicam)
-    "itemTplToClone": "63611865ba5b90db0c0399d1",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/spiritus_34a/rig_spiritus_34a_mc.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 1.556,
-      "Height": 3,
-      "Width": 3,
-      "RigLayoutName": "Spiritus_34A_Layout",
-      "Grids": [
-        {
-          "_id": "48f7df78e0d6e154645d6e32",
-          "_name": "GridView (1)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "3fee5316cae8de0d9390caf2",
-          "_name": "GridView (2)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "c657adb7e42d97a88318771d",
-          "_name": "GridView (3)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "474d5ae605a35c71c940d081",
-          "_name": "GridView (4)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "62f4bb83abdae2d6165f2bd5",
-          "_name": "GridView (5)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "e157fae6d7f201a56041597a",
-          "_name": "GridView (6)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "d843393d97024d3e449504b9",
-          "_name": "GridView (7)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "da44b122997d97beff61b51c",
-          "_name": "GridView (8)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "4bace7bedec72670647e9108",
-          "_name": "GridView (9)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "a8eaf5aebfa0ddd6dd79f345",
-          "_name": "GridView (10)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "90b6cd546ff84a3985d040b0",
-          "_name": "GridView (11)",
-          "_parent": "69534dfbedb3d1c75c40ffb3",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems 34 Alpha load-bearing chest rig (MultiCam)",
-        "shortName": "34A",
-        "description": "A compact, modular load-bearing rig designed for agile operators who favor mobility without sacrificing capacity. The 34 Alpha features ample space to mount accessories and pouches and mission-critical essentials, all laid out for fast access under fire. Manufactured by Spiritus Systems. Multicam version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 88493,
-    "handbookPriceRoubles": 46693,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6953624c2484d8d5f5f6cd44": { // Spiritus 34A (Olive Drab)
-    "itemTplToClone": "69534dfbedb3d1c75c40ffb3",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/spiritus_34a/rig_spiritus_34a_od.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 1.556,
-      "Height": 3,
-      "Width": 3,
-      "RigLayoutName": "Spiritus_34A_Layout"
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems 34 Alpha load-bearing chest rig (Olive Drab)",
-        "shortName": "34A",
-        "description": "A compact, modular load-bearing rig designed for agile operators who favor mobility without sacrificing capacity. The 34 Alpha features ample space to mount accessories and pouches and mission-critical essentials, all laid out for fast access under fire. Manufactured by Spiritus Systems. Multicam version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 88493,
-    "handbookPriceRoubles": 46693,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 6
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 5
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 1
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a20786972368005446cde7c": { // RothCo Tactical Assault Panel
-    "itemTplToClone": "603648ff5a45383c122086ac",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/cr_rothco_tap_ucp.bundle",
-        "rcid": ""
-      },
-      "Name": "item_equipment_rig_rothco_tap_ucp",
-      "ExaminedByDefault": true,
-      "Weight": 0.75,
-      "Height": 3,
-      "Width": 4,
-      "RigLayoutName": "azimut1",
-      "mousePenalty": 0,
-      "speedPenaltyPercent": -2,
-      "weaponErgonomicPenalty": -1
-    },
-    "locales": {
-      "en": {
-        "name": "RothCo Tactical Assault Panel chest rig (UCP)",
-        "shortName": "TAPS",
-        "description": "The Tactical Assault Panel is a modular chest rig system based on the same versatile design used by the U.S. Army, featuring 6 integrated mag pouches with a further 2 utility pouches ideal for Radio systems or medical items. Manufactured by RothCo."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 38309,
-    "handbookPriceRoubles": 30128,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
-        "probability": 250
-      },
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_SUPPLY_CRATE",
-        "probability": 200
-      },
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 100
-      },
-      {
-        "containerName": "LOOTCONTAINER_DEAD_SCAV",
-        "probability": 10
-      },
-      {
-        "containerName": "LOOTCONTAINER_GROUND_CACHE",
-        "probability": 100
-      },
-      {
-        "containerName": "6582e6d7b14c3f72eb071420",
-        "probability": 100
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a47082f9a8887ee1e21a491": { // Spiritus Systems Microfight
-    "itemTplToClone": "5e9db13186f7742f845ee9d3",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/microfight/item_equipment_chestrig_ss_microfight_blk.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 0.553,
-      "Height": 4,
-      "Width": 3,
-      "mousePenalty": 0,
-      "speedPenaltyPercent": -2,
-      "weaponErgonomicPenalty": -1,
-      "RigLayoutName": "ss_microfight",
-      "Grids": [
-        {
-          "_id": "6a470895b9db8587fb21a492",
-          "_name": "GridView (1)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "e50e78a4e4c2f790f2b8c6a7",
-          "_name": "GridView (2)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "e6e531680ec72bc6d90fc944",
-          "_name": "GridView (3)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "64ef1d736c953e4931734cfd",
-          "_name": "GridView (4)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "7ad0d29605d02d6ecbff11ec",
-          "_name": "GridView (5)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "1e95adc162a2c68c0f5dac14",
-          "_name": "GridView (6)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "3fd88664271e9e45ab7eb5bd",
-          "_name": "GridView (7)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "183cfd77d3d493cd33e54023",
-          "_name": "GridView (8)",
-          "_parent": "6a47082f9a8887ee1e21a491",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems Micro Fight Mk.4 chest rig",
-        "shortName": "Micro Fight",
-        "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 45498,
-    "handbookPriceRoubles": 27489,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 500
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 60
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 10
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a47097eb301124e6d21a493": { // Spiritus Systems Microfight (M81)
-    "itemTplToClone": "6a47082f9a8887ee1e21a491", // Microfight BLK
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/microfight/item_equipment_chestrig_ss_microfight_m81.bundle",
-        "rcid": ""
-      }
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems Micro Fight Mk.4 chest rig (M81 Woodland)",
-        "shortName": "Micro Fight",
-        "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems. M81 Woodland version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 45498,
-    "handbookPriceRoubles": 27489,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 500
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 60
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 10
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a476b0f33f2ed750908aff7": { // Spiritus Systems "The Thing 3" chest rig
-    "itemTplToClone": "5e9db13186f7742f845ee9d3",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/spiritus_thing3/item_equipment_rig_ss_thing3_tan.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 0.656,
-      "Height": 4,
-      "Width": 3,
-      "mousePenalty": 0,
-      "speedPenaltyPercent": -1,
-      "weaponErgonomicPenalty": -1.5,
-      "RigLayoutName": "ss_the_thing3",
-      "Grids": [
-        {
-          "_id": "6a476bbf9dbad0965b08aff8",
-          "_name": "GridView (1)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "04bd6192f3cbcc9bc524e200",
-          "_name": "GridView (2)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "9c8cc5b3a61511d6be744c70",
-          "_name": "GridView (3)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "d51c90ee414de17d05f56c38",
-          "_name": "GridView (4)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "0e818f3643fe3fdcc471197a",
-          "_name": "GridView (5)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "7f8acf4624249ba3026c0862",
-          "_name": "GridView (6)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "04c6c72a0649ed0c378ba82c",
-          "_name": "GridView (7)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "2c2895b5499f954336b999b6",
-          "_name": "GridView (8)",
-          "_parent": "6a476b0f33f2ed750908aff7",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems Thing 3 chest rig (Coyote Tan)",
-        "shortName": "Thing 3",
-        "description": "The Thing 3 is a robust, load-bearing platform designed to enhance the carrying capacity of a standard warfighter, featuring custom ergonomics like 4-column double-sided MOLLE for accessory mounting. Manufactured by Spiritus Systems. Coyote Tan version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 24400,
-    "handbookPriceRoubles": 21200,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 750
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 100
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 110
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a476c75ded8afadee08affa": { // Spiritus Systems "The Thing 3" chest rig
-    "itemTplToClone": "6a476b0f33f2ed750908aff7",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/spiritus_thing3/item_equipment_rig_ss_thing3_rg.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 0.656,
-      "Height": 4,
-      "Width": 3,
-      "mousePenalty": 0,
-      "speedPenaltyPercent": -1,
-      "weaponErgonomicPenalty": -1.5,
-      "RigLayoutName": "ss_the_thing3"
-    },
-    "locales": {
-      "en": {
-        "name": "Spiritus Systems Thing 3 chest rig (Ranger Green)",
-        "shortName": "Thing 3",
-        "description": "The Thing 3 is a robust, load-bearing platform designed to enhance the carrying capacity of a standard warfighter, featuring custom ergonomics like 4-column double-sided MOLLE for accessory mounting. Manufactured by Spiritus Systems. Ranger Green version."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 24400,
-    "handbookPriceRoubles": 21200,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 750
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 100
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 110
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a4897243ed9e6f8d7039c85": { // Eberlestock Recon Bino chest rig (Grey)
-    "itemTplToClone": "5e4abc1f86f774069619fbaa",
-    "parentId": "5448e5284bdc2dcb718b4567",
-    "handbookParentId": "5b5f6f8786f77447ed563642",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "Bodywear/unarmoredRigs/item_equipment_eberlestock_recon_bino.bundle",
-        "rcid": ""
-      },
-      "ExaminedByDefault": true,
-      "Weight": 0.23,
-      "Height": 2,
-      "Width": 2,
-      "mousePenalty": 0,
-      "speedPenaltyPercent": -1,
-      "weaponErgonomicPenalty": 0,
-      "RigLayoutName": "eberlestock",
-      "Grids": [
-        {
-          "_id": "f0277f19e0da6cfa08751cf4",
-          "_name": "GridView (1)",
-          "_parent": "6a4897243ed9e6f8d7039c85",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "5447b5cf4bdc2d65278b4567",
-                  "617f1ef5e8b54b0998387733",
-                  "5447bedf4bdc2d87278b4568",
-                  "5447b6094bdc2dc3278b4567"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "81a82560f32fbaddedab39e7",
-          "_name": "GridView (2)",
-          "_parent": "6a4897243ed9e6f8d7039c85",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "3e542731ca51f17fc5427fd9",
-          "_name": "GridView (3)",
-          "_parent": "6a4897243ed9e6f8d7039c85",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Eberlestock Recon Bino Modular chest rig (Grey)",
-        "shortName": "Recon",
-        "description": "The Recon Modular Bino Harness is a super-compact carrier rig designed to be minimal while offering modularity and options for scaling-up to suit any purpose. Manufactured by Eberlestock."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
-    "fleaPriceRoubles": 5120,
-    "handbookPriceRoubles": 3600,
-    "addtoStaticLootContainers": true,
-    "staticLootContainers": [
-      {
-        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "probability": 1000
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 100
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 50
-      },
-      {
-        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 110
-      }
-    ],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  }
+	"68bd04c1cee1ad932ea3c3aa": {
+		// Smersh NEWGEN
+		"itemTplToClone": "63611865ba5b90db0c0399d1",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/smersh/item_equipment_rig_smersh_newgen.bundle",
+				"rcid": ""
+			},
+			"Name": "item_equipment_rig_smersh_newgen_olive",
+			"ExaminedByDefault": true,
+			"Weight": 1.2,
+			"Height": 4,
+			"Width": 3,
+			"RigLayoutName": "Smersh_AK",
+			"Slots": [],
+			"Grids": [
+				{
+					"_id": "69ec74c5313ca9e0d47c90c0",
+					"_name": "GridView (1)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "69ec74c6b79f61cf3c7c90c1",
+					"_name": "GridView (2)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "69ec74c89be51db20d7c90c2",
+					"_name": "GridView (3)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "69ec74c9888854c52d7c90c3",
+					"_name": "GridView (4)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "69ec74cb6a0e590d817c90c4",
+					"_name": "GridView (5)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "69ec74cc6ad06f38a47c90c5",
+					"_name": "GridView (6)",
+					"_parent": "68bd04c1cee1ad932ea3c3aa",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a",
+									"5795f317245977243854e041",
+									"5b5f6f8786f77447ed563642"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "SSO Smersh \"New-Gen\" chest rig (Olive Drab)",
+				"shortName": "Smersh",
+				"description": "The modernised Smersh rig provides a balanced platform for carrying essential equipment. Built from durable, lightweight materials, it features an updated harness system and modular pouch layout for improved weight distribution and accessibility. Manufactured by SSO."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 64310,
+		"handbookPriceRoubles": 55320,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"68bb4520b4883cef1fd7726e": {
+		// Platatac Peacekeeper (MCT)
+		"itemTplToClone": "5e9db13186f7742f845ee9d3",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_mc_tropic.bundle",
+				"rcid": ""
+			},
+			"Weight": 1.24,
+			"Height": 3,
+			"Width": 4,
+			"RigLayoutName": "PTac_PK_MK3_Layout",
+			"Grids": [
+				{
+					"_id": "b0f105a6d4b97749b562cb01",
+					"_name": "GridView (1)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 3,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9a7c02a8ed830d920d6d37da",
+					"_name": "GridView (2)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "db2a1df78bfea6d73158cd3e",
+					"_name": "GridView (3)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "272534de59757cd6a774704a",
+					"_name": "GridView (4)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "665e6b80df63d66453553daf",
+					"_name": "GridView (5)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 3,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "655b14a78542f85052c82cad",
+					"_name": "GridView (6)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "02b6f2e62ccdd14ec1624c60",
+					"_name": "GridView (7)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "dd133c1ba74c8927a2e47714",
+					"_name": "GridView (8)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1c5b548f4cd6cfdcb007bce0",
+					"_name": "GridView (9)",
+					"_parent": "68bb4520b4883cef1fd7726e",
+					"_props": {
+						"cellsH": 3,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Platatac Peacekeeper Mk.5 chest rig (Multicam Tropic)",
+				"shortName": "Peacekeeper",
+				"description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. Multicam Tropic version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 64310,
+		"handbookPriceRoubles": 55320,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"68bb48062701bb673faca8af": {
+		// Platatac Peacekeeper (DPM Desert)
+		"itemTplToClone": "68bb4520b4883cef1fd7726e",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_dpm_desert.bundle",
+				"rcid": ""
+			},
+			"RigLayoutName": "PTac_PK_MK3_Layout"
+		},
+		"locales": {
+			"en": {
+				"name": "Platatac Peacekeeper Mk.5 chest rig (DPM Desert)",
+				"shortName": "Peacekeeper",
+				"description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. DPM Desert version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 64310,
+		"handbookPriceRoubles": 55320,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"68bb484b1ea04700566271e9": {
+		// Platatac Peacekeeper (Coyote)
+		"itemTplToClone": "68bb4520b4883cef1fd7726e",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/peacekeeper/item_equipment_rig_peacekeeper_coyote.bundle",
+				"rcid": ""
+			},
+			"RigLayoutName": "PTac_PK_MK3_Layout"
+		},
+		"locales": {
+			"en": {
+				"name": "Platatac Peacekeeper Mk.5 chest rig (Coyote Tan)",
+				"shortName": "Peacekeeper",
+				"description": "The Peacekeeper MK5 chest rig is a modern modular load-bearing chest rig developed by Platatac. Designed for long-duration operations, it features multiple integrated magazine pouches, utility compartments, and attachment points for additional gear. Coyote Tan version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 64310,
+		"handbookPriceRoubles": 55320,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 7
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": [],
+		"traders": {}
+	},
+	"69534dfbedb3d1c75c40ffb3": {
+		// Spiritus 34A (Multicam)
+		"itemTplToClone": "63611865ba5b90db0c0399d1",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/spiritus_34a/rig_spiritus_34a_mc.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 1.556,
+			"Height": 3,
+			"Width": 3,
+			"RigLayoutName": "Spiritus_34A_Layout",
+			"Grids": [
+				{
+					"_id": "48f7df78e0d6e154645d6e32",
+					"_name": "GridView (1)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3fee5316cae8de0d9390caf2",
+					"_name": "GridView (2)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "c657adb7e42d97a88318771d",
+					"_name": "GridView (3)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "474d5ae605a35c71c940d081",
+					"_name": "GridView (4)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "62f4bb83abdae2d6165f2bd5",
+					"_name": "GridView (5)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e157fae6d7f201a56041597a",
+					"_name": "GridView (6)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d843393d97024d3e449504b9",
+					"_name": "GridView (7)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "da44b122997d97beff61b51c",
+					"_name": "GridView (8)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "4bace7bedec72670647e9108",
+					"_name": "GridView (9)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "a8eaf5aebfa0ddd6dd79f345",
+					"_name": "GridView (10)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "90b6cd546ff84a3985d040b0",
+					"_name": "GridView (11)",
+					"_parent": "69534dfbedb3d1c75c40ffb3",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems 34 Alpha load-bearing chest rig (MultiCam)",
+				"shortName": "34A",
+				"description": "A compact, modular load-bearing rig designed for agile operators who favor mobility without sacrificing capacity. The 34 Alpha features ample space to mount accessories and pouches and mission-critical essentials, all laid out for fast access under fire. Manufactured by Spiritus Systems. Multicam version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 88493,
+		"handbookPriceRoubles": 46693,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6953624c2484d8d5f5f6cd44": {
+		// Spiritus 34A (Olive Drab)
+		"itemTplToClone": "69534dfbedb3d1c75c40ffb3",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/spiritus_34a/rig_spiritus_34a_od.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 1.556,
+			"Height": 3,
+			"Width": 3,
+			"RigLayoutName": "Spiritus_34A_Layout"
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems 34 Alpha load-bearing chest rig (Olive Drab)",
+				"shortName": "34A",
+				"description": "A compact, modular load-bearing rig designed for agile operators who favor mobility without sacrificing capacity. The 34 Alpha features ample space to mount accessories and pouches and mission-critical essentials, all laid out for fast access under fire. Manufactured by Spiritus Systems. Multicam version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 88493,
+		"handbookPriceRoubles": 46693,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 6
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 5
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a20786972368005446cde7c": {
+		// RothCo Tactical Assault Panel
+		"itemTplToClone": "603648ff5a45383c122086ac",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/cr_rothco_tap_ucp.bundle",
+				"rcid": ""
+			},
+			"Name": "item_equipment_rig_rothco_tap_ucp",
+			"ExaminedByDefault": true,
+			"Weight": 0.75,
+			"Height": 3,
+			"Width": 4,
+			"RigLayoutName": "azimut1",
+			"mousePenalty": 0,
+			"speedPenaltyPercent": -2,
+			"weaponErgonomicPenalty": -1
+		},
+		"locales": {
+			"en": {
+				"name": "RothCo Tactical Assault Panel chest rig (UCP)",
+				"shortName": "TAPS",
+				"description": "The Tactical Assault Panel is a modular chest rig system based on the same versatile design used by the U.S. Army, featuring 6 integrated mag pouches with a further 2 utility pouches ideal for Radio systems or medical items. Manufactured by RothCo."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 38309,
+		"handbookPriceRoubles": 30128,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE",
+				"probability": 250
+			},
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_SUPPLY_CRATE",
+				"probability": 200
+			},
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 100
+			},
+			{
+				"containerName": "LOOTCONTAINER_DEAD_SCAV",
+				"probability": 10
+			},
+			{
+				"containerName": "LOOTCONTAINER_GROUND_CACHE",
+				"probability": 100
+			},
+			{
+				"containerName": "6582e6d7b14c3f72eb071420",
+				"probability": 100
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a47082f9a8887ee1e21a491": {
+		// Spiritus Systems Microfight
+		"itemTplToClone": "5e9db13186f7742f845ee9d3",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/microfight/item_equipment_chestrig_ss_microfight_blk.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 0.553,
+			"Height": 4,
+			"Width": 3,
+			"mousePenalty": 0,
+			"speedPenaltyPercent": -2,
+			"weaponErgonomicPenalty": -1,
+			"RigLayoutName": "ss_microfight",
+			"Grids": [
+				{
+					"_id": "6a470895b9db8587fb21a492",
+					"_name": "GridView (1)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e50e78a4e4c2f790f2b8c6a7",
+					"_name": "GridView (2)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "e6e531680ec72bc6d90fc944",
+					"_name": "GridView (3)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "64ef1d736c953e4931734cfd",
+					"_name": "GridView (4)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7ad0d29605d02d6ecbff11ec",
+					"_name": "GridView (5)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "1e95adc162a2c68c0f5dac14",
+					"_name": "GridView (6)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3fd88664271e9e45ab7eb5bd",
+					"_name": "GridView (7)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "183cfd77d3d493cd33e54023",
+					"_name": "GridView (8)",
+					"_parent": "6a47082f9a8887ee1e21a491",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems Micro Fight Mk.4 chest rig",
+				"shortName": "Micro Fight",
+				"description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 45498,
+		"handbookPriceRoubles": 27489,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 500
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 60
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 10
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a47097eb301124e6d21a493": {
+		// Spiritus Systems Microfight (M81)
+		"itemTplToClone": "6a47082f9a8887ee1e21a491",
+		// Microfight BLK
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/microfight/item_equipment_chestrig_ss_microfight_m81.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems MicroFight Mk.4 chest rig (M81 Woodland)",
+				"shortName": "Micro Fight",
+				"description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems. M81 Woodland version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 45498,
+		"handbookPriceRoubles": 27489,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 500
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 60
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 10
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a476b0f33f2ed750908aff7": {
+		// Spiritus Systems "The Thing 3" chest rig
+		"itemTplToClone": "5e9db13186f7742f845ee9d3",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/spiritus_thing3/item_equipment_rig_ss_thing3_tan.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 0.656,
+			"Height": 4,
+			"Width": 3,
+			"mousePenalty": 0,
+			"speedPenaltyPercent": -1,
+			"weaponErgonomicPenalty": -1.5,
+			"RigLayoutName": "ss_the_thing3",
+			"Grids": [
+				{
+					"_id": "6a476bbf9dbad0965b08aff8",
+					"_name": "GridView (1)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "04bd6192f3cbcc9bc524e200",
+					"_name": "GridView (2)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "9c8cc5b3a61511d6be744c70",
+					"_name": "GridView (3)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "d51c90ee414de17d05f56c38",
+					"_name": "GridView (4)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "0e818f3643fe3fdcc471197a",
+					"_name": "GridView (5)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7f8acf4624249ba3026c0862",
+					"_name": "GridView (6)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "04c6c72a0649ed0c378ba82c",
+					"_name": "GridView (7)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "2c2895b5499f954336b999b6",
+					"_name": "GridView (8)",
+					"_parent": "6a476b0f33f2ed750908aff7",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems Thing 3 chest rig (Coyote Tan)",
+				"shortName": "Thing 3",
+				"description": "The Thing 3 is a robust, load-bearing platform designed to enhance the carrying capacity of a standard warfighter, featuring custom ergonomics like 4-column double-sided MOLLE for accessory mounting. Manufactured by Spiritus Systems. Coyote Tan version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 24400,
+		"handbookPriceRoubles": 21200,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 750
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 100
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 110
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a476c75ded8afadee08affa": {
+		// Spiritus Systems "The Thing 3" chest rig
+		"itemTplToClone": "6a476b0f33f2ed750908aff7",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/spiritus_thing3/item_equipment_rig_ss_thing3_rg.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 0.656,
+			"Height": 4,
+			"Width": 3,
+			"mousePenalty": 0,
+			"speedPenaltyPercent": -1,
+			"weaponErgonomicPenalty": -1.5,
+			"RigLayoutName": "ss_the_thing3"
+		},
+		"locales": {
+			"en": {
+				"name": "Spiritus Systems Thing 3 chest rig (Ranger Green)",
+				"shortName": "Thing 3",
+				"description": "The Thing 3 is a robust, load-bearing platform designed to enhance the carrying capacity of a standard warfighter, featuring custom ergonomics like 4-column double-sided MOLLE for accessory mounting. Manufactured by Spiritus Systems. Ranger Green version."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 24400,
+		"handbookPriceRoubles": 21200,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 750
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 100
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 110
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a4897243ed9e6f8d7039c85": {
+		// Eberlestock Recon Bino chest rig (Grey)
+		"itemTplToClone": "5e4abc1f86f774069619fbaa",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/item_equipment_eberlestock_recon_bino.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 0.23,
+			"Height": 2,
+			"Width": 2,
+			"mousePenalty": 0,
+			"speedPenaltyPercent": -1,
+			"weaponErgonomicPenalty": 0,
+			"RigLayoutName": "eberlestock",
+			"Grids": [
+				{
+					"_id": "f0277f19e0da6cfa08751cf4",
+					"_name": "GridView (1)",
+					"_parent": "6a4897243ed9e6f8d7039c85",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"5447b5cf4bdc2d65278b4567",
+									"617f1ef5e8b54b0998387733",
+									"5447bedf4bdc2d87278b4568",
+									"5447b6094bdc2dc3278b4567"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "81a82560f32fbaddedab39e7",
+					"_name": "GridView (2)",
+					"_parent": "6a4897243ed9e6f8d7039c85",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3e542731ca51f17fc5427fd9",
+					"_name": "GridView (3)",
+					"_parent": "6a4897243ed9e6f8d7039c85",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 1,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Eberlestock Recon Bino Modular chest rig (Grey)",
+				"shortName": "Recon",
+				"description": "The Recon Modular Bino Harness is a super-compact carrier rig designed to be minimal while offering modularity and options for scaling-up to suit any purpose. Manufactured by Eberlestock."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 5120,
+		"handbookPriceRoubles": 3600,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 1000
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 100
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 50
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 110
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6ab84eeea7c7bf7b2c72fb90": {
+		// Arktis Pattern 42 chest rig (DPM)
+		"itemTplToClone": "5e4abc1f86f774069619fbaa",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"handbookParentId": "5b5f6f8786f77447ed563642",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Bodywear/unarmoredRigs/item_equipment_rig_arktis_pat42_dpm.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true,
+			"Weight": 2.1,
+			"Height": 3,
+			"Width": 4,
+			"mousePenalty": -1,
+			"speedPenaltyPercent": -3,
+			"weaponErgonomicPenalty": -1,
+			"RigLayoutName": "cr_arktis_pat42",
+			"Grids": [
+				{
+					"_id": "74a5f75bd7850bd459f2ac00",
+					"_name": "GridView (1)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "7eaf353ef7815c06ccd3f6ae",
+					"_name": "GridView (2)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "f570ba33d7765685898dbe47",
+					"_name": "GridView (3)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "3605898657d996b36a855187",
+					"_name": "GridView (4)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "88b8ea67ebd9ec7b1ceb4a63",
+					"_name": "GridView (5)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 1,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				},
+				{
+					"_id": "0a89dc6a8445268875985a2e",
+					"_name": "GridView (6)",
+					"_parent": "6ab84eeea7c7bf7b2c72fb90",
+					"_props": {
+						"cellsH": 2,
+						"cellsV": 2,
+						"filters": [
+							{
+								"ExcludedFilter": [
+									"5448bf274bdc2dfc2f8b456a"
+								],
+								"Filter": [
+									"54009119af1c881c07000029"
+								]
+							}
+						],
+						"isSortingTable": false,
+						"maxCount": 0,
+						"maxWeight": 0,
+						"minCount": 0
+					},
+					"_proto": "55d329c24bdc2d892f8b4567"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Arktis Pattern 42 chest rig (DPM)",
+				"shortName": "Pat.42",
+				"description": "A classic chest rig designed as a modern reproduction of the vintage LBCE Pattern 42 Webbing used by the British military in the 1980's. Manufactured by Arktis."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"traders": {},
+		"fleaPriceRoubles": 51020,
+		"handbookPriceRoubles": 12500,
+		"addtoStaticLootContainers": true,
+		"staticLootContainers": [
+			{
+				"containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"probability": 10000
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"probability": 1000
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"probability": 500
+			},
+			{
+				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"probability": 1100
+			}
+		],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	}
 }

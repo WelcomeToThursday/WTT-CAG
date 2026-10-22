@@ -19,6 +19,7 @@ public class WTTCAG(WTTServerCommonLib.WTTServerCommonLib wttCommon) : IOnLoad
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
         await wttCommon.CustomBotLoadoutService.CreateCustomBotLoadouts(assembly);
         await wttCommon.CustomClothingService.CreateCustomClothing(assembly);
+        await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
         await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
         wttCommon.CustomRigLayoutService.CreateRigLayouts(assembly);
         wttCommon.CustomSlotImageService.CreateSlotImages(assembly);

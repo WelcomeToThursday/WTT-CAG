@@ -1,1463 +1,1718 @@
 {
-  "68e1ce74c9305bc1608ee2e6": {
-    "itemTplToClone": "65711bc79eb8c145180dbba1",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "armorClass": 4,
-      "armorColliders": [
-        "Jaw",
-        "HeadCommon"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 13194,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6952df07f45848b047c90339": { // IHPS TOP ARMOR
-    "itemTplToClone": "657112234269e9a568089eac",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Durability": 35,
-      "MaxDurability": 35,
-      "RepairCost": 145,
-      "ArmorMaterial": "Combined",
-      "armorClass": 4,
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "Top shell ballistic armor for the Ceradyne IHPS helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6952e0430a05aecb1fc9033a": { // IHPS BACK ARMOR
-    "itemTplToClone": "657112a4818110db4600aa66",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Durability": 20,
-      "MaxDurability": 20,
-      "RepairCost": 133,
-      "ArmorMaterial": "Combined",
-      "armorClass": 4,
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "Rear shell ballistic armor for the Ceradyne IHPS helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6952e0b52f92620dc1c9033b": { // IHPS EAR ARMOR
-    "itemTplToClone": "657112a4818110db4600aa66",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
-        "rcid": ""
-      },
-      "Durability": 15,
-      "MaxDurability": 15,
-      "RepairCost": 133,
-      "ArmorMaterial": "Combined",
-      "armorClass": 4,
-      "armorColliders": [
-        "Ears"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "ceradyne_ihps_level4_helmet_armor_ears"
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 13582,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "695573f047936dde03d8e2ab": { // FAST XP TOP ARMOR
-    "itemTplToClone": "657f8ec5f4c82973640b234c",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Durability": 35,
-      "MaxDurability": 35
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "Top shell ballistic armor for the Ops-Core FAST XP helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6955743c3cc456ac9fd8e2ac": { // FAST XP BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Durability": 35,
-      "MaxDurability": 35
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "Back shell ballistic armor for the Ops-Core FAST XP helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69578fd565218682c87d8628": { // NFM THOR Groin Insert
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Durability": 25,
-      "MaxDurability": 25
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": "Aramid groin insert for the NFM THOR MCVS-OV plate carrier."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 22140,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "68e55fb697f217f43c40e36b": { // B826 TOP ARMOR
-    "itemTplToClone": "657baaf0b7e9ca9a02045c02",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Durability": 20,
-      "MaxDurability": 20,
-      "RepairCost": 130
-    },
-    "locales": {
-      "en": {
-        "name": "Reinforced layers of aramid fiber",
-        "shortName": "Reinforced layers of aramid fiber",
-        "description": "Reinforced layers of aramid fiber top inserts for the B826 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 12913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "68e560760a6bd28b1eefae60": { // B826 BACK ARMOR
-    "itemTplToClone": "657bab6ec6f689d3a205b85f",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Durability": 20,
-      "MaxDurability": 20,
-      "RepairCost": 130
-    },
-    "locales": {
-      "en": {
-        "name": "Reinforced layers of aramid fiber",
-        "shortName": "Reinforced layers of aramid fiber",
-        "description": "Reinforced layers of aramid fiber back insert for the B826 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 29853,
-    "handbookPriceRoubles": 12913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "68e56084053c5f90684175f9": { // B826 EAR ARMOR
-    "itemTplToClone": "657babc6f58ba5a6250107a2",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
-        "rcid": ""
-      },
-      "Durability": 20,
-      "MaxDurability": 20,
-      "RepairCost": 130
-    },
-    "locales": {
-      "en": {
-        "name": "Reinforced layers of aramid fiber",
-        "shortName": "Reinforced layers of aramid fiber",
-        "description": "Reinforced layers of aramid fiber ear inserts for the B826 helmet."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 29357,
-    "handbookPriceRoubles": 12913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6959f5328aa6eaf6ea62b797": {
-    "itemTplToClone": "6575ef599c7cad336508e453",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-      },
-      "armorClass": "4",
-      "Durability": 33,
-      "MaxDurability": 33
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": "Aramid front insert soft armor for the Spiritus Systems LV-119 (Goons Edition)."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 34357,
-    "handbookPriceRoubles": 22913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6959f60089e07cdf6f62b79d": {
-    "itemTplToClone": "6575ef599c7cad336508e453",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-      },
-      "armorClass": "4",
-      "Durability": 33,
-      "MaxDurability": 33
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": "Aramid rear insert soft armor for the Spiritus Systems LV-119 (Goons Edition)."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 34357,
-    "handbookPriceRoubles": 22913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "695cff59392d1844af62173d": { // TC-2000 MICH EAR ARMOR
-    "itemTplToClone": "657f8b05f4c82973640b2348",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
-        "rcid": ""
-      },
-      "armorClass": "4",
-      "armorColliders": [
-        "Ears"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": "Hybrid composite insert soft armor for the MSA ACH TC-2000 MICH helmet series."
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 34357,
-    "handbookPriceRoubles": 24766,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "697e3c819edfc22e06411c81": { // FAST SF TOP ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_fast_sfhc_top",
-      "Durability": 25,
-      "MaxDurability": 25,
-      "armorClass": "4",
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "697e3c378ece32211d411c80": { // FAST SF HC BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_fast_sfhc_back",
-      "Durability": 25,
-      "MaxDurability": 25,
-      "armorClass": "4",
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69c867b0fc4a26d9547e7248": { // F1000H TOP ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_f1000h_front",
-      "Durability": 45,
-      "MaxDurability": 45,
-      "armorClass": "3",
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Titanium plate",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69c8679c04170dc4867e7247": { // F1000H BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_f1000h_back",
-      "Durability": 25,
-      "MaxDurability": 25,
-      "armorClass": "3",
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Titanium Plate",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69af8d4225d8afca89c2a155": { // PERUN-6 FRONT ARMOR
-    "itemTplToClone": "6570e83223c1f638ef0b0ede",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-      },
-      "armorClass": "3",
-      "Durability": 52,
-      "MaxDurability": 52,
-      "ArmorMaterial": "Combined"
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 34357,
-    "handbookPriceRoubles": 22913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69af91e3d59ab6c374c2a15f": { // PERUN-6 BACK ARMOR
-    "itemTplToClone": "6570e83223c1f638ef0b0ede",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-      },
-      "armorClass": "3",
-      "Durability": 47,
-      "MaxDurability": 47,
-      "ArmorMaterial": "Combined"
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 34357,
-    "handbookPriceRoubles": 22913,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69af8d78f523015697c2a156": { // PERUN-6 GROIN ARMOR
-    "itemTplToClone": "6570e90b3a5689d85f08db97",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/groin.bundle",
-        "rcid": ""
-      },
-      "armorClass": "3",
-      "Durability": 19,
-      "MaxDurability": 19,
-      "ArmorMaterial": "Combined"
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 13680,
-    "handbookPriceRoubles": 13680,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d4241a7179e6df13eb31ec": { // CAIMAN TL TOP ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_caiman_tl_front",
-      "Durability": 30,
-      "MaxDurability": 30,
-      "armorClass": "3",
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d424178da70bbf80eb31eb": { // CAIMAN TL BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_caiman_tl_back",
-      "Durability": 30,
-      "MaxDurability": 30,
-      "armorClass": "3",
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Titanium Plate",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d591ddfc9f661295f815bb": { // TC-500 EAR ARMOR
-    "itemTplToClone": "657fa186d4caf976440afe42",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
-        "rcid": ""
-      },
-      "Name": "msa_tc500_level4_helmet_armor_ears",
-      "Durability": 14,
-      "MaxDurability": 14,
-      "armorClass": 4,
-      "armorColliders": [
-        "Ears"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 13582,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d59f9b3d5c87e077f815d0": { // IBH TOP ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_ibh_front",
-      "Durability": 23,
-      "MaxDurability": 23,
-      "armorClass": "3",
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69d59f889bb6212604f815cf": { // IBH BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_ibh_back",
-      "Durability": 21,
-      "MaxDurability": 21,
-      "armorClass": "3",
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69e93cb339ab9c5660a1e938": { // VIPER P2 TOP ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_viper_p2_front",
-      "Durability": 33,
-      "MaxDurability": 33,
-      "armorClass": "4",
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69e93cb164025aa97ca1e937": { // VIPER P2 BACK ARMOR
-    "itemTplToClone": "657f8f10f4c82973640b2350",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Name": "helmet_armor_viper_p2_back",
-      "Durability": 21,
-      "MaxDurability": 21,
-      "armorClass": "4",
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Combined materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 4456,
-    "handbookPriceRoubles": 3463,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "69ecb991006b94deed033c1b": { // FirstSpear Siege-R Groin Insert
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/groin.bundle",
-        "rcid": ""
-      },
-      "Name": "siege-r_level3_soft_armor_groin",
-      "Durability": 28,
-      "MaxDurability": 28,
-      "armorClass": "3",
-      "armorColliders": [
-        "Pelvis"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a4d59765060c94ff39ee76e": { // TV119 Groin
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/groin.bundle",
-        "rcid": ""
-      },
-      "Name": "tv119_level3_soft_armor_groin",
-      "Durability": 31,
-      "MaxDurability": 31,
-      "armorClass": "3",
-      "armorColliders": [
-        "RibcageLow",
-        "Pelvis"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a144c135e1350ad4aff6c2e": { // FShellback RAMPAGE 2.0 Front
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-      },
-      "Name": "shellback_rampage_soft_armor_front",
-      "Durability": 31,
-      "MaxDurability": 31,
-      "armorClass": "3",
-      "armorColliders": [
-        "RibcageUp",
-        "RibcageLow"
-      ]
-
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a144c14993da637d6ff6c2f": { // Shellback RAMPAGE 2.0 Rear
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-      },
-      "Name": "shellback_rampage_soft_armor_back",
-      "Durability": 31,
-      "MaxDurability": 31,
-      "armorClass": "3",
-      "armorColliders": [
-        "SpineTop",
-        "SpineDown"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a19f0127eaab3073de456ea": { // CGPC Front
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-      },
-      "Name": "cgpc3_level2_soft_armor_front",
-      "Durability": 20,
-      "MaxDurability": 20,
-      "armorClass": "2",
-      "armorColliders": [
-        "RibcageUp"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a19ef9b89f9ba0ba8e456e7": { // CGPC Rear
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-      },
-      "Name": "cgpc3_level2_soft_armor_back",
-      "Durability": 20,
-      "MaxDurability": 20,
-      "armorClass": "2",
-      "armorColliders": [
-        "SpineTop"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a19f059c67d7ac4b3e456ee": { // CGPC Left
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_left.bundle",
-        "rcid": ""
-      },
-      "Name": "cgpc3_level2_soft_armor_left",
-      "Durability": 13,
-      "MaxDurability": 13,
-      "armorClass": "2",
-      "armorColliders": [
-        "LeftSideChestDown"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a19f08ef6fa855c23e456f2": { // CGPC Right
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_right.bundle",
-        "rcid": ""
-      },
-      "Name": "cgpc3_level2_soft_armor_right",
-      "Durability": 13,
-      "MaxDurability": 13,
-      "armorClass": "2",
-      "armorColliders": [
-        "RightSideChestDown"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a1a386c91a31e3f14de306e": { // CGPC3 Groin
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/groin.bundle",
-        "rcid": ""
-      },
-      "Name": "siege-r_level3_soft_armor_groin",
-      "Durability": 15,
-      "MaxDurability": 15,
-      "armorClass": "2",
-      "armorColliders": [
-        "RibcageLow",
-        "Pelvis"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a1cb67a820f1fcf1b05dfd2": { // BTSh TOP ARMOR
-    "itemTplToClone": "657112234269e9a568089eac",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Durability": 22,
-      "MaxDurability": 22,
-      "RepairCost": 145,
-      "ArmorMaterial": "Combined",
-      "armorClass": 3,
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a1cb64d378df173dd05dfd1": { // BTSh-6 BACK ARMOR
-    "itemTplToClone": "657112a4818110db4600aa66",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Durability": 23,
-      "MaxDurability": 23,
-      "RepairCost": 133,
-      "ArmorMaterial": "Combined",
-      "armorClass": 3,
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a25fa66b3bd14dfd55ac1db": { // LShZ-1+ Low Cut EARS
-    "itemTplToClone": "657112a4818110db4600aa66",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
-        "rcid": ""
-      },
-      "Durability": 15,
-      "MaxDurability": 15,
-      "RepairCost": 133,
-      "ArmorMaterial": "Combined",
-      "armorClass": 3,
-      "armorColliders": [
-        "Ears"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 33038,
-    "handbookPriceRoubles": 13582,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a30647d65d28228b247da43": { // RIFLETECH TOP ARMOR
-    "itemTplToClone": "657112234269e9a568089eac",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-      },
-      "Durability": 24,
-      "MaxDurability": 24,
-      "RepairCost": 200,
-      "ArmorMaterial": "UHMWPE",
-      "armorClass": 5,
-      "armorColliders": [
-        "ParietalHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a306477339ba897cc47da42": { // RIFLETECH BACK ARMOR
-    "itemTplToClone": "657112a4818110db4600aa66",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
-        "rcid": ""
-      },
-      "Durability": 24,
-      "MaxDurability": 24,
-      "RepairCost": 200,
-      "ArmorMaterial": "UHMWPE",
-      "armorClass": 5,
-      "armorColliders": [
-        "BackHead"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Hybrid composite materials",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 66582,
-    "handbookPriceRoubles": 24377,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a544e49fef7b3ad4ae36356": { // Goplit-S Front
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-      },
-      "Name": "goplit_level2_soft_armor_front",
-      "Durability": 37,
-      "MaxDurability": 37,
-      "armorClass": "2",
-      "armorColliders": [
-        "RibcageUp"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  },
-  "6a544e4699afbb25d4e36355": { // Goplit-S Rear
-    "itemTplToClone": "6575ce8bdc9932aed601c61e",
-    "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-      },
-      "Name": "goplit_level2_soft_armor_back",
-      "Durability": 37,
-      "MaxDurability": 37,
-      "armorClass": "2",
-      "armorColliders": [
-        "SpineTop"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "Aramid insert",
-        "shortName": "",
-        "description": ""
-      }
-    },
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "addtoTraders": false,
-    "fleaPriceRoubles": 24320,
-    "handbookPriceRoubles": 27770,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addWeaponPreset": false,
-    "weaponPresets": []
-  }
+	"68e1ce74c9305bc1608ee2e6": {
+		"itemTplToClone": "65711bc79eb8c145180dbba1",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"armorClass": 4,
+			"armorColliders": [
+				"Jaw",
+				"HeadCommon"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 13194,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6952df07f45848b047c90339": {
+		// IHPS TOP ARMOR
+		"itemTplToClone": "657112234269e9a568089eac",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Durability": 35,
+			"MaxDurability": 35,
+			"RepairCost": 145,
+			"ArmorMaterial": "Combined",
+			"armorClass": 4,
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "Top shell ballistic armor for the Ceradyne IHPS helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6952e0430a05aecb1fc9033a": {
+		// IHPS BACK ARMOR
+		"itemTplToClone": "657112a4818110db4600aa66",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 20,
+			"MaxDurability": 20,
+			"RepairCost": 133,
+			"ArmorMaterial": "Combined",
+			"armorClass": 4,
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "Rear shell ballistic armor for the Ceradyne IHPS helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6952e0b52f92620dc1c9033b": {
+		// IHPS EAR ARMOR
+		"itemTplToClone": "657112a4818110db4600aa66",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"Durability": 15,
+			"MaxDurability": 15,
+			"RepairCost": 133,
+			"ArmorMaterial": "Combined",
+			"armorClass": 4,
+			"armorColliders": [
+				"Ears"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "ceradyne_ihps_level4_helmet_armor_ears"
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 13582,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"695573f047936dde03d8e2ab": {
+		// FAST XP TOP ARMOR
+		"itemTplToClone": "657f8ec5f4c82973640b234c",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Durability": 35,
+			"MaxDurability": 35
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "Top shell ballistic armor for the Ops-Core FAST XP helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6955743c3cc456ac9fd8e2ac": {
+		// FAST XP BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 35,
+			"MaxDurability": 35
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "Back shell ballistic armor for the Ops-Core FAST XP helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69578fd565218682c87d8628": {
+		// NFM THOR Groin Insert
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Durability": 25,
+			"MaxDurability": 25
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": "Aramid groin insert for the NFM THOR MCVS-OV plate carrier."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 22140,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"68e55fb697f217f43c40e36b": {
+		// B826 TOP ARMOR
+		"itemTplToClone": "657baaf0b7e9ca9a02045c02",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Durability": 20,
+			"MaxDurability": 20,
+			"RepairCost": 130
+		},
+		"locales": {
+			"en": {
+				"name": "Reinforced layers of aramid fiber",
+				"shortName": "Reinforced layers of aramid fiber",
+				"description": "Reinforced layers of aramid fiber top inserts for the B826 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 0,
+		"handbookPriceRoubles": 12913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"68e560760a6bd28b1eefae60": {
+		// B826 BACK ARMOR
+		"itemTplToClone": "657bab6ec6f689d3a205b85f",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 20,
+			"MaxDurability": 20,
+			"RepairCost": 130
+		},
+		"locales": {
+			"en": {
+				"name": "Reinforced layers of aramid fiber",
+				"shortName": "Reinforced layers of aramid fiber",
+				"description": "Reinforced layers of aramid fiber back insert for the B826 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 29853,
+		"handbookPriceRoubles": 12913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"68e56084053c5f90684175f9": {
+		// B826 EAR ARMOR
+		"itemTplToClone": "657babc6f58ba5a6250107a2",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"Durability": 20,
+			"MaxDurability": 20,
+			"RepairCost": 130
+		},
+		"locales": {
+			"en": {
+				"name": "Reinforced layers of aramid fiber",
+				"shortName": "Reinforced layers of aramid fiber",
+				"description": "Reinforced layers of aramid fiber ear inserts for the B826 helmet."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 29357,
+		"handbookPriceRoubles": 12913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6959f5328aa6eaf6ea62b797": {
+		"itemTplToClone": "6575ef599c7cad336508e453",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"armorClass": "4",
+			"Durability": 33,
+			"MaxDurability": 33
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": "Aramid front insert soft armor for the Spiritus Systems LV-119 (Goons Edition)."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 34357,
+		"handbookPriceRoubles": 22913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6959f60089e07cdf6f62b79d": {
+		"itemTplToClone": "6575ef599c7cad336508e453",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"armorClass": "4",
+			"Durability": 33,
+			"MaxDurability": 33
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": "Aramid rear insert soft armor for the Spiritus Systems LV-119 (Goons Edition)."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 34357,
+		"handbookPriceRoubles": 22913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"695cff59392d1844af62173d": {
+		// TC-2000 MICH EAR ARMOR
+		"itemTplToClone": "657f8b05f4c82973640b2348",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"armorClass": "4",
+			"armorColliders": [
+				"Ears"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": "Hybrid composite insert soft armor for the MSA ACH TC-2000 MICH helmet series."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 34357,
+		"handbookPriceRoubles": 24766,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"697e3c819edfc22e06411c81": {
+		// FAST SF TOP ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_fast_sfhc_top",
+			"Durability": 25,
+			"MaxDurability": 25,
+			"armorClass": "4",
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"697e3c378ece32211d411c80": {
+		// FAST SF HC BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_fast_sfhc_back",
+			"Durability": 25,
+			"MaxDurability": 25,
+			"armorClass": "4",
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69c867b0fc4a26d9547e7248": {
+		// F1000H TOP ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_f1000h_front",
+			"Durability": 45,
+			"MaxDurability": 45,
+			"armorClass": "3",
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Titanium plate",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69c8679c04170dc4867e7247": {
+		// F1000H BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_f1000h_back",
+			"Durability": 25,
+			"MaxDurability": 25,
+			"armorClass": "3",
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Titanium Plate",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69af8d4225d8afca89c2a155": {
+		// PERUN-6 FRONT ARMOR
+		"itemTplToClone": "6570e83223c1f638ef0b0ede",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"armorClass": "3",
+			"Durability": 52,
+			"MaxDurability": 52,
+			"ArmorMaterial": "Combined"
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 34357,
+		"handbookPriceRoubles": 22913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69af91e3d59ab6c374c2a15f": {
+		// PERUN-6 BACK ARMOR
+		"itemTplToClone": "6570e83223c1f638ef0b0ede",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"armorClass": "3",
+			"Durability": 47,
+			"MaxDurability": 47,
+			"ArmorMaterial": "Combined"
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 34357,
+		"handbookPriceRoubles": 22913,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69af8d78f523015697c2a156": {
+		// PERUN-6 GROIN ARMOR
+		"itemTplToClone": "6570e90b3a5689d85f08db97",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/groin.bundle",
+				"rcid": ""
+			},
+			"armorClass": "3",
+			"Durability": 19,
+			"MaxDurability": 19,
+			"ArmorMaterial": "Combined"
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 13680,
+		"handbookPriceRoubles": 13680,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d4241a7179e6df13eb31ec": {
+		// CAIMAN TL TOP ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_caiman_tl_front",
+			"Durability": 30,
+			"MaxDurability": 30,
+			"armorClass": "3",
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d424178da70bbf80eb31eb": {
+		// CAIMAN TL BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_caiman_tl_back",
+			"Durability": 30,
+			"MaxDurability": 30,
+			"armorClass": "3",
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Titanium Plate",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d591ddfc9f661295f815bb": {
+		// TC-500 EAR ARMOR
+		"itemTplToClone": "657fa186d4caf976440afe42",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"Name": "msa_tc500_level4_helmet_armor_ears",
+			"Durability": 14,
+			"MaxDurability": 14,
+			"armorClass": 4,
+			"armorColliders": [
+				"Ears"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 13582,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d59f9b3d5c87e077f815d0": {
+		// IBH TOP ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_ibh_front",
+			"Durability": 23,
+			"MaxDurability": 23,
+			"armorClass": "3",
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69d59f889bb6212604f815cf": {
+		// IBH BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_ibh_back",
+			"Durability": 21,
+			"MaxDurability": 21,
+			"armorClass": "3",
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69e93cb339ab9c5660a1e938": {
+		// VIPER P2 TOP ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_viper_p2_front",
+			"Durability": 33,
+			"MaxDurability": 33,
+			"armorClass": "4",
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69e93cb164025aa97ca1e937": {
+		// VIPER P2 BACK ARMOR
+		"itemTplToClone": "657f8f10f4c82973640b2350",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Name": "helmet_armor_viper_p2_back",
+			"Durability": 21,
+			"MaxDurability": 21,
+			"armorClass": "4",
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Combined materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 4456,
+		"handbookPriceRoubles": 3463,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"69ecb991006b94deed033c1b": {
+		// FirstSpear Siege-R Groin Insert
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/groin.bundle",
+				"rcid": ""
+			},
+			"Name": "siege-r_level3_soft_armor_groin",
+			"Durability": 28,
+			"MaxDurability": 28,
+			"armorClass": "3",
+			"armorColliders": [
+				"Pelvis"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a4d59765060c94ff39ee76e": {
+		// TV119 Groin
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/groin.bundle",
+				"rcid": ""
+			},
+			"Name": "tv119_level3_soft_armor_groin",
+			"Durability": 31,
+			"MaxDurability": 31,
+			"armorClass": "3",
+			"armorColliders": [
+				"RibcageLow",
+				"Pelvis"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a144c135e1350ad4aff6c2e": {
+		// FShellback RAMPAGE 2.0 Front
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"Name": "shellback_rampage_soft_armor_front",
+			"Durability": 31,
+			"MaxDurability": 31,
+			"armorClass": "3",
+			"armorColliders": [
+				"RibcageUp",
+				"RibcageLow"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a144c14993da637d6ff6c2f": {
+		// Shellback RAMPAGE 2.0 Rear
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"Name": "shellback_rampage_soft_armor_back",
+			"Durability": 31,
+			"MaxDurability": 31,
+			"armorClass": "3",
+			"armorColliders": [
+				"SpineTop",
+				"SpineDown"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a19f0127eaab3073de456ea": {
+		// CGPC Front
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"Name": "cgpc3_level2_soft_armor_front",
+			"Durability": 20,
+			"MaxDurability": 20,
+			"armorClass": "2",
+			"armorColliders": [
+				"RibcageUp"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a19ef9b89f9ba0ba8e456e7": {
+		// CGPC Rear
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"Name": "cgpc3_level2_soft_armor_back",
+			"Durability": 20,
+			"MaxDurability": 20,
+			"armorClass": "2",
+			"armorColliders": [
+				"SpineTop"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a19f059c67d7ac4b3e456ee": {
+		// CGPC Left
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_left.bundle",
+				"rcid": ""
+			},
+			"Name": "cgpc3_level2_soft_armor_left",
+			"Durability": 13,
+			"MaxDurability": 13,
+			"armorClass": "2",
+			"armorColliders": [
+				"LeftSideChestDown"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a19f08ef6fa855c23e456f2": {
+		// CGPC Right
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_right.bundle",
+				"rcid": ""
+			},
+			"Name": "cgpc3_level2_soft_armor_right",
+			"Durability": 13,
+			"MaxDurability": 13,
+			"armorClass": "2",
+			"armorColliders": [
+				"RightSideChestDown"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a1a386c91a31e3f14de306e": {
+		// CGPC3 Groin
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/groin.bundle",
+				"rcid": ""
+			},
+			"Name": "siege-r_level3_soft_armor_groin",
+			"Durability": 15,
+			"MaxDurability": 15,
+			"armorClass": "2",
+			"armorColliders": [
+				"RibcageLow",
+				"Pelvis"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a1cb67a820f1fcf1b05dfd2": {
+		// BTSh TOP ARMOR
+		"itemTplToClone": "657112234269e9a568089eac",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Durability": 22,
+			"MaxDurability": 22,
+			"RepairCost": 145,
+			"ArmorMaterial": "Combined",
+			"armorClass": 3,
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a1cb64d378df173dd05dfd1": {
+		// BTSh-6 BACK ARMOR
+		"itemTplToClone": "657112a4818110db4600aa66",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 23,
+			"MaxDurability": 23,
+			"RepairCost": 133,
+			"ArmorMaterial": "Combined",
+			"armorClass": 3,
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a25fa66b3bd14dfd55ac1db": {
+		// LShZ-1+ Low Cut EARS
+		"itemTplToClone": "657112a4818110db4600aa66",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"Durability": 15,
+			"MaxDurability": 15,
+			"RepairCost": 133,
+			"ArmorMaterial": "Combined",
+			"armorClass": 3,
+			"armorColliders": [
+				"Ears"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 33038,
+		"handbookPriceRoubles": 13582,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a30647d65d28228b247da43": {
+		// RIFLETECH TOP ARMOR
+		"itemTplToClone": "657112234269e9a568089eac",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+				"rcid": ""
+			},
+			"Durability": 24,
+			"MaxDurability": 24,
+			"RepairCost": 200,
+			"ArmorMaterial": "UHMWPE",
+			"armorClass": 5,
+			"armorColliders": [
+				"ParietalHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a306477339ba897cc47da42": {
+		// RIFLETECH BACK ARMOR
+		"itemTplToClone": "657112a4818110db4600aa66",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 24,
+			"MaxDurability": 24,
+			"RepairCost": 200,
+			"ArmorMaterial": "UHMWPE",
+			"armorClass": 5,
+			"armorColliders": [
+				"BackHead"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a544e49fef7b3ad4ae36356": {
+		// Goplit-S Front
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"Name": "goplit_level2_soft_armor_front",
+			"Durability": 37,
+			"MaxDurability": 37,
+			"armorClass": "3",
+			"armorColliders": [
+				"RibcageUp"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6a544e4699afbb25d4e36355": {
+		// Goplit-S Rear
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"Name": "goplit_level2_soft_armor_back",
+			"Durability": 37,
+			"MaxDurability": 37,
+			"armorClass": "2",
+			"armorColliders": [
+				"SpineTop"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6ab6c33ae2eab0117bd2839f": {
+		// WARTECH TV-124 Groin Insert
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Durability": 25,
+			"MaxDurability": 25
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": "Aramid groin insert for the Wartech TV-124 plate carrier."
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 22140,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6abeac107b81045a5f8b07ee": {
+		// MSV Front
+		"itemTplToClone": "65733312ca0ca984940a2d53",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"Name": "msv_level3_soft_armor_front",
+			"Durability": 40,
+			"MaxDurability": 40,
+			"armorClass": "3",
+			"armorColliders": [
+				"RibcageUp",
+				"RibcageLow"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6abeac3cfdf421eef68b07ef": {
+		// MSV Back
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"Name": "msv_level3_soft_armor_back",
+			"Durability": 40,
+			"MaxDurability": 40,
+			"armorClass": "2",
+			"armorColliders": [
+				"SpineTop",
+				"SpineDown"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Aramid insert",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 24320,
+		"handbookPriceRoubles": 27770,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6ac85164feedc400e2fbead4": {
+		// LVS front
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+				"rcid": ""
+			},
+			"Name": "lvs_level5_soft_armor_back",
+			"Durability": 35,
+			"MaxDurability": 35,
+			"armorClass": "5",
+			"armorColliders": [
+				"RibcageUp",
+				"RibcageLow"
+			],
+			"Lower75Prefab": {
+				"path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Integrated ballistic plate",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 23000,
+		"handbookPriceRoubles": 15000,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6ac851c30c7ec3675bfbead6": {
+		// LVS back
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+				"rcid": ""
+			},
+			"Name": "lvs_level5_soft_armor_back",
+			"Durability": 35,
+			"MaxDurability": 35,
+			"armorClass": "5",
+			"armorColliders": [
+				"SpineTop",
+				"SpineDown"
+			],
+			"Lower75Prefab": {
+				"path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Integrated ballistic plate",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 23000,
+		"handbookPriceRoubles": 15000,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	},
+	"6acac9c8ddd36d1bc0b5be47": {
+		// SENTRY XP SIDE ARMOR
+		"itemTplToClone": "657112ce22996eaf110881fb",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"handbookParentId": "6564b96a189fe36f356d177c",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+				"rcid": ""
+			},
+			"Name": "sentry_level4_helmet_armor_ears",
+			"Durability": 15,
+			"MaxDurability": 15,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Hybrid composite materials",
+				"shortName": "",
+				"description": ""
+			}
+		},
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"addtoTraders": false,
+		"fleaPriceRoubles": 66582,
+		"handbookPriceRoubles": 24377,
+		"addtoStaticLootContainers": false,
+		"staticLootContainers": [],
+		"addWeaponPreset": false,
+		"weaponPresets": []
+	}
 }

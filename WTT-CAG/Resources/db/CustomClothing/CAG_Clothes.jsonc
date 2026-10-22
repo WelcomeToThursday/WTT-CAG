@@ -1,247 +1,867 @@
 [
-  { // VKPO EMR
-    "type": "top",
-    "suiteId": "6972a908819a59a18f6cb6ab",
-    "outfitId": "6972a909392a97e0846cb6ac",
-    "topId": "6972a909ff8a98e2e76cb6ad",
-    "handsId": "6972a90ae06aabba416cb6ae",
-    "locales": {
-      "en": {
-        "name": "BEAR VKPO (EMR)",
-        "description": "Field Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/VKPO_EMR/top_ruaf_vkpo_emr.bundle",
-    "handsBundlePath": "Clothing/Hands/VKPO_EMR/top_ruaf_vkpo_emr_skin.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Bear"
-    ],
-    "loyaltyLevel": 1,
-    "profileLevel": 15,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 155000
-  },
-  { // Vertx OPS Shell TTsKO
-    "type": "top",
-    "suiteId": "6897f88bbdb6ea2150fdd387",
-    "outfitId": "6897f88be63381dd90219f16",
-    "topId": "6897f88c0fdd0ec480e379d4",
-    "handsId": "6897f88c19ff832d4e76d1d4",
-    "locales": {
-      "en": {
-        "name": "Vertx OPS Shell (TTsKO)",
-        "description": "Tactical Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/OPS_MGS_TTsKO/ttsko_bear_ops_main.bundle",
-    "handsBundlePath": "Clothing/Hands/OPS_MGS_TTsKO/ttsko_bear_ops_hands.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Bear"
-    ],
-    "loyaltyLevel": 3,
-    "profileLevel": 33,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 1100000
-  },
-  { // BEAR Telnik Tucked
-    "type": "top",
-    "suiteId": "68b5add84a45c1469fc5425c",
-    "outfitId": "68b5add9f80e244d26313ddc",
-    "topId": "68b5addabd5a7cdf81dd49f8",
-    "handsId": "5e4bb1d286f77406a313ec59",
-    "locales": {
-      "en": {
-        "name": "BEAR Telnik (Tucked In)",
-        "description": "T-Shirt"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/BEAR_TELNIK_TUCKED/telnik_blue_tucked.bundle",
-    "handsBundlePath": "assets/content/hands/hands_bear_telnik/hands_bear_telnik.skin.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Bear"
-    ],
-    "loyaltyLevel": 4,
-    "profileLevel": 50,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 4500000
-  },
-  { // "I went to the norvinsk zone and all I got was this lousy T-Shirt"
-    "type": "top",
-    "suiteId": "68e1b09954b6ec5478a99b86",
-    "outfitId": "68e1b099c1a78f14e1f57157",
-    "topId": "68e1b098aa6b0bad017b1fdd",
-    "handsId": "68e1b0973ae9a652ec83f42c",
-    "locales": {
-      "en": {
-        "name": "Lousy T-Shirt",
-        "description": "T-Shirt"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/BEAR_CONTRACTOR/contractor_tshirt_lousy.bundle",
-    "handsBundlePath": "assets/content/hands/hands_tshirt_bear_black/hands_tshirt_bear_black.skin.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Bear",
-      "Usec"
-    ],
-    "loyaltyLevel": 1,
-    "profileLevel": 5,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 25000
-  },
-  { // Pigeon's Gorka Pants
-    "type": "bottom",
-    "suiteId": "69444e6c364b799c1282765c",
-    "outfitId": "69444e6d9037e704d982765d",
-    "bottomId": "69444e6ecc8a80026382765e",
-    "locales": {
-      "en": {
-        "name": "GORKA E Trousers Normal",
-        "description": "Russian Gorka Trousers"
-      }
-    },
-    "bottomBundlePath": "Clothing/Lowers/Gorka/trousers_gorka_norm.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Bear",
-      "Usec"
-    ],
-    "loyaltyLevel": 1,
-    "profileLevel": 1,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 25000,
-    "questRequirements": [],
-    "achievementRequirements": []
-  },
-  { // USEC Gryphon Jacket (Partizan)
-    "type": "top",
-    "suiteId": "697b913d8b362e77c1f8b63f",
-    "outfitId": "697b913c03ef2fcb51f8b63e",
-    "topId": "697b913c16fd13d355f8b63d",
-    "handsId": "697b913b7b8ea00f06f8b63c",
-    "locales": {
-      "en": {
-        "name": "USEC Gryphon",
-        "description": "Tactical Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/USEC_GRYPHON/top_usec_gryphon_partizan.bundle",
-    "handsBundlePath": "Clothing/Hands/USEC_GRYPHON/hands_usec_gryphon_partizan.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Usec"
-    ],
-    "loyaltyLevel": 2,
-    "profileLevel": 22,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 220418
-  },
-  { // USEC Gryphon Jacket (Multicam)
-    "type": "top",
-    "suiteId": "697b91964c63608320f8b643",
-    "outfitId": "697b9195018a685acbf8b642",
-    "topId": "697b91945017257dd4f8b641",
-    "handsId": "697b9194e259dd2736f8b640",
-    "locales": {
-      "en": {
-        "name": "USEC Gryphon MC",
-        "description": "Tactical Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/USEC_GRYPHON/top_usec_gryphon_mc.bundle",
-    "handsBundlePath": "Clothing/Hands/USEC_GRYPHON/hands_usec_gryphon_mc.bundle",
-    "traderId": "HOSER",
-    "side": [
-      "Usec"
-    ],
-    "loyaltyLevel": 3,
-    "profileLevel": 35,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 220418
-  },
-  { // Arc'teryx LEAF Gen.1 top (AOR1)
-    "type": "top",
-    "suiteId": "6a0b5a7272af73915595699e",
-    "outfitId": "6a0b5a721b73c0f2df95699f",
-    "topId": "6a0b5a73ab6bd78a5f9569a0",
-    "handsId": "6a0b5a7305287f5b4b9569a1",
-    "locales": {
-      "en": {
-        "name": "Arc'teryx LEAF Gen.1 (AOR1)",
-        "description": "Tactical Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/bear_leaf/top_leaf_aor1.bundle",
-    "handsBundlePath": "Clothing/Hands/bear_leaf/hands_leaf_aor1.bundle", 
-    "traderId": "69eccbae0764116786033c2e",
-    "side": [
-      "Usec",
-      "Bear"
-    ],
-    "loyaltyLevel": 2,
-    "profileLevel": 15,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 220418
-  },
-  { // Arc'teryx LEAF Gen.1 top (CADPAT M.T.)
-    "type": "top",
-    "suiteId": "6a178f39aed887bc0bc8e8c8",
-    "outfitId": "6a178f399344af2a8cc8e8c9",
-    "topId": "6a178f3a38a2eb9089c8e8ca",
-    "handsId": "6a178f3bc335cc8a9ac8e8cb",
-    "locales": {
-      "en": {
-        "name": "Arc'teryx LEAF Gen.1 (Irish DPM)",
-        "description": "Tactical Jacket"
-      }
-    },
-    "topBundlePath": "Clothing/Uppers/bear_leaf/top_leaf_idpm.bundle",
-    "handsBundlePath": "Clothing/Hands/bear_leaf/hands_leaf_idpm.bundle",
-    "traderId": "69eccbae0764116786033c2e",
-    "side": [
-      "Usec",
-      "Bear"
-    ],
-    "loyaltyLevel": 2,
-    "profileLevel": 15,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 220418
-  },
-  { // Helikon outback pants
-    "type": "bottom",
-    "suiteId": "6a084db2c9cd52c8e5582e4f",
-    "outfitId": "6a084db305e3856b71582e50",
-    "bottomId": "6a084db451fbd49c29582e51",
-    "locales": {
-      "en": {
-        "name": "Helikon-Tex Outback",
-        "description": "Combat Pants"
-      }
-    },
-    "bottomBundlePath": "Clothing/Lowers/Helikon/pants_helikon_outback.bundle",
-    "traderId": "69eccbae0764116786033c2e",
-    "side": [
-      "Bear",
-      "Usec"
-    ],
-    "loyaltyLevel": 1,
-    "profileLevel": 11,
-    "standing": 0,
-    "currencyId": "MONEY_ROUBLES",
-    "price": 25000,
-    "questRequirements": [],
-    "achievementRequirements": []
-  }
+	{
+		// Zero Foxtrot - Woobie Hoodie
+		"type": "top",
+		"suiteId": "6a78be427da8467554dbe2fb",
+		"outfitId": "6a78be42f260c62eb3dbe2fa",
+		"topId": "6a78be41d919cc2f32dbe2f9",
+		"handsId": "6a78be4004238c4081dbe2f8",
+		"locales": {
+			"en": {
+				"name": "Woobie Hoodie",
+				"description": "Zero Foxtrot"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/upper_zf_woobie.bundle",
+		"handsBundlePath": "Clothing/Hands/hands_zf_woobie.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 31,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 201038
+	},
+	{
+		// Vertx OPS Shell TTsKO
+		"type": "top",
+		"suiteId": "6897f88bbdb6ea2150fdd387",
+		"outfitId": "6897f88be63381dd90219f16",
+		"topId": "6897f88c0fdd0ec480e379d4",
+		"handsId": "6897f88c19ff832d4e76d1d4",
+		"locales": {
+			"en": {
+				"name": "OPS Shell (TTsKO)",
+				"description": "Vertx"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/OPS_MGS_TTsKO/ttsko_bear_ops_main.bundle",
+		"handsBundlePath": "Clothing/Hands/OPS_MGS_TTsKO/ttsko_bear_ops_hands.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 33,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 1100000
+	},
+	{
+		// BEAR Telnik Tucked
+		"type": "top",
+		"suiteId": "68b5add84a45c1469fc5425c",
+		"outfitId": "68b5add9f80e244d26313ddc",
+		"topId": "68b5addabd5a7cdf81dd49f8",
+		"handsId": "ab8547f7e4b3c58b0773a6e6",
+		"locales": {
+			"en": {
+				"name": "BEAR Telnik (Tucked In)",
+				"description": "T-Shirt"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/BEAR_TELNIK_TUCKED/telnik_blue_tucked.bundle",
+		"handsBundlePath": "assets/content/hands/hands_bear_telnik/hands_bear_telnik.skin.bundle",
+		"traderId": "RAGMAN",
+		"side": [
+			"Bear"
+		],
+		"loyaltyLevel": 4,
+		"profileLevel": 50,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 4500000
+	},
+	{
+		// "I went to the norvinsk zone and all I got was this lousy T-Shirt"
+		"type": "top",
+		"suiteId": "68e1b09954b6ec5478a99b86",
+		"outfitId": "68e1b099c1a78f14e1f57157",
+		"topId": "68e1b098aa6b0bad017b1fdd",
+		"handsId": "68e1b0973ae9a652ec83f42c",
+		"locales": {
+			"en": {
+				"name": "Lousy T-Shirt",
+				"description": "T-Shirt"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/BEAR_CONTRACTOR/contractor_tshirt_lousy.bundle",
+		"handsBundlePath": "assets/content/hands/hands_tshirt_bear_black/hands_tshirt_bear_black.skin.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Bear",
+			"Usec"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 5,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 25000
+	},
+	{
+		// Pigeon's Gorka Pants
+		"type": "bottom",
+		"suiteId": "69444e6c364b799c1282765c",
+		"outfitId": "69444e6d9037e704d982765d",
+		"bottomId": "69444e6ecc8a80026382765e",
+		"locales": {
+			"en": {
+				"name": "GORKA E Trousers",
+				"description": "RUAF Gorka"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/Gorka/trousers_gorka_norm.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Bear",
+			"Usec"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 1,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 25000,
+		"questRequirements": [],
+		"achievementRequirements": []
+	},
+	{
+		// USEC Gryphon Jacket (Partizan)
+		"type": "top",
+		"suiteId": "697b913d8b362e77c1f8b63f",
+		"outfitId": "697b913c03ef2fcb51f8b63e",
+		"topId": "697b913c16fd13d355f8b63d",
+		"handsId": "697b913b7b8ea00f06f8b63c",
+		"locales": {
+			"en": {
+				"name": "LEAF Gryphon (Partizan)",
+				"description": "Arc'teryx"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/USEC_GRYPHON/top_usec_gryphon_partizan.bundle",
+		"handsBundlePath": "Clothing/Hands/USEC_GRYPHON/hands_usec_gryphon_partizan.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 22,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 220418
+	},
+	{
+		// USEC Gryphon Jacket (Multicam)
+		"type": "top",
+		"suiteId": "697b91964c63608320f8b643",
+		"outfitId": "697b9195018a685acbf8b642",
+		"topId": "697b91945017257dd4f8b641",
+		"handsId": "697b9194e259dd2736f8b640",
+		"locales": {
+			"en": {
+				"name": "LEAF Gryphon (MultiCam)",
+				"description": "Arc'teryx"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/USEC_GRYPHON/top_usec_gryphon_mc.bundle",
+		"handsBundlePath": "Clothing/Hands/USEC_GRYPHON/hands_usec_gryphon_mc.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 35,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 220418
+	},
+	{
+		// Arc'teryx LEAF Gen.1 top (AOR1)
+		"type": "top",
+		"suiteId": "6a0b5a7272af73915595699e",
+		"outfitId": "6a0b5a721b73c0f2df95699f",
+		"topId": "6a0b5a73ab6bd78a5f9569a0",
+		"handsId": "6a0b5a7305287f5b4b9569a1",
+		"locales": {
+			"en": {
+				"name": "LEAF Gen.1 (AOR1)",
+				"description": "Arc'teryx"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/bear_leaf/top_leaf_aor1.bundle",
+		"handsBundlePath": "Clothing/Hands/bear_leaf/hands_leaf_aor1.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 15,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 220418
+	},
+	{
+		// Arc'teryx LEAF Gen.1 top (Irish DPM)
+		"type": "top",
+		"suiteId": "6a178f39aed887bc0bc8e8c8",
+		"outfitId": "6a178f399344af2a8cc8e8c9",
+		"topId": "6a178f3a38a2eb9089c8e8ca",
+		"handsId": "6a178f3bc335cc8a9ac8e8cb",
+		"locales": {
+			"en": {
+				"name": "LEAF Gen.1 (Irish DPM)",
+				"description": "Arc'teryx"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/bear_leaf/top_leaf_idpm.bundle",
+		"handsBundlePath": "Clothing/Hands/bear_leaf/hands_leaf_idpm.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 15,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 220418
+	},
+	{
+		// Helikon outback pants
+		"type": "bottom",
+		"suiteId": "6a084db2c9cd52c8e5582e4f",
+		"outfitId": "6a084db305e3856b71582e50",
+		"bottomId": "6a084db451fbd49c29582e51",
+		"locales": {
+			"en": {
+				"name": "Outback Combat Pants",
+				"description": "Helikon-Tex"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/Helikon/pants_helikon_outback.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Bear",
+			"Usec"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 11,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 25000,
+		"questRequirements": [],
+		"achievementRequirements": []
+	},
+	{
+		// AEM01 - Gray
+		"type": "top",
+		"suiteId": "6acedbe83c6b9d004f7eb404",
+		"outfitId": "6acedbe96ea5d2ad027eb405",
+		"topId": "6acedbe928310958ea7eb406",
+		"handsId": "6acedbeae2002474f17eb407",
+		"locales": {
+			"en": {
+				"name": "AEM01 Jacket (Gray)",
+				"description": "Sankami Industries"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/aem01/top_aem01_gry.bundle",
+		"handsBundlePath": "Clothing/Hands/aem01/hands_aem01_gry.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 26,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 187652
+	},
+	{
+		// AEM01 - MultiCam
+		"type": "top",
+		"suiteId": "6acedcd0c9100b27247eb417",
+		"outfitId": "6acedcd0531ffb939a7eb416",
+		"topId": "6acedccfe98f15bf397eb415",
+		"handsId": "6acedccf24382d27fa7eb414",
+		"locales": {
+			"en": {
+				"name": "AEM01 Jacket (MC)",
+				"description": "Sankami Industries"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/aem01/top_aem01_mc.bundle",
+		"handsBundlePath": "Clothing/Hands/aem01/hands_aem01_mc.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 26,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 187652
+	},
+	{
+		// AEM01 - MultiCam Black
+		"type": "top",
+		"suiteId": "6acedccd9a0b815fda7eb413",
+		"outfitId": "6acedccd94eba5794b7eb412",
+		"topId": "6acedccc0e9adb88d47eb411",
+		"handsId": "6acedccc2f5f64c5717eb410",
+		"locales": {
+			"en": {
+				"name": "AEM01 Jacket (MC Black)",
+				"description": "Sankami Industries"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/aem01/top_aem01_mcb.bundle",
+		"handsBundlePath": "Clothing/Hands/aem01/hands_aem01_mcb.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 26,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 187652
+	},
+	{
+		// AEM01 - Olive Drab
+		"type": "top",
+		"suiteId": "6acedccae945d4c3f47eb40f",
+		"outfitId": "6acedcca6484c314757eb40e",
+		"topId": "6acedcc96966fc96537eb40d",
+		"handsId": "6acedcc9e454025b547eb40c",
+		"locales": {
+			"en": {
+				"name": "AEM01 Jacket (Olive)",
+				"description": "Sankami Industries"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/aem01/top_aem01_od.bundle",
+		"handsBundlePath": "Clothing/Hands/aem01/hands_aem01_od.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 26,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 187652
+	},
+	{
+		// Brandit Windbreaker - Blue
+		"type": "top",
+		"suiteId": "6acfd4c723995780a66676fe",
+		"outfitId": "6acfd4c6c09917cf4c6676fd",
+		"topId": "6acfd4c6c3a8f581b46676fc",
+		"handsId": "6acfd4c68c86a285c36676fb",
+		"locales": {
+			"en": {
+				"name": "Windbreaker (Coral Blue)",
+				"description": "Brandit"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+		"handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_blue.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 15,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 103723
+	},
+	{
+		// Brandit Windbreaker - M90 Night
+		"type": "top",
+		"suiteId": "6acff1a96b44c8470b667702",
+		"outfitId": "6acff1a86eafb24853667701",
+		"topId": "6acff1a8ad32979d4d667700",
+		"handsId": "6acff1a794019eeceb6676ff",
+		"locales": {
+			"en": {
+				"name": "Windbreaker (M90 Night)",
+				"description": "Brandit"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_m90.bundle",
+		"handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_m90.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 15,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 103723
+	},
+	{
+		// Brandit Windbreaker - OD Green
+		"type": "top",
+		"suiteId": "6acff1c4e08d68d3cd667703",
+		"outfitId": "6acff1c471b8fdb7f2667704",
+		"topId": "6acff1c5d925a910a0667705",
+		"handsId": "6acff1c55df6b523db667706",
+		"locales": {
+			"en": {
+				"name": "Windbreaker (Olive)",
+				"description": "Brandit"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/brandit/top_brandit_windbreaker_olive.bundle",
+		"handsBundlePath": "Clothing/Hands/brandit/hands_windbreaker_olive.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 1,
+		"profileLevel": 15,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 103723
+	},
+	{
+		// FJallraven Pants - Black
+		"type": "bottom",
+		"suiteId": "6ad0e8cfa22b4474700abd7b",
+		"outfitId": "6ad0e8cf5b7f5d18e50abd7a",
+		"bottomId": "6ad0e8cede53cad0670abd79",
+		"locales": {
+			"en": {
+				"name": "Vitta Pro trousers (Black)",
+				"description": "Fjallraven"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_blk.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 18,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 75938
+	},
+	{
+		// FJallraven Pants - Buckwheat
+		"type": "bottom",
+		"suiteId": "6ad0e938c3d48a77d50abd81",
+		"outfitId": "6ad0e93788ccf55ff90abd80",
+		"bottomId": "6ad0e937ffc01b95ed0abd7f",
+		"locales": {
+			"en": {
+				"name": "Vitta Pro trousers (Buckwheat)",
+				"description": "Fjallraven"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_buckwheat.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 18,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 75938
+	},
+	{
+		// FJallraven Pants - Black Oak
+		"type": "bottom",
+		"suiteId": "6ad0e934a7afc52aa10abd7c",
+		"outfitId": "6ad0e93526993666730abd7d",
+		"bottomId": "6ad0e93588a972cf2e0abd7e",
+		"locales": {
+			"en": {
+				"name": "Vitta Pro trousers (Oak)",
+				"description": "Fjallraven"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/fjallraven/pants_fjallraven_oak.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 18,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 75938
+	},
+	{
+		// Crye G2 shorts
+		"type": "bottom",
+		"suiteId": "6ad0e9b1554e41f7ee0abd88",
+		"outfitId": "6ad0e9b1a0c5bf3b430abd89",
+		"bottomId": "6ad0e9b13dcaf8d41d0abd8a",
+		"locales": {
+			"en": {
+				"name": "G2 Shorts (Rhod. Brushstroke)",
+				"description": "Crye Precision"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_brush.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 35,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 150323
+	},
+	{
+		// Crye G2 shorts - UCP
+		"type": "bottom",
+		"suiteId": "6ad0e9ade238a50bf00abd87",
+		"outfitId": "6ad0e9ad2288cc145e0abd86",
+		"bottomId": "6ad0e9ac1511dc85d30abd85",
+		"locales": {
+			"en": {
+				"name": "G2 Shorts (UCP)",
+				"description": "Crye Precision"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/g2_shorts/pants_crye_g2_shorts_ucp.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 35,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 150323
+	},
+	{
+		// QILO x SC Irreg Puffer Jacket - AOR1
+		"type": "top",
+		"suiteId": "6ad404c12ca810c70c82e244",
+		"outfitId": "6ad404c162270a115582e243",
+		"topId": "6ad404c01ddcfd286182e242",
+		"handsId": "6ad404c0f658eea85282e241",
+		"locales": {
+			"en": {
+				"name": "Lhotse Down Jacket (AOR1)",
+				"description": "QILO Tactical"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor1.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor1.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 41,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 350283
+	},
+	{
+		// QILO x SC Irreg Puffer Jacket - AOR2
+		"type": "top",
+		"suiteId": "6ad404f5404093e52c82e245",
+		"outfitId": "6ad404f6b4b86e4d4582e246",
+		"topId": "6ad404f6b43a39dae382e247",
+		"handsId": "6ad404f7e11d9e7c3182e248",
+		"locales": {
+			"en": {
+				"name": "Lhotse Down Jacket (AOR2)",
+				"description": "QILO Tactical"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_aor2.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_aor2.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 41,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 350283
+	},
+	{
+		// QILO x SC Irreg Puffer Jacket - Maritime Grey
+		"type": "top",
+		"suiteId": "6ad40504cda2f6be0482e249",
+		"outfitId": "6ad405057cd0eb63be82e24a",
+		"topId": "6ad40505ee7ead2d7782e24b",
+		"handsId": "6ad4050613e525bf9782e24c",
+		"locales": {
+			"en": {
+				"name": "Lhotse Down Jacket (Grey)",
+				"description": "QILO Tactical"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_puffer/upper_qilo_puffer_grey.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_puffer/hands_qilo_puffer_grey.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 3,
+		"profileLevel": 41,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 350283
+	},
+	{
+		// QILO Sherp - Blueberry Choco Chip
+		"type": "top",
+		"suiteId": "6ad552f41a02af1886c91d59",
+		"outfitId": "6ad552f40dfd810b34c91d58",
+		"topId": "6ad552f3c3156f082fc91d57",
+		"handsId": "6ad552f3426fb2afabc91d56",
+		"locales": {
+			"en": {
+				"name": "Sherp Jacket (Blueberry Choco Chip)",
+				"description": "QILO x Whitephosphor"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_blueberry.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_blueberry.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 29,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 250421
+	},
+	{
+		// QILO Sherp - 6-Color DBDU
+		"type": "top",
+		"suiteId": "6ad553e2d185d15c3ac91d65",
+		"outfitId": "6ad553e20ea04490dbc91d64",
+		"topId": "6ad553e195f60710c1c91d63",
+		"handsId": "6ad553e17272906bf9c91d62",
+		"locales": {
+			"en": {
+				"name": "Sherp Jacket (DBDU)",
+				"description": "QILO Tactical"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dbdu.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dbdu.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 29,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 250421
+	},
+	{
+		// QILO Sherp - Dark Tiger Stripe
+		"type": "top",
+		"suiteId": "6ad5534a8712ef52d0c91d5d",
+		"outfitId": "6ad55349575854ce69c91d5c",
+		"topId": "6ad553490d9cef4779c91d5b",
+		"handsId": "6ad55348fd870c432dc91d5a",
+		"locales": {
+			"en": {
+				"name": "Sherp Jacket (Dark Tigerstripe)",
+				"description": "QILO Tactical"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_dark_tiger.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_dark_tiger.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 29,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 250421
+	},
+	{
+		// QILO Sherp - Noveske Tigerstripe
+		"type": "top",
+		"suiteId": "6ad5538f6a90eac3e1c91d5e",
+		"outfitId": "6ad55390e11f769b95c91d5f",
+		"topId": "6ad55390a504444d5ac91d60",
+		"handsId": "6ad55391f85f717e95c91d61",
+		"locales": {
+			"en": {
+				"name": "Sherp Jacket (Agent Orange)",
+				"description": "QILO x Noveske"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_noveske.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_noveske.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 29,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 250421
+	},
+	{
+		// QILO Sherp - Houndsteeh
+		"type": "top",
+		"suiteId": "6ad556b2d5520ba280c91d69",
+		"outfitId": "6ad556b1753404c9f7c91d68",
+		"topId": "6ad556b1082ec9254fc91d67",
+		"handsId": "6ad556b09d8875c517c91d66",
+		"locales": {
+			"en": {
+				"name": "Sherp Jacket (Houndstooth)",
+				"description": "QILO x Whitephosphor"
+			}
+		},
+		"topBundlePath": "Clothing/Uppers/qilo_sherpa/top_qilo_sherpa_houndsteeth.bundle",
+		"handsBundlePath": "Clothing/Hands/qilo_sherpa/hands_qilo_sherpa_houndsteeth.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 29,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 250421
+	},
+	{
+		// Patagonia L9 pants - AOR1
+		"type": "bottom",
+		"suiteId": "6ad6b67a4d3a07344e5b67a4",
+		"outfitId": "6ad6b67b89a4e740115b67a5",
+		"bottomId": "6ad6b67c59e70cc9885b67a6",
+		"locales": {
+			"en": {
+				"name": "L9 pants (AOR1)",
+				"description": "Patagonia"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 21,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 248492
+	},
+	{
+		// Patagonia L9 pants - AOR2
+		"type": "bottom",
+		"suiteId": "6ad6b74c46e4bb49135b67a9",
+		"outfitId": "6ad6b74b9f5a9c53525b67a8",
+		"bottomId": "6ad6b74be0a447496a5b67a7",
+		"locales": {
+			"en": {
+				"name": "L9 pants (AOR2)",
+				"description": "Patagonia"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor2.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 21,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 248492
+	},
+	{
+		// Patagonia L9 pants - MAS Grey
+		"type": "bottom",
+		"suiteId": "6ad6b752954eac00715b67aa",
+		"outfitId": "6ad6b7525bcafcc7285b67ab",
+		"bottomId": "6ad6b75313dcc5a02b5b67ac",
+		"locales": {
+			"en": {
+				"name": "L9 pants (MAS Grey)",
+				"description": "Patagonia"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_grey.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 21,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 248492
+	},
+	{
+		// Patagonia L9 pants - MM14
+		"type": "bottom",
+		"suiteId": "6ad6b78fc0db809ea65b67b3",
+		"outfitId": "6ad6b78f728cac8b575b67b2",
+		"bottomId": "6ad6b78e95a74e59eb5b67b1",
+		"locales": {
+			"en": {
+				"name": "L9 pants (MM-14)",
+				"description": "Patagonia"
+			}
+		},
+		"bottomBundlePath": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_mm14.bundle",
+		"traderId": "69eccbae0764116786033c2e",
+		"side": [
+			"Usec",
+			"Bear"
+		],
+		"loyaltyLevel": 2,
+		"profileLevel": 21,
+		"standing": 0,
+		"currencyId": "MONEY_ROUBLES",
+		"price": 248492
+	}
 ]
