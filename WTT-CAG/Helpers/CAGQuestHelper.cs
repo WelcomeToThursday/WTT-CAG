@@ -197,7 +197,7 @@ namespace WTTClothingAndGear.Helpers
             // ====================== THERAPIST QUESTS ======================
 
             // Decontamination Services (5c0d1c4cd0928202a02a6f5c)
-            questHelper.AddArmorToEquipmentExclusive(quests, "5c0d1c4cd0928202a02a6f5c", alLGasMasks);
+            AddArmorToEquipmentInclusive(quests, "5c0d1c4cd0928202a02a6f5c", alLGasMasks);
         }
     }
 }
