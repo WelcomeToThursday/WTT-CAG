@@ -933,13 +933,806 @@
       "slotId": "soft_armor_right",
       "parentId": "6a6d2ba93588511f1f7ccf65"
     },
-    
-    
-    
-    
-    
-    
-    
+
+    {
+      "_id": "6ad9f9c6cf4ee737baa4bf9c", // ARS A-18 SKANDA (MM-14) 
+      "_tpl": "6ab6bd7c8800fe21d523911b",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad9f9e3e5941d33d0a4bf9d",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "slotId": "Front_plate",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+    {
+      "_id": "6ad9f9e8de1437c4bea4bfa3",
+      "_tpl": "656f9fa0498d1b7e3e071d98",
+      "slotId": "Back_plate",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+    {
+      "_id": "6ad9f9e7819208f96aa4bfa2",
+      "_tpl": "6570e5100b57c03ec90b970a",
+      "slotId": "Soft_armor_front",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+    {
+      "_id": "6ad9f9e65a1bb823bea4bfa1",
+      "_tpl": "6570e479a6560e4ee50c2b02",
+      "slotId": "Soft_armor_back",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+    {
+      "_id": "6ad9f9e5f6b93a9c10a4bfa0",
+      "_tpl": "6570e5674cc0d2ab1e05edbb",
+      "slotId": "Soft_armor_left",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+    {
+      "_id": "6ad9f9e5193e3ffe9da4bf9f",
+      "_tpl": "6570e59b0b57c03ec90b970e",
+      "slotId": "soft_armor_right",
+      "parentId": "6ad9f9c6cf4ee737baa4bf9c"
+    },
+
+    {
+      "_id": "6ad9fccf26dc6b55ada4bfa5", // WARTECH TV-124 plate carrier (MultiCam)
+      "_tpl": "6ab6c1e9e2eab0117bd2839e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad9fcd28a0a8d88c8a4bfa6",
+      "_tpl": "6575d561b15fef3dd4051670",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ad9fcd3c74c82ff8ea4bfa7",
+      "_tpl": "6575d56b16c2762fba005818",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ad9fcda0ce5ec5fd7a4bfaa",
+      "_tpl": "64afc71497cf3a403c01ff38",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ad9fcdca7eb6269aea4bfab",
+      "_tpl": "64afc71497cf3a403c01ff38",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ad9fcdd0f5c8a8a2ba4bfac",
+      "_tpl": "6575d5bd16c2762fba005828",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Shoulder_r"
+    },
+    {
+      "_id": "6ad9fcde850e659ee8a4bfad",
+      "_tpl": "6575d5b316c2762fba005824",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Shoulder_l"
+    },
+    {
+      "_id": "6ad9fce0129fb8cb4ca4bfae",
+      "_tpl": "6ab6c33ae2eab0117bd2839f",
+      "parentId": "6ad9fccf26dc6b55ada4bfa5",
+      "slotId": "Groin"
+    },
+
+    {
+      "_id": "6ad9fec01d088c5ffda4bfaf", // Ars Arma AVS Mod.1 plate carrier (A-TACS FG)
+      "_tpl": "6a90fe58bb0f96bbb75866f3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 4,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ad9fee4dd382b08d7a4bfb5",
+      "_tpl": "6575d561b15fef3dd4051670",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ad9fee2ea324d47a8a4bfb4",
+      "_tpl": "6575d56b16c2762fba005818",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ad9fee184d548b517a4bfb3",
+      "_tpl": "6575ef78da698a4e980677eb",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "soft_armor_left"
+    },
+    {
+      "_id": "6ad9fee1aeffda8386a4bfb2",
+      "_tpl": "6575ef7f9c7cad336508e457",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "soft_armor_right"
+    },
+    {
+      "_id": "6ad9fee09a2f623f7aa4bfb1",
+      "_tpl": "68a553f9e1f415c456114c6a",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ad9fee060642cb38ea4bfb0",
+      "_tpl": "68a553f9e1f415c456114c6a",
+      "parentId": "6ad9fec01d088c5ffda4bfaf",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada0233fdbf073724a4bfb6", // Ars Arma AVS plate carrier (Black Division)
+      "_tpl": "6ac13ad1b14916ebca750d16",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada023a8be7de54e7a4bfba",
+      "_tpl": "6570e83223c1f638ef0b0ede",
+      "parentId": "6ada0233fdbf073724a4bfb6",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada0239896ba0d274a4bfb9",
+      "_tpl": "6570e87c23c1f638ef0b0ee2",
+      "parentId": "6ada0233fdbf073724a4bfb6",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada023819930b0a82a4bfb8",
+      "_tpl": "656fafe3498d1b7e3e071da4",
+      "parentId": "6ada0233fdbf073724a4bfb6",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada02378ee6084cb5a4bfb7",
+      "_tpl": "656fafe3498d1b7e3e071da4",
+      "parentId": "6ada0233fdbf073724a4bfb6",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada029b6f533365e4a4bfc0", // C2R Fast FULCRUM plate carrier (MultiCam Black)
+      "_tpl": "6ab95488e937d74e02b76447",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada029a37cf415f8ba4bfbf",
+      "_tpl": "6a92274138db677519d467dc",
+      "parentId": "6ada029b6f533365e4a4bfc0",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada0299426f553911a4bfbe",
+      "_tpl": "6a92274138db677519d467dc",
+      "parentId": "6ada029b6f533365e4a4bfc0",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada031c8ddfc7e04aa4bfc1", // Crye CPC plate carrier (Medic)
+      "_tpl": "6ab97214f1a1c7257ab7644d",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada034c1a9aadcc92a4bfc8",
+      "_tpl": "656f9d5900d62bcd2e02407c",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada034d2806c83524a4bfc9",
+      "_tpl": "656f9d5900d62bcd2e02407c",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada034e98723e0aeaa4bfca",
+      "_tpl": "6575f24ff6a13a7b7100b09e",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada034ff50a4ef8dda4bfcb",
+      "_tpl": "6575f25ada698a4e98067836",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada034f2fa6a36b08a4bfcc",
+      "_tpl": "6575f2649cfdfe416f0399b8",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "6ada0350182fd62015a4bfcd",
+      "_tpl": "6575f26d9c7cad336508e480",
+      "parentId": "6ada031c8ddfc7e04aa4bfc1",
+      "slotId": "soft_armor_right"
+    },
+
+    {
+      "_id": "6ada03f621fb12f010a4bfce", // Tac-Kek EffPC plate carrier
+      "_tpl": "6ab976999f1f897a47b7645e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 4,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada03fa504661f682a4bfd0",
+      "_tpl": "6943c85be2f21398e70378cc",
+      "parentId": "6ada03f621fb12f010a4bfce",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada03f9fbf5732686a4bfcf",
+      "_tpl": "6943c85be2f21398e70378cc",
+      "parentId": "6ada03f621fb12f010a4bfce",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada0595cc4b72be11a4bfd2", // Paraclete RAV plate carrier
+      "_tpl": "6aba9b43d60b630f910ba49e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada059a14abea33e3a4bfd5",
+      "_tpl": "6572f1ca4c8d903cc60c874e",
+      "parentId": "6ada0595cc4b72be11a4bfd2",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada059bbffb05f6faa4bfd6",
+      "_tpl": "6572f1d60103b4a3270332db",
+      "parentId": "6ada0595cc4b72be11a4bfd2",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada059cb440e7d1f2a4bfd7",
+      "_tpl": "6572f1e10103b4a3270332df",
+      "parentId": "6ada0595cc4b72be11a4bfd2",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "6ada059ed5bbdc1a3ba4bfd8",
+      "_tpl": "6572f1edea457732140ce875",
+      "parentId": "6ada0595cc4b72be11a4bfd2",
+      "slotId": "soft_armor_right"
+    },
+
+    {
+      "_id": "6ada06b87226a8a22ea4bfdb", // MSV Gen.2 plate carrier (GP)
+      "_tpl": "6abeb364c8ca1bf0608b07f3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada09379996bee110a4bfe5",
+      "_tpl": "6abeac107b81045a5f8b07ee",
+      "parentId": "6ada06b87226a8a22ea4bfdb",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada09358404fd58fda4bfe2",
+      "_tpl": "6abeac3cfdf421eef68b07ef",
+      "parentId": "6ada06b87226a8a22ea4bfdb",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6ada34277959600a8ba4bfe7", // MSV Gen.2 plate carrier (Machinegunner)
+      "_tpl": "6abea72d4d2b98fa898b07e1",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 1,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada34374dcfc94cbca4bfe8",
+      "_tpl": "656f9d5900d62bcd2e02407c",
+      "parentId": "6ada34277959600a8ba4bfe7",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada34371422180f9fa4bfe9",
+      "_tpl": "656f9d5900d62bcd2e02407c",
+      "parentId": "6ada34277959600a8ba4bfe7",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada343debdedc83e7a4bfec",
+      "_tpl": "6abeac107b81045a5f8b07ee",
+      "parentId": "6ada34277959600a8ba4bfe7",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada343c46135b987aa4bfeb",
+      "_tpl": "6abeac3cfdf421eef68b07ef",
+      "parentId": "6ada34277959600a8ba4bfe7",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6ada34dc799ddb89efa4bfee", // PigeonFrame plate carrier
+      "_tpl": "6abaabce62687ca9970ba4b5",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 4,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada351d9de368bb00a4bff6",
+      "_tpl": "6a9228c5d3830f24b7d467dd",
+      "parentId": "6ada34dc799ddb89efa4bfee",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada351cbfc350d8dba4bff5",
+      "_tpl": "6a9228c5d3830f24b7d467dd",
+      "parentId": "6ada34dc799ddb89efa4bfee",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada35ca14ffee15c2a4bff7", // TYR Pico-DSX plate carrier (Wolf Grey)
+      "_tpl": "6abfd772f6734e1e3b6a2b22",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3602ea0fa55678a4bffc",
+      "_tpl": "656fac30c6baea13cd07e10c",
+      "parentId": "6ada35ca14ffee15c2a4bff7",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada360775fdf31cdea4bffd",
+      "_tpl": "656fac30c6baea13cd07e10c",
+      "parentId": "6ada35ca14ffee15c2a4bff7",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada35df9939f4b1cda4bffb",
+      "_tpl": "6572fc809a866b80ab07eb59",
+      "parentId": "6ada35ca14ffee15c2a4bff7",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada35de1d20377e40a4bffa",
+      "_tpl": "6572fc8c9a866b80ab07eb5d",
+      "parentId": "6ada35ca14ffee15c2a4bff7",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6ada366201ddc2ae01a4c001", // Velocity Systems SCARAB LT plate carrier (M05)
+      "_tpl": "6ac00b0abb1eb0d1db6a2b33",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3666f6b8c649a9a4c003",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6ada366201ddc2ae01a4c001",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada3665b5bdd8e221a4c002",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6ada366201ddc2ae01a4c001",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada371fae114f591ca4c004", // DCS plate carrier (the big one)
+      "_tpl": "6ac01bb7a6d378ee556a2b37",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 1,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada372ff48372cb2da4c005",
+      "_tpl": "6575d561b15fef3dd4051670",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada3730fa2adfff6fa4c006",
+      "_tpl": "6575d56b16c2762fba005818",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada37333003654433a4c007",
+      "_tpl": "6575d598b15fef3dd4051678",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Collar"
+    },
+    {
+      "_id": "6ada37355e1c34b828a4c008",
+      "_tpl": "6575d5b316c2762fba005824",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Shoulder_l"
+    },
+    {
+      "_id": "6ada37376896a18edea4c009",
+      "_tpl": "6575d5bd16c2762fba005828",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Shoulder_r"
+    },
+    {
+      "_id": "6ada37390dab77d3b1a4c00a",
+      "_tpl": "6575d5a616c2762fba005820",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Groin"
+    },
+    {
+      "_id": "6ada373b1a6e67d9a8a4c00b",
+      "_tpl": "656fa61e94b480b8a500c0e8",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada373cf1f513f86fa4c00c",
+      "_tpl": "656fa61e94b480b8a500c0e8",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada373ecfe8bb9d9fa4c00d",
+      "_tpl": "64afdb577bb3bfe8fe03fd1d",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Left_side_plate"
+    },
+    {
+      "_id": "6ada373fadebf735f1a4c00e",
+      "_tpl": "64afdb577bb3bfe8fe03fd1d",
+      "parentId": "6ada371fae114f591ca4c004",
+      "slotId": "Right_side_plate"
+    },
+
+    {
+      "_id": "6ada39de635f42aa58a4c010", // WAS DCS plate carrier (small, olive drab)
+      "_tpl": "6ac846e14d16b30c50fbeab6",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3a067b89688ddca4c015",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6ada39de635f42aa58a4c010",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada3a0770fb732dc0a4c016",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6ada39de635f42aa58a4c010",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada3a08c472317117a4c017",
+      "_tpl": "6575d561b15fef3dd4051670",
+      "parentId": "6ada39de635f42aa58a4c010",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada39f7392a93a25fa4c014",
+      "_tpl": "6575d56b16c2762fba005818",
+      "parentId": "6ada39de635f42aa58a4c010",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6ada3b2534c85e9ae5a4c018", // LV119 plate carrier (Tigerstripe)
+      "_tpl": "6ac039ca5884f6d1266a2b62",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada42d2f55732ffdfa4c03e",
+      "_tpl": "68a5f30248f18317750ab20b",
+      "parentId": "6ada3b2534c85e9ae5a4c018",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada42d13ae220e725a4c03d",
+      "_tpl": "68a5f3a348f18317750ab4be",
+      "parentId": "6ada3b2534c85e9ae5a4c018",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada42cfac5a56b98da4c03b",
+      "_tpl": "68a5f3ec7c9f6975d00238be",
+      "parentId": "6ada3b2534c85e9ae5a4c018",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "6ada42d02edfedca00a4c03c",
+      "_tpl": "68a5f42948f18317750ab543",
+      "parentId": "6ada3b2534c85e9ae5a4c018",
+      "slotId": "Soft_armor_right"
+    },
+
+    {
+      "_id": "6ada3bdd27bae4e88ba4c020", // TBAS V5 plate carrier (Olive Drab)
+      "_tpl": "6ac04ca8ef6feb35406a2b6c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3ff5febedfd54fa4c03a",
+      "_tpl": "68a5f30248f18317750ab20b",
+      "parentId": "6ada3bdd27bae4e88ba4c020",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6ada3ff59d6edaf00ea4c039",
+      "_tpl": "68a5f3a348f18317750ab4be",
+      "parentId": "6ada3bdd27bae4e88ba4c020",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6ada3ff45286f25bdea4c038",
+      "_tpl": "656fac30c6baea13cd07e10c",
+      "parentId": "6ada3bdd27bae4e88ba4c020",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada3ff3496d5a4e10a4c037",
+      "_tpl": "656fac30c6baea13cd07e10c",
+      "parentId": "6ada3bdd27bae4e88ba4c020",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada3c52c13c49849ea4c025", // Shaw ARC V2 plate carrier (M81)
+      "_tpl": "6ac08023371f61ec7b6a2b82",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+
+    {
+      "_id": "6ada4317a09b7adebca4c03f", // SHAW ARC V2 plate carrier (Black, heavy boi)
+      "_tpl": "6ac84b4cf18dd99754fbeac6",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada431c41a7d87294a4c042",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "6ada4317a09b7adebca4c03f",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada431b5c6dfd85e3a4c041",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "6ada4317a09b7adebca4c03f",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6ada431b587751998fa4c040",
+      "_tpl": "6575d5a616c2762fba005820",
+      "parentId": "6ada4317a09b7adebca4c03f",
+      "slotId": "Groin"
+    },
+
+    {
+      "_id": "6ada3cf7984a3889a4a4c029", // Crye SPC Airlite plate carrier (MC Arid)
+      "_tpl": "6ac1316b38ca737925750d0e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3fe618a0043c1da4c033",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "parentId": "6ada3cf7984a3889a4a4c029",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada3fe6c32efcb293a4c032",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "parentId": "6ada3cf7984a3889a4a4c029",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada3d4f73f4689388a4c02c", // Crye SPC Airlite plate carrier (Black)
+      "_tpl": "6ac1326595cc95e441750d11",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3fe0081d03055ea4c030",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "parentId": "6ada3d4f73f4689388a4c02c",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6ada3fe105dd07b258a4c031",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "parentId": "6ada3d4f73f4689388a4c02c",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6ada3db32139057825a4c02d", // Crye JPC 2.0 plate carrier (Bogatyrs)
+      "_tpl": "6ad56919615d1a4070c91d6c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6ada3db67bb432ca76a4c02f",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "slotId": "Front_plate",
+      "parentId": "6ada3db32139057825a4c02d"
+    },
+    {
+      "_id": "6ada3db5aef278e6dba4c02e",
+      "_tpl": "656fb0bd7c2d57afe200c0dc",
+      "slotId": "Back_plate",
+      "parentId": "6ada3db32139057825a4c02d"
+    },
     
     // -  -  -  -   -   -   -   -   -   -   -  ARMOR HELMETS  -   -   -   -   -   -   -   -   -   -    
    
@@ -2350,6 +3143,20 @@
             }
     },
 
+    {
+      "_id": "6ab84eeea7c7bf7b2c72fb90", // Arktis Pattern 42 chest rig (DPM) 
+      "_tpl": "6ab84eeea7c7bf7b2c72fb90",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+
     // -  -  -  -   -   -   -   -   -   -   -  BACKPACKS  -   -   -   -   -   -   -   -   -   -
 
     {
@@ -3068,7 +3875,7 @@
     "6a6d42fff7fe9eebc3b30fd1":  [ [ { "count": 190541,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
 
     //Crye Precision JPC 2.0 (MultiCam Tropic) 
-    "6a6d41b82e7a8e5697d93244":  [ [ { "count": 138372,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
+    "6a6d41b82e7a8e5697d93244":  [ [ { "count": 208372,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
 
     //Crye Precision JPC 2.0 (Coyote Brown) 
     "6a6d414daa99c05cf347c3af":  [ [ { "count": 146513,  "_tpl": "5449016a4bdc2d6f028b456f"} ] ],
@@ -3087,6 +3894,72 @@
     
     //6B46 plate carrier (EMR) 
     "6a6d281bd600cd4e6dbd003f":  [ [ { "count": 118951,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // A-18 Skanda plate carrier (MM-14)
+    "6ad9f9c6cf4ee737baa4bf9c":  [ [ { "count": 125757,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // WARTECH TV-124 plate carrier
+    "6ad9fccf26dc6b55ada4bfa5":  [ [ { "count": 273722,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // ARS ARMA AVS MOD.1 plate carrier (ATACS FG)
+    "6ad9fec01d088c5ffda4bfaf": [ [ { "count": 81752,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Crye AVS plate carrier (Black Div)
+    "6ada0233fdbf073724a4bfb6": [ [ { "count": 181752,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // C2R Fast FULCRUM plate carrier
+    "6ada029b6f533365e4a4bfc0": [ [ { "count": 111752,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Crye CPC plate carrier
+    "6ada031c8ddfc7e04aa4bfc1": [ [ { "count": 80472,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Tac-Kek EffPC plate carrier
+    "6ada03f621fb12f010a4bfce": [ [ { "count": 55382,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Paraclete RAV plate carrier
+    "6ada0595cc4b72be11a4bfd2": [ [ { "count": 75700,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // MSV Gen.2 plate carrier (General Purpose)
+    "6ada06b87226a8a22ea4bfdb": [ [ { "count": 89843,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // MSV Gen.2 plate carrier (Machinegunner)
+    "6ada34277959600a8ba4bfe7": [ [ { "count": 189843,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // S&S PlateFrame plate carrier (Pigeon Edition)
+    "6ada34dc799ddb89efa4bfee": [ [ { "count": 89643,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // TYR Pico-DSX plate carrier
+    "6ada35ca14ffee15c2a4bff7": [ [ { "count": 75750,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // VelSys SCARAB LT plate carrier
+    "6ada366201ddc2ae01a4c001": [ [ { "count": 94873,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // <<BARTER>> WAS DCS plate carrier (MultiCam, the big one)
+    "6ada371fae114f591ca4c004": [[{ "count": 270583,  "_tpl": "5449016a4bdc2d6f028b456f" }]],
+    
+    // WAS DCS plate carrier (Olive Drab)
+    "6ada39de635f42aa58a4c010": [ [ { "count": 75700,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Spiritus LV-119 plate carrier (Tigerstripe Jungle)
+    "6ada3b2534c85e9ae5a4c018": [ [ { "count": 65063,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // TBAS V5 plate carrier (Olive Drab)
+    "6ada3bdd27bae4e88ba4c020": [ [ { "count": 110030,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Shaw ARC V2 plate carrier (M81)
+    "6ada3c52c13c49849ea4c025": [ [ { "count": 55058,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Shaw ARC V2 plate carrier (P90, Black)
+    "6ada4317a09b7adebca4c03f": [ [ { "count": 123052,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Crye SPC plate carrier (MC Arid)
+    "6ada3cf7984a3889a4a4c029": [ [ { "count": 80000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
+    // Crye SPC plate carrier (Black)
+    "6ada3d4f73f4689388a4c02c": [ [ { "count": 80000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // Crye JPC 2.0 plate carrier (Bogatyrs)
+    "6ada3db32139057825a4c02d": [ [ { "count": 149572,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
     
     // FAST SF custom build with GPNVGS 
     "69ecddbac4ac0c1322033c30":  [ [ { "count": 1,  "_tpl": "59faff1d86f7746c51718c9c" } ] ],
@@ -3274,6 +4147,9 @@
     // Eberlestock Recon Bino Modular chest rig (Grey)  
     "69653b6560fcf0a0300ac555":  [ [ { "count": 9213,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
+    // Arktis chest rig
+    "6ab84eeea7c7bf7b2c72fb90":   [ [ { "count": 20903,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
     // Bergan F2 military backpack  
     "69653b6560fcf0a0300ac556":  [ [ { "count": 28973,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
@@ -3436,6 +4312,28 @@
     "6a6d2fb4fe0bdf9229610dbc": 4, //NFM THOR MCVS Overt plate carrier (MultiCam) 
     "6a6d2ba93588511f1f7ccf65": 2, //NFM THOR MCVS Overt plate carrier (Olive Drab) 
     "6a6d281bd600cd4e6dbd003f": 3, //6B46 plate carrier (EMR) 
+    "6ad9fccf26dc6b55ada4bfa5": 4, // WARTECH TV-124 plate carrier
+    "6ad9fec01d088c5ffda4bfaf": 2, // ARS ARMA AVS MOD.1 PLATE CARRIER
+    "6ada0233fdbf073724a4bfb6": 4, // CRYE AVS plate carrier (BLACK DIV)
+    "6ada029b6f533365e4a4bfc0": 3, // C2R Fast FULCRUM plate carrier (MC BLACK)
+    "6ada031c8ddfc7e04aa4bfc1": 2, // Crye CPC plate carrier (MultiCam)
+    "6ada03f621fb12f010a4bfce": 1, // Tac-Kek EffPC plate carrier
+    "6ada0595cc4b72be11a4bfd2": 3, // Paraclete RAV plate carrier
+    "6ada06b87226a8a22ea4bfdb": 2, // MSV Gen.2 plate carrier (Gen Purpose)
+    "6ada34277959600a8ba4bfe7": 3, // MSV Gen.2 plate carrier (Machinegunner)
+    "6ada34dc799ddb89efa4bfee": 3, // S&S PlateFrame plate carrier (Pigeon Edition)
+    "6ada35ca14ffee15c2a4bff7": 2, // TYR Tactical Pico-DSX plate carrier (Grey)
+    "6ada366201ddc2ae01a4c001": 3, // Velocity Systems SCARAB LT plate carrier (M05)
+    "6ada371fae114f591ca4c004": 4, // <<BARTER>> WAS DCS plate carrier (MultiCam, the big one)
+    "6ada39de635f42aa58a4c010": 3, // WAS DCS plate carrier (Olive Drab)
+    "6ada3b2534c85e9ae5a4c018": 4, // Spiritus LV-119 plate carrier (Tigerstripe Jungle)
+    "6ada3bdd27bae4e88ba4c020": 2, // TBAS V5 plate carrier (Olive Drab)
+    "6ada3c52c13c49849ea4c025": 3, // SHAW ARC V2 plate carrier (M81)
+    "6ada4317a09b7adebca4c03f": 4, // SHAW ARC V2 plate carrier (Black)
+    "6ada3cf7984a3889a4a4c029": 2, // Crye SPC airlite plate carrier (MC Arid)
+    "6ada3d4f73f4689388a4c02c": 2, // Crye SPC airlite plate carrier (Black)
+    "6ada3db32139057825a4c02d": 4, // Crye JPC 2.0 plate carrier (Bogatyrs)
+    "6ad9f9c6cf4ee737baa4bf9c": 4, // ARS A-18 SKANDA (MM14)
     "69ecddbac4ac0c1322033c30": 3, // FAST SF custom build with GPNVGS 
     "69653b6560fcf0a0300ac582": 3, // Ceradyne IHPS Ballistic helmet (Coyote Tan)  
     "69653b6560fcf0a0300ac586": 4, // Ops-Core FAST XP high cut helmet (MultiCam)  
@@ -3498,6 +4396,7 @@
     "69653b6560fcf0a0300ac553": 3, // Spiritus Systems Thing 3 chest rig (Coyote Tan)  
     "69653b6560fcf0a0300ac554": 3, // Spiritus Systems Thing 3 chest rig (Ranger Green)  
     "69653b6560fcf0a0300ac555": 1, // Eberlestock Recon Bino Modular chest rig (Grey)  
+    "6ab84eeea7c7bf7b2c72fb90": 2, // Arktis Pat.42 chest rig
     "69653b6560fcf0a0300ac556": 3, // Bergan F2 military backpack  
     "69653b6560fcf0a0300ac557": 4, // Arc'teryx LEAF 30L assault pack (MultiCam)  
     "69653b6560fcf0a0300ac558": 4, // Arc'teryx LEAF 30L assault pack  

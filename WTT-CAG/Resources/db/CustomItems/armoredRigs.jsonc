@@ -8100,13 +8100,13 @@
           },
           {
             "_id": "6ab954792b734450b6b76445",
-            "_tpl": "64afc71497cf3a403c01ff38",
+            "_tpl": "6a92274138db677519d467dc",
             "parentId": "6ab95476373758bf80b76443",
             "slotId": "Front_plate"
           },
           {
             "_id": "6ab95479aa0ed5ba2ab76444",
-            "_tpl": "64afc71497cf3a403c01ff38",
+            "_tpl": "6a92274138db677519d467dc",
             "parentId": "6ab6fb59225360f8e9578f34",
             "slotId": "Back_plate"
           }
