@@ -24,7 +24,7 @@
     {
       "key": "assets/content/items/equipment/helmet_un/item_equipment_helmet_un.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -102,15 +102,14 @@
     {
       "key": "Bodywear/armoredRigs/cr_ars_jpc_bogatyrs.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_mp443_izhmeh_std_9x19_18.bundle",
-        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_01.bundle",
         "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_03.bundle",
-        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle",
-        "shaders",
-        "cubemaps",
         "assets/content/weapons/rsp30/client_assets.bundle",
+        "cubemaps",
+        "shaders",
         "assets/content/items/mods/magazines/mag_ak_arsenal_cwp_mag_556x45_30.bundle",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_01.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle"
       ]
     },
     {
@@ -190,13 +189,13 @@
     {
       "key": "Bodywear/armoredRigs/cr_tyr_tactical_pico-dsx_grey.bundle",
       "dependencyKeys": [
-        "assets/content/items/ammo/patrons/patron_40x46_m406.bundle",
-        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
-        "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
+        "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
         "shaders",
         "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_40_blk.bundle",
-        "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
-        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle"
+        "assets/content/items/ammo/patrons/patron_40x46_m406.bundle",
+        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_30_blk.bundle",
+        "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle"
       ]
     },
     {
@@ -310,10 +309,10 @@
     {
       "key": "Bodywear/armoredRigs/JPC/cr_crye_jpc_mct_saw.bundle",
       "dependencyKeys": [
-        "assets/commonassets/physics/physicsmaterials.bundle",
-        "shaders",
         "Bodywear/armoredRigs/JPC/cr_crye_jpc_sharedmaps.bundle",
-        "cubemaps"
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {
@@ -917,38 +916,52 @@
       ]
     },
     {
-      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle",
+      "key": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_cadpat.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle"
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle"
       ]
     },
     {
-      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor2.bundle",
+      "key": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_green.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
-        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_green.bundle"
       ]
     },
     {
-      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_grey.bundle",
+      "key": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_mc.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
-        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mc.bundle",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle"
       ]
     },
     {
-      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_mm14.bundle",
+      "key": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_mcb.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
-        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mcb.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_navy.bundle",
+      "dependencyKeys": [
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_navy.bundle",
+        "shaders",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
       ]
     },
     {
@@ -1012,6 +1025,41 @@
       "key": "Clothing/Lowers/NPC_UNTAR_PANTERA/untar_pol_bottom.bundle",
       "dependencyKeys": [
         "shaders"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_grey.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_mm14.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/characters/character/prefabs/pants_usec_jeans01.bundle",
+        "Clothing/Lowers/patagonia_l9/patagonia_l9_lower_patagonia_l9_aor1.bundle"
       ]
     },
     {
@@ -1219,6 +1267,50 @@
       "dependencyKeys": [
         "shaders",
         "assets/content/characters/character/prefabs/top_bear_fsbfastresponse.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_green.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mcb.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle",
+        "cubemaps",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle"
+      ]
+    },
+    {
+      "key": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_navy.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+        "cubemaps",
+        "Clothing/Uppers/brandit/top_brandit_windbreaker_blue.bundle"
       ]
     },
     {
@@ -1746,14 +1838,14 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_blk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/mich_2000/mich2000_fde.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -1764,7 +1856,7 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_spray.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -1950,42 +2042,42 @@
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },

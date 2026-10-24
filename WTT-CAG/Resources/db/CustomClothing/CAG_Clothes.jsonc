@@ -829,5 +829,130 @@
     "standing": 0,
     "currencyId": "MONEY_ROUBLES",
     "price": 248492
+  },
+  { // Velocity Systems BOSS Rugby (Long Sleeve) - CADPAT TW
+    "type": "top",
+    "suiteId": "6adcca97bd240cde0025255a",
+    "outfitId": "6adcca95dbd9b27773252558",
+    "topId": "6adcca969698d562ef252559",
+    "handsId": "6adcca952859743e34252557",
+    "locales": {
+      "en": {
+        "name": "BOSS Rugby Long (CADPAT TW)",
+        "description": "Velocity Systems"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_cadpat.bundle",
+    "handsBundlePath": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_cadpat.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 17,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350000
+  },
+  { // Velocity Systems BOSS Rugby (Long Sleeve) - MultiCam
+    "type": "top",
+    "suiteId": "6adccb416efdf306cb25255e",
+    "outfitId": "6adccb41bf2e7af48525255d",
+    "topId": "6adccb414fb613945125255c",
+    "handsId": "6adccb40204cc83ffe25255b",
+    "locales": {
+      "en": {
+        "name": "BOSS Rugby Long (MultiCam)",
+        "description": "Velocity Systems"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mc.bundle",
+    "handsBundlePath": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_mc.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 17,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350000
+  },
+  { // Velocity Systems BOSS Rugby (Long Sleeve) - MultiCam Black
+    "type": "top",
+    "suiteId": "6adccb7075504849a625255f",
+    "outfitId": "6adccb718c9e60496c252560",
+    "topId": "6adccb718e47629be8252561",
+    "handsId": "6adccb721274db2caf252562",
+    "locales": {
+      "en": {
+        "name": "BOSS Rugby Long (MultiCam Black)",
+        "description": "Velocity Systems"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_mcb.bundle",
+    "handsBundlePath": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_mcb.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 17,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350000
+  },
+  { // Velocity Systems BOSS Rugby (Long Sleeve) - Ranger Green
+    "type": "top",
+    "suiteId": "6adccb8235630addb6252566",
+    "outfitId": "6adccb82564cb02e0c252565",
+    "topId": "6adccb81b6658833c6252564",
+    "handsId": "6adccb81dd87cf7fb7252563",
+    "locales": {
+      "en": {
+        "name": "BOSS Rugby Long (Ranger Green)",
+        "description": "Velocity Systems"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_green.bundle",
+    "handsBundlePath": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_green.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 17,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350000
+  },
+  { // Velocity Systems BOSS Rugby (Long Sleeve) - Navy Blue
+    "type": "top",
+    "suiteId": "6adccb8c1bf16fd02025256a",
+    "outfitId": "6adccb8b031a7f8dae252569",
+    "topId": "6adccb8b11bd70c43d252568",
+    "handsId": "6adccb8a4505e67aac252567",
+    "locales": {
+      "en": {
+        "name": "BOSS Rugby Long (Navy)",
+        "description": "Velocity Systems"
+      }
+    },
+    "topBundlePath": "Clothing/Uppers/vs_rugby/shirt_velocity_rugby_long_navy.bundle",
+    "handsBundlePath": "Clothing/Hands/vs_rugby/hands_velocity_rugby_long_navy.bundle",
+    "traderId": "69eccbae0764116786033c2e",
+    "side": [
+      "Usec",
+      "Bear"
+    ],
+    "loyaltyLevel": 2,
+    "profileLevel": 17,
+    "standing": 0,
+    "currencyId": "MONEY_ROUBLES",
+    "price": 350000
   }
 ]
