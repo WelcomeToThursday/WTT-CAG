@@ -5,42 +5,40 @@ using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using WTTClothingAndGear.Helpers;
-using WTTClothingAndGear.Traders;
 using WTTServerCommonLib.Models;
 using Path = System.IO.Path;
 using Range = SemanticVersioning.Range;
 
 namespace WTTClothingAndGear;
 
-public record ModMetadata : AbstractModMetadata
+public record ModMetadata : IModMetadata
 {
-    public override string ModGuid { get; init; } = "com.wtt.cag";
-    public override string Name { get; init; } = "WTT-CAG";
-    public override string Author { get; init; } = "The WTT Team";
-    public override List<string>? Contributors { get; init; } = null;
-    public override SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
-    public override Range SptVersion { get; init; } = new("~4.0.1");
-    public override List<string>? Incompatibilities { get; init; }
-    public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
+    public string ModGuid { get; init; } = "com.wtt.cag";
+    public string Name { get; init; } = "WTT-CAG";
+    public string Author { get; init; } = "The WTT Team";
+    public List<string>? Contributors { get; init; } = null;
+    public SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
+    public Range SptVersion { get; init; } = new("~4.1.6");
+    public List<string>? Incompatibilities { get; init; }
+    public Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("^2.0.22") },
-        { "com.wtt.contentbackport", new Range("^1.1.0") },
-        { "com.wtt.armory", new Range("^2.1.0") }
+        { "com.wtt.commonlib", new Range("^3.0.6") },
+        { "com.wtt.contentbackport", new Range("^2.0.5") }
     };
-    public override string? Url { get; init; }
-    public override bool? IsBundleMod { get; init; } = true;
-    public override string License { get; init; } = "CC-BY-NC-ND 4.0";
+    public string? Url { get; init; }
+    public bool HasPrepatcher { get; init; } = false;
+    public string License { get; init; } = "CC-BY-NC-ND 4.0";
 }
 
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 3)]
+[Injectable(TypePriority = OnLoadOrder.Preload + 3)]
 public class WTTClothingAndGear(
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
     CagQuestHelper cagQuestHelper
 ) : IOnLoad 
 
 {
-    public async Task OnLoad()
+    public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
         Assembly assembly = Assembly.GetExecutingAssembly();
         
@@ -54,7 +52,6 @@ public class WTTClothingAndGear(
         wttCommon.CustomRigLayoutService.CreateRigLayouts(assembly); 
         wttCommon.CustomSlotImageService.CreateSlotImages(assembly);
         await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
-        await Task.CompletedTask;
         cagQuestHelper.ModifyQuests();
     }
 }

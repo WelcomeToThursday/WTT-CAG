@@ -1,8 +1,10 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text.Json.Serialization;
+using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Services;
 using WTTServerCommonLib.Helpers;
@@ -11,56 +13,10 @@ namespace WTTClothingAndGear.Helpers
 {
     [Injectable]
     public class CagQuestHelper(
-        DatabaseService databaseService,
+        TemplateTable templateTable,
         ISptLogger<CagQuestHelper> logger,
         QuestHelper questHelper)
     {
-        public void AddArmorToEquipmentInclusive(
-            Dictionary<MongoId, Quest> quests,
-            string questId,
-            string[] armorIds
-        )
-        {
-            if (
-                armorIds == null
-                || armorIds.Length == 0
-                || !quests.TryGetValue(questId, out var quest)
-                || quest.Conditions.AvailableForFinish == null
-            )
-            {
-                return;
-            }
-
-            foreach (var condition in quest.Conditions.AvailableForFinish)
-            {
-                if (condition is not
-                    {
-                        ConditionType: "CounterCreator",
-                        Counter.Conditions: not null
-                    })
-                {
-                    continue;
-                }
-
-                foreach (var counterCondition in condition.Counter.Conditions)
-                {
-                    if (counterCondition is not
-                        {
-                            ConditionType: "Equipment",
-                            EquipmentInclusive: not null
-                        })
-                    {
-                        continue;
-                    }
-
-                    var newCombination = armorIds.ToList();
-                    var combinations = counterCondition.EquipmentInclusive.ToList();
-                    combinations.Add(newCombination);
-
-                    counterCondition.EquipmentInclusive = combinations;
-                }
-            }
-        }
         // Define weapon IDs
         // helmets
         private const string Helmet6B27 = "69e73666cbadfd79bdbe98ce";
@@ -156,7 +112,7 @@ namespace WTTClothingAndGear.Helpers
 
         public void ModifyQuests()
         {
-            var quests = databaseService.GetTemplates().Quests;
+            var quests = templateTable.Quests;
             // ====================== ALL NEW ITEMS ======================
 
             var allArmors = new[]
@@ -190,14 +146,14 @@ namespace WTTClothingAndGear.Helpers
                 HelmetUntarFast, ArmorUntarStd 
             };
             //  Peacekeeping Mission (5c0d4c12d09282029f539173)
-             AddArmorToEquipmentInclusive(quests, "5c0d4c12d09282029f539173", allUntar);
+            questHelper.AddArmorToEquipmentInclusive(quests, "5c0d4c12d09282029f539173", allUntar);
             //  Humanitarian Supplies (5a27b87686f77460de0252a8)
-            AddArmorToEquipmentInclusive(quests, "5a27b87686f77460de0252a8", allUntar);
+            questHelper.AddArmorToEquipmentInclusive(quests, "5a27b87686f77460de0252a8", allUntar);
 
             // ====================== THERAPIST QUESTS ======================
 
             // Decontamination Services (5c0d1c4cd0928202a02a6f5c)
-            AddArmorToEquipmentInclusive(quests, "5c0d1c4cd0928202a02a6f5c", alLGasMasks);
+            questHelper.AddArmorToEquipmentInclusive(quests, "5c0d1c4cd0928202a02a6f5c", alLGasMasks);
         }
     }
 }

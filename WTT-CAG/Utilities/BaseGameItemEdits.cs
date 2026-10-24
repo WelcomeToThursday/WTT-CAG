@@ -1,21 +1,23 @@
-﻿using SPTarkov.DI.Annotations;
+﻿using SPTarkov.Common.Models.Logging;
+using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Services;
 using WTTServerCommonLib.Helpers;
 
 namespace WTTClothingAndGear.Utilities;
 
-[Injectable(typePriority: OnLoadOrder.PostDBModLoader + 3)]
+[Injectable(typePriority: OnLoadOrder.Preload + 3)]
 public class BaseGameItemEdits(
     ISptLogger<BaseGameItemEdits> logger,
-    DatabaseService databaseService,
+    TemplateTable templateTable,
     SlotHelper slotHelper
 ):IOnLoad
 {
-    public Task OnLoad()
+    public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         EditFilters();
         return Task.CompletedTask;
@@ -23,7 +25,7 @@ public class BaseGameItemEdits(
 
     private void EditFilters()
     {
-        var dbItems = databaseService.GetItems();
+        var dbItems = templateTable.Items;
         foreach (var (id, item) in dbItems)
         {
             switch (id)
