@@ -133,6 +133,18 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_eagle_industries_spc_usmc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/weapons/m67/client_assets.bundle",
+        "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
+        "assets/content/items/equipment/rig_plateminus_misplec/item_equipment_armor_plateminus_milspec.bundle",
+        "assets/content/items/equipment/rig_plateminus_extreme/item_equipment_armor_plateminus_extreme.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/cr_fcpc_wild.bundle",
       "dependencyKeys": [
         "shaders",
@@ -2234,6 +2246,23 @@
       ]
     },
     {
+      "key": "Headwear/helmets/vityaz_s/helmet_vityaz_s_olive.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/helmet_maska_1sh/item_equipment_helmet_maska_1sh.bundle",
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/helmets/vityaz_s/item_helmet_vityaz_s_visor.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "Headwear/helmets/vityaz_s/helmet_vityaz_s_olive.bundle"
+      ]
+    },
+    {
       "key": "Headwear/masks/gas_mask_m50_black.bundle",
       "dependencyKeys": [
         "Headwear/masks/gas_mask_m50_textures.bundle",
@@ -2293,6 +2322,22 @@
     },
     {
       "key": "Headwear/nvgs/nvg_actinblack_dtnvg.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/nvgs/nvg_l3_fpano_fde.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Headwear/nvgs/mount_nvg_swift_fpg21.bundle",
       "dependencyKeys": [
         "cubemaps",
         "shaders",
