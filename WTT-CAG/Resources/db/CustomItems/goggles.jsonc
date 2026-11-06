@@ -119,5 +119,73 @@
     ],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6aece3759b55c16086112d9e": { // L3Harris F-PANO night vision goggles
+    "itemTplToClone": "5c0558060db834001b735271",
+    "parentId": "5a2c3a9486f774688b05e574",
+    "handbookParentId": "5b5f749986f774094242f199",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/nvgs/nvg_l3_fpano_fde.bundle",
+        "rcid": ""
+      },
+      "Name": "nvg_l3_fpano_fde",
+      "ConflictingItems": [
+        "5a16b672fcdbcb001912fa83",
+        "5a16b7e1fcdbcb00165aa6c9",
+        "5e00cdd986f7747473332240",
+        "5e01f37686f774773c6f6c15"
+      ],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "DiffuseIntensity": 0.023,
+      "HasHinge": true,
+      "Intensity": 2.3,
+      "Mask": "Anvis",
+      "MaskSize": 0.99,
+      "NoiseIntensity": 0.02,
+      "NoiseScale": 5,
+      "Color": {
+        "r": 70,
+        "g": 225,
+        "b": 230,
+        "a": 0
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "L3Harris F-PANO night vision goggles",
+        "shortName": "F-PANO",
+        "description": "The F-PANO (Fused Ground Panoramic Night Vision Goggle) is a high-end quad-tube night vision binoculars designed around the GPNVG-18 framework with a built-in Thermal Imaging Camera to allow to better target acquisition in low-light environments. Manufactured by L3Harris."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 2175578,
+    "handbookPriceRoubles": 348523,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 1
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 1
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 1
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }

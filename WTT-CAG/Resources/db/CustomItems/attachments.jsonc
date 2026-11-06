@@ -2764,5 +2764,119 @@
     "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {}
+  },
+  "6aebbd3964f3bd6fbc9e5c00": { // Vityaz-S faceshield (Olive Drab)
+    "itemTplToClone": "5aa7e373e5b5b000137b76f0",
+    "parentId": "57bef4c42459772e8d35a53b",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/helmets/vityaz_s/item_helmet_vityaz_s_visor.bundle",
+        "rcid": ""
+      },
+      "BlindnessProtection": 0.31,
+      "armorClass": "4",
+      "armorColliders": [
+        "HeadCommon",
+        "Eyes",
+        "Jaw"
+      ],
+      "Durability": 31,
+      "MaxDurability": 31,
+      "CanSellOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Vityaz-S Helmet face shield (Olive Drab)",
+        "shortName": "SENTRY XP",
+        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 999999,
+    "handbookPriceRoubles": 90472,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
+  },
+  "6aece98004a163cd75112d9f": { // Swift FPG-21 nvg shroud
+    "itemTplToClone": "5a16b8a9fcdbcb00165aa6ca",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Headwear/nvgs/mount_nvg_swift_fpg21.bundle",
+        "rcid": ""
+      },
+      "Name": "mount_nvg_swift_fpg21",
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [
+        "5e00cdd986f7747473332240",
+        "5e01f37686f774773c6f6c15"
+      ],
+      "Slots": [
+        {
+          "_id": "6aeceadaf7d0bac84d112da2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "6aece98004a163cd75112d9f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6aece3759b55c16086112d9e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Swift FPG-21 night vision mount",
+        "shortName": "FPG-21",
+        "description": "A lightweight mount for installation on the Shroud connector on tactical helmets."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 999999,
+    "handbookPriceRoubles": 90472,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {}
   }
 }
