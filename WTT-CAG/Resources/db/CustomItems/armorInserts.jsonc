@@ -1669,5 +1669,112 @@
     "staticLootContainers": [],
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6aebb43ba0e4cd712b9e5bfc": { // Vityaz-S TOP ARMOR
+    "itemTplToClone": "657112234269e9a568089eac",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+        "rcid": ""
+      },
+      "Name": "vityaz_level4_helmet_armor_top",
+      "Durability": 31,
+      "MaxDurability": 31,
+      "RepairCost": 200,
+      "ArmorMaterial": "ArmoredSteel",
+      "armorClass": 4,
+      "armorColliders": [
+        "ParietalHead"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Hybrid composite materials",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 66582,
+    "handbookPriceRoubles": 24377,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6aebb43c8bceef74c59e5bfd": { // Vityaz-S BACK ARMOR
+    "itemTplToClone": "657112a4818110db4600aa66",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
+        "rcid": ""
+      },
+      "Name": "vityaz_level4_helmet_armor_back",
+      "Durability": 31,
+      "MaxDurability": 31,
+      "RepairCost": 200,
+      "ArmorMaterial": "ArmoredSteel",
+      "armorClass": 4,
+      "armorColliders": [
+        "BackHead"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Hybrid composite materials",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 66582,
+    "handbookPriceRoubles": 24377,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6aebb35d02df963a839e5bfb": { // Vityaz-S Side Armor
+    "itemTplToClone": "657112ce22996eaf110881fb",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
+        "rcid": ""
+      },
+      "Name": "vityaz_level4_helmet_armor_ears",
+      "Durability": 11,
+      "MaxDurability": 11,
+      "armorClass": "4",
+      "ArmorMaterial": "ArmoredSteel"
+    },
+    "locales": {
+      "en": {
+        "name": "Hybrid composite materials",
+        "shortName": "",
+        "description": ""
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "fleaPriceRoubles": 66582,
+    "handbookPriceRoubles": 24377,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": false,
+    "weaponPresets": []
   }
 }
