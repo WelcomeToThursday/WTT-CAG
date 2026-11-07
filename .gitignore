@@ -1,13 +1,14 @@
 *.js
 *.map
-./types
-./node_modules
-types
-node_modules
+types/
+node_modules/
 tsconfig.json
 package-lock.json
 mod.code-workspace
-/.idea
-/WTT-CAG/obj
-/WTT-CAG/bin
+/.idea/
+# .NET build output for all projects
+**/obj/
+**/bin/
+# Packaged mod output
+/Build/
 /.vs/
