@@ -10251,10 +10251,10 @@
       "RigLayoutName": "pigeon_pframe",
       "Width": 3,
       "Height": 4,
-      "Weight": 1.42,
+      "Weight": 1.62,
       "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": -1,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -2,
       "CanSellOnRagfair": true,
       "Grids": [
         {
@@ -15377,6 +15377,209 @@
         ],
         "_name": "Vest Ferro FCPC Ranger Standard",
         "_parent": "6aef9e811f6ab0681b31a245",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6af00e34ab8dc7f624dc3833": { // NPP KlASS Bagariy plate carrier (OMON) 
+    "itemTplToClone": "628d0618d1ba6e4fa07ce5a4",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_bagarii_omon.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_bagarii_omon"
+    },
+    "locales": {
+      "en": {
+        "name": "NPP KlASS Bagariy plate carrier (OMON)",
+        "shortName": "Bagariy OMON",
+        "description": "In the second millennium, the equipment of a soldier received serious changes in view of new threats and tasks. A better level of protection was required, so the Russian army needed a reliable and functional body armor. In the mid-2000s, the MVD, which was later reorganized into the Russian Guard, received Bagariy bulletproof vests. Bagariy was used both by ordinary soldiers of the internal troops, and in special forces, and is cctively used by OMON as heavy body armor."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 80182,
+    "handbookPriceRoubles": 51618,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af00e34ab8dc7f624dc3833",
+        "_id": "6af00eb50c8dfc47d1dc3834",
+        "_items": [
+          {
+            "_id": "6af00eb7acec5e8ac8dc3835",
+            "_tpl": "6af00e34ab8dc7f624dc3833",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af00ebedcddc546d6dc3836",
+            "_tpl": "657322988c1cc6dcd9098b2d",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6af00ec079631a52a8dc3837",
+            "_tpl": "657322a4cea9255e21023651",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6af00ec22056519009dc3838",
+            "_tpl": "657322acd9d89ff7ac0d961b",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6af00ec47af23a6b48dc3839",
+            "_tpl": "657322b7d9d89ff7ac0d961f",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6af00ec55cf73a4694dc383a",
+            "_tpl": "656f664200d62bcd2e024077",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af00ec6c3be1035eddc383b",
+            "_tpl": "657b2797c3dbcb01d60c35ea",
+            "parentId": "6af00eb7acec5e8ac8dc3835",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Vest Bagariy OMON Standard",
+        "_parent": "6af00eb7acec5e8ac8dc3835",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6af00fba4e747adcc9dc383c": { // S&S PFM Milspec
+    "itemTplToClone": "6abaabce62687ca9970ba4b5",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_sns_plateframe_milspec.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_sns_plateframe_milspec",
+      "Width": 3,
+      "Height": 3,
+      "Weight": 1.24,
+      "mousePenalty": 0,
+      "speedPenaltyPercent": -2,
+      "weaponErgonomicPenalty": -1,
+      "CanSellOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "S&S Precision PlateFrame-Modular plate carrier (MultiCam)",
+        "shortName": "PF-M",
+        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by a reknowned British USEC PMC. Manufactured by S&S Precision."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 80182,
+    "handbookPriceRoubles": 51618,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af00fba4e747adcc9dc383c",
+        "_id": "6af010d53b0f151231dc3843",
+        "_items": [
+          {
+            "_id": "6af010c8612d1617b4dc383e",
+            "_tpl": "6af00fba4e747adcc9dc383c",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af010cf9ad7321eafdc3842",
+            "_tpl": "6943c85be2f21398e70378cc",
+            "parentId": "6af010c8612d1617b4dc383e",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af010ce48d774b909dc3841",
+            "_tpl": "6943c85be2f21398e70378cc",
+            "parentId": "6af010c8612d1617b4dc383e",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6af010ce39162bccbfdc3840",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6af010c8612d1617b4dc383e",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "6af010cd018ae06fa7dc383f",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "6af010c8612d1617b4dc383e",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_name": "Vest PF-M Milspec Standard",
+        "_parent": "6af010c8612d1617b4dc383e",
         "_type": "Preset"
       }
     ]
