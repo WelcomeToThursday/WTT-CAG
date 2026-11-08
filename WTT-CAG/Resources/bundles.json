@@ -145,17 +145,6 @@
       ]
     },
     {
-      "key": "Bodywear/armoredRigs/cr_fcpc_wild.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
-        "assets/content/weapons/usable_items/item_ifak/client_assets.bundle",
-        "assets/content/items/mods/magazines/mag_tt_toz_std_762x25tt_8.bundle",
-        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
-      ]
-    },
-    {
       "key": "Bodywear/armoredRigs/cr_msa_paraclete_odg.bundle",
       "dependencyKeys": [
         "assets/content/items/equipment/rig_bae_rbav_af/item_equipment_rig_bae_rbav_af.bundle",
@@ -243,6 +232,40 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/FCPC/cr_fcpc_wild.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/rig_jpc_wild/item_equipment_rig_jpc_wild_2.bundle",
+        "assets/content/weapons/usable_items/item_ifak/client_assets.bundle",
+        "assets/content/items/mods/magazines/mag_tt_toz_std_762x25tt_8.bundle",
+        "assets/content/items/mods/magazines/mag_ak74_izhmash_6l23_545x39_30.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_aor1.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/rig_custom_osprey_defence/item_equipment_rig_custom_osprey_defence.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_odg.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/rig_custom_osprey_defence/item_equipment_rig_custom_osprey_defence.bundle",
+        "shaders",
+        "cubemaps",
+        "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_aor1.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_troy_battlemag_556x45_30.bundle",
+        "assets/content/items/equipment/rig_bd2_ferro/item_equipment_armor_bd2_ferro.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
     {
@@ -611,6 +634,13 @@
       "dependencyKeys": [
         "cubemaps",
         "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/unarmoredRigs/cr_kommandostore_heat_rig.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
       ]
     },
     {
@@ -2248,18 +2278,18 @@
     {
       "key": "Headwear/helmets/vityaz_s/helmet_vityaz_s_olive.bundle",
       "dependencyKeys": [
-        "assets/content/items/equipment/helmet_maska_1sh/item_equipment_helmet_maska_1sh.bundle",
-        "cubemaps",
         "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/helmet_maska_1sh/item_equipment_helmet_maska_1sh.bundle",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
     {
       "key": "Headwear/helmets/vityaz_s/item_helmet_vityaz_s_visor.bundle",
       "dependencyKeys": [
-        "cubemaps",
+        "Headwear/helmets/vityaz_s/helmet_vityaz_s_olive.bundle",
         "shaders",
-        "Headwear/helmets/vityaz_s/helmet_vityaz_s_olive.bundle"
+        "cubemaps"
       ]
     },
     {
@@ -2321,6 +2351,13 @@
       ]
     },
     {
+      "key": "Headwear/nvgs/mount_nvg_swift_fpg21.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Headwear/nvgs/nvg_actinblack_dtnvg.bundle",
       "dependencyKeys": [
         "cubemaps",
@@ -2331,17 +2368,8 @@
     {
       "key": "Headwear/nvgs/nvg_l3_fpano_fde.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
-        "assets/commonassets/physics/physicsmaterials.bundle"
-      ]
-    },
-    {
-      "key": "Headwear/nvgs/mount_nvg_swift_fpg21.bundle",
-      "dependencyKeys": [
-        "cubemaps",
-        "shaders",
-        "assets/commonassets/physics/physicsmaterials.bundle"
+        "cubemaps"
       ]
     },
     {

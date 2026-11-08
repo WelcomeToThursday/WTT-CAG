@@ -8637,7 +8637,7 @@
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
       "Prefab": {
-        "path": "Bodywear/armoredRigs/cr_fcpc_wild.bundle",
+        "path": "Bodywear/armoredRigs/FCPC/cr_fcpc_wild.bundle",
         "rcid": ""
       },
       "Name": "cr_fcpc_wild",
@@ -15053,6 +15053,330 @@
         ],
         "_name": "Vest EI SPC Standard",
         "_parent": "6ae7510245da82dcc91e43b2",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6aef9ccfc21a97135731a238": { // Ferro Concepts FCPC V5 plate carrier (AOR1)
+    "itemTplToClone": "689479cb47e5acd1e10be986",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_aor1.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_ferro_fcpc_v5_aor1",
+      "ExaminedByDefault": true,
+      "Width": 3,
+      "Height": 3,
+      "CanSellOnRagfair": false,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -0,
+      "Weight": 4.2,
+      "Slots": [
+        {
+          "_id": "6aefa240cc1e3f895731a24e",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6aef9ccfc21a97135731a238",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6aefa243386efefb9331a24f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6aef9ccfc21a97135731a238",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6aefa245e6ab81fc9f31a250",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6aef9ccfc21a97135731a238",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5ec952295a9739b032dd8"
+                ],
+                "Plate": "68a5ec952295a9739b032dd8",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6aefa248878e5e347b31a252",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6aef9ccfc21a97135731a238",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5ec3731f944d6be0efd64"
+                ],
+                "Plate": "68a5ec3731f944d6be0efd64",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ferro Concepts FCPC V5 plate carrier (AOR1)",
+        "shortName": "FCPC V5",
+        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. AOR1 version. Equipped with a heavier pouch setup for breaching and inter-squad communications."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 60806,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6aef9ccfc21a97135731a238",
+        "_id": "6aef9d88be0796516231a23d",
+        "_items": [
+          {
+            "_id": "6aef9d8af85f4fb46331a23e",
+            "_tpl": "6aef9ccfc21a97135731a238",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6aefa185954e98253e31a24b",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "6aef9d8af85f4fb46331a23e",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6aefa1866c424fb60931a24c",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "6aef9d8af85f4fb46331a23e",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6aef9d902d7ff56a3c31a240",
+            "_tpl": "68a5ec952295a9739b032dd8",
+            "parentId": "6aef9d8af85f4fb46331a23e",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6aef9d8f456280568b31a23f",
+            "_tpl": "68a5ec3731f944d6be0efd64",
+            "parentId": "6aef9d8af85f4fb46331a23e",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Vest Ferro FCPC AOR1 Standard",
+        "_parent": "6aef9d8af85f4fb46331a23e",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6aef9e6b0e462c254c31a243": { // Ferro Concepts FCPC V5 plate carrier (Ranger Green)
+    "itemTplToClone": "6aef9ccfc21a97135731a238", // Ferro Concepts FCPC V5 plate carrier (AOR1)
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_odg.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_ferro_fcpc_v5_odg"
+    },
+    "locales": {
+      "en": {
+        "name": "Ferro Concepts FCPC V5 plate carrier (Ranger Green)",
+        "shortName": "FCPC V5",
+        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Ranger Green version. Equipped with a heavier pouch setup for breaching and inter-squad communications."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 60806,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6aef9e6b0e462c254c31a243",
+        "_id": "6aef9e8064cae748a231a244",
+        "_items": [
+          {
+            "_id": "6aef9e811f6ab0681b31a245",
+            "_tpl": "6aef9e6b0e462c254c31a243",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6aef9e864814107f3f31a246",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "6aef9e811f6ab0681b31a245",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6aef9e87fc2a33bf2231a247",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "6aef9e811f6ab0681b31a245",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6aef9e87ccd5c7251f31a248",
+            "_tpl": "68a5ec952295a9739b032dd8",
+            "parentId": "6aef9e811f6ab0681b31a245",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6aef9e88c6a76db05531a249",
+            "_tpl": "68a5ec3731f944d6be0efd64",
+            "parentId": "6aef9e811f6ab0681b31a245",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_name": "Vest Ferro FCPC Ranger Standard",
+        "_parent": "6aef9e811f6ab0681b31a245",
         "_type": "Preset"
       }
     ]
