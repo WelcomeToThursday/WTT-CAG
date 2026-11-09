@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using Range = SemanticVersioning.Range;
+
 namespace WTTClothingAndGear;
 
 [UsedImplicitly]
