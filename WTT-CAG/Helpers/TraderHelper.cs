@@ -10,105 +10,103 @@ using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Locales;
 using SPTarkov.Server.Core.Utils.Cloners;
 
-namespace WTTClothingAndGear.Helpers
+namespace WTTClothingAndGear.Helpers;
+
+[Injectable(TypePriority = OnLoadOrder.Preload + 1)]
+public class AddCustomTraderHelper(
+    ISptLogger<AddCustomTraderHelper> logger,
+    ICloner cloner,
+    TradersTable tradersTable,
+    LocaleTable localeTable,
+    LocaleService localeService)
 {
-
-    [Injectable(TypePriority = OnLoadOrder.Preload + 1)]
-    public class AddCustomTraderHelper(
-        ISptLogger<AddCustomTraderHelper> logger,
-        ICloner cloner,
-        TradersTable tradersTable,
-        LocaleTable localeTable,
-        LocaleService localeService)
-    {
         
-        public void SetTraderUpdateTime(TraderConfig traderConfig, TraderBase baseJson, int refreshTimeSecondsMin, int refreshTimeSecondsMax)
+    public void SetTraderUpdateTime(TraderConfig traderConfig, TraderBase baseJson, int refreshTimeSecondsMin, int refreshTimeSecondsMax)
+    {
+        var traderRefreshRecord = new UpdateTime
         {
-            var traderRefreshRecord = new UpdateTime
-            {
-                TraderId = baseJson.Id,
-                Seconds = new MinMax<int>(refreshTimeSecondsMin, refreshTimeSecondsMax)
-            };
+            TraderId = baseJson.Id,
+            Seconds = new MinMax<int>(refreshTimeSecondsMin, refreshTimeSecondsMax)
+        };
 
-            traderConfig.UpdateTime.Add(traderRefreshRecord);
+        traderConfig.UpdateTime.Add(traderRefreshRecord);
+    }
+
+    public void AddTraderWithEmptyAssortToDb(TraderBase traderDetailsToAdd)
+    {
+
+        var emptyTraderItemAssortObject = new TraderAssort
+        {
+            Items = [],
+            BarterScheme = new Dictionary<MongoId, List<List<BarterScheme>>>(),
+            LoyalLevelItems = new Dictionary<MongoId, int>()
+        };
+        var traderDataToAdd = new Trader
+        {
+            Assort = emptyTraderItemAssortObject,
+            Base = cloner.Clone(traderDetailsToAdd),
+            QuestAssort = new() 
+            {
+                { "started", new() },
+                { "success", new() },
+                { "fail", new() }
+            },
+            Dialogue = []
+        };
+
+        // Add the new trader id and data to the server
+        if (!tradersTable.TryAdd(traderDetailsToAdd.Id, traderDataToAdd))
+        {
+            //Failed to add trader!
+        }
+    }
+
+    /// <summary>
+    /// Add traders name/location/description to all locales (e.g. German/French/English)
+    /// </summary>
+    /// <param name="baseJson">json file for trader (db/base.json)</param>
+    /// <param name="firstName">First name of trader</param>
+    /// <param name="description">Flavor text of whom the trader is</param>
+    public void AddTraderToLocales(TraderBase baseJson, string firstName, string description)
+    {
+        // For each language, add locale for the new trader
+        var locales = localeTable.Global;
+        var newTraderId = baseJson.Id;
+        var fullName = baseJson.Name;
+        var nickName = baseJson.Nickname;
+        var location = baseJson.Location;
+
+        foreach (var (localeKey, localeKvP) in locales)
+        {
+            // We have to add a transformer here, because locales are lazy loaded due to them taking up huge space in memory
+            // The transformer will make sure that each time the locales are requested, the ones added below are included
+            localeKvP.AddTransformer(lazyloadedLocaleData =>
+            {
+                lazyloadedLocaleData.Add($"{newTraderId} FullName", fullName);
+                lazyloadedLocaleData.Add($"{newTraderId} FirstName", firstName);
+                lazyloadedLocaleData.Add($"{newTraderId} Nickname", nickName);
+                lazyloadedLocaleData.Add($"{newTraderId} Location", location);
+                lazyloadedLocaleData.Add($"{newTraderId} Description", description);
+                return lazyloadedLocaleData;
+            });
+        }
+    }
+
+    /// <summary>
+    /// Overwrite the desired traders assorts with the ones provided
+    /// </summary>
+    /// <param name="traderId">Trader to override assorts of</param>
+    /// <param name="newAssorts">new assorts we want to add</param>
+    public void OverwriteTraderAssort(string traderId, TraderAssort newAssorts)
+    {
+        if (!tradersTable.TryGetValue(traderId, out var traderToEdit))
+        {
+            logger.Warning($"Unable to update assorts for trader: {traderId}, they couldn't be found on the server");
+
+            return;
         }
 
-        public void AddTraderWithEmptyAssortToDb(TraderBase traderDetailsToAdd)
-        {
-
-            var emptyTraderItemAssortObject = new TraderAssort
-            {
-                Items = [],
-                BarterScheme = new Dictionary<MongoId, List<List<BarterScheme>>>(),
-                LoyalLevelItems = new Dictionary<MongoId, int>()
-            };
-            var traderDataToAdd = new Trader
-            {
-                Assort = emptyTraderItemAssortObject,
-                Base = cloner.Clone(traderDetailsToAdd),
-                QuestAssort = new() 
-                {
-                    { "started", new() },
-                    { "success", new() },
-                    { "fail", new() }
-                },
-                Dialogue = []
-            };
-
-            // Add the new trader id and data to the server
-            if (!tradersTable.TryAdd(traderDetailsToAdd.Id, traderDataToAdd))
-            {
-                //Failed to add trader!
-            }
-        }
-
-        /// <summary>
-        /// Add traders name/location/description to all locales (e.g. German/French/English)
-        /// </summary>
-        /// <param name="baseJson">json file for trader (db/base.json)</param>
-        /// <param name="firstName">First name of trader</param>
-        /// <param name="description">Flavor text of whom the trader is</param>
-        public void AddTraderToLocales(TraderBase baseJson, string firstName, string description)
-        {
-            // For each language, add locale for the new trader
-            var locales = localeTable.Global;
-            var newTraderId = baseJson.Id;
-            var fullName = baseJson.Name;
-            var nickName = baseJson.Nickname;
-            var location = baseJson.Location;
-
-            foreach (var (localeKey, localeKvP) in locales)
-            {
-                // We have to add a transformer here, because locales are lazy loaded due to them taking up huge space in memory
-                // The transformer will make sure that each time the locales are requested, the ones added below are included
-                localeKvP.AddTransformer(lazyloadedLocaleData =>
-                {
-                    lazyloadedLocaleData.Add($"{newTraderId} FullName", fullName);
-                    lazyloadedLocaleData.Add($"{newTraderId} FirstName", firstName);
-                    lazyloadedLocaleData.Add($"{newTraderId} Nickname", nickName);
-                    lazyloadedLocaleData.Add($"{newTraderId} Location", location);
-                    lazyloadedLocaleData.Add($"{newTraderId} Description", description);
-                    return lazyloadedLocaleData;
-                });
-            }
-        }
-
-        /// <summary>
-        /// Overwrite the desired traders assorts with the ones provided
-        /// </summary>
-        /// <param name="traderId">Trader to override assorts of</param>
-        /// <param name="newAssorts">new assorts we want to add</param>
-        public void OverwriteTraderAssort(string traderId, TraderAssort newAssorts)
-        {
-            if (!tradersTable.TryGetValue(traderId, out var traderToEdit))
-            {
-                logger.Warning($"Unable to update assorts for trader: {traderId}, they couldn't be found on the server");
-
-                return;
-            }
-
-            // Override the traders assorts with the ones we passed in
-            traderToEdit.Assort = newAssorts;
-        }
+        // Override the traders assorts with the ones we passed in
+        traderToEdit.Assort = newAssorts;
     }
 }
