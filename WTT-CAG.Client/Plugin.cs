@@ -49,9 +49,7 @@ public class Plugin : BaseUnityPlugin
         PluginFolder = Path.GetDirectoryName(Info.Location);
 
         new NVGConfigSection().Init(Config);
-        new AMPEditorConfigSection().Init(Config);
         new KeyboardConfigSection().Init(Config);
-        HelmetSlotTuner.Register();
         new ThermalConfigSection().Init(Config);
 
         if (BorkelsNVGCompat.TryEnable())
@@ -83,20 +81,18 @@ public class Plugin : BaseUnityPlugin
             logger!.LogInfo("[WTT-CAG] NVG rotations reset to defaults.");
         }
 
-        if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() == true)
+        if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() != true) { return; }
+        logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");
+
+        foreach (var section in HelmetConfigs.Values)
         {
-            logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");
-
-            foreach (var section in HelmetConfigs.Values)
-            {
-                logger.LogInfo(section.ToCSharpSnippet());
-            }
-
-            logger.LogInfo("==================================");
+            logger.LogInfo(section.ToCSharpSnippet());
         }
+
+        logger.LogInfo("==================================");
     }
 
-    private void EnablePatch(ModulePatch patch)
+    private static void EnablePatch(ModulePatch patch)
     {
         try
         {
