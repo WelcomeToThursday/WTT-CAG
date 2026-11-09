@@ -129,6 +129,10 @@
         </Reference>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Patches\.gitkeep" />
+    </ItemGroup>
+
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
         <PropertyGroup>
             <PluginsOutDir>..\..\..\BepInEx\plugins\$(TargetName)</PluginsOutDir>
