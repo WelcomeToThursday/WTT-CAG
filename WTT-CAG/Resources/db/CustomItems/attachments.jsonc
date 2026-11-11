@@ -2781,15 +2781,15 @@
         "Eyes",
         "Jaw"
       ],
-      "Durability": 31,
-      "MaxDurability": 31,
+      "Durability": 25,
+      "MaxDurability": 25,
       "CanSellOnRagfair": false
     },
     "locales": {
       "en": {
         "name": "Vityaz-S Helmet face shield (Olive Drab)",
-        "shortName": "SENTRY XP",
-        "description": "A fabric camouflage cover tailored for the Ops-Core SENTRY XP mid-cut helmet."
+        "shortName": "VISOR",
+        "description": "how the fuck you seein this twin (DONT YOU DARE TRANSLATE THIS SHI)"
       }
     },
     "addtoInventorySlots": [],
@@ -2797,7 +2797,7 @@
     "modSlot": [],
     "addtoTraders": false,
     "fleaPriceRoubles": 999999,
-    "handbookPriceRoubles": 90472,
+    "handbookPriceRoubles": 80402,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
