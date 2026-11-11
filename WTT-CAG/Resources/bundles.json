@@ -24,7 +24,7 @@
     {
       "key": "assets/content/items/equipment/helmet_un/item_equipment_helmet_un.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -83,6 +83,17 @@
       ]
     },
     {
+      "key": "Bodywear/armoredRigs/cr_6b45_pk_gunner.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_01.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_03.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45_02.bundle",
+        "assets/content/items/equipment/armor_6b45/item_equipment_armor_6b45.bundle",
+        "shaders",
+        "cubemaps"
+      ]
+    },
+    {
       "key": "Bodywear/armoredRigs/cr_ars_18_skanda_mm14.bundle",
       "dependencyKeys": [
         "shaders",
@@ -119,6 +130,18 @@
         "shaders",
         "assets/content/items/equipment/rig_m1/item_equipment_rig_m1_emr_bp_04.bundle",
         "cubemaps"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/cr_balistyka_m4_bear.bundle",
+      "dependencyKeys": [
+        "assets/content/items/equipment/rig_m2/item_equipment_rig_m2.bundle",
+        "assets/content/items/equipment/rig_tv115/item_equipment_rig_tv115.bundle",
+        "assets/content/items/equipment/rig_bagarii/rig_bagarii.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/equipment/rig_custom_osprey_defence/item_equipment_rig_custom_osprey_defence.bundle",
+        "assets/content/items/equipment/rig_m1/item_equipment_rig_m1.bundle"
       ]
     },
     {
@@ -1899,14 +1922,14 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_blk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/mich_2000/mich2000_fde.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -1917,7 +1940,7 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_spray.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
+        "mich2000_shared",
         "shaders"
       ]
     },
@@ -2103,42 +2126,42 @@
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
       "dependencyKeys": [
-        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
+        "fast_xp_shared",
         "shaders"
       ]
     },
