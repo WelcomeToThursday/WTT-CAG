@@ -15583,5 +15583,393 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6af3bd085c82097250c6f2c2": { // 6B45 PKM Gunner
+    "itemTplToClone": "68948ad72c87773b9f06d73f",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_6b45_pk_gunner.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_6b45_pk_gunner",
+      "Width": 3,
+      "Height": 4,
+      "Weight": 5.33,
+      "mousePenalty": -4,
+      "speedPenaltyPercent": -6,
+      "weaponErgonomicPenalty": -6,
+      "CanSellOnRagfair": true,
+      "RigLayoutName": "cr_6b45_gunner",
+      "Grids": [
+        {
+          "_id": "d59c67a01fed9fae509dc961",
+          "_name": "GridView (1)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d43ffbbd30a3e43ff5dc9d60",
+          "_name": "GridView (2)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "95f824d00c5d289228ab2cf2",
+          "_name": "GridView (3)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0f69bb2a3899846c21e07aa1",
+          "_name": "GridView (4)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "cb5ec49202ff4b1cd6d167da",
+          "_name": "GridView (5)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f5a2a94fc03bf7043fe6c991",
+          "_name": "GridView (6)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "566c2811590e5878431b9552",
+          "_name": "GridView (7)",
+          "_parent": "6af3bd085c82097250c6f2c2",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "6B45 armored rig (Machinegunner)",
+        "shortName": "6B45",
+        "description": "A full plate carrier setup built on the 6B45 vest. This setup gives the user a large amount of carrying capacity, optimised for use with light machineguns. EMR camouflage version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 108182,
+    "handbookPriceRoubles": 90842,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af3bd085c82097250c6f2c2",
+        "_id": "6af3c1df2e4119c2a7c6f2c3",
+        "_items": [
+          {
+            "_id": "6af3c1e09fb9d538d5c6f2c4",
+            "_tpl": "6af3bd085c82097250c6f2c2",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af3c3857a18697410c6f2d3",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af3c3875456c20305c6f2d4",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6af3c4c5c294a4dd0bc6f2da",
+            "_tpl": "68a47a92c3f53a3898071382",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6af3c38a0bfb657c5fc6f2d6",
+            "_tpl": "68a47a76a920fa363a050bee",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6af3c38b19003a4a68c6f2d7",
+            "_tpl": "68a47aae69e409f9e4094b65",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6af3c38dd850fc28b0c6f2d8",
+            "_tpl": "68a47acfa920fa363a050c1a",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6af3c38e69ddc468d3c6f2d9",
+            "_tpl": "68a47ae8f9d424639c088230",
+            "parentId": "6af3c1e09fb9d538d5c6f2c4",
+            "slotId": "Collar"
+          }
+        ],
+        "_name": "Vest 6B45 Gunner Standard",
+        "_parent": "6af3c1e09fb9d538d5c6f2c4",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6af3cb69dffcc8f36cc6f2db": { // Balistyka M4 plate carrier (MM-14)
+    "itemTplToClone": "609e860ebd219504d8507525",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/armoredRigs/cr_balistyka_m4_bear.bundle",
+        "rcid": ""
+      },
+      "Name": "cr_balistyka_m4_bear",
+      "Width": 4,
+      "Height": 3,
+      "Weight": 3.2,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -2,
+      "CanSellOnRagfair": true,
+      "RigLayoutName": "cr_6b45_gunner"
+    },
+    "locales": {
+      "en": {
+        "name": "Balistyka M4 plate carrier (MM-14)",
+        "shortName": "M4",
+        "description": "The M4 is a modular plate carrier featuring a fully configurable design, laser-cut MOLLE webbing and ventilated plate bags, the carrier can be adapted with various cummerbunds, pouches and additional ballistic protection to suit different operational requirements. Manufactured by Balistyka. MM-14 camouflage version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 71702,
+    "handbookPriceRoubles": 65650,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af3cb69dffcc8f36cc6f2db",
+        "_id": "6af3cf7c3c3757e746c6f2e2",
+        "_items": [
+          {
+            "_id": "6af3cf6c9c00209284c6f2dc",
+            "_tpl": "6af3cb69dffcc8f36cc6f2db",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af3cf74f19fce7ecdc6f2de",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6af3cf6c9c00209284c6f2dc",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af3cf76107a5db735c6f2e1",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "6af3cf6c9c00209284c6f2dc",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "6af3cf75018c280351c6f2e0",
+            "_tpl": "6575f5e1da698a4e98067869",
+            "parentId": "6af3cf6c9c00209284c6f2dc",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6af3cf758dd8a0dc3dc6f2df",
+            "_tpl": "6575f5cbf6a13a7b7100b0bf",
+            "parentId": "6af3cf6c9c00209284c6f2dc",
+            "slotId": "Soft_armor_front"
+          }
+        ],
+        "_name": "Vest Balistyka M4 MM14 Standard",
+        "_parent": "6af3cf6c9c00209284c6f2dc",
+        "_type": "Preset"
+      }
+    ]
   }
 }
