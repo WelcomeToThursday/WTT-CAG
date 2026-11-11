@@ -15889,7 +15889,7 @@
       "speedPenaltyPercent": -3,
       "weaponErgonomicPenalty": -2,
       "CanSellOnRagfair": true,
-      "RigLayoutName": "cr_6b45_gunner"
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
