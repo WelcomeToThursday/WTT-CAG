@@ -6,30 +6,44 @@ using WTT_CAG.Client.Config;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
+// The pre-upscale composite, used by composite modes 0 and 1. A CommandBuffer rather than
+// OnRenderImage: an image effect on the FPS camera fights SSAA's render target.
 public class FusionThermalOverlay : MonoBehaviour
 {
+    private const int PostUpscaleCompositeMode = 2;
+
     public Material? OverlayMaterial;
     public NightVision? HostNVG;
 
     private Camera? _camera;
     private CommandBuffer? _commandBuffer;
 
-    private static readonly FieldInfo? _ssaaField = typeof(NightVision).GetField("_ssaa", BindingFlags.NonPublic | BindingFlags.Instance);
+    private static readonly FieldInfo? _ssaaField = FindSSAAField();
 
     private static MethodInfo? _getRtIdentifier;
-    private static bool? _rtIdentifierLookupFailed;
-    
+    private static bool _rtIdentifierLookupFailed;
+
     private string? _lastLoggedState;
-    private bool? _usingSSAATarget;
+    private bool _usingSSAATarget;
+
+    private static FieldInfo? FindSSAAField()
+    {
+        const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Instance;
+
+        // The field name differs between game builds, so take whichever exists.
+        return typeof(NightVision).GetField("_ssaa", flags) ?? typeof(NightVision).GetField("ssaa_0", flags);
+    }
 
     private void Awake()
     {
         _camera = GetComponent<Camera>();
-        
+
         _commandBuffer = new CommandBuffer { name = "Fusion Zone Composite" };
 
         if (!_camera) { return; }
 
+        // AfterImageEffects is strictly later than NightVision's own BeforeImageEffects blit,
+        // so this always lands on the finished night vision image.
         _camera.RemoveCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
         _camera.AddCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
     }
@@ -42,70 +56,79 @@ public class FusionThermalOverlay : MonoBehaviour
 
         if (!OverlayMaterial || !HostNVG || !HostNVG!.On)
         {
-            LogStateOnce($"[WTT-CAG] Idle - material: {OverlayMaterial} host: {HostNVG} on: {HostNVG?.On}");
+            LogStateOnce($"Idle - material: {OverlayMaterial} host: {HostNVG} on: {HostNVG?.On}");
             return;
         }
 
         var profile = ThermalDeviceProfiles.Active;
 
-        if (profile == null || !profile.ZoneEnabled!.Value)
+        if (profile == null)
         {
-            if (profile == null)
-            {
-                LogStateOnce("[WTT-CAG] Idle - no device equipped.");
-                return;
-            }
-            
-            LogStateOnce("[WTT-CAG] Idle - device zone disabled.");
+            LogStateOnce("Idle - no device equipped.");
+            return;
+        }
+
+        if (!profile.ZoneEnabled.Value)
+        {
+            LogStateOnce("Idle - device zone disabled.");
+            return;
+        }
+
+        // FusionThermalOverlayCamera draws the composite in this mode. Doing both would double the overlay.
+        if (ThermalConfigSection.CompositeMode.Value == PostUpscaleCompositeMode)
+        {
+            LogStateOnce("Idle - overlay camera owns the composite.");
             return;
         }
 
         var target = ResolveTargetIdentifier();
-        
+
+        // Blit rather than SetRenderTarget + DrawMesh: Blit takes its viewport from the destination.
         _commandBuffer.Blit(Texture2D.blackTexture, target, OverlayMaterial);
-        
-        LogStateOnce($"[WTT-CAG] Compositing - event: AfterImageEffects ssaaTarget: {_usingSSAATarget} zoneRt: {FusionThermalZoneCamera.Instance?.ThermalTexture != null}");
+
+        LogStateOnce($"Compositing - event: AfterImageEffects ssaaTarget: {_usingSSAATarget} zoneRt: {FusionThermalZoneCamera.Instance?.ThermalTexture != null}");
     }
 
     private RenderTargetIdentifier ResolveTargetIdentifier()
     {
-        if (ThermalConfigSection.CompositeMode!.Value != 0)
+        _usingSSAATarget = false;
+
+        // Only mode 0 draws into the SSAA buffer.
+        if (ThermalConfigSection.CompositeMode.Value != 0 || _ssaaField == null || !HostNVG || _rtIdentifierLookupFailed)
         {
-            _usingSSAATarget = false;
             return BuiltinRenderTextureType.CameraTarget;
         }
 
-        if (_ssaaField != null && HostNVG && _rtIdentifierLookupFailed != true)
+        try
         {
-            try
+            var ssaa = _ssaaField.GetValue(HostNVG);
+
+            // Null when supersampling is off, in which case the camera target is correct.
+            if (ssaa == null)
             {
-                var ssaa = _ssaaField.GetValue(HostNVG);
-
-                if (ssaa != null)
-                {
-                    if (_getRtIdentifier == null)
-                    {
-                        _getRtIdentifier = ssaa.GetType().GetMethod("GetRTIdentifier", BindingFlags.Instance);
-
-                        if (_getRtIdentifier == null)
-                        {
-                            _rtIdentifierLookupFailed = true;
-                            Plugin.logger!.LogWarning("[WTT-CAG] SSAA.GetRTIdentifier not found - falling back to CameraTarget. Expect a flipped or mis-scaled composite if supersampling is enabled.");
-                            return BuiltinRenderTextureType.CameraTarget;
-                        }
-                    }
-
-                    _usingSSAATarget = true;
-                    return (RenderTargetIdentifier)_getRtIdentifier.Invoke(ssaa, null);
-                }
+                return BuiltinRenderTextureType.CameraTarget;
             }
-            catch
+
+            _getRtIdentifier ??= ssaa.GetType().GetMethod("GetRTIdentifier", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+
+            if (_getRtIdentifier == null)
             {
-                // TODO: nothing. Absolutely nothing here.
+                _rtIdentifierLookupFailed = true;
+                Plugin.logger!.LogWarning("[WTT-CAG] SSAA.GetRTIdentifier not found - falling back to CameraTarget. Expect a flipped or mis-scaled composite if supersampling is enabled.");
+                return BuiltinRenderTextureType.CameraTarget;
             }
+
+            var target = (RenderTargetIdentifier)_getRtIdentifier.Invoke(ssaa, null)!;
+
+            _usingSSAATarget = true;
+
+            return target;
         }
-        _usingSSAATarget = false;
-        return BuiltinRenderTextureType.CameraTarget;
+        catch
+        {
+            // Reflection failed - the camera target is the same fallback NightVision itself uses.
+            return BuiltinRenderTextureType.CameraTarget;
+        }
     }
 
     private void LogStateOnce(string state)
@@ -113,7 +136,7 @@ public class FusionThermalOverlay : MonoBehaviour
         if (state == _lastLoggedState) { return; }
 
         _lastLoggedState = state;
-        
+
         Plugin.logger!.LogInfo($"[WTT-CAG] {state}");
     }
 
@@ -123,7 +146,7 @@ public class FusionThermalOverlay : MonoBehaviour
         {
             _camera!.RemoveCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
         }
-        
+
         _commandBuffer?.Release();
         _commandBuffer = null;
     }

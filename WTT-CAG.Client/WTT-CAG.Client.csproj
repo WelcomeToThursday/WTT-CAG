@@ -118,6 +118,9 @@
         <Reference Include="UnityEngine.UI">
             <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
         </Reference>
+        <Reference Include="UnityEngine.UIModule">
+            <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.UnityWebRequestAudioModule">
             <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
         </Reference>
@@ -139,6 +142,11 @@
             <BuildPluginsOutDir>..\Build\BepInEx\plugins\$(TargetName)</BuildPluginsOutDir>
         </PropertyGroup>
 
+        <ItemGroup>
+            <BundleFiles Include="$(ProjectDir)Bundles\**\*"
+                         Exclude="$(ProjectDir)Bundles\**\*.meta;$(ProjectDir)Bundles\**\*.manifest;$(ProjectDir)Bundles\**\.gitkeep" />
+        </ItemGroup>
+
         <MakeDir Directories="$(PluginsOutDir);$(BuildPluginsOutDir)" />
 
         <Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFolder="$(PluginsOutDir)" SkipUnchangedFiles="true" />
@@ -146,6 +154,10 @@
 
         <Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFolder="$(BuildPluginsOutDir)" SkipUnchangedFiles="true" />
         <Message Importance="High" Text="[PostBuild] Copied $(TargetName).dll to $(BuildPluginsOutDir)" />
+
+        <Copy SourceFiles="@(BundleFiles)" DestinationFolder="$(PluginsOutDir)" SkipUnchangedFiles="true" Condition="'@(BundleFiles)' != ''" />
+        <Copy SourceFiles="@(BundleFiles)" DestinationFolder="$(BuildPluginsOutDir)" SkipUnchangedFiles="true" Condition="'@(BundleFiles)' != ''" />
+        <Message Importance="High" Text="[PostBuild] Copied bundles (@(BundleFiles->'%(Filename)%(Extension)', ', ')) to $(PluginsOutDir) and $(BuildPluginsOutDir)" Condition="'@(BundleFiles)' != ''" />
 
         <Message Importance="High" Text="[PostBuild] BepInEx build output: $(PluginsOutDir) and $(BuildPluginsOutDir)" />
 

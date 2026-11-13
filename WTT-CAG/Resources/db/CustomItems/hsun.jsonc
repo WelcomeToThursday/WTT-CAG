@@ -1,0 +1,75 @@
+{
+
+    "b0b2840b9daf26136be3884c": {
+        "itemTplToClone": "5d1b5e94d7ad1a2b865a96b0",
+        "parentId": "55818aeb4bdc2ddc698b456a",
+        "handbookParentId": "5b5f749986f774094242f199",
+        "overrideProperties": {
+          "ExaminedByDefault": true,
+          "Prefab": {
+            "path": "Misc/holosundnv.bundle",
+            "rcid": ""
+          },
+          "ModesCount": [
+            4
+          ],
+          "Zooms":[
+            [
+              1,
+              1,
+              1,
+              1
+              
+
+            ]
+          ]
+        },
+        "locales": {
+          "en": {
+            "name": "Holosun DRS-TH Thermal Sight",
+            "shortName": "DRS-TH",
+            "description": "The DRS-TH combines a high-performance LED red dot sight with integrated thermal imaging to deliver enhanced target detection in any lighting condition.\nDesigned for professional and field use, it overlays real-time thermal data within a familiar red dot sight picture for faster identification and engagement."
+          }
+        },
+        "fleaPriceRoubles": 45000,
+        "handbookPriceRoubles": 42500,
+        "addtoBots": false,
+        "addtoSpecialSlots": false,
+        "addtoModSlots": true,
+        "modSlot": [
+          "mod_scope",
+          "mod_scope_000"
+        ],
+        "addtoStaticLootContainers": true,
+        "staticLootContainers": [
+               {
+            "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+            "probability": 150
+          },
+          {
+          "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+          "probability": 250
+          }
+        ],
+        "addtoSecureFilters": false,
+        "addtoTraders": true,
+        "traders": {
+          "MECHANIC": {
+            "3e1b42dd229a95ed7902bce7": {
+              "barterSettings": {
+                "loyalLevel": 1,
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+              },
+              "barters": [
+                {
+                  "count": 150,
+                  "_tpl": "MONEY_EUROS"
+                }
+              ]
+            }
+          }
+        }
+      }
+
+}

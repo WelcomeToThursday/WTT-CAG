@@ -24,7 +24,7 @@
     {
       "key": "assets/content/items/equipment/helmet_un/item_equipment_helmet_un.bundle",
       "dependencyKeys": [
-        "mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -1400,7 +1400,7 @@
     {
       "key": "Headwear/eyewear/oakley_holbrook/holbrook_blk.bundle",
       "dependencyKeys": [
-        "holbrook_glass_shared",
+        "Headwear/eyewear/oakley_holbrook/holbrook_glass_shared.bundle",
         "shaders"
       ]
     },
@@ -1411,7 +1411,7 @@
     {
       "key": "Headwear/eyewear/oakley_holbrook/holbrook_prpl.bundle",
       "dependencyKeys": [
-        "holbrook_glass_shared",
+        "Headwear/eyewear/oakley_holbrook/holbrook_glass_shared.bundle",
         "shaders"
       ]
     },
@@ -1588,14 +1588,14 @@
     {
       "key": "Headwear/helmets/ate_hhv_helmet/helmet_hhv_tan.bundle",
       "dependencyKeys": [
-        "helmet_ate_hhv_common",
+        "Headwear/helmets/ate_hhv_helmet/helmet_hhv_common.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/ate_hhv_helmet/helmet_hhv_wraith.bundle",
       "dependencyKeys": [
-        "helmet_ate_hhv_common",
+        "Headwear/helmets/ate_hhv_helmet/helmet_hhv_common.bundle",
         "shaders"
       ]
     },
@@ -1922,14 +1922,14 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_blk.bundle",
       "dependencyKeys": [
-        "mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/mich_2000/mich2000_fde.bundle",
       "dependencyKeys": [
-        "mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -1940,7 +1940,7 @@
     {
       "key": "Headwear/helmets/mich_2000/mich2000_spray.bundle",
       "dependencyKeys": [
-        "mich2000_shared",
+        "Headwear/helmets/mich_2000/mich2000_shared.bundle",
         "shaders"
       ]
     },
@@ -2126,42 +2126,42 @@
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_aor2.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_desert_night.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mc.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcalp.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_mcblk.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
     {
       "key": "Headwear/helmets/opscore_xp/helmet_fast_xp_cover_odrab.bundle",
       "dependencyKeys": [
-        "fast_xp_shared",
+        "Headwear/helmets/opscore_xp/helmet_fast_xp_shared.bundle",
         "shaders"
       ]
     },
@@ -2470,6 +2470,17 @@
       "dependencyKeys": [
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
+        "cubemaps"
+      ]
+    },
+    {
+      "key": "Misc/holosundnv.bundle",
+      "dependencyKeys": [
+
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders",
+        "assets/systems/effects/nightvision.bundle",
+        "assets/systems/effects/nightvision/mask_nv_textures",
         "cubemaps"
       ]
     }

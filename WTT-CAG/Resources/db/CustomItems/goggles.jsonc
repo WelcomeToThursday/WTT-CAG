@@ -162,8 +162,24 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "addtoTraders": false,
-    "traders": {},
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "12057c5ac5cc0c2cd2772420": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 150,
+              "_tpl": "MONEY_EUROS"
+            }
+          ]
+        }
+      }
+    },
     "fleaPriceRoubles": 2175578,
     "handbookPriceRoubles": 348523,
     "addtoStaticLootContainers": true,
@@ -185,6 +201,7 @@
         "probability": 1
       }
     ],
+    
     "addWeaponPreset": false,
     "weaponPresets": []
   }
