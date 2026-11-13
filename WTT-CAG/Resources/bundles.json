@@ -42,8 +42,8 @@
     {
       "key": "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "shaders",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
@@ -51,11 +51,11 @@
     {
       "key": "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_mc.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
-        "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "shaders",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
+        "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle"
       ]
     },
     {
@@ -630,6 +630,20 @@
     },
     {
       "key": "Bodywear/bodyArmor/armor_vest_trexarms_ac1_mc.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/bodyArmor/avs/ar_crye_avs_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/bodyArmor/avs/ar_crye_avs_arctic.bundle",
       "dependencyKeys": [
         "cubemaps",
         "shaders"

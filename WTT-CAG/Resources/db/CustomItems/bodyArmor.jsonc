@@ -1362,5 +1362,431 @@
         "_type": "Preset"
       }
     ]
+  },
+  "6af79f26e43174b8314fdf2a": { // Crye Precision AVS body armor (AOR2)
+    "itemTplToClone": "609e860ebd219504d8507525",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/bodyArmor/avs/ar_crye_avs_aor2.bundle",
+        "rcid": ""
+      },
+      "Name": "ar_crye_avs_aor2",
+      "Grids": [],
+      "RigLayoutName": "",
+      "Width": 3,
+      "Height": 3,
+      "Slots": [
+        {
+          "_id": "6af79fe6cc43d1a9314fdf3c",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6af79f26e43174b8314fdf2a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9fa0498d1b7e3e071d98",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6af79fe48066a169c64fdf3b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6af79f26e43174b8314fdf2a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9fa0498d1b7e3e071d98",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6af79fe12ca952a0b34fdf3a",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6af79f26e43174b8314fdf2a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e83223c1f638ef0b0ede"
+                ],
+                "Plate": "6570e83223c1f638ef0b0ede",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6af79fe0df2434a0254fdf39",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6af79f26e43174b8314fdf2a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e87c23c1f638ef0b0ee2"
+                ],
+                "Plate": "6570e87c23c1f638ef0b0ee2",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AVS body armor (AOR2)",
+        "shortName": "AVS",
+        "description": "The Crye Precision AVS plate carrier in a slick configuration. One of the most comfortable to wear plate carriers. AOR2 version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 66666,
+    "handbookPriceRoubles": 40300,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af79f26e43174b8314fdf2a",
+        "_id": "6ac852758e4a984a85fbeadf",
+        "_items": [
+          {
+            "_id": "6af79faebcd4a8d8a44fdf30",
+            "_tpl": "6af79f26e43174b8314fdf2a",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af79fdd435b6624f34fdf38",
+            "_tpl": "6570e83223c1f638ef0b0ede",
+            "parentId": "6af79faebcd4a8d8a44fdf30",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6af79fdd757507d30e4fdf37",
+            "_tpl": "6570e87c23c1f638ef0b0ee2",
+            "parentId": "6af79faebcd4a8d8a44fdf30",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6af79fdb4b57eff2e14fdf36",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6af79faebcd4a8d8a44fdf30",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af79fdac3a2b7e8264fdf35",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6af79faebcd4a8d8a44fdf30",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Body Armor AVS AOR2 Preset",
+        "_parent": "6af79faebcd4a8d8a44fdf30",
+        "_type": "Preset"
+      }
+    ]
+  },
+  "6af7a084b6f3bc570c4fdf43": { // Crye Precision AVS body armor (Arctic)
+    "itemTplToClone": "609e860ebd219504d8507525",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/bodyArmor/avs/ar_crye_avs_arctic.bundle",
+        "rcid": ""
+      },
+      "Name": "ar_crye_avs_arctic",
+      "Grids": [],
+      "RigLayoutName": "",
+      "Width": 3,
+      "Height": 3,
+      "Slots": [
+        {
+          "_id": "6af7a08e00541672384fdf47",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6af7a084b6f3bc570c4fdf43",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9fa0498d1b7e3e071d98",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6af7a08c53583197c94fdf46",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6af7a084b6f3bc570c4fdf43",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656f9fa0498d1b7e3e071d98",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "6af7a089fd2ab1daf74fdf45",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6af7a084b6f3bc570c4fdf43",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e83223c1f638ef0b0ede"
+                ],
+                "Plate": "6570e83223c1f638ef0b0ede",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6af7a088f308fa73934fdf44",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6af7a084b6f3bc570c4fdf43",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570e87c23c1f638ef0b0ee2"
+                ],
+                "Plate": "6570e87c23c1f638ef0b0ee2",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AVS body armor (MultiCam Alpine)",
+        "shortName": "AVS",
+        "description": "The Crye Precision AVS plate carrier in a slick configuration. One of the most comfortable to wear plate carriers. MultiCam Alpine version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 66666,
+    "handbookPriceRoubles": 40300,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6af7a084b6f3bc570c4fdf43",
+        "_id": "6af7a07cc917e1041e4fdf3e",
+        "_items": [
+          {
+            "_id": "6af7a076214abe6e844fdf3d",
+            "_tpl": "6af7a084b6f3bc570c4fdf43",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              }
+            }
+          },
+          {
+            "_id": "6af7a07dd010a6ef144fdf3f",
+            "_tpl": "6570e83223c1f638ef0b0ede",
+            "parentId": "6af7a076214abe6e844fdf3d",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6af7a07d6d4afddb2e4fdf40",
+            "_tpl": "6570e87c23c1f638ef0b0ee2",
+            "parentId": "6af7a076214abe6e844fdf3d",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6af7a07e9784b6797f4fdf41",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6af7a076214abe6e844fdf3d",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "6af7a07f765dab4dc44fdf42",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "6af7a076214abe6e844fdf3d",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Body Armor AVS Arctic Preset",
+        "_parent": "6af7a076214abe6e844fdf3d",
+        "_type": "Preset"
+      }
+    ]
   }
 }

@@ -2783,7 +2783,8 @@
       ],
       "Durability": 25,
       "MaxDurability": 25,
-      "CanSellOnRagfair": false
+      "CanSellOnRagfair": false,
+      "addtoItemBlacklist": true
     },
     "locales": {
       "en": {
