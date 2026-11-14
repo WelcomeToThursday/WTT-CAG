@@ -1377,6 +1377,7 @@
       "RigLayoutName": "",
       "Width": 3,
       "Height": 3,
+      "Weight": 1.37,
       "Slots": [
         {
           "_id": "6af79fe6cc43d1a9314fdf3c",
@@ -1590,6 +1591,7 @@
       "RigLayoutName": "",
       "Width": 3,
       "Height": 3,
+      "Weight": 1.37,
       "Slots": [
         {
           "_id": "6af7a08e00541672384fdf47",
@@ -1727,9 +1729,9 @@
     },
     "locales": {
       "en": {
-        "name": "Crye Precision AVS body armor (MultiCam Alpine)",
+        "name": "Crye Precision AVS body armor (Arctic)",
         "shortName": "AVS",
-        "description": "The Crye Precision AVS plate carrier in a slick configuration. One of the most comfortable to wear plate carriers. MultiCam Alpine version."
+        "description": "The Crye Precision AVS plate carrier in a slick configuration. One of the most comfortable to wear plate carriers. Arctic Warfare version."
       }
     },
     "addtoInventorySlots": [],
