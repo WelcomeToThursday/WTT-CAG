@@ -2497,6 +2497,17 @@
         "assets/systems/effects/nightvision/mask_nv_textures",
         "cubemaps"
       ]
+    },
+    {
+      "key": "Headwear/nvgs/nvg-pvs-skeet.bundle",
+      "dependencyKeys": [
+
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "shaders",
+        "cubemaps"
+      ]
     }
-  ]
+    ]
+      
 }
+    

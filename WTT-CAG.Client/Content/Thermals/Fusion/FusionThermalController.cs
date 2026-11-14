@@ -102,7 +102,9 @@ public class FusionThermalController : MonoBehaviour
 
         var tubeOn = _nightVision && _nightVision!.On;
 
-        if (tubeOn) { FusionThermalState.AddRunTime(Time.deltaTime); }
+        var activeProfile = ThermalDeviceProfiles.Active;
+
+        if (tubeOn && activeProfile != null) { FusionThermalState.AddRunTime(activeProfile, Time.deltaTime); }
 
         UpdateHud(tubeOn);
 
@@ -146,7 +148,7 @@ public class FusionThermalController : MonoBehaviour
             _hudProfile = profile;
         }
 
-        if (_hud) { _hud!.SetVisible(tubeOn); }
+        if (_hud) { _hud!.SetVisible(tubeOn && (profile == null || !profile.HudNeedsThermal || FusionThermalState.ThermalOn)); }
     }
 
     private void OnDestroy()

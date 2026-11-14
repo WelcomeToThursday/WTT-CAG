@@ -74,9 +74,10 @@ public class ThermalConfigSection : IConfigSection
         ZoneDebugFill.Bind(cfg, "Thermal - Debug", "Zone Debug Fill", "");
         DebugShowRawHeat.Bind(cfg, "Thermal - Debug", "Show Raw Heat", "");
 
+        // Only devices still being tuned are exposed. Finished ones use their Register values as-is.
         foreach (var profile in ThermalDeviceProfiles.All)
         {
-            new ThermalDeviceConfigSection(profile).Init(cfg);
+            if (profile.Tunable) { new ThermalDeviceConfigSection(profile).Init(cfg); }
         }
     }
 }

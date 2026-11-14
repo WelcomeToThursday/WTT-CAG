@@ -204,5 +204,200 @@
     
     "addWeaponPreset": false,
     "weaponPresets": []
+  },
+  "6af8bebd979735ba4efe9805": {
+    "itemTplToClone": "5a16b93dfcdbcbcae6687261",
+    "parentId": "5a2c3a9486f774688b05e574",
+    "handbookParentId": "5b5f749986f774094242f199",
+    "overrideProperties": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [
+        "5a16b672fcdbcb001912fa83",
+        "5a16b7e1fcdbcb00165aa6c9",
+        "5e00cdd986f7747473332240",
+        "5e01f37686f774773c6f6c15"
+      ],
+      "Description": "nvg_pvs_14_skeet_ir",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_goggles",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "MergesWithChildren": false,
+      "Name": "nvg_pvs_14_skeet_ir",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "Headwear/nvgs/nvg-pvs-skeet.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "nvg_pvs_14_skeet_ir",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.45,
+      "Width": 2,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "Slots": [],
+      "Accuracy": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CategoryAnimationModId": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "HasShoulderContact": false,
+      "IsAnimated": false,
+      "Loudness": 0,
+      "MetascoreGroup": "Firepower",
+      "RaidModdable": true,
+      "Recoil": 0,
+      "SightingRange": 0,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Velocity": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.2
+        ]
+      ],
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": false,
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "ScopesCount": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "sightModType": "iron",
+      "Color": {
+        "a": 254,
+        "b": 86,
+        "g": 255,
+        "r": 183
+      },
+      "DiffuseIntensity": 0.022,
+      "HasHinge": true,
+      "Intensity": 2.27,
+      "Mask": "Binocular",
+      "MaskSize": 1.25,
+      "NoiseIntensity": 0.02,
+      "NoiseScale": 5
+    },
+    "locales": {
+      "en": {
+        "name": "Dual Mode L3Harris AN/PVS-14 night vision monocular/Trijicon® OASYS SkeetIR™x Micro Thermal Monocular",
+        "shortName": "PVS-14/SkeetIR",
+        "description": "A dual mode NVG setup, combining the AN/PVS-14 Green Phosphor Monocular with the Trijicon® SkeetIR™x Thermal Monocular, allowing a fusion view of both heat and Near Infrared to the operator. \n Caution, may result in headaches and nausea. "
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
+    "fleaPriceRoubles": 274000,
+    "handbookPriceRoubles": 105004,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_SUPPLY_CRATE_2",
+        "probability": 150
+      }
+    ],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": [],
+    "addtoSpecialSlots": false,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": 0,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "addtoItemBlacklist": true,
+    "staticAmmoProbability": 0,
+    "addtoSecureFilters": false,
+    "masteries": false,
+    "masterySections": [],
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6af8c159953975b3db1082fb": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 150,
+              "_tpl": "MONEY_EUROS"
+            }
+          ]
+        }
+      }
+    }
   }
 }

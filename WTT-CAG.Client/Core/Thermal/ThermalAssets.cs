@@ -21,7 +21,7 @@ public static class ThermalAssets
     // Properties each shader's source declares. A compiled shader missing any of them was built
     // from an older source than this plugin expects, and will ignore the settings it does not know.
     private static readonly string[] TraceProperties = ["_TraceThreshold", "_OutlineIntensity", "_HotColor", "_ColdColor", "_HeatPower", "_HeatGain", "_HeatFloor", "_DebugHeat"];
-    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_VignetteStrength", "_Scintillation", "_ZoneDebugFill"];
+    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_ZoneDebugFill", "_ZoneShape"];
 
     // Holds the HUD prefabs. Optional: without it the goggles simply have no HUD.
     public static AssetBundle? HudBundle;
@@ -30,7 +30,7 @@ public static class ThermalAssets
     {
         if (!HudBundle) { return null; }
 
-        var prefab = LoadByNameOrPath<GameObject>(HudBundle!, prefabName);
+        var prefab = LoadByName<GameObject>(HudBundle!, prefabName);
 
         if (!prefab)
         {
@@ -38,6 +38,28 @@ public static class ThermalAssets
         }
 
         return prefab;
+    }
+
+    // Loads an asset by its file name, wherever it sits in the Unity project. Bundles built the
+    // standard way answer to the bare name; bundles from the Scriptable Build Pipeline only answer
+    // to the full path they were built with. So the bare name is tried first, then the full path
+    // is looked up from the bundle's own asset list.
+    private static T? LoadByName<T>(AssetBundle bundle, string assetName) where T : UnityEngine.Object
+    {
+        var asset = bundle.LoadAsset<T>(assetName);
+
+        if (asset) { return asset; }
+
+        foreach (var path in bundle.GetAllAssetNames())
+        {
+            if (!string.Equals(Path.GetFileNameWithoutExtension(path) ?? "", assetName, StringComparison.OrdinalIgnoreCase)) { continue; }
+
+            asset = bundle.LoadAsset<T>(path);
+
+            if (asset) { return asset; }
+        }
+
+        return null;
     }
 
     public static void Load(AssetBundle bundle)
@@ -48,7 +70,7 @@ public static class ThermalAssets
 
     private static Material? BuildMaterial(AssetBundle bundle, string shaderName, string materialName, string[] expectedProperties)
     {
-        var shader = LoadByNameOrPath<Shader>(bundle, shaderName);
+        var shader = LoadByName<Shader>(bundle, shaderName);
 
         if (!shader)
         {
@@ -72,25 +94,5 @@ public static class ThermalAssets
         }
 
         return material;
-    }
-
-    private static T? LoadByNameOrPath<T>(AssetBundle bundle, string assetName) where T : UnityEngine.Object
-    {
-        // Works directly on standard AssetBundles.
-        var asset = bundle.LoadAsset<T>(assetName);
-        if (asset) { return asset; }
-
-        // Fallback for bundles built with DisableLoadAssetByFileName / SBP / addressableNames.
-        foreach (var path in bundle.GetAllAssetNames())
-        {
-            if (string.Equals(Path.GetFileNameWithoutExtension(path), assetName, StringComparison.OrdinalIgnoreCase) ||
-                string.Equals(Path.GetFileName(path), assetName, StringComparison.OrdinalIgnoreCase) ||
-                string.Equals(path, assetName, StringComparison.OrdinalIgnoreCase))
-            {
-                return bundle.LoadAsset<T>(path);
-            }
-        }
-
-        return null;
     }
 }
