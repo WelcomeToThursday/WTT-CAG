@@ -9,7 +9,6 @@ public class ThermalDeviceProfile(string name, string templateId)
 
     public readonly ThermalSetting<float> Fov = new();
     public readonly ThermalSetting<int> Resolution = new();
-    public readonly ThermalSetting<int> RenderMode = new();
     public readonly ThermalSetting<float> Zoom = new();
     public readonly ThermalSetting<bool> CullLayers = new();
     public readonly ThermalSetting<string> ExcludeLayers = new();
@@ -38,11 +37,25 @@ public class ThermalDeviceProfile(string name, string templateId)
 
     public readonly ThermalZoneSlot[] Zones = [new(), new(), new(), new()];
 
-    // Render modes the mode hotkey steps through after the default one. Empty means the device has a single mode.
-    public int[] ExtraModes = [];
+    // The modes the mode hotkey steps through. The first is the one the device starts in.
+    public ThermalMode[] Modes = [ThermalMode.Outline];
+
+    // A clip-on's display belongs to the thermal module, so it goes dark with the thermal. A fused
+    // goggle keeps its navigation display up with the thermal off.
+    public bool HudNeedsThermal;
 
     // Name of this device's HUD prefab in the HUD bundle. Empty means no HUD.
     public string HudPrefab = "";
+
+    // Whether this device's settings appear in the F12 menu. A finished device is locked to the
+    // values in its Register line.
+    public bool Tunable;
+
+    // Where the HUD sits, independent of the thermal zones. In the HUD's canvas units (the screen is
+    // 1080 tall), moving the prefab's Display panel from wherever it was laid out in Unity.
+    public readonly ThermalSetting<float> HudOffsetX = new();
+    public readonly ThermalSetting<float> HudOffsetY = new();
+    public readonly ThermalSetting<float> HudScale = new();
 
     public readonly ThermalSetting<bool> ClipToTubes = new();
     public readonly ThermalSetting<float> TubeMaskScale = new();
@@ -65,11 +78,6 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<float> OverlayOpacity = new();
     public readonly ThermalSetting<Color> OverlayTint = new();
 
-    public readonly ThermalSetting<float> VignetteStrength = new();
-    public readonly ThermalSetting<float> VignetteStart = new();
-    public readonly ThermalSetting<float> ScintillationStrength = new();
-    public readonly ThermalSetting<float> ScintillationScale = new();
-    public readonly ThermalSetting<float> ScintillationSpeed = new();
 
     public readonly ThermalSetting<Color> HotColor = new();
     public readonly ThermalSetting<Color> ColdColor = new();

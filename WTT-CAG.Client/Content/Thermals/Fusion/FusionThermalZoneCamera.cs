@@ -30,6 +30,11 @@ public class FusionThermalZoneCamera : MonoBehaviour
     private int _rtWidth, _rtHeight;
     private string? _lastExcludeLayers;
 
+    // The host field of view the thermal is scaled against. Aiming down sights narrows the host
+    // camera; this keeps the widest view seen, which is the hip-fire one, so aiming does not
+    // magnify the thermal. Starts again whenever the zone camera is rebuilt.
+    private float _referenceHostFov = float.NaN;
+
     private static readonly int ThermalVisionOnID = Shader.PropertyToID("_ThermalVisionOn");
     private static readonly int ThermalRtID = Shader.PropertyToID(ThermalRtGlobalName);
 
@@ -51,7 +56,8 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
             if (!self || !self!._thermalCamera || !self._hostCamera) { return 1f; }
 
-            var hostHalfRad = self._hostCamera!.fieldOfView * 0.5f * Mathf.Deg2Rad;
+            var hostFov = float.IsNaN(self._referenceHostFov) ? self._hostCamera!.fieldOfView : self._referenceHostFov;
+            var hostHalfRad = hostFov * 0.5f * Mathf.Deg2Rad;
             var zoneHalfRad = self._thermalCamera!.fieldOfView * 0.5f * Mathf.Deg2Rad;
             var zoneTangent = Mathf.Tan(zoneHalfRad);
 
@@ -106,6 +112,11 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalCamera.fieldOfView = Mathf.Clamp(ZoneFOV, 5f, 90f);
         _thermalCamera.allowHDR = false;
         _thermalCamera.allowMSAA = false;
+
+        // CopyFrom brings the host's dynamic resolution across. With DLSS or FSR on, that scales this
+        // camera's internal buffers (depth-normals, temporaries) to the upscaler's input size while
+        // the RenderTexture stays full size, and Unity rejects every frame with a size mismatch.
+        _thermalCamera.allowDynamicResolution = false;
 
         ApplyCullingMask();
         AllocateRenderTexture();
@@ -336,6 +347,9 @@ public class FusionThermalZoneCamera : MonoBehaviour
         {
             _thermalCamera.aspect = _hostCamera.aspect;
         }
+
+        var hostFov = _hostCamera.fieldOfView;
+        _referenceHostFov = float.IsNaN(_referenceHostFov) ? hostFov : Mathf.Max(_referenceHostFov, hostFov);
 
         var desiredFov = Mathf.Clamp(ZoneFOV, 5f, 90f);
 

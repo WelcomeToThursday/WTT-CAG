@@ -17,7 +17,6 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
 
         profile.Fov.Bind(cfg, cam, "FOV", "Field of view of the thermal camera. Narrower than the NVG view means the circle is magnified, as on the real device.", new AcceptableValueRange<float>(5f, 90f));
         profile.Resolution.Bind(cfg, cam, "Resolution", "Horizontal resolution of the thermal render. Lower is cheaper; 320 approximates a real device's sensor.", new AcceptableValueRange<int>(128, 1024));
-        profile.RenderMode.Bind(cfg, cam, "Render Mode", "0 = Trace, 1 = Full, 2 = Outline.", new AcceptableValueRange<int>(0, 2));
         profile.Zoom.Bind(cfg, cam, "Zoom", "1 keeps the thermal aligned 1:1 with the world behind the circle. Above 1 magnifies.", new AcceptableValueRange<float>(0.25f, 4f));
         profile.CullLayers.Bind(cfg, cam, "Cull Layers", "Off by default: a real thermal sees whatever is in front of it, including your own hands.");
         profile.ExcludeLayers.Bind(cfg, cam, "Exclude Layers", "Comma-separated layer names to hide when Cull Layers is on. Unknown names are ignored and listed in the log.");
@@ -73,13 +72,14 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.UnsharpRadius.Bind(cfg, fx, "Sharpen Radius", "Edge sharpening radius. Thermal imagers apply their own edge enhancement; 0 disables.", new AcceptableValueRange<float>(0f, 4f));
         profile.UnsharpBias.Bind(cfg, fx, "Sharpen Bias", "Strength of the edge sharpening.", new AcceptableValueRange<float>(0f, 4f));
 
+        var hud = $"{profile.Name} — HUD";
+
+        profile.HudOffsetX.Bind(cfg, hud, "Offset X", "Moves the HUD sideways, in HUD canvas units (the screen is 1080 tall). Independent of the thermal zones.", new AcceptableValueRange<float>(-1500f, 1500f));
+        profile.HudOffsetY.Bind(cfg, hud, "Offset Y", "Moves the HUD up and down, in HUD canvas units.", new AcceptableValueRange<float>(-540f, 540f));
+        profile.HudScale.Bind(cfg, hud, "Scale", "Scales the whole HUD about its centre.", new AcceptableValueRange<float>(0.25f, 2f));
+
         profile.OverlayTexture.Bind(cfg, dev, "Overlay Texture", "Asset name of an RGBA texture in the bundle to draw over the whole view — bezel, reticle, tube artwork, dirt. Leave empty for none. Names that fail to load are reported once in the log.");
         profile.OverlayOpacity.Bind(cfg, dev, "Overlay Opacity", "How strongly the overlay texture is drawn.", new AcceptableValueRange<float>(0f, 1f));
         profile.OverlayTint.Bind(cfg, dev, "Overlay Tint", "Multiplied into the overlay texture. Lets one shared faceplate be recoloured per goggle instead of authoring several.");
-        profile.VignetteStrength.Bind(cfg, dev, "Vignette Strength", "Darkening toward the edge of the view, as a tube falls off. 0 disables it.", new AcceptableValueRange<float>(0f, 1f));
-        profile.VignetteStart.Bind(cfg, dev, "Vignette Start", "Distance from centre where the vignette begins.", new AcceptableValueRange<float>(0f, 1f));
-        profile.ScintillationStrength.Bind(cfg, dev, "Scintillation", "Live sparkle from photon noise in an image intensifier. Subtle values read best; 0 disables it.", new AcceptableValueRange<float>(0f, 1f));
-        profile.ScintillationScale.Bind(cfg, dev, "Scintillation Grain", "Speck size. Higher is coarser.", new AcceptableValueRange<float>(1f, 32f));
-        profile.ScintillationSpeed.Bind(cfg, dev, "Scintillation Speed", "How fast the sparkle reshuffles.", new AcceptableValueRange<float>(0f, 60f));
     }
 }

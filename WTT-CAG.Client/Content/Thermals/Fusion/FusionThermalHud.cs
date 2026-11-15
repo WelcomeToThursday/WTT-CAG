@@ -48,6 +48,9 @@ public class FusionThermalHud : MonoBehaviour
     public const float CanvasHeight = 1080f;
 
     private RectTransform? _display;
+    private Vector2 _authoredPosition;
+    private Vector2 _appliedOffset = new(float.NaN, float.NaN);
+    private float _appliedScale = float.NaN;
     private readonly Vector3[] _corners = new Vector3[4];
 
     private RawImage? _compassTape;
@@ -133,6 +136,8 @@ public class FusionThermalHud : MonoBehaviour
 
         // Every element is optional, so a simpler goggle can leave out what it does not have.
         _display = Find<RectTransform>(instance, "Display");
+
+        if (_display) { _authoredPosition = _display!.anchoredPosition; }
         _compassTape = Find<RawImage>(instance, "CompassTape");
         _heading = Find<Text>(instance, "Heading");
         _missionTime = Find<Text>(instance, "MissionTime");
@@ -236,6 +241,7 @@ public class FusionThermalHud : MonoBehaviour
         // The texture matches the screen, so it follows a resolution change.
         AllocateTexture();
 
+        ApplyPlacement();
         UpdateCompass();
         UpdatePacketLoss();
 
@@ -244,7 +250,7 @@ public class FusionThermalHud : MonoBehaviour
         _nextSlowUpdate = Time.unscaledTime + SlowUpdateInterval;
 
         SetText(_missionTime, FormatClock(RaidClock.Remaining));
-        SetText(_runTime, FormatClock(TimeSpan.FromSeconds(FusionThermalState.RunTimeSeconds)));
+        if (Profile != null) { SetText(_runTime, FormatClock(TimeSpan.FromSeconds(FusionThermalState.RunTimeSeconds(Profile)))); }
 
         if (Profile != null) { SetText(_mode, FusionThermalState.ModeLabel(Profile)); }
 
@@ -280,6 +286,28 @@ public class FusionThermalHud : MonoBehaviour
 
         _lastHeadingDegrees = degrees;
         SetText(_heading, $"{degrees}\u00b0 M");
+    }
+
+    // Moves and scales the Display panel by the profile's HUD settings, starting from where it was
+    // laid out in Unity. Only touches the layout when a value changes, so the canvas is not rebuilt
+    // every frame.
+    private void ApplyPlacement()
+    {
+        if (!_display || Profile == null) { return; }
+
+        var offset = new Vector2(Profile.HudOffsetX.Value, Profile.HudOffsetY.Value);
+        var scale = Mathf.Max(Profile.HudScale.Value, 0.01f);
+
+        if (Mathf.Abs(offset.x - _appliedOffset.x) < 0.01f && Mathf.Abs(offset.y - _appliedOffset.y) < 0.01f && Mathf.Abs(scale - _appliedScale) < 0.0001f)
+        {
+            return;
+        }
+
+        _appliedOffset = offset;
+        _appliedScale = scale;
+
+        _display!.anchoredPosition = _authoredPosition + offset;
+        _display.localScale = new Vector3(scale, scale, 1f);
     }
 
     // Mostly off, with a short run of blinks at random intervals.
