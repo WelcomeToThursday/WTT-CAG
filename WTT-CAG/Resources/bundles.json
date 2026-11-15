@@ -2429,6 +2429,14 @@
       ]
     },
     {
+      "key": "Headwear/nvgs/nvg_l3_psq42.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
       "key": "Misc/armorPlates/bronyx_4/armor_plate_bronyx_level4_damaged.bundle",
       "dependencyKeys": [
         "assets/systems/effects/particlesystems/effects.bundle",
@@ -2490,11 +2498,8 @@
     {
       "key": "Misc/holosundnv.bundle",
       "dependencyKeys": [
-
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
-        "assets/systems/effects/nightvision.bundle",
-        "assets/systems/effects/nightvision/mask_nv_textures",
         "cubemaps"
       ]
     }
