@@ -2942,6 +2942,48 @@
             }
     },
 
+    {
+      "_id": "b95cffaef69a9a37f5814b0b", // L3Harris F-PANO night vision goggles  
+      "_tpl": "6aece3759b55c16086112d9e",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+
+    {
+      "_id": "cea53d2909830e33564f9e88", // PVS-14 SkeetIR  
+      "_tpl": "6af8bebd979735ba4efe9805",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+
+    {
+      "_id": "c4e167037099b47bbaa0c107", // PSQ-42 Hybrids  
+      "_tpl": "6af9ccf0250e9b143053f7c8",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 100,
+        "BuyRestrictionMax": 3,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+
     // -  -  -  -   -   -   -   -   -   -   -  EYEWEAR  -   -   -   -   -   -   -   -   -   -
     
     {
@@ -4103,6 +4145,15 @@
     // ACTinBLACK DTNVS night vision goggles (Green Phos.)    
     "69653b6560fcf0a0300ac546":  [ [ { "count": 68651,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
+    // F-PANOS  
+    "b95cffaef69a9a37f5814b0b":  [ [ { "count": 250000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // PVS-14 SkeetIR   
+    "cea53d2909830e33564f9e88":  [ [ { "count": 95000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // PSQ-42 
+    "c4e167037099b47bbaa0c107":  [ [ { "count": 125000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    
     // Oakley Holbrook glasses  
     "69653b6560fcf0a0300ac547":  [ [ { "count": 5613,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
@@ -4380,6 +4431,9 @@
     "69653b6560fcf0a0300ac544": 3, // Ops-Core AMP headset (Coyote Tan)  
     "69653b6560fcf0a0300ac545": 4, // ACTinBLACK DTNVS night vision goggles (White Phos.)  
     "69653b6560fcf0a0300ac546": 4, // ACTinBLACK DTNVS night vision goggles (Green Phos.)  
+    "b95cffaef69a9a37f5814b0b": 4, // F-PANOS
+    "cea53d2909830e33564f9e88": 2, // PVS-14 Skeet  
+    "c4e167037099b47bbaa0c107": 3, // PSQ-42
     "69653b6560fcf0a0300ac547": 1, // Oakley Holbrook glasses  
     "69653b6560fcf0a0300ac548": 2, // Oakley Holbrook glasses (Colored Lenses)  
     "69653b6560fcf0a0300ac549": 2, // SSO Smersh "New-Gen" chest rig (Olive Drab)  

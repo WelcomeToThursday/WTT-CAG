@@ -1,4 +1,5 @@
-﻿using BepInEx.Configuration;
+﻿/*
+using BepInEx.Configuration;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 namespace WTT_CAG.Client.AMPArms;
@@ -123,3 +124,4 @@ public class HelmetSlotConfigSection : IConfigSection
         $"    raclinkArmsPos: new Vector3({GetRaclinkArmsPosition().x}f, {GetRaclinkArmsPosition().y}f, {GetRaclinkArmsPosition().z}f),\n" +
         $"    raclinkArmsEul: new Vector3({GetRaclinkArmsEuler().x}f,    {GetRaclinkArmsEuler().y}f,    {GetRaclinkArmsEuler().z}f));";
 }
+*/

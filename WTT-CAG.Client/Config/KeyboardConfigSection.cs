@@ -8,9 +8,9 @@ public class KeyboardConfigSection : IConfigSection
     
 
     internal static ConfigEntry<KeyboardShortcut>? CopyConfigKey;
-    internal static ConfigEntry<KeyboardShortcut>? AmpEditKey;
-    internal static ConfigEntry<KeyboardShortcut>? AmpEditToolKey;
-    internal static ConfigEntry<KeyboardShortcut>? AmpEditPartKey;
+   // internal static ConfigEntry<KeyboardShortcut>? AmpEditKey;
+   // internal static ConfigEntry<KeyboardShortcut>? AmpEditToolKey;
+   // internal static ConfigEntry<KeyboardShortcut>? AmpEditPartKey;
 
     internal static ConfigEntry<KeyboardShortcut>? ThermalToggleKey;
     internal static ConfigEntry<KeyboardShortcut>? ThermalModeKey;

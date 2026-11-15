@@ -25,7 +25,7 @@ public static class ThermalDeviceProfiles
         // uses Register's defaults. Add tunable: true to a line to bring it back into F12.
 
         // Replaces the BNVG-Fused, on the same item.
-        //Register("PSQ-42", "6a2dcf2e11cf8134015c0563", hot: new Color(1.0f, 0.357f, 0.0f, 1f), zoom: 1.5f, opacity: 0.72f, heatKeyOnly: true, heatFloor: 0f, traceThreshold: 0.30f, outlineIntensity: 1.08f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot], hud: "FPanoHud", zoneShape: 1, clipToTubes: false, tunable: true);
+        Register("PSQ-42", "6af9ccf0250e9b143053f7c8", hot: new Color(1.0f, 0.357f, 0.0f, 1f), zoom: 1.5f, opacity: 0.72f, heatKeyOnly: true, heatFloor: 0f, traceThreshold: 0.30f, outlineIntensity: 1.08f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot], hud: "FPanoHud", zoneShape: 1, clipToTubes: false, tunable: true);
         //Register("ECOTI-PVS-31", "6aa58d6c394c0807cb0af580", heatKeyOnly: true, zoneCount: 2, zoneCentersX: [0.37f, 0.63f], zoneCentersY: [0.5f, 0.5f], zoneEnabled: [true, true], radius: 0.26f, softness: 0.06f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot], tunable: true);
 
         Register("F-PANO Fused", "6aece3759b55c16086112d9e",
@@ -45,7 +45,7 @@ public static class ThermalDeviceProfiles
             modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot],
             hud: "FPanoHud", hudScale: 0.6795775f);
 
-        // PVS-14 with a SkeetIR clip-on. Its HUD is the SkeetIR's own display.
+
         Register("SkeetIR / PVS-14", "6af8bebd979735ba4efe9805",
             hot: new Color(1f, 1f, 1f, 1f), cold: new Color(0f, 0f, 0f, 1f),
             fov: 25.6338f, zoom: 1f,

@@ -162,23 +162,9 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
-      "MECHANIC": {
-        "12057c5ac5cc0c2cd2772420": {
-          "barterSettings": {
-            "loyalLevel": 1,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 150,
-              "_tpl": "MONEY_EUROS"
-            }
-          ]
-        }
-      }
+
     },
     "fleaPriceRoubles": 2175578,
     "handbookPriceRoubles": 348523,
@@ -381,23 +367,9 @@
     "addtoSecureFilters": false,
     "masteries": false,
     "masterySections": [],
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
-      "MECHANIC": {
-        "6af8c159953975b3db1082fb": {
-          "barterSettings": {
-            "loyalLevel": 1,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 150,
-              "_tpl": "MONEY_EUROS"
-            }
-          ]
-        }
-      }
+
     }
   },
   "6af9ccf0250e9b143053f7c8": { // PSQ-42 hybrids
@@ -440,7 +412,8 @@
       "mod_nvg"
     ],
     "addtoTraders": false,
-    "traders": {},
+    "traders": {
+    },
     "fleaPriceRoubles": 1075578,
     "handbookPriceRoubles": 136742,
     "addtoStaticLootContainers": true,

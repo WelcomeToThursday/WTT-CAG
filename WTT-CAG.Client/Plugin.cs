@@ -6,7 +6,7 @@ using BepInEx.Logging;
 using BepInEx.Configuration;
 using SPT.Reflection.Patching;
 using UnityEngine;
-using WTT_CAG.Client.AMPArms;
+//using WTT_CAG.Client.AMPArms;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Content.Thermals;
 using WTT_CAG.Client.Content.Thermals.Fusion;
@@ -27,17 +27,17 @@ public class Plugin : BaseUnityPlugin
     private static ConfigFile? _configFile;
     internal static string? PluginFolder;
 
-    internal static Dictionary<string, HelmetSlotConfigSection> HelmetConfigs = new();
+    //internal static Dictionary<string, HelmetSlotConfigSection> HelmetConfigs = new();
     internal static readonly List<CAGConfigurationManagerAttributes> AMPEditorAttributes = [];
 
     // Kept open after startup so device overlay textures can be loaded by name later.
     internal static AssetBundle? Bundle;
 
-    internal static void RegisterHelmet(HelmetSlotConfigSection section)
-    {
-        ((IConfigSection)section).Init(_configFile!);
-        HelmetConfigs.Add(section.HelmetTpl!, section);
-    }
+   // internal static void RegisterHelmet(HelmetSlotConfigSection section)
+   // {
+    //    ((IConfigSection)section).Init(_configFile!);
+    //    HelmetConfigs.Add(section.HelmetTpl!, section);
+   // }
 
     private void Awake()
     {
@@ -67,12 +67,12 @@ public class Plugin : BaseUnityPlugin
         if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() != true) { return; }
         logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");
 
-        foreach (var section in HelmetConfigs.Values)
-        {
-            logger.LogInfo(section.ToCSharpSnippet());
-        }
+       // foreach (var section in HelmetConfigs.Values)
+       // {
+      //      logger.LogInfo(section.ToCSharpSnippet());
+      //  }
 
-        logger.LogInfo("==================================");
+      //  logger.LogInfo("==================================");
     }
 
     private static bool LoadThermalAssets()
