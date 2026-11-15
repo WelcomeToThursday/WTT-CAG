@@ -12,3 +12,4 @@ mod.code-workspace
 # Packaged mod output
 /Build/
 /.vs/
+BundleManifestGenerator.exe
