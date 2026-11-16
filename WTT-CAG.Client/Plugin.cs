@@ -28,7 +28,7 @@ public class Plugin : BaseUnityPlugin
     internal static string? PluginFolder;
 
     //internal static Dictionary<string, HelmetSlotConfigSection> HelmetConfigs = new();
-    internal static readonly List<CAGConfigurationManagerAttributes> AMPEditorAttributes = [];
+    //internal static readonly List<CAGConfigurationManagerAttributes> AMPEditorAttributes = [];
 
     // Kept open after startup so device overlay textures can be loaded by name later.
     internal static AssetBundle? Bundle;
@@ -61,11 +61,10 @@ public class Plugin : BaseUnityPlugin
     {
         ThermalDeviceProfiles.RefreshActive();
 
-        if (KeyboardConfigSection.ThermalToggleKey?.Value.IsDown() == true) { FusionThermalState.ToggleThermal(); }
         if (KeyboardConfigSection.ThermalModeKey?.Value.IsDown() == true) { FusionThermalState.CycleMode(); }
 
-        if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() != true) { return; }
-        logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");
+        //if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() != true) { return; }
+        //logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");
 
        // foreach (var section in HelmetConfigs.Values)
        // {

@@ -31,6 +31,7 @@ public sealed class ThermalMode(string label, int renderMode, Color? hotColor = 
 
     public static readonly ThermalMode Trace = new("TRACE", 0);
 
-    // SkeetIR edge detect: outlines laid over the night vision, so the cold areas stay see-through.
-    public static readonly ThermalMode EdgeDetect = new("EDGE DETECT", 2, heatKeyOnly: true);
+    // SkeetIR edge detect: white outlines on black. Heat-keyed so the black backing's opacity comes
+    // from the device's Heat Only Background setting, separately from the outlines.
+    public static readonly ThermalMode EdgeDetect = new("EDGE DETECT", 2, Color.white, Color.black, heatKeyOnly: true);
 }

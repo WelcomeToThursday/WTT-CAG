@@ -11,16 +11,16 @@ public class ThermalConfigSection : IConfigSection
     // While true, every thermal tuning value is exposed in the F12 menu. Set to false for release:
     // nothing below the player settings is bound, and the defaults in code become final. Copy the
     // tuned values out of the .cfg into those defaults first - saved F12 values are ignored once off.
-    public static readonly bool TuningEnabled = true;
+    public static readonly bool TuningEnabled = false;
 
     private static readonly Color DefaultHotColour = new(0.02f, 1.0f, 0.2f, 1f);
     private static readonly Color DefaultColdColour = new(0.0f, 0.02f, 0.0f, 1f);
 
     // Player settings - always available.
-    public static ConfigEntry<bool>? FusionOverlaysEnabled;
+    public static ConfigEntry<bool>? DisableThermalOverlays;
 
     // Holosun optic tuning.
-    public static readonly ThermalSetting<float> HeatFloor = new() { Default = 0.30f };
+    public static readonly ThermalSetting<float> HeatFloor = new() { Default = 0.1403756f };
     public static readonly ThermalSetting<float> HeatGain = new() { Default = 2.5f };
     public static readonly ThermalSetting<float> HeatContrast = new() { Default = 0.6f };
 
@@ -45,7 +45,7 @@ public class ThermalConfigSection : IConfigSection
 
     public void Init(ConfigFile cfg)
     {
-        FusionOverlaysEnabled = cfg.Bind("Thermal", "Fusion Thermal Overlays", true, new ConfigDescription("Show the thermal overlay on fusion night vision goggles. Turn off for plain night vision."));
+        DisableThermalOverlays = cfg.Bind("Thermal", "Disable Thermal Overlays", false, new ConfigDescription("Turn off the thermal overlay and HUD on the fusion night vision goggles, leaving plain night vision."));
 
         ThermalDeviceProfiles.Init();
 

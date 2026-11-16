@@ -51,6 +51,10 @@ public class ThermalDeviceProfile(string name, string templateId)
     // values in its Register line.
     public bool Tunable;
 
+    // Whether the mode key's cycle ends with thermal off before starting again. A fused goggle can
+    // run on night vision alone; a clip-on is only ever in one of its thermal modes.
+    public bool OffInCycle;
+
     // Where the HUD sits, independent of the thermal zones. In the HUD's canvas units (the screen is
     // 1080 tall), moving the prefab's Display panel from wherever it was laid out in Unity.
     public readonly ThermalSetting<float> HudOffsetX = new();
@@ -65,6 +69,9 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<bool> HeatKeyOnly = new();
     public readonly ThermalSetting<float> HeatKeyThreshold = new();
     public readonly ThermalSetting<float> HeatKeySoftness = new();
+
+    // How opaque the cold areas are in a heat-keyed mode. 0 is fully see-through.
+    public readonly ThermalSetting<float> HeatKeyBackground = new();
 
     public readonly ThermalSetting<bool> FxNoise = new();
     public readonly ThermalSetting<bool> FxFpsStuck = new();

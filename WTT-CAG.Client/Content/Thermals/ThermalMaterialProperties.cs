@@ -6,7 +6,6 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Content.Thermals;
 
-// Every per-frame shader property the thermal materials need, in one place.
 // Values are read live from config so F12 changes show up immediately.
 public static class ThermalMaterialProperties
 {
@@ -47,6 +46,7 @@ public static class ThermalMaterialProperties
     private static readonly int HeatKeyOnly = Shader.PropertyToID("_HeatKeyOnly");
     private static readonly int HeatKeyThreshold = Shader.PropertyToID("_HeatKeyThreshold");
     private static readonly int HeatKeySoftness = Shader.PropertyToID("_HeatKeySoftness");
+    private static readonly int HeatKeyBackground = Shader.PropertyToID("_HeatKeyBackground");
     private static readonly int TubeClip = Shader.PropertyToID("_TubeClip");
     private static readonly int TubeMask = Shader.PropertyToID("_TubeMask");
     private static readonly int TubeInvMaskSize = Shader.PropertyToID("_TubeInvMaskSize");
@@ -61,10 +61,9 @@ public static class ThermalMaterialProperties
     private static readonly int ScreenUvScale = Shader.PropertyToID("_ScreenUvScale");
     private static readonly int ScreenUvOffset = Shader.PropertyToID("_ScreenUvOffset");
 
-    // Reused every frame so SetVectorArray never allocates.
     private static readonly Vector4[] ZoneBuffer = new Vector4[ThermalDeviceProfile.MaxZones];
 
-    private static string? _lastTubeClipState;
+   // private static string? _lastTubeClipState;
 
     // The Holosun optic's ThermalTraceOverlay material. Tuning comes from the global thermal config.
     // Scope mode maps straight onto _RenderMode: 0 = Trace, 1 = Full, 2 = Outline, 3 = Clear.
@@ -127,7 +126,6 @@ public static class ThermalMaterialProperties
             material.SetTexture(ThermalZoneRT, zoneTexture);
         }
 
-        // Nothing is drawn over a tube that is switched off.
         material.SetFloat(ThermalZoneEnabled, profile.ZoneEnabled.Value && FusionThermalState.ThermalOn && nightVision.On ? 1f : 0f);
         material.SetFloat(ThermalZoneOpacity, profile.Opacity.Value);
 
@@ -165,13 +163,13 @@ public static class ThermalMaterialProperties
         material.SetFloat(HeatKeyOnly, heatKeyOnly ? 1f : 0f);
         material.SetFloat(HeatKeyThreshold, profile.HeatKeyThreshold.Value);
         material.SetFloat(HeatKeySoftness, profile.HeatKeySoftness.Value);
+        material.SetFloat(HeatKeyBackground, profile.HeatKeyBackground.Value);
 
         material.SetFloat(ZoneAspect, aspect);
         material.SetFloat(ThermalZoneZoom, profile.Zoom.Value);
         material.SetFloat(ThermalZoneUvScale, FusionThermalZoneCamera.ZoneUVScale);
         material.SetFloat(ZoneDebugFill, ThermalConfigSection.ZoneDebugFill.Value ? 1f : 0f);
 
-        // A live HUD takes the overlay slot when the goggle has one; otherwise the static texture does.
         var hud = FusionThermalHud.Instance;
         var overlay = hud && hud!.Profile == profile && hud.Texture ? hud.Texture : profile.ResolveOverlayTexture();
 
@@ -182,19 +180,17 @@ public static class ThermalMaterialProperties
         }
         else
         {
-            // Zero opacity so the shader skips the sample rather than reading whatever was last bound.
             material.SetFloat(OverlayOpacity, 0f);
         }
 
         material.SetColor(OverlayTint, profile.OverlayTint.Value);
 
-        // Identity: only the pre-upscale composite modes (0 and 1) would need a UV correction here.
         material.SetVector(ScreenUvScale, new Vector4(1f, 1f, 0f, 0f));
         material.SetVector(ScreenUvOffset, Vector4.zero);
     }
 
     // Logged whenever the clip's state changes, so toggling it in F12 shows in the log what happened.
-    private static void LogTubeClip(ThermalDeviceProfile profile, string state)
+    /*private static void LogTubeClip(ThermalDeviceProfile profile, string state)
     {
         var line = $"{profile.Name}: tube clip {state}";
 
@@ -202,13 +198,11 @@ public static class ThermalMaterialProperties
 
         _lastTubeClipState = line;
         Plugin.logger!.LogInfo($"[WTT-CAG] {line}");
-    }
+    }*/
 
-    // The rectangular zone in screen UV: the HUD's Display panel when it has one, otherwise the
-    // profile's own size and offset. Either way the inset is applied last.
+  
     private static Vector4 ZoneRectangle(ThermalDeviceProfile profile, float aspect)
     {
-        // One canvas unit as a fraction of the screen's height and of its width.
         var unitY = 1f / FusionThermalHud.CanvasHeight;
         var unitX = unitY / Mathf.Max(aspect, 0.01f);
 
@@ -236,7 +230,7 @@ public static class ThermalMaterialProperties
         if (!profile.ClipToTubes.Value)
         {
             material.SetFloat(TubeClip, 0f);
-            LogTubeClip(profile, "off");
+            //LogTubeClip(profile, "off");
             return;
         }
 
@@ -245,9 +239,8 @@ public static class ThermalMaterialProperties
 
         if (!mask)
         {
-            // Clipping to nothing would erase the overlay, so fail open.
             material.SetFloat(TubeClip, 0f);
-            LogTubeClip(profile, $"requested but not applied - no mask on this NightVision (TextureMask: {(textureMask != null ? "present" : "missing")})");
+            //LogTubeClip(profile, $"requested but not applied - no mask on this NightVision (TextureMask: {(textureMask != null ? "present" : "missing")})");
             return;
         }
 
@@ -255,7 +248,7 @@ public static class ThermalMaterialProperties
 
         if (size < 0.0001f) { size = 1f; }
 
-        LogTubeClip(profile, $"on - mask '{mask!.name}' {mask.width}x{mask.height}, size {textureMask.Size} x {profile.TubeMaskScale.Value}, channel {profile.TubeMaskChannel.Value}");
+        //LogTubeClip(profile, $"on - mask '{mask!.name}' {mask.width}x{mask.height}, size {textureMask.Size} x {profile.TubeMaskScale.Value}, channel {profile.TubeMaskChannel.Value}");
 
         material.SetFloat(TubeClip, 1f);
         material.SetTexture(TubeMask, mask);

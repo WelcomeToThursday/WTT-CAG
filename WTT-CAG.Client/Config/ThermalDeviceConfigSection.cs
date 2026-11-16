@@ -52,6 +52,7 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.HeatKeyOnly.Bind(cfg, place, "Heat Only", "ON: draw only hot pixels and let the night vision show through the cold ones, so the circle is an overlay rather than a cutout. OFF: the circle replaces the NVG image, cold areas included, which reads as black.");
         profile.HeatKeyThreshold.Bind(cfg, place, "Heat Only Threshold", "How bright a thermal pixel must be to be drawn when Heat Only is on. Raise to show only the hottest objects.", new AcceptableValueRange<float>(0f, 1f));
         profile.HeatKeySoftness.Bind(cfg, place, "Heat Only Softness", "Edge softness of the Heat Only cutoff. Higher fades hot areas into the night vision instead of cutting sharply.", new AcceptableValueRange<float>(0.001f, 0.5f));
+        profile.HeatKeyBackground.Bind(cfg, place, "Heat Only Background", "How opaque the cold areas are in a heat-keyed mode. 0 is fully see-through. On the SkeetIR this is the opacity of the black behind Edge Detect's outlines.", new AcceptableValueRange<float>(0f, 1f));
 
         profile.HotColor.Bind(cfg, image, "Hot Color", "Colour of hot objects.");
         profile.ColdColor.Bind(cfg, image, "Cold Color", "Colour of cold areas. Near-black unless Heat Only is on, in which case cold is transparent and this barely matters.");

@@ -21,7 +21,7 @@ public static class ThermalAssets
     // Properties each shader's source declares. A compiled shader missing any of them was built
     // from an older source than this plugin expects, and will ignore the settings it does not know.
     private static readonly string[] TraceProperties = ["_TraceThreshold", "_OutlineIntensity", "_HotColor", "_ColdColor", "_HeatPower", "_HeatGain", "_HeatFloor", "_DebugHeat"];
-    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_ZoneDebugFill", "_ZoneShape"];
+    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_ZoneDebugFill", "_ZoneShape", "_HeatKeyBackground"];
 
     // Holds the HUD prefabs. Optional: without it the goggles simply have no HUD.
     public static AssetBundle? HudBundle;

@@ -21,31 +21,45 @@ public static class ThermalDeviceProfiles
         Active = null;
         _lastTemplateId = null;
 
-        // Finished devices: locked to these values and kept out of the F12 menu. Anything not listed
-        // uses Register's defaults. Add tunable: true to a line to bring it back into F12.
+       
+        // To retune a device, switch TuningEnabled on and add tunable: true to its line. Anything
+        // not listed uses Register's defaults.
 
-        // Replaces the BNVG-Fused, on the same item.
-        Register("PSQ-42", "6af9ccf0250e9b143053f7c8", hot: new Color(1.0f, 0.357f, 0.0f, 1f), zoom: 1.5f, opacity: 0.72f, heatKeyOnly: true, heatFloor: 0f, traceThreshold: 0.30f, outlineIntensity: 1.08f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot], hud: "FPanoHud", zoneShape: 1, clipToTubes: false, tunable: true);
+        Register("PSQ-42", "6af9ccf0250e9b143053f7c8",
+            zoom: 1f,
+            zoneShape: 1, rectFromHud: false, rectWidth: 550.9389f, rectHeight: 558.6385f, rectOffsetX: 225.3521f, rectInset: 21.12676f, rectSoftness: 0.007042254f,
+            opacity: 0.72f,
+            clipToTubes: true, tubeMaskScale: 0.7887324f, tubeMaskSoftness: 0.08338028f,
+            heatKeyOnly: true,
+            heatPower: 0.3896714f, traceIntensity: 1.547418f, outlineIntensity: 2.817089f, outlineWidth: 0.002234742f,
+            fxNoise: true, fxFpsStuck: true, fxMotionBlur: true, fxGlitch: true,
+            overlayOpacity: 0.7042254f,
+            modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot],
+            hud: "FPanoHud", hudOffsetY: 15.21127f, hudScale: 0.6384977f,
+            offInCycle: true);
+
         //Register("ECOTI-PVS-31", "6aa58d6c394c0807cb0af580", heatKeyOnly: true, zoneCount: 2, zoneCentersX: [0.37f, 0.63f], zoneCentersY: [0.5f, 0.5f], zoneEnabled: [true, true], radius: 0.26f, softness: 0.06f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot], tunable: true);
 
         Register("F-PANO Fused", "6aece3759b55c16086112d9e",
-            hot: new Color(1f, 1f, 0.9294118f, 1f),
+            hot: new Color(1f, 1f, 0.6666667f, 1f),
             fov: 40f, zoom: 1f,
             zoneCount: 1,
-            zoneCentersX: [0.5674179f, 0.4287793f, 0.59f, 0.78f],
-            zoneCentersY: [0.48f, 0.4812207f, 0.5f, 0.48f],
+            zoneCentersX: [0.5016901f, 0.41f, 0.59f, 0.78f],
+            zoneCentersY: [0.48f, 0.5f, 0.5f, 0.48f],
             zoneEnabled: [true, false, false, false],
-            radius: 0.2f,
-            zoneSoftness: [0.08173709f, 0.07f, 0.07f, 0.07f],
-            zoneShape: 1, rectFromHud: false, rectWidth: 421.1268f, rectHeight: 960f, rectOffsetX: 225.3521f, rectSoftness: 0.01584977f,
-            clipToTubes: true,
+            zoneRadius: [0.4987794f, 0.2f, 0.2f, 0.2f],
+            zoneSoftness: [0.2084977f, 0.07f, 0.07f, 0.07f],
+            zoneShape: 0, rectFromHud: false, rectWidth: 532.3944f, rectHeight: 587.6526f, rectOffsetX: 225.3521f, rectInset: 21.12676f, rectSoftness: 0.009042257f,
+            clipToTubes: true, tubeMaskScale: 0.7816901f, tubeMaskSoftness: 0.1030986f,
             heatKeyOnly: true,
-            outlineWidth: 0.00169953f,
+            traceThreshold: 0.2530517f, traceSoftness: 0.3685446f, traceIntensity: 1.838498f, outlineWidth: 0.003840375f,
             fxNoise: true, fxFpsStuck: true, fxMotionBlur: true, fxGlitch: true,
+            overlayOpacity: 0.6995305f, overlayTint: new Color(0f, 0.9529412f, 1f, 1f),
             modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot],
-            hud: "FPanoHud", hudScale: 0.6795775f);
+            hud: "FPanoHud", hudScale: 0.6795775f,
+            offInCycle: true);
 
-
+        // PVS-14 with a SkeetIR 
         Register("SkeetIR / PVS-14", "6af8bebd979735ba4efe9805",
             hot: new Color(1f, 1f, 1f, 1f), cold: new Color(0f, 0f, 0f, 1f),
             fov: 25.6338f, zoom: 1f,
@@ -54,12 +68,12 @@ public static class ThermalDeviceProfiles
             zoneCentersY: [0.5f, 0.5f],
             zoneEnabled: [true, false],
             radius: 0.26f, softness: 0.10f,
-            zoneShape: 1, rectFromHud: false, rectWidth: 1200f, rectHeight: 1041.315f, rectOffsetX: -535.2112f, rectSoftness: 0.05f,
-            clipToTubes: true,
-            heatKeyOnly: false, opacity: 0.95f,
+            zoneShape: 1, rectFromHud: false, rectWidth: 606.5728f, rectHeight: 509.39f, rectOffsetX: -239.4366f, rectInset: 49.29578f, rectSoftness: 0.01690141f,
+            clipToTubes: true, tubeMaskScale: 0.7394366f, tubeMaskSoftness: 0.2985916f,
+            heatKeyOnly: false, heatKeyBackground: 1f,
             fxNoise: true, fxFpsStuck: true, fxMotionBlur: true, fxGlitch: true,
             modes: [ThermalMode.WhiteHot, ThermalMode.BlackHot, ThermalMode.EdgeDetect],
-            hud: "SkeetIrHud", hudNeedsThermal: true);
+            hud: "SkeetIrHud", hudNeedsThermal: true, hudOffsetX: -225.3521f, hudOffsetY: 45.6338f);
 
         Plugin.logger!.LogInfo($"[WTT-CAG] Registered {ProfileCache.Count} thermal device profile(s).");
     }
@@ -69,7 +83,7 @@ public static class ThermalDeviceProfiles
         var player = Singleton<GameWorld>.Instance?.MainPlayer;
 
         // With the player's overlay setting off, no device is ever active and the goggles stay stock.
-        var overlaysEnabled = ThermalConfigSection.FusionOverlaysEnabled?.Value ?? true;
+        var overlaysEnabled = !(ThermalConfigSection.DisableThermalOverlays?.Value ?? false);
         var templateId = overlaysEnabled ? player?.NightVisionObserver?.Component?.Item?.StringTemplateId : null;
 
         // Only search when the worn device actually changes.
@@ -109,6 +123,8 @@ public static class ThermalDeviceProfiles
         float[]? zoneRadius = null,
         float[]? zoneSoftness = null,
         bool clipToTubes = true,
+        float tubeMaskScale = 1f,
+        float tubeMaskSoftness = 0.02f,
         int zoneShape = 0,
         bool rectFromHud = true,
         float rectWidth = 1200f,
@@ -120,6 +136,7 @@ public static class ThermalDeviceProfiles
         bool heatKeyOnly = false,
         float heatKeyThreshold = 0.15f,
         float heatKeySoftness = 0.08f,
+        float heatKeyBackground = 0f,
         float heatFloor = 0f,
         float heatGain = 2.5f,
         float heatPower = 0.6f,
@@ -135,13 +152,15 @@ public static class ThermalDeviceProfiles
         bool fxPixelate = false,
         string overlayTexture = "",
         float overlayOpacity = 1f,
+        Color? overlayTint = null,
         ThermalMode[]? modes = null,
         string hud = "",
         bool hudNeedsThermal = false,
         float hudOffsetX = 0f,
         float hudOffsetY = 0f,
         float hudScale = 1f,
-        bool tunable = false)
+        bool tunable = false,
+        bool offInCycle = false)
     {
         var profile = new ThermalDeviceProfile(name, templateId);
 
@@ -174,12 +193,13 @@ public static class ThermalDeviceProfiles
         profile.RectOffsetY.Default = rectOffsetY;
         profile.RectInset.Default = rectInset;
         profile.RectSoftness.Default = rectSoftness;
-        profile.TubeMaskScale.Default = 1f;
-        profile.TubeMaskSoftness.Default = 0.02f;
+        profile.TubeMaskScale.Default = tubeMaskScale;
+        profile.TubeMaskSoftness.Default = tubeMaskSoftness;
         profile.TubeMaskChannel.Default = 0;
         profile.HeatKeyOnly.Default = heatKeyOnly;
         profile.HeatKeyThreshold.Default = heatKeyThreshold;
         profile.HeatKeySoftness.Default = heatKeySoftness;
+        profile.HeatKeyBackground.Default = heatKeyBackground;
         profile.HotColor.Default = hot ?? new Color(1.0f, 0.357f, 0.0f, 1f);
         profile.ColdColor.Default = cold ?? new Color(0.0f, 0.02f, 0.0f, 1f);
         profile.HeatFloor.Default = heatFloor;
@@ -199,11 +219,12 @@ public static class ThermalDeviceProfiles
         profile.UnsharpBias.Default = 0f;
         profile.OverlayTexture.Default = overlayTexture;
         profile.OverlayOpacity.Default = overlayOpacity;
-        profile.OverlayTint.Default = Color.white;
+        profile.OverlayTint.Default = overlayTint ?? Color.white;
 
         profile.Modes = modes is { Length: > 0 } ? modes : [ThermalMode.Outline];
         profile.HudPrefab = hud;
         profile.Tunable = tunable;
+        profile.OffInCycle = offInCycle;
         profile.HudNeedsThermal = hudNeedsThermal;
         profile.HudOffsetX.Default = hudOffsetX;
         profile.HudOffsetY.Default = hudOffsetY;
