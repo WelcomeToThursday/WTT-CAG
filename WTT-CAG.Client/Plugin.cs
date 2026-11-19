@@ -18,6 +18,7 @@ using WTT_CAG.Client.Patches.ThermalVisionPatches;
 namespace WTT_CAG.Client;
 
 [BepInPlugin(PluginConstants.Guid, PluginConstants.Name, PluginConstants.Version)]
+[BepInIncompatibility("com.lennoxp90.coti")]
 public class Plugin : BaseUnityPlugin
 {
     private const string ThermalBundleName = "ThermalTraceOverlay.bundle";
@@ -26,6 +27,7 @@ public class Plugin : BaseUnityPlugin
     internal static ManualLogSource? logger;
     private static ConfigFile? _configFile;
     internal static string? PluginFolder;
+    
 
     //internal static Dictionary<string, HelmetSlotConfigSection> HelmetConfigs = new();
     //internal static readonly List<CAGConfigurationManagerAttributes> AMPEditorAttributes = [];

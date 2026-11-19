@@ -11,6 +11,56 @@
 				"Back_plate": ["656fa53d94b480b8a500c0e4"],
 				"Soft_armor_front": ["6959f5328aa6eaf6ea62b797"],
 				"Soft_armor_back": ["6959f60089e07cdf6f62b79d"]
+			},
+			"5447a9cd4bdc2dbd208b4567": {
+				"mod_charge": [
+					"5b2240bf5acfc40dc528af69"
+				],
+				"mod_charge_001": [
+					"675307301f7c19a9780f2668"
+				],
+				"mod_magazine": [
+					"59c1383d86f774290a37e0ca",
+					"5d1340b3d7ad1a0b52682ed7"
+				],
+				"mod_pistol_grip": [
+					"5a339805c4a2826c6e06d73d"
+				],
+				"mod_reciever": [
+					"55d355e64bdc2d962f8b4569"
+				],
+				"mod_stock": [
+					"5649be884bdc2d79388b4577"
+				]
+			},
+			"55d355e64bdc2d962f8b4569": {
+				"mod_barrel": [
+					"55d35ee94bdc2d61338b4568"
+				],
+				"mod_handguard": [
+					"5ea16acdfadf1d18c87b0784"
+				],
+				"mod_scope": [
+					"b0b2840b9daf26136be3884c"
+				],
+				"mod_sight_rear": [
+					"5c1780312e221602b66cc189"
+				]
+			},
+			"55d35ee94bdc2d61338b4568": {
+				"mod_gas_block": [
+					"56eabcd4d2720b66698b4574"
+				],
+				"mod_muzzle": [
+					"5c6d710d2e22165df16b81e7"
+				]
+			},
+			"5649be884bdc2d79388b4577": {
+				"mod_stock_000": [
+					"5d4406a8a4b9361e4f6eb8b7",
+					"5d135ecbd7ad1a21c176542e",
+					"5fc2369685fd526b824a5713"
+				]
 			}
 		}
 	}
