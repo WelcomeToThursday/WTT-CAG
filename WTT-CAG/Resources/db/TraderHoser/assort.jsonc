@@ -4146,13 +4146,13 @@
     "69653b6560fcf0a0300ac546":  [ [ { "count": 68651,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
     // F-PANOS  
-    "b95cffaef69a9a37f5814b0b":  [ [ { "count": 250000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    "b95cffaef69a9a37f5814b0b":  [ [ { "count": 10250000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
     // PVS-14 SkeetIR   
-    "cea53d2909830e33564f9e88":  [ [ { "count": 95000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    "cea53d2909830e33564f9e88":  [ [ { "count": 1595000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
     // PSQ-42 
-    "c4e167037099b47bbaa0c107":  [ [ { "count": 125000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+    "c4e167037099b47bbaa0c107":  [ [ { "count": 5125000,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
     
     // Oakley Holbrook glasses  
     "69653b6560fcf0a0300ac547":  [ [ { "count": 5613,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],

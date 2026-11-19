@@ -63,7 +63,7 @@ public static class ThermalDeviceProfiles
             zoneCentersY: [0.5f, 0.5f],
             zoneEnabled: [true, false],
             radius: 0.26f, softness: 0.10f,
-            zoneShape: 1, rectFromHud: false, rectWidth: 606.5728f, rectHeight: 509.39f, rectOffsetX: -239.4366f, rectInset: 49.29578f, rectSoftness: 0.01690141f,
+            zoneShape: 1, rectFromHud: false, rectWidth: 754.9296f, rectHeight: 509.39f, rectOffsetX: -352.1127f, rectInset: 32.39437f, rectSoftness: 0.01690141f,
             clipToTubes: true, tubeMaskScale: 0.7394366f, tubeMaskSoftness: 0.2985916f,
             heatKeyOnly: false, heatKeyBackground: 1f,
             fxNoise: true, fxFpsStuck: true, fxMotionBlur: true, fxGlitch: true,
@@ -152,7 +152,7 @@ public static class ThermalDeviceProfiles
         float hudOffsetX = 0f,
         float hudOffsetY = 0f,
         float hudScale = 1f,
-        bool holdZoomWhenAiming = true,
+        bool holdZoomWhenAiming = false,
         bool offInCycle = false)
     {
         var profile = new ThermalDeviceProfile(name, templateId);

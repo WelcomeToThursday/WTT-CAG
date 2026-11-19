@@ -13,7 +13,7 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<bool> CullLayers = new();
     public readonly ThermalSetting<string> ExcludeLayers = new();
 
-    // On: the thermal keeps its hip-fire size when aiming. Off: it zooms with the view and stays registered on the night vision.
+    // On: the thermal keeps its hip-fire size when aiming. Off (default): it zooms with the view and stays registered on the night vision.
     public readonly ThermalSetting<bool> HoldZoomWhenAiming = new();
 
     public const int MaxZones = 4;
