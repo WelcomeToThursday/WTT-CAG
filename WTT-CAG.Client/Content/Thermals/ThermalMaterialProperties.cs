@@ -1,4 +1,5 @@
-﻿using BSG.CameraEffects;
+﻿using WTT_CAG.Client.Core;
+using BSG.CameraEffects;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Content.Thermals.Fusion;
@@ -6,13 +7,11 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Content.Thermals;
 
-// Values are read live from config so F12 changes show up immediately.
+// Every per-frame shader property for the optic, zone and composite materials.
 public static class ThermalMaterialProperties
 {
-    // Scope mode 3 on the Holosun is the plain red dot. Anything out of range falls back to it.
     private const int ClearRenderMode = 3;
 
-    // ThermalTraceOverlay
     private static readonly int UseRampColor = Shader.PropertyToID("_UseRampColor");
     private static readonly int HotColor = Shader.PropertyToID("_HotColor");
     private static readonly int ColdColor = Shader.PropertyToID("_ColdColor");
@@ -30,7 +29,6 @@ public static class ThermalMaterialProperties
     private static readonly int BaseOpacity = Shader.PropertyToID("_BaseOpacity");
     private static readonly int RenderMode = Shader.PropertyToID("_RenderMode");
 
-    // FusionNVG
     private static readonly int ThermalZoneRT = Shader.PropertyToID("_ThermalZoneRT");
     private static readonly int ThermalZoneEnabled = Shader.PropertyToID("_ThermalZoneEnabled");
     private static readonly int ThermalZoneOpacity = Shader.PropertyToID("_ThermalZoneOpacity");
@@ -63,10 +61,9 @@ public static class ThermalMaterialProperties
 
     private static readonly Vector4[] ZoneBuffer = new Vector4[ThermalDeviceProfile.MaxZones];
 
-   // private static string? _lastTubeClipState;
+    private static string? _lastTubeClipState;
+    private static string? _lastScaleReport;
 
-    // The Holosun optic's ThermalTraceOverlay material. Tuning comes from the global thermal config.
-    // Scope mode maps straight onto _RenderMode: 0 = Trace, 1 = Full, 2 = Outline, 3 = Clear.
     public static void ApplyOptic(Material material, int scopeMode)
     {
         material.SetFloat(UseRampColor, 0f);
@@ -87,14 +84,12 @@ public static class ThermalMaterialProperties
         material.SetFloat(RenderMode, scopeMode is >= 0 and <= ClearRenderMode ? scopeMode : ClearRenderMode);
     }
 
-    // The zone camera's ThermalTraceOverlay material. Tuning comes from the worn goggle's profile.
     public static void ApplyZone(Material material, ThermalDeviceProfile? profile)
     {
         if (profile == null) { return; }
 
         var mode = FusionThermalState.CurrentMode(profile);
 
-        // A mode with its own colours (white hot, black hot) uses them; the rest use the device's.
         material.SetFloat(UseRampColor, 0f);
         material.SetColor(HotColor, mode.HotColor ?? profile.HotColor.Value);
         material.SetColor(ColdColor, mode.ColdColor ?? profile.ColdColor.Value);
@@ -110,7 +105,6 @@ public static class ThermalMaterialProperties
         material.SetFloat(RenderMode, mode.RenderMode);
     }
 
-    // The FusionNVG material that draws the thermal zones over the night vision image.
     public static void ApplyComposite(Material material, ThermalDeviceProfile? profile, NightVision nightVision)
     {
         if (profile == null)
@@ -129,7 +123,6 @@ public static class ThermalMaterialProperties
         material.SetFloat(ThermalZoneEnabled, profile.ZoneEnabled.Value && FusionThermalState.ThermalOn && nightVision.On ? 1f : 0f);
         material.SetFloat(ThermalZoneOpacity, profile.Opacity.Value);
 
-        // Packed as xy = centre, z = radius, w = softness. A disabled zone is all zero, which the shader skips.
         var count = Mathf.Clamp(profile.ZoneCount.Value, 1, ThermalDeviceProfile.MaxZones);
 
         for (var z = 0; z < ThermalDeviceProfile.MaxZones; z++)
@@ -168,6 +161,17 @@ public static class ThermalMaterialProperties
         material.SetFloat(ZoneAspect, aspect);
         material.SetFloat(ThermalZoneZoom, profile.Zoom.Value);
         material.SetFloat(ThermalZoneUvScale, FusionThermalZoneCamera.ZoneUVScale);
+
+        if (BuildFlags.DebugBuild)
+        {
+            var report = $"{profile.Name}: {FusionThermalZoneCamera.ScaleReport}, zoom {profile.Zoom.Value:F2}, path {(FusionThermalController.PostUpscaleActive ? "overlay camera" : "FPS camera")}";
+
+            if (report != _lastScaleReport)
+            {
+                _lastScaleReport = report;
+                CagLog.Info($"[WTT-CAG] {report}");
+            }
+        }
         material.SetFloat(ZoneDebugFill, ThermalConfigSection.ZoneDebugFill.Value ? 1f : 0f);
 
         var hud = FusionThermalHud.Instance;
@@ -189,18 +193,16 @@ public static class ThermalMaterialProperties
         material.SetVector(ScreenUvOffset, Vector4.zero);
     }
 
-    // Logged whenever the clip's state changes, so toggling it in F12 shows in the log what happened.
-    /*private static void LogTubeClip(ThermalDeviceProfile profile, string state)
+    private static void LogTubeClip(ThermalDeviceProfile profile, string state)
     {
         var line = $"{profile.Name}: tube clip {state}";
 
         if (line == _lastTubeClipState) { return; }
 
         _lastTubeClipState = line;
-        Plugin.logger!.LogInfo($"[WTT-CAG] {line}");
-    }*/
+        CagLog.Info($"[WTT-CAG] {line}");
+    }
 
-  
     private static Vector4 ZoneRectangle(ThermalDeviceProfile profile, float aspect)
     {
         var unitY = 1f / FusionThermalHud.CanvasHeight;
@@ -224,31 +226,36 @@ public static class ThermalMaterialProperties
         return new Vector4(rect.x + inset * unitX, rect.y + inset * unitY, rect.z - inset * unitX, rect.w - inset * unitY);
     }
 
-    // Clips the thermal to the goggle's own tube mask - the same texture BSG cuts the night vision with.
     private static void ApplyTubeMask(Material material, ThermalDeviceProfile profile, NightVision nightVision, float aspect)
     {
         if (!profile.ClipToTubes.Value)
         {
             material.SetFloat(TubeClip, 0f);
-            //LogTubeClip(profile, "off");
+            LogTubeClip(profile, "off");
             return;
         }
 
+        // Default: the mask in the shared TextureMask - in practice the game's thermal mask, which every
+        // goggle's Tube Mask Scale and Edge were tuned against. UseGoggleTubeMask uses the goggle's real
+        // tube mask (NightVision.Mask) instead, which needs that goggle retuned.
+        var useGoggleMask = profile.UseGoggleTubeMask.Value;
         var textureMask = nightVision.TextureMask;
-        var mask = textureMask != null ? textureMask.Mask : null;
+
+        var mask = useGoggleMask ? nightVision.Mask : textureMask != null ? textureMask.Mask : null;
+        var maskSize = useGoggleMask ? nightVision.MaskSize : textureMask != null ? textureMask.Size : 1f;
 
         if (!mask)
         {
             material.SetFloat(TubeClip, 0f);
-            //LogTubeClip(profile, $"requested but not applied - no mask on this NightVision (TextureMask: {(textureMask != null ? "present" : "missing")})");
+            LogTubeClip(profile, $"requested but not applied - no {(useGoggleMask ? "goggle tube" : "TextureMask")} mask on this NightVision");
             return;
         }
 
-        var size = textureMask!.Size * profile.TubeMaskScale.Value;
+        var size = maskSize * profile.TubeMaskScale.Value;
 
         if (size < 0.0001f) { size = 1f; }
 
-        //LogTubeClip(profile, $"on - mask '{mask!.name}' {mask.width}x{mask.height}, size {textureMask.Size} x {profile.TubeMaskScale.Value}, channel {profile.TubeMaskChannel.Value}");
+        LogTubeClip(profile, $"on - {(useGoggleMask ? "goggle tube" : "thermal")} mask '{mask!.name}' {mask.width}x{mask.height}, size {maskSize} x {profile.TubeMaskScale.Value}, channel {profile.TubeMaskChannel.Value}");
 
         material.SetFloat(TubeClip, 1f);
         material.SetTexture(TubeMask, mask);
@@ -258,7 +265,7 @@ public static class ThermalMaterialProperties
         material.SetFloat(TubeMaskSoftness, profile.TubeMaskSoftness.Value);
         material.SetFloat(TubeMaskChannel, profile.TubeMaskChannel.Value);
 
-        // Always inverted: BSG's masks mark the surround rather than the tube.
+        // BSG's masks mark the surround rather than the tube.
         material.SetFloat(TubeMaskInvert, 1f);
     }
 }

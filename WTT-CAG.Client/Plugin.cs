@@ -118,7 +118,7 @@ public class Plugin : BaseUnityPlugin
             return;
         }
 
-        logger!.LogInfo($"[WTT-CAG] Loaded {HudBundleName}.");
+        CagLog.Info($"[WTT-CAG] Loaded {HudBundleName}.");
     }
 
     private static void EnablePatch(ModulePatch patch)
@@ -126,7 +126,7 @@ public class Plugin : BaseUnityPlugin
         try
         {
             patch.Enable();
-            logger!.LogDebug($"[WTT-CAG] Enabled {patch.GetType().Name}.");
+            CagLog.Debug($"[WTT-CAG] Enabled {patch.GetType().Name}.");
         }
         catch (Exception e)
         {

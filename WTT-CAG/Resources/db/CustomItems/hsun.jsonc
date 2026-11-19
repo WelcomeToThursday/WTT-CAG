@@ -7,9 +7,11 @@
         "overrideProperties": {
           "ExaminedByDefault": true,
           "Prefab": {
-            "path": "Misc/holosundnv.bundle",
+            "path": "Misc/holosun_dnv.bundle",
             "rcid": ""
           },
+          "CanRequireOnRagfair": false,
+          "CanSellOnRagfair": false,
           "ModesCount": [
             4
           ],
@@ -31,8 +33,8 @@
             "description": "The DRS-TH combines a high-performance LED red dot sight with integrated thermal imaging to deliver enhanced target detection in any lighting condition.\nDesigned for professional and field use, it overlays real-time thermal data within a familiar red dot sight picture for faster identification and engagement."
           }
         },
-        "fleaPriceRoubles": 45000,
-        "handbookPriceRoubles": 42500,
+        "fleaPriceRoubles": 1045000,
+        "handbookPriceRoubles": 1042500,
         "addtoBots": false,
         "addtoSpecialSlots": false,
         "addtoModSlots": true,
@@ -52,23 +54,9 @@
           }
         ],
         "addtoSecureFilters": false,
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
-          "MECHANIC": {
-            "3e1b42dd229a95ed7902bce7": {
-              "barterSettings": {
-                "loyalLevel": 1,
-                "unlimitedCount": true,
-                "stackObjectsCount": 99
-              },
-              "barters": [
-                {
-                  "count": 150,
-                  "_tpl": "MONEY_EUROS"
-                }
-              ]
-            }
-          }
+
         }
       }
 

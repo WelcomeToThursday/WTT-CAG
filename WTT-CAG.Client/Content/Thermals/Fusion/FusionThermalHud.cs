@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WTT_CAG.Client.Core;
+using System;
 using Comfort.Common;
 using EFT;
 using UnityEngine;
@@ -9,28 +10,20 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// The goggle's heads-up display. The HUD itself is a prefab authored in Unity; this instantiates
-// it, renders it into a texture with a camera that sees nothing else, and keeps its live elements
-// up to date. The texture is handed to the fusion shader as its device overlay, so the HUD is
-// composited with everything else after the upscale.
+// Instantiates the HUD prefab and renders it into a screen-sized texture used as the device overlay.
 public class FusionThermalHud : MonoBehaviour
 {
     private const string CameraObjectName = "WTT_CAG_FusionThermalHudCamera";
 
-    // Unity's built-in UI layer. The HUD camera renders this layer and nothing else.
     private const int HudLayer = 5;
 
-    // Far below any map, so no gameplay camera ever has the HUD canvas in view and the HUD
-    // camera never has anything but its own canvas in view.
+    // Far below any map, so no other camera ever sees the canvas.
     private static readonly Vector3 ParkedPosition = new(0f, -5000f, 0f);
 
-    // Must render before the zone camera and the FPS camera so the texture is ready for the composite.
     private const float DepthOffset = -20f;
 
-    // The compass tape texture: which heading sits at its left edge.
     private const float TapeStartHeading = 26f;
 
-    // Clocks, mode and link status only need checking a few times a second.
     private const float SlowUpdateInterval = 0.25f;
     private const float RtaScanInterval = 1f;
 
@@ -44,7 +37,6 @@ public class FusionThermalHud : MonoBehaviour
     private Camera? _hudCamera;
     private RenderTexture? _texture;
 
-    // The HUD's canvas is 1080 units tall whatever the screen size (Canvas Scaler, match height).
     public const float CanvasHeight = 1080f;
 
     private RectTransform? _display;
@@ -71,10 +63,8 @@ public class FusionThermalHud : MonoBehaviour
     private int _packetLossBlinksLeft;
     private float _nextPacketLossBlink;
 
-    // The texture the shader samples, or null when there is no HUD to draw.
     public Texture? Texture => _texture;
 
-    // Returns null when the profile has no HUD or its prefab cannot be loaded. The goggle works without one.
     public static FusionThermalHud? Create(Camera hostCamera, ThermalDeviceProfile profile)
     {
         if (string.IsNullOrEmpty(profile.HudPrefab)) { return null; }
@@ -103,8 +93,7 @@ public class FusionThermalHud : MonoBehaviour
         _hudCamera.cullingMask = 1 << HudLayer;
         _hudCamera.clearFlags = CameraClearFlags.SolidColor;
 
-        // Transparent white rather than transparent black: the UI blends into this, and a white
-        // base keeps the soft edges of the lettering from darkening.
+        // Transparent white, so the soft edges of the lettering do not darken.
         _hudCamera.backgroundColor = new Color(1f, 1f, 1f, 0f);
         _hudCamera.depth = _hostCamera!.depth + DepthOffset;
         _hudCamera.useOcclusionCulling = false;
@@ -134,7 +123,6 @@ public class FusionThermalHud : MonoBehaviour
             Plugin.logger!.LogWarning($"[WTT-CAG] HUD prefab '{prefab.name}' has no Canvas on its root object - it will not draw.");
         }
 
-        // Every element is optional, so a simpler goggle can leave out what it does not have.
         _display = Find<RectTransform>(instance, "Display");
 
         if (_display) { _authoredPosition = _display!.anchoredPosition; }
@@ -152,7 +140,7 @@ public class FusionThermalHud : MonoBehaviour
 
         Instance = this;
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Built HUD '{prefab.name}' | {_texture!.width}x{_texture.height} | display: {(bool)_display} tape: {(bool)_compassTape} heading: {(bool)_heading} missionTime: {(bool)_missionTime} mode: {(bool)_mode} rta: {(bool)_rtaStatus} runTime: {(bool)_runTime} packetLoss: {(bool)_packetLoss}");
+        CagLog.Info($"[WTT-CAG] Built HUD '{prefab.name}' | {_texture!.width}x{_texture.height} | display: {(bool)_display} tape: {(bool)_compassTape} heading: {(bool)_heading} missionTime: {(bool)_missionTime} mode: {(bool)_mode} rta: {(bool)_rtaStatus} runTime: {(bool)_runTime} packetLoss: {(bool)_packetLoss}");
     }
 
     private static T? Find<T>(GameObject root, string elementName) where T : Component
@@ -186,7 +174,6 @@ public class FusionThermalHud : MonoBehaviour
 
         _texture.Create();
 
-        // Start transparent, so nothing stray is composited before the HUD camera's first render.
         var previous = RenderTexture.active;
         RenderTexture.active = _texture;
         GL.Clear(true, true, Color.clear);
@@ -209,8 +196,6 @@ public class FusionThermalHud : MonoBehaviour
         _texture = null;
     }
 
-    // The Display panel's area on screen, as xy = bottom-left and zw = top-right in screen UV - the
-    // same space the fusion shader works in, because the HUD texture maps 1:1 onto the screen.
     public bool TryGetDisplayRect(out Vector4 rect)
     {
         rect = default;
@@ -219,7 +204,6 @@ public class FusionThermalHud : MonoBehaviour
 
         _display!.GetWorldCorners(_corners);
 
-        // Corners run bottom-left, top-left, top-right, bottom-right.
         var min = _hudCamera!.WorldToViewportPoint(_corners[0]);
         var max = _hudCamera.WorldToViewportPoint(_corners[2]);
 
@@ -228,7 +212,6 @@ public class FusionThermalHud : MonoBehaviour
         return rect.z > rect.x && rect.w > rect.y;
     }
 
-    // Stops the HUD camera rendering while the tube is off.
     public void SetVisible(bool visible)
     {
         if (_hudCamera && _hudCamera!.enabled != visible) { _hudCamera.enabled = visible; }
@@ -238,7 +221,6 @@ public class FusionThermalHud : MonoBehaviour
     {
         if (!_hudCamera || !_hudCamera!.enabled || !_hostCamera) { return; }
 
-        // The texture matches the screen, so it follows a resolution change.
         AllocateTexture();
 
         ApplyPlacement();
@@ -265,16 +247,12 @@ public class FusionThermalHud : MonoBehaviour
 
     private void UpdateCompass()
     {
-        // The direction the head camera faces, clockwise from the map's +Z axis, plus the tunable offset to north.
         var heading = Mathf.Repeat(_hostCamera!.transform.eulerAngles.y + ThermalConfigSection.CompassNorthOffset.Value, 360f);
 
-        // The IsNaN check covers the first frame: any comparison with NaN is false, so without it
-        // the tape would never be positioned at all.
         if (_compassTape && (float.IsNaN(_lastTapeHeading) || Mathf.Abs(heading - _lastTapeHeading) > 0.02f))
         {
             _lastTapeHeading = heading;
 
-            // Slide the visible window so the current heading sits in its centre. The texture repeats, so any value is valid.
             var window = _compassTape!.uvRect;
             window.x = Mathf.Repeat(heading - TapeStartHeading, 360f) / 360f - window.width * 0.5f;
             _compassTape.uvRect = window;
@@ -288,9 +266,6 @@ public class FusionThermalHud : MonoBehaviour
         SetText(_heading, $"{degrees}\u00b0 M");
     }
 
-    // Moves and scales the Display panel by the profile's HUD settings, starting from where it was
-    // laid out in Unity. Only touches the layout when a value changes, so the canvas is not rebuilt
-    // every frame.
     private void ApplyPlacement()
     {
         if (!_display || Profile == null) { return; }
@@ -310,7 +285,6 @@ public class FusionThermalHud : MonoBehaviour
         _display.localScale = new Vector3(scale, scale, 1f);
     }
 
-    // Mostly off, with a short run of blinks at random intervals.
     private void UpdatePacketLoss()
     {
         if (!_packetLoss) { return; }
@@ -321,7 +295,6 @@ public class FusionThermalHud : MonoBehaviour
         {
             if (now < _nextPacketLossBurst) { return; }
 
-            // Each blink is one switch on and one switch off.
             _packetLossBlinksLeft = UnityEngine.Random.Range(3, 7) * 2;
             _nextPacketLossBlink = now;
         }
@@ -338,8 +311,6 @@ public class FusionThermalHud : MonoBehaviour
         }
     }
 
-    // The RTA link pairs the goggle with a thermal weapon sight, so it shows as linked while the
-    // player has one on them.
     private static bool IsCarryingRtaSight()
     {
         var items = Singleton<GameWorld>.Instance?.MainPlayer?.Profile?.Inventory?.AllRealPlayerItems;
@@ -363,7 +334,6 @@ public class FusionThermalHud : MonoBehaviour
         return $"{(int)value.TotalHours:00}:{value.Minutes:00}:{value.Seconds:00}";
     }
 
-    // Only touches the text when it changes, so the canvas is not rebuilt for nothing.
     private static void SetText(Text? element, string value)
     {
         if (element && element!.text != value) { element.text = value; }
@@ -375,6 +345,6 @@ public class FusionThermalHud : MonoBehaviour
 
         ReleaseTexture();
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Destroyed {name}");
+        CagLog.Info($"[WTT-CAG] Destroyed {name}");
     }
 }

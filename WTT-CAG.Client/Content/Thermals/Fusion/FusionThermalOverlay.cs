@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using WTT_CAG.Client.Core;
+using System.Reflection;
 using BSG.CameraEffects;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -6,12 +7,9 @@ using WTT_CAG.Client.Config;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// The pre-upscale composite, used by composite modes 0 and 1. A CommandBuffer rather than
-// OnRenderImage: an image effect on the FPS camera fights SSAA's render target.
+// Composite on the FPS camera itself, used whenever the overlay camera is not. Only attached while drawing.
 public class FusionThermalOverlay : MonoBehaviour
 {
-    private const int PostUpscaleCompositeMode = 2;
-
     public Material? OverlayMaterial;
     public NightVision? HostNVG;
 
@@ -24,13 +22,13 @@ public class FusionThermalOverlay : MonoBehaviour
     private static bool _rtIdentifierLookupFailed;
 
     private string? _lastLoggedState;
+    private bool _attached;
     private bool _usingSSAATarget;
 
     private static FieldInfo? FindSSAAField()
     {
         const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Instance;
 
-        // The field name differs between game builds, so take whichever exists.
         return typeof(NightVision).GetField("_ssaa", flags) ?? typeof(NightVision).GetField("ssaa_0", flags);
     }
 
@@ -39,13 +37,22 @@ public class FusionThermalOverlay : MonoBehaviour
         _camera = GetComponent<Camera>();
 
         _commandBuffer = new CommandBuffer { name = "Fusion Zone Composite" };
+    }
 
-        if (!_camera) { return; }
+    private void SetAttached(bool attach)
+    {
+        if (attach == _attached || !_camera || _commandBuffer == null) { return; }
 
-        // AfterImageEffects is strictly later than NightVision's own BeforeImageEffects blit,
-        // so this always lands on the finished night vision image.
-        _camera.RemoveCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
-        _camera.AddCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
+        _attached = attach;
+
+        if (attach)
+        {
+            _camera!.AddCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
+        }
+        else
+        {
+            _camera!.RemoveCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
+        }
     }
 
     public void RebuildCommandBuffer()
@@ -53,6 +60,8 @@ public class FusionThermalOverlay : MonoBehaviour
         if (_commandBuffer == null) { return; }
 
         _commandBuffer.Clear();
+
+        SetAttached(!FusionThermalController.PostUpscaleActive);
 
         if (!OverlayMaterial || !HostNVG || !HostNVG!.On)
         {
@@ -74,8 +83,7 @@ public class FusionThermalOverlay : MonoBehaviour
             return;
         }
 
-        // FusionThermalOverlayCamera draws the composite in this mode. Doing both would double the overlay.
-        if (ThermalConfigSection.CompositeMode.Value == PostUpscaleCompositeMode)
+        if (FusionThermalController.PostUpscaleActive)
         {
             LogStateOnce("Idle - overlay camera owns the composite.");
             return;
@@ -83,7 +91,6 @@ public class FusionThermalOverlay : MonoBehaviour
 
         var target = ResolveTargetIdentifier();
 
-        // Blit rather than SetRenderTarget + DrawMesh: Blit takes its viewport from the destination.
         _commandBuffer.Blit(Texture2D.blackTexture, target, OverlayMaterial);
 
         LogStateOnce($"Compositing - event: AfterImageEffects ssaaTarget: {_usingSSAATarget} zoneRt: {FusionThermalZoneCamera.Instance?.ThermalTexture != null}");
@@ -93,7 +100,6 @@ public class FusionThermalOverlay : MonoBehaviour
     {
         _usingSSAATarget = false;
 
-        // Only mode 0 draws into the SSAA buffer.
         if (ThermalConfigSection.CompositeMode.Value != 0 || _ssaaField == null || !HostNVG || _rtIdentifierLookupFailed)
         {
             return BuiltinRenderTextureType.CameraTarget;
@@ -103,7 +109,6 @@ public class FusionThermalOverlay : MonoBehaviour
         {
             var ssaa = _ssaaField.GetValue(HostNVG);
 
-            // Null when supersampling is off, in which case the camera target is correct.
             if (ssaa == null)
             {
                 return BuiltinRenderTextureType.CameraTarget;
@@ -126,7 +131,6 @@ public class FusionThermalOverlay : MonoBehaviour
         }
         catch
         {
-            // Reflection failed - the camera target is the same fallback NightVision itself uses.
             return BuiltinRenderTextureType.CameraTarget;
         }
     }
@@ -137,15 +141,12 @@ public class FusionThermalOverlay : MonoBehaviour
 
         _lastLoggedState = state;
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] {state}");
+        CagLog.Info($"[WTT-CAG] {state}");
     }
 
     private void OnDestroy()
     {
-        if (_camera && _commandBuffer != null)
-        {
-            _camera!.RemoveCommandBuffer(CameraEvent.AfterImageEffects, _commandBuffer);
-        }
+        SetAttached(false);
 
         _commandBuffer?.Release();
         _commandBuffer = null;

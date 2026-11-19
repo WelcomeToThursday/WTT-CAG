@@ -1,23 +1,21 @@
-﻿using System;
+﻿using WTT_CAG.Client.Core;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Core.Thermal;
 using WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// A second, low-resolution camera that renders the scene as thermal into a RenderTexture, which the
-// FusionNVG material then composites into the goggles' thermal zones. It has to be a separate
-// camera: while a ThermalVision is on, everything its camera renders is heat data, so there would
-// be no night vision image left to show outside the zones.
+// Second camera rendering the scene as thermal into a texture that FusionNVG composites into the zones.
 public class FusionThermalZoneCamera : MonoBehaviour
 {
     private const string ThermalRtGlobalName = "_ThermalZoneRT";
 
     public const string CameraObjectName = "WTT_CAG_FusionThermalZoneCamera";
 
-    // Negative so this camera renders, and clears _ThermalVisionOn, before the FPS camera starts.
     private const float DepthOffset = -10f;
 
     private Camera? _hostCamera;
@@ -30,10 +28,9 @@ public class FusionThermalZoneCamera : MonoBehaviour
     private int _rtWidth, _rtHeight;
     private string? _lastExcludeLayers;
 
-    // The host field of view the thermal is scaled against. Aiming down sights narrows the host
-    // camera; this keeps the widest view seen, which is the hip-fire one, so aiming does not
-    // magnify the thermal. Starts again whenever the zone camera is rebuilt.
+    // With HoldZoomWhenAiming on: the widest host FOV seen (hip-fire), so aiming does not magnify the thermal.
     private float _referenceHostFov = float.NaN;
+    private bool _loggedViewportReset;
 
     private static readonly int ThermalVisionOnID = Shader.PropertyToID("_ThermalVisionOn");
     private static readonly int ThermalRtID = Shader.PropertyToID(ThermalRtGlobalName);
@@ -47,7 +44,19 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
     public static FusionThermalZoneCamera? Instance { get; private set; }
 
-    // How much the zone magnifies relative to the host view: tan(hostHalfFov) / tan(zoneHalfFov).
+    // Debug builds log the numbers behind ZoneUVScale whenever they change.
+    public static string ScaleReport
+    {
+        get
+        {
+            var self = Instance;
+
+            if (!self || !self!._thermalCamera || !self._hostCamera) { return "no zone camera"; }
+
+            return $"host FOV {self._hostCamera!.fieldOfView:F1} (held {self._referenceHostFov:F1}), zone FOV {self._thermalCamera!.fieldOfView:F1}, scale {ZoneUVScale:F3}";
+        }
+    }
+
     public static float ZoneUVScale
     {
         get
@@ -75,7 +84,6 @@ public class FusionThermalZoneCamera : MonoBehaviour
             return null;
         }
 
-        // ThermalVision has serialized fields AddComponent cannot populate, so they are borrowed from the host's.
         var hostThermal = hostCamera.GetComponent<ThermalVision>();
 
         if (!hostThermal)
@@ -86,8 +94,7 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
         var go = new GameObject(CameraObjectName);
 
-        // Inactive first: AddComponent runs Awake immediately on an active object, and
-        // ThermalVision.Awake throws if its serialized fields have not been assigned yet.
+        // Inactive until built: ThermalVision.Awake throws if its serialized fields are not set yet.
         go.SetActive(false);
         go.transform.SetParent(hostCamera.transform, false);
 
@@ -104,7 +111,6 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalCamera = gameObject.AddComponent<Camera>();
         _thermalCamera.CopyFrom(_hostCamera);
 
-        // The copy brings the host's full-screen DLSS/SSAA/post-processing buffers across.
         _thermalCamera.RemoveAllCommandBuffers();
         _thermalCamera.depth = _hostCamera!.depth + DepthOffset;
         _thermalCamera.clearFlags = CameraClearFlags.SolidColor;
@@ -113,23 +119,30 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalCamera.allowHDR = false;
         _thermalCamera.allowMSAA = false;
 
-        // CopyFrom brings the host's dynamic resolution across. With DLSS or FSR on, that scales this
-        // camera's internal buffers (depth-normals, temporaries) to the upscaler's input size while
-        // the RenderTexture stays full size, and Unity rejects every frame with a size mismatch.
         _thermalCamera.allowDynamicResolution = false;
+
+        // SSAAImpl shrinks the FPS camera's rect while upscaling, and CopyFrom copies it.
+        ResetViewport();
 
         ApplyCullingMask();
         AllocateRenderTexture();
 
-        // ThermalVision dereferences both of these without null checks.
-        if (!gameObject.GetComponent<ChromaticAberration>())
+        if (ThermalConfigSection.Diag(ThermalConfigSection.DiagSkipThermalCameraExtras))
         {
-            gameObject.AddComponent<ChromaticAberration>();
+            Plugin.logger!.LogWarning("[WTT-CAG] Diagnostics: thermal camera built without VolumetricLightRenderer and ChromaticAberration.");
         }
-
-        if (!gameObject.GetComponent<VolumetricLightRenderer>())
+        else
         {
-            gameObject.AddComponent<VolumetricLightRenderer>();
+            // ThermalVision dereferences both of these without null checks.
+            if (!gameObject.GetComponent<ChromaticAberration>())
+            {
+                gameObject.AddComponent<ChromaticAberration>();
+            }
+
+            if (!gameObject.GetComponent<VolumetricLightRenderer>())
+            {
+                gameObject.AddComponent<VolumetricLightRenderer>();
+            }
         }
 
         _thermalVision = gameObject.AddComponent<ThermalVision>();
@@ -137,15 +150,13 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalVision.BlackFlashGoingToOn = _hostThermal!.BlackFlashGoingToOn;
         _thermalVision.BlackFlashGoingToOff = _hostThermal.BlackFlashGoingToOff;
 
-        // Cloned, so per-goggle tuning cannot leak onto the FPS camera's own thermal.
         CloneUtility("ThermalVisionUtilities");
         CloneUtility("StuckFpsUtilities");
         CloneUtility("MotionBlurUtilities");
         CloneUtility("GlitchUtilities");
         CloneUtility("PixelationUtilities");
 
-        // No mask here - the host camera masks the final image. Never call StartSwitch/Toggle on
-        // this instance: the switcher dereferences TextureMask, which is why On is set directly.
+        // No mask here; the host masks the final image. Never call StartSwitch on this instance.
         _thermalVision.TextureMask = null;
 
         _thermalVision.SwitchComponentsOn = [];
@@ -159,14 +170,11 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
         RegisterTraceMaterial();
 
-        // After activation: the On setter touches state that Awake builds.
         _thermalVision.On = true;
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Built zone on {_hostCamera.name} | dimensions: {_rtWidth}x{_rtHeight} | fov: {_thermalCamera.fieldOfView} | depth: {_thermalCamera.depth} (host: {_hostCamera.depth})");
+        CagLog.Info($"[WTT-CAG] Built zone on {_hostCamera.name} | dimensions: {_rtWidth}x{_rtHeight} | fov: {_thermalCamera.fieldOfView} | depth: {_thermalCamera.depth} (host: {_hostCamera.depth})");
     }
 
-    // Gives this camera's ThermalVision the ThermalTraceOverlay look. Without it the zone renders
-    // with the game's stock white-hot material.
     private void RegisterTraceMaterial()
     {
         if (!ThermalAssets.TraceMaterial)
@@ -178,6 +186,17 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _traceMaterial = new Material(ThermalAssets.TraceMaterial) { name = $"{ThermalAssets.TraceMaterial!.name}_{name}_Instance" };
 
         SetMaterialPropertiesPatch.Register(_thermalVision!, _traceMaterial, EThermalDeviceType.FUSION_THERMAL_ZONE);
+    }
+
+    private void ResetViewport()
+    {
+        _thermalCamera!.rect = new Rect(0f, 0f, 1f, 1f);
+        _thermalCamera.ResetProjectionMatrix();
+    }
+
+    private static bool IsFullViewport(Rect rect)
+    {
+        return Mathf.Abs(rect.x) < 0.0001f && Mathf.Abs(rect.y) < 0.0001f && Mathf.Abs(rect.width - 1f) < 0.0001f && Mathf.Abs(rect.height - 1f) < 0.0001f;
     }
 
     private void CloneUtility(string fieldName)
@@ -212,7 +231,7 @@ public class FusionThermalZoneCamera : MonoBehaviour
         {
             _thermalCamera!.cullingMask = _hostCamera!.cullingMask;
 
-            Plugin.logger!.LogInfo("[WTT-CAG] Culling disabled - rendering all host layers.");
+            CagLog.Info("[WTT-CAG] Culling disabled - rendering all host layers.");
 
             return;
         }
@@ -243,11 +262,10 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
         _thermalCamera!.cullingMask = mask;
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Culling excluded: [{string.Join(", ", excluded)}]");
+        CagLog.Info($"[WTT-CAG] Culling excluded: [{string.Join(", ", excluded)}]");
 
         if (unknown.Count == 0) { return; }
 
-        // Layer names are build-specific, so list what actually exists.
         var present = new List<string>();
 
         for (var i = 0; i < 32; i++)
@@ -332,12 +350,22 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalRt = null;
     }
 
-    // LateUpdate so this runs after the procedural weapon animation has moved the FPS camera.
     private void LateUpdate()
     {
         if (!_hostCamera || !_thermalCamera)
         {
             return;
+        }
+
+        if (!IsFullViewport(_thermalCamera!.rect))
+        {
+            if (!_loggedViewportReset)
+            {
+                _loggedViewportReset = true;
+                Plugin.logger!.LogWarning($"[WTT-CAG] Thermal camera viewport was changed to {_thermalCamera.rect} after it was built - resetting it every frame.");
+            }
+
+            ResetViewport();
         }
 
         transform.position = _hostCamera!.transform.position;
@@ -349,7 +377,8 @@ public class FusionThermalZoneCamera : MonoBehaviour
         }
 
         var hostFov = _hostCamera.fieldOfView;
-        _referenceHostFov = float.IsNaN(_referenceHostFov) ? hostFov : Mathf.Max(_referenceHostFov, hostFov);
+        var holdZoom = DeviceProfile?.HoldZoomWhenAiming.Value ?? true;
+        _referenceHostFov = holdZoom && !float.IsNaN(_referenceHostFov) ? Mathf.Max(_referenceHostFov, hostFov) : hostFov;
 
         var desiredFov = Mathf.Clamp(ZoneFOV, 5f, 90f);
 
@@ -385,10 +414,9 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
         if (on) { return; }
 
-        // ThermalVision sets this in OnPreCull and clears it in OnPostRender. Disabling the camera
-        // between the two would leave the whole game rendering as heat.
+        // Disabling between ThermalVision's OnPreCull and OnPostRender would leave the whole game rendering as heat.
         Shader.SetGlobalFloat(ThermalVisionOnID, 0f);
-        Plugin.logger!.LogInfo("[WTT-CAG] Thermal zone camera disabled.");
+        CagLog.Info("[WTT-CAG] Thermal zone camera disabled.");
     }
 
     public bool IsActive => _thermalCamera && _thermalCamera!.enabled;
@@ -418,6 +446,6 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
         Shader.SetGlobalFloat(ThermalVisionOnID, 0f);
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Destroyed {name}");
+        CagLog.Info($"[WTT-CAG] Destroyed {name}");
     }
 }

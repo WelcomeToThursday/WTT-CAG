@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using WTT_CAG.Client.Core;
+using System.Collections.Generic;
 using Comfort.Common;
 using EFT;
 using UnityEngine;
@@ -8,6 +9,7 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Content.Thermals;
 
+// Baked settings for every supported goggle. Anything not passed to Register uses its default.
 public static class ThermalDeviceProfiles
 {
     private static readonly List<ThermalDeviceProfile> ProfileCache = [];
@@ -21,10 +23,6 @@ public static class ThermalDeviceProfiles
         Active = null;
         _lastTemplateId = null;
 
-       
-        // To retune a device, switch TuningEnabled on and add tunable: true to its line. Anything
-        // not listed uses Register's defaults.
-
         Register("PSQ-42", "6af9ccf0250e9b143053f7c8",
             zoom: 1f,
             zoneShape: 1, rectFromHud: false, rectWidth: 550.9389f, rectHeight: 558.6385f, rectOffsetX: 225.3521f, rectInset: 21.12676f, rectSoftness: 0.007042254f,
@@ -37,8 +35,6 @@ public static class ThermalDeviceProfiles
             modes: [ThermalMode.Outline, ThermalMode.WhiteHot, ThermalMode.BlackHot],
             hud: "FPanoHud", hudOffsetY: 15.21127f, hudScale: 0.6384977f,
             offInCycle: true);
-
-        //Register("ECOTI-PVS-31", "6aa58d6c394c0807cb0af580", heatKeyOnly: true, zoneCount: 2, zoneCentersX: [0.37f, 0.63f], zoneCentersY: [0.5f, 0.5f], zoneEnabled: [true, true], radius: 0.26f, softness: 0.06f, modes: [ThermalMode.Outline, ThermalMode.WhiteHot], tunable: true);
 
         Register("F-PANO Fused", "6aece3759b55c16086112d9e",
             hot: new Color(1f, 1f, 0.6666667f, 1f),
@@ -59,7 +55,6 @@ public static class ThermalDeviceProfiles
             hud: "FPanoHud", hudScale: 0.6795775f,
             offInCycle: true);
 
-        // PVS-14 with a SkeetIR 
         Register("SkeetIR / PVS-14", "6af8bebd979735ba4efe9805",
             hot: new Color(1f, 1f, 1f, 1f), cold: new Color(0f, 0f, 0f, 1f),
             fov: 25.6338f, zoom: 1f,
@@ -75,23 +70,20 @@ public static class ThermalDeviceProfiles
             modes: [ThermalMode.WhiteHot, ThermalMode.BlackHot, ThermalMode.EdgeDetect],
             hud: "SkeetIrHud", hudNeedsThermal: true, hudOffsetX: -225.3521f, hudOffsetY: 45.6338f);
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Registered {ProfileCache.Count} thermal device profile(s).");
+        CagLog.Info($"[WTT-CAG] Registered {ProfileCache.Count} thermal device profile(s).");
     }
 
     public static void RefreshActive()
     {
         var player = Singleton<GameWorld>.Instance?.MainPlayer;
 
-        // With the player's overlay setting off, no device is ever active and the goggles stay stock.
         var overlaysEnabled = !(ThermalConfigSection.DisableThermalOverlays?.Value ?? false);
         var templateId = overlaysEnabled ? player?.NightVisionObserver?.Component?.Item?.StringTemplateId : null;
 
-        // Only search when the worn device actually changes.
         if (templateId == _lastTemplateId) { return; }
 
         _lastTemplateId = templateId;
 
-        // A newly worn device starts with thermal on, in its default mode.
         FusionThermalState.Reset();
 
         var previous = Active;
@@ -99,7 +91,7 @@ public static class ThermalDeviceProfiles
 
         if (Active != previous)
         {
-            Plugin.logger!.LogInfo($"[WTT-CAG] Active thermal device: {Active?.Name ?? "none"}");
+            CagLog.Info($"[WTT-CAG] Active thermal device: {Active?.Name ?? "none"}");
         }
     }
 
@@ -125,6 +117,7 @@ public static class ThermalDeviceProfiles
         bool clipToTubes = true,
         float tubeMaskScale = 1f,
         float tubeMaskSoftness = 0.02f,
+        bool useGoggleTubeMask = false,
         int zoneShape = 0,
         bool rectFromHud = true,
         float rectWidth = 1200f,
@@ -159,7 +152,7 @@ public static class ThermalDeviceProfiles
         float hudOffsetX = 0f,
         float hudOffsetY = 0f,
         float hudScale = 1f,
-        bool tunable = false,
+        bool holdZoomWhenAiming = true,
         bool offInCycle = false)
     {
         var profile = new ThermalDeviceProfile(name, templateId);
@@ -195,6 +188,7 @@ public static class ThermalDeviceProfiles
         profile.RectSoftness.Default = rectSoftness;
         profile.TubeMaskScale.Default = tubeMaskScale;
         profile.TubeMaskSoftness.Default = tubeMaskSoftness;
+        profile.UseGoggleTubeMask.Default = useGoggleTubeMask;
         profile.TubeMaskChannel.Default = 0;
         profile.HeatKeyOnly.Default = heatKeyOnly;
         profile.HeatKeyThreshold.Default = heatKeyThreshold;
@@ -223,12 +217,12 @@ public static class ThermalDeviceProfiles
 
         profile.Modes = modes is { Length: > 0 } ? modes : [ThermalMode.Outline];
         profile.HudPrefab = hud;
-        profile.Tunable = tunable;
         profile.OffInCycle = offInCycle;
         profile.HudNeedsThermal = hudNeedsThermal;
         profile.HudOffsetX.Default = hudOffsetX;
         profile.HudOffsetY.Default = hudOffsetY;
         profile.HudScale.Default = hudScale;
+        profile.HoldZoomWhenAiming.Default = holdZoomWhenAiming;
 
         ProfileCache.Add(profile);
     }

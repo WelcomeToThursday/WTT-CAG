@@ -13,50 +13,42 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<bool> CullLayers = new();
     public readonly ThermalSetting<string> ExcludeLayers = new();
 
+    // On: the thermal keeps its hip-fire size when aiming. Off: it zooms with the view and stays registered on the night vision.
+    public readonly ThermalSetting<bool> HoldZoomWhenAiming = new();
+
     public const int MaxZones = 4;
 
     public readonly ThermalSetting<bool> ZoneEnabled = new();
     public readonly ThermalSetting<int> ZoneCount = new();
 
-    // 0 = up to four circles (the Zones), 1 = one rectangle.
+    // 0 = circles (Zones), 1 = one rectangle.
     public readonly ThermalSetting<int> ZoneShape = new();
 
-    // The rectangle follows the HUD's Display panel when there is one, so the two always line up.
     public readonly ThermalSetting<bool> RectFromHud = new();
 
-    // Used for the rectangle when there is no HUD, in the HUD's 1920 x 1080 canvas units.
+    // Rectangle in HUD canvas units (the screen is 1080 tall). Used when RectFromHud is off.
     public readonly ThermalSetting<float> RectWidth = new();
     public readonly ThermalSetting<float> RectHeight = new();
     public readonly ThermalSetting<float> RectOffsetX = new();
     public readonly ThermalSetting<float> RectOffsetY = new();
 
-    // Shrinks the rectangle on all sides, in canvas units, to sit inside a frame drawn on the HUD.
     public readonly ThermalSetting<float> RectInset = new();
     public readonly ThermalSetting<float> RectSoftness = new();
     public readonly ThermalSetting<float> Opacity = new();
 
     public readonly ThermalZoneSlot[] Zones = [new(), new(), new(), new()];
 
-    // The modes the mode hotkey steps through. The first is the one the device starts in.
     public ThermalMode[] Modes = [ThermalMode.Outline];
 
-    // A clip-on's display belongs to the thermal module, so it goes dark with the thermal. A fused
-    // goggle keeps its navigation display up with the thermal off.
+    // A clip-on's HUD goes dark with its thermal; a fused goggle keeps its HUD up.
     public bool HudNeedsThermal;
 
-    // Name of this device's HUD prefab in the HUD bundle. Empty means no HUD.
     public string HudPrefab = "";
 
-    // Whether this device's settings appear in the F12 menu. A finished device is locked to the
-    // values in its Register line.
-    public bool Tunable;
-
-    // Whether the mode key's cycle ends with thermal off before starting again. A fused goggle can
-    // run on night vision alone; a clip-on is only ever in one of its thermal modes.
+    // The mode key's cycle includes thermal off (fused goggles).
     public bool OffInCycle;
 
-    // Where the HUD sits, independent of the thermal zones. In the HUD's canvas units (the screen is
-    // 1080 tall), moving the prefab's Display panel from wherever it was laid out in Unity.
+    // Moves the prefab's Display panel, in HUD canvas units.
     public readonly ThermalSetting<float> HudOffsetX = new();
     public readonly ThermalSetting<float> HudOffsetY = new();
     public readonly ThermalSetting<float> HudScale = new();
@@ -64,13 +56,14 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<bool> ClipToTubes = new();
     public readonly ThermalSetting<float> TubeMaskScale = new();
     public readonly ThermalSetting<float> TubeMaskSoftness = new();
+
+    public readonly ThermalSetting<bool> UseGoggleTubeMask = new();
     public readonly ThermalSetting<int> TubeMaskChannel = new();
 
     public readonly ThermalSetting<bool> HeatKeyOnly = new();
     public readonly ThermalSetting<float> HeatKeyThreshold = new();
     public readonly ThermalSetting<float> HeatKeySoftness = new();
 
-    // How opaque the cold areas are in a heat-keyed mode. 0 is fully see-through.
     public readonly ThermalSetting<float> HeatKeyBackground = new();
 
     public readonly ThermalSetting<bool> FxNoise = new();
@@ -84,7 +77,6 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<string> OverlayTexture = new();
     public readonly ThermalSetting<float> OverlayOpacity = new();
     public readonly ThermalSetting<Color> OverlayTint = new();
-
 
     public readonly ThermalSetting<Color> HotColor = new();
     public readonly ThermalSetting<Color> ColdColor = new();
@@ -128,7 +120,7 @@ public class ThermalDeviceProfile(string name, string templateId)
         }
         else
         {
-            Plugin.logger!.LogInfo($"[WTT-CAG] {Name}: overlay '{want}' loaded ({_resolvedOverlay!.width}x{_resolvedOverlay.height}).");
+            CagLog.Info($"[WTT-CAG] {Name}: overlay '{want}' loaded ({_resolvedOverlay!.width}x{_resolvedOverlay.height}).");
         }
 
         return _resolvedOverlay;

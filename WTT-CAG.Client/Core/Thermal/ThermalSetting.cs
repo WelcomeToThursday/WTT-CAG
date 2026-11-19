@@ -2,8 +2,7 @@
 
 namespace WTT_CAG.Client.Core.Thermal;
 
-// One tunable value. It always has a default set in code, and only reads from the F12 menu when it
-// has been bound - so with tuning switched off, nothing is exposed and the defaults are final.
+// A tunable value: the baked Default, or the F12 entry once bound (debug builds only).
 public sealed class ThermalSetting<T>
 {
     public T Default = default!;

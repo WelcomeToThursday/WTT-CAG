@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WTT_CAG.Client.Core;
+using System;
 using BSG.CameraEffects;
 using UnityEngine;
 using WTT_CAG.Client.Config;
@@ -6,8 +7,7 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// Added to the FPS camera while a fusion goggle is worn. Owns the composite material, the thermal
-// zone camera and both compositing paths, and tears all of it down when the goggle comes off.
+// Added to the FPS camera while a fusion goggle is worn; owns the zone camera, HUD and composite paths.
 public class FusionThermalController : MonoBehaviour
 {
     private const int PostUpscaleCompositeMode = 2;
@@ -22,9 +22,37 @@ public class FusionThermalController : MonoBehaviour
 
     public FusionThermalOverlay? Overlay { get; private set; }
 
-    private static bool PostUpscale => ThermalConfigSection.CompositeMode.Value == PostUpscaleCompositeMode;
+    // The overlay camera is only used while the game upscales. With DLSS/FSR off, SSAAImpl draws the
+    // final frame with a fixed-orientation mesh, and any extra camera rendering to the screen after it
+    // flips the whole view. Without an upscaler the FPS camera is already full resolution, so the
+    // composite is drawn there instead.
+    public static bool PostUpscaleActive { get; private set; }
 
-    // The thermal channel only runs while the tube is on, like a clip-on module on a running tube.
+    private string? _lastPathLog;
+
+    private bool GameIsUpscaling(out int renderWidth)
+    {
+        renderWidth = _hostCamera ? _hostCamera!.pixelWidth : Screen.width;
+
+        return renderWidth < Screen.width * 0.99f;
+    }
+
+    private void UpdateCompositePath()
+    {
+        var upscaling = GameIsUpscaling(out var renderWidth);
+
+        PostUpscaleActive = ThermalConfigSection.CompositeMode.Value == PostUpscaleCompositeMode && upscaling;
+
+        var line = PostUpscaleActive
+            ? $"Composite path: overlay camera - the game renders at {renderWidth} of {Screen.width} px and upscales."
+            : $"Composite path: FPS camera - the game renders at {renderWidth} of {Screen.width} px, no upscaling.";
+
+        if (line == _lastPathLog) { return; }
+
+        _lastPathLog = line;
+        CagLog.Info($"[WTT-CAG] {line}");
+    }
+
     private bool ZoneWanted
     {
         get
@@ -60,13 +88,21 @@ public class FusionThermalController : MonoBehaviour
             return;
         }
 
-        // ThermalVision.Awake dereferences several serialized fields without null checks. If either
-        // camera fails to build, carry on with plain night vision rather than breaking the goggles.
         try
         {
+            if (ThermalConfigSection.Diag(ThermalConfigSection.DiagSkipThermalCamera))
+            {
+                Plugin.logger!.LogWarning("[WTT-CAG] Diagnostics: thermal camera skipped.");
+                throw new SkippedForDiagnosticsException();
+            }
+
             _zoneCamera = FusionThermalZoneCamera.Create(hostCamera);
 
             if (_zoneCamera) { _zoneCamera!.SetActive(ZoneWanted); }
+        }
+        catch (SkippedForDiagnosticsException)
+        {
+            _zoneCamera = null;
         }
         catch (Exception e)
         {
@@ -76,12 +112,19 @@ public class FusionThermalController : MonoBehaviour
 
         if (!Overlay.OverlayMaterial) { return; }
 
+        if (ThermalConfigSection.Diag(ThermalConfigSection.DiagSkipOverlayCamera))
+        {
+            Plugin.logger!.LogWarning("[WTT-CAG] Diagnostics: overlay camera skipped.");
+            return;
+        }
+
         try
         {
-            // Built regardless of composite mode and switched with it, so changing mode in F12 needs no rebuild.
             _overlayCamera = FusionThermalOverlayCamera.Create(hostCamera, Overlay.OverlayMaterial!);
 
-            if (_overlayCamera) { _overlayCamera!.SetCameraEnabled(PostUpscale); }
+            UpdateCompositePath();
+
+            if (_overlayCamera) { _overlayCamera!.SetCameraEnabled(PostUpscaleActive); }
         }
         catch (Exception e)
         {
@@ -92,13 +135,14 @@ public class FusionThermalController : MonoBehaviour
 
     private void Update()
     {
-        // Tube state, the zone toggle and the composite mode are all live.
         var wanted = ZoneWanted;
 
         if (_zoneCamera && _zoneCamera!.IsActive != wanted)
         {
             _zoneCamera.SetActive(wanted);
         }
+
+        UpdateCompositePath();
 
         var tubeOn = _nightVision && _nightVision!.On;
 
@@ -110,13 +154,10 @@ public class FusionThermalController : MonoBehaviour
 
         if (!_overlayCamera) { return; }
 
-        // The overlay camera follows the tube, not the thermal channel: the device overlay stays
-        // up when thermal is switched off.
         _overlayCamera!.Active = tubeOn;
-        _overlayCamera.SetCameraEnabled(PostUpscale);
+        _overlayCamera.SetCameraEnabled(PostUpscaleActive);
     }
 
-    // The HUD belongs to one goggle, so it is rebuilt if the worn goggle changes under us.
     private void UpdateHud(bool tubeOn)
     {
         var profile = ThermalDeviceProfiles.Active;
@@ -125,6 +166,13 @@ public class FusionThermalController : MonoBehaviour
         {
             Destroy(_hud.gameObject);
             _hud = null;
+        }
+
+        if (!_hud && profile != null && _hostCamera && !_hudFailed && ThermalConfigSection.Diag(ThermalConfigSection.DiagSkipHud))
+        {
+            Plugin.logger!.LogWarning("[WTT-CAG] Diagnostics: HUD skipped.");
+            _hudFailed = true;
+            _hudProfile = profile;
         }
 
         if (!_hud && profile != null && _hostCamera && !_hudFailed)
@@ -138,7 +186,6 @@ public class FusionThermalController : MonoBehaviour
                 Plugin.logger!.LogError($"[WTT-CAG] HUD failed to build: {e}");
             }
 
-            // One attempt per goggle: a missing prefab should not be retried every frame.
             _hudFailed = !_hud;
             _hudProfile = profile;
         }
@@ -153,8 +200,6 @@ public class FusionThermalController : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Both cameras are parented to the FPS camera, which outlives this component, so they
-        // have to be destroyed explicitly.
         if (_zoneCamera)
         {
             Destroy(_zoneCamera!.gameObject);
@@ -181,6 +226,10 @@ public class FusionThermalController : MonoBehaviour
             Overlay = null;
         }
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Fusion thermal torn down on {name}.");
+        CagLog.Info($"[WTT-CAG] Fusion thermal torn down on {name}.");
     }
+}
+
+internal sealed class SkippedForDiagnosticsException : Exception
+{
 }
