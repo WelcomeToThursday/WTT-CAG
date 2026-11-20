@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PluginGuid>com.wtt.cag</PluginGuid>
+        <PluginGuid>com.wtt.cag.wikilinks</PluginGuid>
         <PluginName>WTT-CAG.Wikilinks</PluginName>
         <Version>1.1.0</Version>
         <Authors>ProbablyEukyre</Authors>
