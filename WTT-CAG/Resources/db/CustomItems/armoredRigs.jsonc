@@ -15070,7 +15070,7 @@
       "ExaminedByDefault": true,
       "Width": 3,
       "Height": 3,
-      "CanSellOnRagfair": false,
+      "CanSellOnRagfair": true,
       "mousePenalty": -2,
       "speedPenaltyPercent": -3,
       "weaponErgonomicPenalty": -0,
@@ -15298,7 +15298,9 @@
         "path": "Bodywear/armoredRigs/FCPC/cr_ferro_fcpc_v5_odg.bundle",
         "rcid": ""
       },
-      "Name": "cr_ferro_fcpc_v5_odg"
+      "Name": "cr_ferro_fcpc_v5_odg",
+      "CanSellOnRagfair": true,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -15390,7 +15392,8 @@
         "path": "Bodywear/armoredRigs/cr_bagarii_omon.bundle",
         "rcid": ""
       },
-      "Name": "cr_bagarii_omon"
+      "Name": "cr_bagarii_omon",
+      "CanSellOnRagfair": true
     },
     "locales": {
       "en": {
