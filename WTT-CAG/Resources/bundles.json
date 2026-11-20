@@ -2496,10 +2496,12 @@
       ]
     },
     {
-      "key": "Misc/holosundnv.bundle",
+      "key": "Misc/holosun_dnv.bundle",
       "dependencyKeys": [
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
+        "assets/systems/effects/nightvision/mask_nv_textures",
+        "assets/systems/effects/nightvision.bundle",
         "cubemaps"
       ]
     },

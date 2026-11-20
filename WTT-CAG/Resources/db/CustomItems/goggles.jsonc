@@ -166,8 +166,8 @@
     "traders": {
 
     },
-    "fleaPriceRoubles": 2175578,
-    "handbookPriceRoubles": 348523,
+    "fleaPriceRoubles": 15175578,
+    "handbookPriceRoubles": 15348523,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
@@ -343,8 +343,8 @@
     "modSlot": [
       "mod_nvg"
     ],
-    "fleaPriceRoubles": 274000,
-    "handbookPriceRoubles": 105004,
+    "fleaPriceRoubles": 1274000,
+    "handbookPriceRoubles": 1105004,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
@@ -414,8 +414,8 @@
     "addtoTraders": false,
     "traders": {
     },
-    "fleaPriceRoubles": 1075578,
-    "handbookPriceRoubles": 136742,
+    "fleaPriceRoubles": 5075578,
+    "handbookPriceRoubles": 5136742,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {

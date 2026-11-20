@@ -2,24 +2,31 @@
 
 using BepInEx.Configuration;
 using WTT_CAG.Client.Content.Thermals;
+using WTT_CAG.Client.Core;
 using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Config;
 
 public class ThermalConfigSection : IConfigSection
 {
-    // While true, every thermal tuning value is exposed in the F12 menu. Set to false for release:
-    // nothing below the player settings is bound, and the defaults in code become final. Copy the
-    // tuned values out of the .cfg into those defaults first - saved F12 values are ignored once off.
-    public static readonly bool TuningEnabled = false;
+    public static bool TuningEnabled => BuildFlags.DebugBuild;
 
     private static readonly Color DefaultHotColour = new(0.02f, 1.0f, 0.2f, 1f);
     private static readonly Color DefaultColdColour = new(0.0f, 0.02f, 0.0f, 1f);
 
-    // Player settings - always available.
+    // Each Diagnostics switch leaves out one part of the fusion pipeline, for tracking down rendering problems.
+    public static bool DiagnosticsEnabled => BuildFlags.DebugBuild;
+
+    public static ConfigEntry<bool>? DiagSkipOverlayCamera;
+    public static ConfigEntry<bool>? DiagSkipHud;
+    public static ConfigEntry<bool>? DiagSkipThermalCamera;
+    public static ConfigEntry<bool>? DiagSkipThermalCameraExtras;
+
+    public static bool Diag(ConfigEntry<bool>? entry) => DiagnosticsEnabled && entry != null && entry.Value;
+
     public static ConfigEntry<bool>? DisableThermalOverlays;
 
-    // Holosun optic tuning.
+    // Holosun optic.
     public static readonly ThermalSetting<float> HeatFloor = new() { Default = 0.1403756f };
     public static readonly ThermalSetting<float> HeatGain = new() { Default = 2.5f };
     public static readonly ThermalSetting<float> HeatContrast = new() { Default = 0.6f };
@@ -37,7 +44,6 @@ public class ThermalConfigSection : IConfigSection
 
     public static readonly ThermalSetting<int> CompositeMode = new() { Default = 2 };
 
-    // Degrees added to the HUD compass so its north agrees with the map's.
     public static readonly ThermalSetting<float> CompassNorthOffset = new() { Default = 0f };
 
     public static readonly ThermalSetting<bool> DebugShowRawHeat = new() { Default = false };
@@ -48,6 +54,17 @@ public class ThermalConfigSection : IConfigSection
         DisableThermalOverlays = cfg.Bind("Thermal", "Disable Thermal Overlays", false, new ConfigDescription("Turn off the thermal overlay and HUD on the fusion night vision goggles, leaving plain night vision."));
 
         ThermalDeviceProfiles.Init();
+
+        if (DiagnosticsEnabled)
+        {
+            const string diag = "Thermal - Diagnostics";
+            const string note = " Takes effect the next time the goggles go on.";
+
+            DiagSkipOverlayCamera = cfg.Bind(diag, "1. Skip Overlay Camera", false, "Do not build the camera that draws the thermal and HUD onto the screen. The view will have no overlay." + note);
+            DiagSkipHud = cfg.Bind(diag, "2. Skip HUD", false, "Do not build the HUD or its camera." + note);
+            DiagSkipThermalCamera = cfg.Bind(diag, "3. Skip Thermal Camera", false, "Do not build the thermal camera. The overlay will have no thermal image." + note);
+            DiagSkipThermalCameraExtras = cfg.Bind(diag, "4. Skip Thermal Camera Extras", false, "Build the thermal camera without the VolumetricLightRenderer and ChromaticAberration it normally gets. The thermal camera may fail to build; the log will say." + note);
+        }
 
         if (!TuningEnabled) { return; }
 
@@ -74,10 +91,9 @@ public class ThermalConfigSection : IConfigSection
         ZoneDebugFill.Bind(cfg, "Thermal - Debug", "Zone Debug Fill", "");
         DebugShowRawHeat.Bind(cfg, "Thermal - Debug", "Show Raw Heat", "");
 
-        // Only devices still being tuned are exposed. Finished ones use their Register values as-is.
         foreach (var profile in ThermalDeviceProfiles.All)
         {
-            if (profile.Tunable) { new ThermalDeviceConfigSection(profile).Init(cfg); }
+            new ThermalDeviceConfigSection(profile).Init(cfg);
         }
     }
 }

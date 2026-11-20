@@ -1,4 +1,5 @@
-﻿using Comfort.Common;
+﻿using WTT_CAG.Client.Core;
+using Comfort.Common;
 using EFT;
 using UnityEngine;
 using WTT_CAG.Client.Core.Thermal;
@@ -6,8 +7,7 @@ using WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 namespace WTT_CAG.Client.Content.Thermals.Holosun;
 
-// Lives on the pooled optic camera for as long as the Holosun is the sight being aimed through.
-// Owns that camera's ThermalTraceOverlay material instance and switches thermal off in red dot mode.
+// Lives on the pooled optic camera while the Holosun is the aimed sight.
 public class HolosunThermalOptic : MonoBehaviour
 {
     public const string TemplateId = "b0b2840b9daf26136be3884c";
@@ -19,8 +19,6 @@ public class HolosunThermalOptic : MonoBehaviour
     private Material? _material;
     private bool _thermalSuppressed;
 
-    // The optic camera renders whatever sight the player is aiming through, so the aimed sight
-    // is the only reliable way to tell whose camera it currently is.
     public static bool IsAimed
     {
         get
@@ -63,10 +61,8 @@ public class HolosunThermalOptic : MonoBehaviour
         SetMaterialPropertiesPatch.Register(_thermalVision!, _material, EThermalDeviceType.HOLOSUN, _ => IsAimed);
     }
 
-    // Red dot mode has to switch the effect itself off: while ThermalVision is on, the whole scene
-    // renders as heat no matter what the material does. This lives in Update because
-    // SetMaterialProperties stops being called once the effect is off, so the patch could never
-    // switch it back on.
+    // Red dot mode switches the effect itself off. Done here because SetMaterialProperties stops being
+    // called once the effect is off, so the patch could never switch it back on.
     private void Update()
     {
         if (!_thermalVision) { return; }
@@ -78,14 +74,13 @@ public class HolosunThermalOptic : MonoBehaviour
         _thermalSuppressed = redDot;
         _thermalVision!.On = !redDot;
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Holosun thermal {(redDot ? "off - red dot mode" : "on")}.");
+        CagLog.Info($"[WTT-CAG] Holosun thermal {(redDot ? "off - red dot mode" : "on")}.");
     }
 
     private void OnDestroy()
     {
         if (_thermalVision)
         {
-            // Never hand the pooled camera back with thermal switched off.
             if (_thermalSuppressed) { _thermalVision!.On = true; }
 
             SetMaterialPropertiesPatch.Unregister(_thermalVision!);

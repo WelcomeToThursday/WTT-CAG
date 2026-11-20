@@ -1,17 +1,16 @@
-﻿using UnityEngine;
+﻿using WTT_CAG.Client.Core;
+using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// The post-upscale composite, used by composite mode 2. Everything reachable on the FPS camera
-// happens before DLSS/FSR, so anything drawn there is clipped to the pre-upscale region. This is a
-// second camera that draws no geometry and renders after the FPS camera has finished, which gives
-// an OnRenderImage at full output resolution where UV maps 1:1 to the screen.
+// Draws the composite after the FPS camera's upscale, at full output resolution. Uses a command buffer
+// rather than OnRenderImage so the frame is never copied.
 public class FusionThermalOverlayCamera : MonoBehaviour
 {
     private const string CameraObjectName = "WTT_CAG_FusionThermalOverlayCamera";
 
-    // High enough to render after the FPS camera's upscale, low enough to stay under the UI
-    // cameras. At +100 the overlay drew on top of the pause menu.
+    // Above the FPS camera, below the UI cameras.
     private const float DepthOffset = 1f;
 
     public Material? OverlayMaterial;
@@ -19,6 +18,8 @@ public class FusionThermalOverlayCamera : MonoBehaviour
 
     private Camera? _hostCamera;
     private Camera? _overlayCamera;
+    private CommandBuffer? _commandBuffer;
+    private bool _drawing;
 
     public static FusionThermalOverlayCamera? Create(Camera hostCamera, Material material)
     {
@@ -43,7 +44,6 @@ public class FusionThermalOverlayCamera : MonoBehaviour
 
     private void Build()
     {
-        // Deliberately not CopyFrom: the host's culling mask, effects and SSAA state must not come across.
         _overlayCamera = gameObject.AddComponent<Camera>();
 
         _overlayCamera.depth = _hostCamera!.depth + DepthOffset;
@@ -55,21 +55,29 @@ public class FusionThermalOverlayCamera : MonoBehaviour
         _overlayCamera.renderingPath = RenderingPath.Forward;
         _overlayCamera.targetTexture = null;
 
+        _commandBuffer = new CommandBuffer { name = "Fusion Thermal Overlay" };
+        _overlayCamera.AddCommandBuffer(CameraEvent.AfterEverything, _commandBuffer);
+
         gameObject.SetActive(true);
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Built overlay camera | depth: {_overlayCamera.depth} (host: {_hostCamera.depth}) | {Screen.width}x{Screen.height}");
+        CagLog.Info($"[WTT-CAG] Built overlay camera | depth: {_overlayCamera.depth} (host: {_hostCamera.depth}) | {Screen.width}x{Screen.height}");
     }
 
-    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    private void LateUpdate()
     {
-        Graphics.Blit(source, destination);
+        if (_commandBuffer == null) { return; }
 
-        // Menus keep rendering the world behind them. timeScale is the reliable signal that the
-        // game is paused, so the overlay stays off the pause screen.
-        if (!Active || !OverlayMaterial || Time.timeScale <= 0.0001f) { return; }
+        // timeScale is zero while paused, which keeps the overlay off the pause screen.
+        var draw = Active && OverlayMaterial && Time.timeScale > 0.0001f;
 
-        // The material alpha-blends and is transparent outside the zones.
-        Graphics.Blit(source, destination, OverlayMaterial);
+        if (draw == _drawing) { return; }
+
+        _drawing = draw;
+        _commandBuffer.Clear();
+
+        if (!draw) { return; }
+
+        _commandBuffer.Blit(Texture2D.blackTexture, BuiltinRenderTextureType.CameraTarget, OverlayMaterial);
     }
 
     public void SetCameraEnabled(bool on)
@@ -81,6 +89,14 @@ public class FusionThermalOverlayCamera : MonoBehaviour
 
     private void OnDestroy()
     {
-        Plugin.logger!.LogInfo($"[WTT-CAG] Destroyed {name}");
+        if (_overlayCamera && _commandBuffer != null)
+        {
+            _overlayCamera!.RemoveCommandBuffer(CameraEvent.AfterEverything, _commandBuffer);
+        }
+
+        _commandBuffer?.Release();
+        _commandBuffer = null;
+
+        CagLog.Info($"[WTT-CAG] Destroyed {name}");
     }
 }

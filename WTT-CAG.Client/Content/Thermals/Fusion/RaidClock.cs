@@ -6,8 +6,7 @@ using EFT;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
-// Reads the raid countdown from the game's own timer. Done by reflection so a renamed member in a
-// future game build shows up as one log line and a blank clock, rather than a plugin that will not load.
+// Raid countdown via reflection, so a renamed member logs once and blanks the clock instead of breaking the plugin.
 public static class RaidClock
 {
     private const BindingFlags Flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
@@ -15,7 +14,6 @@ public static class RaidClock
     private static readonly Dictionary<string, MemberInfo?> Members = [];
     private static bool _loggedFailure;
 
-    // Time left in the raid, or null when there is no running raid timer.
     public static TimeSpan? Remaining
     {
         get
@@ -28,7 +26,6 @@ public static class RaidClock
 
             if (timer == null) { return null; }
 
-            // SessionTime is the raid's full length and PastTime is how much of it has gone.
             if (Read(timer, "SessionTime") is not TimeSpan session || Read(timer, "PastTime") is not TimeSpan past)
             {
                 return null;

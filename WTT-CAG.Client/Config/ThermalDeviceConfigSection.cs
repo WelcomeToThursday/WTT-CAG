@@ -3,8 +3,6 @@ using WTT_CAG.Client.Core.Thermal;
 
 namespace WTT_CAG.Client.Config;
 
-// Exposes one thermal device's tuning values in the F12 menu. Only used while
-// ThermalConfigSection.TuningEnabled is on - the values themselves live on the profile.
 public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigSection
 {
     public void Init(ConfigFile cfg)
@@ -18,6 +16,7 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.Fov.Bind(cfg, cam, "FOV", "Field of view of the thermal camera. Narrower than the NVG view means the circle is magnified, as on the real device.", new AcceptableValueRange<float>(5f, 90f));
         profile.Resolution.Bind(cfg, cam, "Resolution", "Horizontal resolution of the thermal render. Lower is cheaper; 320 approximates a real device's sensor.", new AcceptableValueRange<int>(128, 1024));
         profile.Zoom.Bind(cfg, cam, "Zoom", "1 keeps the thermal aligned 1:1 with the world behind the circle. Above 1 magnifies.", new AcceptableValueRange<float>(0.25f, 4f));
+        profile.HoldZoomWhenAiming.Bind(cfg, cam, "Hold Zoom When Aiming", "On: the thermal keeps its hip-fire size when aiming down sights. Off: it zooms with the view and stays lined up with the night vision.");
         profile.CullLayers.Bind(cfg, cam, "Cull Layers", "Off by default: a real thermal sees whatever is in front of it, including your own hands.");
         profile.ExcludeLayers.Bind(cfg, cam, "Exclude Layers", "Comma-separated layer names to hide when Cull Layers is on. Unknown names are ignored and listed in the log.");
 
@@ -48,6 +47,7 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.ClipToTubes.Bind(cfg, place, "Clip To Tubes", "Clip thermal to the goggle's own tube mask, so nothing spills into the black outside the tubes. Uses the same mask texture BSG cuts the night vision with, so it aligns by construction.");
         profile.TubeMaskScale.Bind(cfg, place, "Tube Mask Scale", "Fine adjustment if the clip does not line up with the tubes. 1 uses the game's own mask size unmodified.", new AcceptableValueRange<float>(0.5f, 2f));
         profile.TubeMaskSoftness.Bind(cfg, place, "Tube Mask Edge", "Softens the clip edge so thermal fades into the tube rim.", new AcceptableValueRange<float>(0f, 0.3f));
+        profile.UseGoggleTubeMask.Bind(cfg, place, "Use Goggle Tube Mask", "Off: Clip To Tubes cuts with the game's thermal mask, which the baked values were tuned against. On: it cuts with this goggle's own tube mask, which needs Tube Mask Scale and Tube Mask Edge retuning.");
         profile.TubeMaskChannel.Bind(cfg, place, "Tube Mask Channel", "Which channel of the mask texture is the tube shape. 0 = alpha, 1 = red. Try 1 if clipping removes everything.", new AcceptableValueRange<int>(0, 1));
         profile.HeatKeyOnly.Bind(cfg, place, "Heat Only", "ON: draw only hot pixels and let the night vision show through the cold ones, so the circle is an overlay rather than a cutout. OFF: the circle replaces the NVG image, cold areas included, which reads as black.");
         profile.HeatKeyThreshold.Bind(cfg, place, "Heat Only Threshold", "How bright a thermal pixel must be to be drawn when Heat Only is on. Raise to show only the hottest objects.", new AcceptableValueRange<float>(0f, 1f));

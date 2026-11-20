@@ -8,12 +8,9 @@ using WTT_CAG.Client.Content.Thermals.Fusion;
 using WTT_CAG.Client.Core.Thermal;
 namespace WTT_CAG.Client.Patches.NightVisionPatches;
 
-// The fusion goggles stay a stock NightVision device: BSG's own material, tube mask and noise are
-// left alone, and the thermal zones are composited on top of the finished night vision image.
 public class OnPreCullPatch : ModulePatch
 {
-    // NightVision also sits on the pooled optic camera. Attaching there would put a thermal
-    // circle in every NVG-capable scope, so only the head camera is touched.
+    // NightVision also sits on the pooled optic camera; only the head camera is used.
     private const string HostCameraName = "FPS Camera";
 
     protected override MethodBase GetTargetMethod()
@@ -32,7 +29,6 @@ public class OnPreCullPatch : ModulePatch
 
         if (profile == null)
         {
-            // Goggles removed. The controller's OnDestroy takes the zone and overlay cameras with it.
             if (controller) { Object.Destroy(controller); }
             return;
         }
@@ -51,7 +47,6 @@ public class OnPreCullPatch : ModulePatch
         }
     }
 
-    // A postfix so the composite is always queued after NightVision has refilled its own buffer.
     [PatchPostfix]
     public static void Postfix(NightVision __instance)
     {

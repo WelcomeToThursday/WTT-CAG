@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using WTT_CAG.Client.Core;
+using System.Collections.Generic;
 using System;
 using System.Reflection;
 using HarmonyLib;
@@ -23,8 +24,6 @@ public class SetMaterialPropertiesPatch : ModulePatch
     private static readonly HashSet<ThermalVision> _cachedInstances = [];
     private static readonly FieldInfo? _materialField = FindMaterialField();
 
-    // ThermalVision's material field is private and its name differs between game builds, so it is
-    // looked up by known names first and then by type.
     private static FieldInfo? FindMaterialField()
     {
         const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
@@ -35,7 +34,7 @@ public class SetMaterialPropertiesPatch : ModulePatch
 
             if (named != null && named.FieldType == typeof(Material))
             {
-                Plugin.logger!.LogInfo($"[WTT-CAG] ThermalVision material field: {named.Name}");
+                CagLog.Info($"[WTT-CAG] ThermalVision material field: {named.Name}");
                 return named;
             }
         }
@@ -52,7 +51,7 @@ public class SetMaterialPropertiesPatch : ModulePatch
 
         if (candidates.Count == 1)
         {
-            Plugin.logger!.LogInfo($"[WTT-CAG] ThermalVision material field: {candidates[0].Name}");
+            CagLog.Info($"[WTT-CAG] ThermalVision material field: {candidates[0].Name}");
             return candidates[0];
         }
 
@@ -87,7 +86,7 @@ public class SetMaterialPropertiesPatch : ModulePatch
             _opticValidators[instance] = isCurrentOptic;
         }
 
-        Plugin.logger!.LogInfo($"[WTT-CAG] Registered {type} on {instance.gameObject.name}.");
+        CagLog.Info($"[WTT-CAG] Registered {type} on {instance.gameObject.name}.");
 
         return true;
     }
@@ -113,11 +112,10 @@ public class SetMaterialPropertiesPatch : ModulePatch
         {
             if (_cachedInstances.Add(__instance))
             {
-                Plugin.logger!.LogDebug($"[WTT-CAG] ThermalVision found on {__instance.gameObject.name}.");
+                CagLog.Debug($"[WTT-CAG] ThermalVision found on {__instance.gameObject.name}.");
             }
 
-            // The optic camera is pooled by the game rather than built by us, so the Holosun is
-            // picked up here. The zone camera registers itself when it is built.
+            // The pooled optic camera is picked up here; the zone camera registers itself.
             if (!HolosunThermalOptic.TryAttach(__instance) || !_registeredThermalDevices.TryGetValue(__instance, out device))
             {
                 return;
@@ -131,8 +129,7 @@ public class SetMaterialPropertiesPatch : ModulePatch
             return;
         }
 
-        // The pooled optic camera is handed to whichever scope is being aimed, so the claim on it
-        // is re-checked every frame and dropped the moment the sight is no longer ours.
+        // The pooled optic camera serves whichever sight is aimed, so the claim is re-checked every frame.
         if (device.DeviceType == EThermalDeviceType.HOLOSUN
             && (!_opticValidators.TryGetValue(__instance, out var isCurrentOptic) || !isCurrentOptic(__instance)))
         {
@@ -151,7 +148,6 @@ public class SetMaterialPropertiesPatch : ModulePatch
         switch (device.DeviceType)
         {
             case EThermalDeviceType.HOLOSUN:
-                // The optic is a clean image. The zone camera's sensor effects come from its profile instead.
                 __instance.IsGlitch = false;
                 __instance.IsPixelated = false;
                 __instance.IsMotionBlurred = false;
