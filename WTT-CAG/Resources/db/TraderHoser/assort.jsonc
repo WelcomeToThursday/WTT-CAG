@@ -1731,6 +1731,222 @@
       "slotId": "Back_plate",
       "parentId": "6ada3db32139057825a4c02d"
     },
+
+    {
+      "_id": "6b009b58b40ffb1491d574a9", // Balistyka M4 plate carrier
+      "_tpl": "6af3cb69dffcc8f36cc6f2db",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b009b5f4364473e0bd574ad",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "6b009b58b40ffb1491d574a9",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b009b5ef705b26b47d574ac",
+      "_tpl": "656fa0fb498d1b7e3e071d9c",
+      "parentId": "6b009b58b40ffb1491d574a9",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6b009b5d866f795a4cd574ab",
+      "_tpl": "6575f5e1da698a4e98067869",
+      "parentId": "6b009b58b40ffb1491d574a9",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6b009b5cc4bc4d94b9d574aa",
+      "_tpl": "6575f5cbf6a13a7b7100b0bf",
+      "parentId": "6b009b58b40ffb1491d574a9",
+      "slotId": "Soft_armor_front"
+    },
+
+    {
+      "_id": "6b00def5efb7904d327d12d3", // S&S PlateFrame (multicam)
+      "_tpl": "6af00fba4e747adcc9dc383c",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b00def9343df31a297d12d5",
+      "_tpl": "6943c85be2f21398e70378cc",
+      "parentId": "6b00def5efb7904d327d12d3",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b00def884833a77ee7d12d4",
+      "_tpl": "6943c85be2f21398e70378cc",
+      "parentId": "6b00def5efb7904d327d12d3",
+      "slotId": "Back_plate"
+    },
+
+    {
+      "_id": "6b00e53e565dbd5d487d12d7", // FCPC (Ranger)
+      "_tpl": "6aef9e6b0e462c254c31a243",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b00e5453fff9d33417d12db",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "6b00e53e565dbd5d487d12d7",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b00e54566f35a92197d12da",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "6b00e53e565dbd5d487d12d7",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6b00e544a0c6364ab47d12d9",
+      "_tpl": "68a5ec952295a9739b032dd8",
+      "parentId": "6b00e53e565dbd5d487d12d7",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b00e54398635a40ed7d12d8",
+      "_tpl": "68a5ec3731f944d6be0efd64",
+      "parentId": "6b00e53e565dbd5d487d12d7",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6b00e6038fe7b9c4f17d12dc", // FCPC (AOR1)
+      "_tpl": "6aef9ccfc21a97135731a238",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b00e60a4a118124877d12e0",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "6b00e6038fe7b9c4f17d12dc",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b00e6092fc851b8077d12df",
+      "_tpl": "656fae5f7c2d57afe200c0d7",
+      "parentId": "6b00e6038fe7b9c4f17d12dc",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6b00e609b85438a49c7d12de",
+      "_tpl": "68a5ec952295a9739b032dd8",
+      "parentId": "6b00e6038fe7b9c4f17d12dc",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b00e6084035eb1d167d12dd",
+      "_tpl": "68a5ec3731f944d6be0efd64",
+      "parentId": "6b00e6038fe7b9c4f17d12dc",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6b00e69f526b299c4a7d12e1", // Eagle Industries SPC plate carrier
+      "_tpl": "6ae751e8721fd6090b1e43c0",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b00e6a2f25e9060cb7d12e3",
+      "_tpl": "6572f1ca4c8d903cc60c874e",
+      "parentId": "6b00e69f526b299c4a7d12e1",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b00e6a2268cd6cc587d12e2",
+      "_tpl": "6572f1d60103b4a3270332db",
+      "parentId": "6b00e69f526b299c4a7d12e1",
+      "slotId": "Soft_armor_back"
+    },
+
+    {
+      "_id": "6b00e71e6ac362290b7d12e4", // NPP KlASS Bagariy plate carrier (OMON)
+      "_tpl": "6af00e34ab8dc7f624dc3833",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd":
+      {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 200,
+        "BuyRestrictionMax": 2,
+        "BuyRestrictionCurrent": 0
+      }
+    },
+    {
+      "_id": "6b00e72180ba7d513b7d12e6",
+      "_tpl": "68a553f9e1f415c456114c6a",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b00e721823b9f38d77d12e5",
+      "_tpl": "68a553f9e1f415c456114c6a",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6b00e735921097cf497d12e7",
+      "_tpl": "657322988c1cc6dcd9098b2d",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b00e735ecc5f57d567d12e8",
+      "_tpl": "657322a4cea9255e21023651",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6b00e7365f308391287d12e9",
+      "_tpl": "657322acd9d89ff7ac0d961b",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "6b00e73638f5f6e4db7d12ea",
+      "_tpl": "657322b7d9d89ff7ac0d961f",
+      "parentId": "6b00e71e6ac362290b7d12e4",
+      "slotId": "soft_armor_right"
+    },
     
     // -  -  -  -   -   -   -   -   -   -   -  ARMOR HELMETS  -   -   -   -   -   -   -   -   -   -    
    
@@ -4000,6 +4216,24 @@
 
     // Crye JPC 2.0 plate carrier (Bogatyrs)
     "6ada3db32139057825a4c02d": [ [ { "count": 149572,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // Balistyka M4 plate carrier
+    "6b009b58b40ffb1491d574a9": [ [ { "count": 75700,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // S&S Plateframe (Multicam)
+    "6b00def5efb7904d327d12d3": [ [ { "count": 105523,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // FCPC (Ranger)
+    "6b00e53e565dbd5d487d12d7": [ [ { "count": 135028,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // FCPC (AOR1)
+    "6b00e6038fe7b9c4f17d12dc": [ [ { "count": 135028,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // Eagle Industries SPC plate carrier
+    "6b00e69f526b299c4a7d12e1": [ [ { "count": 97439,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
+
+    // OMON Bagariy
+    "6b00e71e6ac362290b7d12e4": [ [ { "count": 155155,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
     
     // FAST SF custom build with GPNVGS 
     "69ecddbac4ac0c1322033c30":  [ [ { "count": 1,  "_tpl": "59faff1d86f7746c51718c9c" } ] ],
@@ -4382,7 +4616,14 @@
     "6ada3cf7984a3889a4a4c029": 2, // Crye SPC airlite plate carrier (MC Arid)
     "6ada3d4f73f4689388a4c02c": 2, // Crye SPC airlite plate carrier (Black)
     "6ada3db32139057825a4c02d": 4, // Crye JPC 2.0 plate carrier (Bogatyrs)
+    "6b009b58b40ffb1491d574a9": 3, // Balistyka M4 plate carrier
+    "6b00def5efb7904d327d12d3": 4, // S&S PLateframe multicam
     "6ad9f9c6cf4ee737baa4bf9c": 4, // ARS A-18 SKANDA (MM14)
+    "6b00e53e565dbd5d487d12d7": 4, // FCPC (Ranger Green)
+    "6b00e6038fe7b9c4f17d12dc": 4, // FCPC (AOR1)
+    "6b00e69f526b299c4a7d12e1": 2, // Eagle Industries SPC plate carrier
+    "6b00e71e6ac362290b7d12e4": 4, // OMON Bagariy plate carrier
+    
     "69ecddbac4ac0c1322033c30": 3, // FAST SF custom build with GPNVGS 
     "69653b6560fcf0a0300ac582": 3, // Ceradyne IHPS Ballistic helmet (Coyote Tan)  
     "69653b6560fcf0a0300ac586": 4, // Ops-Core FAST XP high cut helmet (MultiCam)  
@@ -4396,7 +4637,7 @@
     "69653b6560fcf0a0300ac5a2": 3, // Ops-Core FAST SF Legacy High Cut helmet (Black)  
     "69653b6560fcf0a0300ac5a5": 3, // Ops-Core FAST SF Legacy High Cut helmet (Tan 499)  
     "69653b6560fcf0a0300ac5a8": 3, // Ops-Core FAST SF Legacy High Cut helmet (MultiCam)  
-    "69653b6560fcf0a0300ac5ab": 2, // Ulbrichts F1000H high-cut ballistic helmet (Ranger Green)  
+    "69653b6560fcf0a0300ac5ab": 2, // Ulbrichts F1000H high-cut ballistic helmet (Ranger Green) 
     "69653b6560fcf0a0300ac5ae": 2, // Galvion Caiman TL ballistic helmet  
     "69653b6560fcf0a0300ac5b1": 2, // Galvion Caiman TL ballistic helmet (Olive Drab)  
     "69653b6560fcf0a0300ac5b4": 3, // Galvion Batlskin Cobra P2 ballistic helmet (Tan)  
