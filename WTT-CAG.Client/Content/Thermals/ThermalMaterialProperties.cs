@@ -1,9 +1,9 @@
-﻿using WTT_CAG.Client.Core;
-using BSG.CameraEffects;
+﻿using BSG.CameraEffects;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Content.Thermals.Fusion;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals;
 
@@ -53,6 +53,10 @@ public static class ThermalMaterialProperties
     private static readonly int TubeMaskSoftness = Shader.PropertyToID("_TubeMaskSoftness");
     private static readonly int TubeMaskChannel = Shader.PropertyToID("_TubeMaskChannel");
     private static readonly int TubeMaskInvert = Shader.PropertyToID("_TubeMaskInvert");
+    private static readonly int TubeMaskSoft = Shader.PropertyToID("_TubeMaskSoft");
+
+    // The screen shape the circle positions were tuned at (3440 x 1440).
+    private const float TunedAspect = 3440f / 1440f;
     private static readonly int OverlayTex = Shader.PropertyToID("_OverlayTex");
     private static readonly int OverlayOpacity = Shader.PropertyToID("_OverlayOpacity");
     private static readonly int OverlayTint = Shader.PropertyToID("_OverlayTint");
@@ -123,6 +127,7 @@ public static class ThermalMaterialProperties
         material.SetFloat(ThermalZoneEnabled, profile.ZoneEnabled.Value && FusionThermalState.ThermalOn && nightVision.On ? 1f : 0f);
         material.SetFloat(ThermalZoneOpacity, profile.Opacity.Value);
 
+        var screenAspect = (float)Screen.width / Mathf.Max(Screen.height, 1);
         var count = Mathf.Clamp(profile.ZoneCount.Value, 1, ThermalDeviceProfile.MaxZones);
 
         for (var z = 0; z < ThermalDeviceProfile.MaxZones; z++)
@@ -130,7 +135,11 @@ public static class ThermalMaterialProperties
             var slot = profile.Zones[z];
             var live = z < count && slot.Enabled.Value;
 
-            ZoneBuffer[z] = live ? new Vector4(slot.CenterX.Value, slot.CenterY.Value, slot.Radius.Value, slot.Softness.Value) : Vector4.zero;
+            // Circle positions were tuned at 21:9. Scaling their offset from centre keeps them at the
+            // same place relative to the HUD, which is laid out in screen-height units, at any aspect.
+            var centreX = 0.5f + (slot.CenterX.Value - 0.5f) * (TunedAspect / Mathf.Max(screenAspect, 0.01f));
+
+            ZoneBuffer[z] = live ? new Vector4(centreX, slot.CenterY.Value, slot.Radius.Value, slot.Softness.Value) : Vector4.zero;
         }
 
         material.SetVectorArray(Zones, ZoneBuffer);
@@ -159,7 +168,7 @@ public static class ThermalMaterialProperties
         material.SetFloat(HeatKeyBackground, profile.HeatKeyBackground.Value);
 
         material.SetFloat(ZoneAspect, aspect);
-        material.SetFloat(ThermalZoneZoom, profile.Zoom.Value);
+        material.SetFloat(ThermalZoneZoom, profile.Zoom.Value * FusionThermalState.ZoomFactor(profile));
         material.SetFloat(ThermalZoneUvScale, FusionThermalZoneCamera.ZoneUVScale);
 
         if (BuildFlags.DebugBuild)
@@ -175,7 +184,7 @@ public static class ThermalMaterialProperties
         material.SetFloat(ZoneDebugFill, ThermalConfigSection.ZoneDebugFill.Value ? 1f : 0f);
 
         var hud = FusionThermalHud.Instance;
-        var overlay = hud && hud!.Profile == profile && hud.Texture ? hud.Texture : profile.ResolveOverlayTexture();
+        var overlay = hud && hud!.Profile == profile && hud.IsVisible && hud.Texture ? hud.Texture : profile.ResolveOverlayTexture();
 
         if (overlay)
         {
@@ -267,5 +276,6 @@ public static class ThermalMaterialProperties
 
         // BSG's masks mark the surround rather than the tube.
         material.SetFloat(TubeMaskInvert, 1f);
+        material.SetFloat(TubeMaskSoft, profile.SoftTubeMask.Value ? 1f : 0f);
     }
 }

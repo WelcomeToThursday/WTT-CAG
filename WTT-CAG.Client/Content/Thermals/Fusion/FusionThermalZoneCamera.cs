@@ -1,10 +1,10 @@
-﻿using WTT_CAG.Client.Core;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 using WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
@@ -30,6 +30,20 @@ public class FusionThermalZoneCamera : MonoBehaviour
 
     // With HoldZoomWhenAiming on: the widest host FOV seen (hip-fire), so aiming does not magnify the thermal.
     private float _referenceHostFov = float.NaN;
+
+    // The thermal camera only renders at the sensor's refresh rate; between renders the texture keeps its last frame.
+    private bool _wanted;
+    private float _nextRenderTime;
+    private float _savedLodBias;
+
+    private static readonly int ZoneSensorFxID = Shader.PropertyToID("_ZoneSensorFx");
+    private static readonly int ZoneNoiseTexID = Shader.PropertyToID("_ZoneNoiseTex");
+    private static readonly int ZoneNoiseIntensityID = Shader.PropertyToID("_ZoneNoiseIntensity");
+    private static readonly int ZoneDepthFadeID = Shader.PropertyToID("_ZoneDepthFade");
+
+    // Lower-detail models for the thermal render, which is far smaller than the screen. Kept at or
+    // above half so character silhouettes, which drive the outlines, keep their shape.
+    private const float MinLodBiasFactor = 0.5f;
     private bool _loggedViewportReset;
 
     private static readonly int ThermalVisionOnID = Shader.PropertyToID("_ThermalVisionOn");
@@ -163,6 +177,7 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalVision.SwitchComponentsOff = [];
 
         ApplySensorEffects();
+        LogUtilityValues();
 
         Instance = this;
 
@@ -197,6 +212,37 @@ public class FusionThermalZoneCamera : MonoBehaviour
     private static bool IsFullViewport(Rect rect)
     {
         return Mathf.Abs(rect.x) < 0.0001f && Mathf.Abs(rect.y) < 0.0001f && Mathf.Abs(rect.width - 1f) < 0.0001f && Mathf.Abs(rect.height - 1f) < 0.0001f;
+    }
+
+    // Debug builds log the sensor-effect values copied from the FPS camera's ThermalVision, since the
+    // camera prefab that holds them is not available to read directly.
+    private void LogUtilityValues()
+    {
+        if (!BuildFlags.DebugBuild) { return; }
+
+        const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
+
+        foreach (var fieldName in new[] { "StuckFpsUtilities", "MotionBlurUtilities", "GlitchUtilities", "PixelationUtilities" })
+        {
+            var utilities = typeof(ThermalVision).GetField(fieldName, flags)?.GetValue(_thermalVision);
+
+            if (utilities == null)
+            {
+                CagLog.Info($"[WTT-CAG] {fieldName}: none");
+                continue;
+            }
+
+            var values = new List<string>();
+
+            foreach (var field in utilities.GetType().GetFields(flags))
+            {
+                var value = field.GetValue(utilities);
+
+                if (value is int or float or bool or Enum) { values.Add($"{field.Name}={value}"); }
+            }
+
+            CagLog.Info($"[WTT-CAG] {fieldName}: {string.Join(", ", values)}");
+        }
     }
 
     private void CloneUtility(string fieldName)
@@ -299,6 +345,16 @@ public class FusionThermalZoneCamera : MonoBehaviour
         _thermalVision.IsPixelated = profile.FxPixelate.Value;
         _thermalVision.UnsharpRadiusBlur = profile.UnsharpRadius.Value;
         _thermalVision.UnsharpBias = profile.UnsharpBias.Value;
+
+        if (!_traceMaterial) { return; }
+
+        // Read by ThermalTraceOverlay only on this camera, so the Holosun keeps its own look.
+        var noiseTexture = _thermalVision.ThermalVisionUtilities?.NoiseParameters?.NoiseTex;
+
+        _traceMaterial!.SetFloat(ZoneSensorFxID, 1f);
+        _traceMaterial.SetTexture(ZoneNoiseTexID, noiseTexture);
+        _traceMaterial.SetFloat(ZoneNoiseIntensityID, profile.FxNoise.Value && noiseTexture ? profile.NoiseIntensity.Value : 0f);
+        _traceMaterial.SetFloat(ZoneDepthFadeID, profile.DistanceFade.Value);
     }
 
     private void AllocateRenderTexture()
@@ -403,23 +459,80 @@ public class FusionThermalZoneCamera : MonoBehaviour
         {
             AllocateRenderTexture();
         }
+
+        if (_hostCamera)
+        {
+            _thermalCamera.farClipPlane = Mathf.Min(_hostCamera!.farClipPlane, Mathf.Max(DeviceProfile?.ThermalRange.Value ?? 910f, _thermalCamera.nearClipPlane + 1f));
+        }
+
+        UpdateRenderGate();
+    }
+
+    private void UpdateRenderGate()
+    {
+        var due = false;
+
+        if (_wanted)
+        {
+            var interval = 1f / Mathf.Clamp(DeviceProfile?.RefreshRate.Value ?? 60, 5, 240);
+            var now = Time.unscaledTime;
+
+            if (now >= _nextRenderTime)
+            {
+                due = true;
+
+                // Keep a steady cadence, but never try to catch up after a stall.
+                _nextRenderTime = now - _nextRenderTime < interval ? _nextRenderTime + interval : now + interval;
+            }
+        }
+
+        if (_thermalCamera!.enabled != due) { _thermalCamera.enabled = due; }
     }
 
     public void SetActive(bool on)
     {
         if (!_thermalCamera) { return; }
-        if (_thermalCamera!.enabled == on) { return; }
+        if (_wanted == on) { return; }
 
-        _thermalCamera.enabled = on;
+        _wanted = on;
 
-        if (on) { return; }
+        if (on)
+        {
+            _nextRenderTime = 0f;
+            return;
+        }
+
+        _thermalCamera!.enabled = false;
 
         // Disabling between ThermalVision's OnPreCull and OnPostRender would leave the whole game rendering as heat.
         Shader.SetGlobalFloat(ThermalVisionOnID, 0f);
         CagLog.Info("[WTT-CAG] Thermal zone camera disabled.");
     }
 
-    public bool IsActive => _thermalCamera && _thermalCamera!.enabled;
+    public bool IsActive => _wanted;
+
+    // Hard pixels when digitally zoomed in, as a real sensor shows when it crops.
+    public void SetPointFiltering(bool point)
+    {
+        if (!_thermalRt) { return; }
+
+        var mode = point ? FilterMode.Point : FilterMode.Bilinear;
+
+        if (_thermalRt!.filterMode != mode) { _thermalRt.filterMode = mode; }
+    }
+
+    private void OnPreCull()
+    {
+        _savedLodBias = QualitySettings.lodBias;
+
+        var hostHeight = _hostCamera ? Mathf.Max(_hostCamera!.pixelHeight, 1) : Screen.height;
+        QualitySettings.lodBias = _savedLodBias * Mathf.Clamp((float)_rtHeight / hostHeight, MinLodBiasFactor, 1f);
+    }
+
+    private void OnPostRender()
+    {
+        QualitySettings.lodBias = _savedLodBias;
+    }
 
     public RenderTexture? ThermalTexture => _thermalRt;
 

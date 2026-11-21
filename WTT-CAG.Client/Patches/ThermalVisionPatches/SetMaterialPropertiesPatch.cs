@@ -1,5 +1,4 @@
-﻿using WTT_CAG.Client.Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System;
 using System.Reflection;
 using HarmonyLib;
@@ -9,6 +8,7 @@ using WTT_CAG.Client.Content.Thermals;
 using WTT_CAG.Client.Content.Thermals.Fusion;
 using WTT_CAG.Client.Content.Thermals.Holosun;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 namespace WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 public class SetMaterialPropertiesPatch : ModulePatch

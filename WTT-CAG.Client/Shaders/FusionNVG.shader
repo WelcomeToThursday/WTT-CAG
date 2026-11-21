@@ -38,6 +38,8 @@ Shader "Thermals/FusionNVG"
         _ZoneShape           ("Zone Shape",          Range(0,1))  = 0
         _ZoneRect            ("Zone Rectangle",      Vector)      = (0.25,0.25,0.75,0.75)
         _ZoneRectSoftness    ("Rectangle Edge",      Range(0,0.1)) = 0.002
+        // 1 fades the tube clip with the mask's own alpha, as the game draws its tubes; 0 cuts at half.
+        _TubeMaskSoft        ("Tube Mask Soft",      Range(0,1))  = 0
         _ThermalZoneUvScale  ("Zone Magnification",  Float)       = 1
         _ThermalZoneOpacity  ("Zone Opacity",        Range(0,1))  = 1
         _ThermalZoneZoom     ("Zone Zoom",           Float)       = 1
@@ -104,6 +106,7 @@ Shader "Thermals/FusionNVG"
             float     _TubeMaskSoftness;
             float     _TubeMaskChannel;   // 0 = alpha, 1 = red
             float     _TubeMaskInvert;
+            float     _TubeMaskSoft;
             float     _ThermalZoneUvScale;
             float     _ThermalZoneOpacity;
             float     _ThermalZoneZoom;
@@ -221,6 +224,8 @@ Shader "Thermals/FusionNVG"
                 // used to darken outside the optic. Taken raw, the clip keeps
                 // exactly the wrong region.
                 if (_TubeMaskInvert > 0.5) v = 1.0 - v;
+
+                if (_TubeMaskSoft > 0.5) return saturate(v);
 
                 return (_TubeMaskSoftness > 0.001)
                     ? smoothstep(0.5 - _TubeMaskSoftness, 0.5 + _TubeMaskSoftness, v)

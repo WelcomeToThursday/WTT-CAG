@@ -1,12 +1,14 @@
-﻿using WTT_CAG.Client.Core;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using Comfort.Common;
 using EFT;
+using EFT.InventoryLogic;
 using UnityEngine;
 using UnityEngine.UI;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Content.Thermals.Holosun;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
@@ -28,6 +30,8 @@ public class FusionThermalHud : MonoBehaviour
     private const float RtaScanInterval = 1f;
 
     private const string BlankClock = "--:--:--";
+
+    private static readonly List<Mod> WeaponParts = [];
 
     public ThermalDeviceProfile? Profile { get; private set; }
 
@@ -51,6 +55,12 @@ public class FusionThermalHud : MonoBehaviour
     private Text? _mode;
     private Text? _rtaStatus;
     private Text? _runTime;
+    private Text? _zoom;
+
+    // The HUD camera only renders on frames where something on the HUD changed; the texture keeps
+    // the last image in between.
+    private bool _visible = true;
+    private bool _dirty = true;
     private Graphic? _packetLoss;
 
     private float _lastTapeHeading = float.NaN;
@@ -132,6 +142,7 @@ public class FusionThermalHud : MonoBehaviour
         _mode = Find<Text>(instance, "Mode");
         _rtaStatus = Find<Text>(instance, "RtaStatus");
         _runTime = Find<Text>(instance, "RunTime");
+        _zoom = Find<Text>(instance, "Zoom");
         _packetLoss = Find<Graphic>(instance, "PacketLoss");
 
         if (_packetLoss) { _packetLoss!.enabled = false; }
@@ -140,7 +151,7 @@ public class FusionThermalHud : MonoBehaviour
 
         Instance = this;
 
-        CagLog.Info($"[WTT-CAG] Built HUD '{prefab.name}' | {_texture!.width}x{_texture.height} | display: {(bool)_display} tape: {(bool)_compassTape} heading: {(bool)_heading} missionTime: {(bool)_missionTime} mode: {(bool)_mode} rta: {(bool)_rtaStatus} runTime: {(bool)_runTime} packetLoss: {(bool)_packetLoss}");
+        CagLog.Info($"[WTT-CAG] Built HUD '{prefab.name}' | {_texture!.width}x{_texture.height} | display: {(bool)_display} tape: {(bool)_compassTape} heading: {(bool)_heading} missionTime: {(bool)_missionTime} mode: {(bool)_mode} rta: {(bool)_rtaStatus} runTime: {(bool)_runTime} zoom: {(bool)_zoom} packetLoss: {(bool)_packetLoss}");
     }
 
     private static T? Find<T>(GameObject root, string elementName) where T : Component
@@ -180,6 +191,7 @@ public class FusionThermalHud : MonoBehaviour
         RenderTexture.active = previous;
 
         _hudCamera!.targetTexture = _texture;
+        _dirty = true;
     }
 
     private void ReleaseTexture()
@@ -214,12 +226,19 @@ public class FusionThermalHud : MonoBehaviour
 
     public void SetVisible(bool visible)
     {
-        if (_hudCamera && _hudCamera!.enabled != visible) { _hudCamera.enabled = visible; }
+        if (_visible == visible) { return; }
+
+        _visible = visible;
+        _dirty = visible;
+
+        if (!visible && _hudCamera) { _hudCamera!.enabled = false; }
     }
+
+    public bool IsVisible => _visible;
 
     private void Update()
     {
-        if (!_hudCamera || !_hudCamera!.enabled || !_hostCamera) { return; }
+        if (!_hudCamera || !_visible || !_hostCamera) { return; }
 
         AllocateTexture();
 
@@ -227,14 +246,25 @@ public class FusionThermalHud : MonoBehaviour
         UpdateCompass();
         UpdatePacketLoss();
 
-        if (Time.unscaledTime < _nextSlowUpdate) { return; }
+        if (Time.unscaledTime >= _nextSlowUpdate) { SlowUpdate(); }
 
+        // Render this frame only if something drawn on the HUD changed.
+        _hudCamera!.enabled = _dirty;
+        _dirty = false;
+    }
+
+    private void SlowUpdate()
+    {
         _nextSlowUpdate = Time.unscaledTime + SlowUpdateInterval;
 
         SetText(_missionTime, FormatClock(RaidClock.Remaining));
-        if (Profile != null) { SetText(_runTime, FormatClock(TimeSpan.FromSeconds(FusionThermalState.RunTimeSeconds(Profile)))); }
 
-        if (Profile != null) { SetText(_mode, FusionThermalState.ModeLabel(Profile)); }
+        if (Profile != null)
+        {
+            SetText(_runTime, FormatClock(TimeSpan.FromSeconds(FusionThermalState.RunTimeSeconds(Profile))));
+            SetText(_mode, FusionThermalState.ModeLabel(Profile));
+            SetText(_zoom, FusionThermalState.ZoomLabel(Profile));
+        }
 
         if (Time.unscaledTime >= _nextRtaScan)
         {
@@ -247,7 +277,11 @@ public class FusionThermalHud : MonoBehaviour
 
     private void UpdateCompass()
     {
-        var heading = Mathf.Repeat(_hostCamera!.transform.eulerAngles.y + ThermalConfigSection.CompassNorthOffset.Value, 360f);
+        // Each map defines its own north as a yaw angle in LevelSettings.
+        var levelSettings = Singleton<LevelSettings>.Instance;
+        var mapNorth = levelSettings ? levelSettings.NorthDirection : 0f;
+
+        var heading = Mathf.Repeat(_hostCamera!.transform.eulerAngles.y - mapNorth + ThermalConfigSection.CompassNorthOffset.Value, 360f);
 
         if (_compassTape && (float.IsNaN(_lastTapeHeading) || Mathf.Abs(heading - _lastTapeHeading) > 0.02f))
         {
@@ -256,6 +290,7 @@ public class FusionThermalHud : MonoBehaviour
             var window = _compassTape!.uvRect;
             window.x = Mathf.Repeat(heading - TapeStartHeading, 360f) / 360f - window.width * 0.5f;
             _compassTape.uvRect = window;
+            _dirty = true;
         }
 
         var degrees = Mathf.RoundToInt(heading) % 360;
@@ -283,6 +318,7 @@ public class FusionThermalHud : MonoBehaviour
 
         _display!.anchoredPosition = _authoredPosition + offset;
         _display.localScale = new Vector3(scale, scale, 1f);
+        _dirty = true;
     }
 
     private void UpdatePacketLoss()
@@ -303,6 +339,7 @@ public class FusionThermalHud : MonoBehaviour
 
         _packetLossBlinksLeft--;
         _packetLoss!.enabled = _packetLossBlinksLeft % 2 == 1;
+        _dirty = true;
         _nextPacketLossBlink = now + 0.18f;
 
         if (_packetLossBlinksLeft == 0)
@@ -311,19 +348,24 @@ public class FusionThermalHud : MonoBehaviour
         }
     }
 
+    // The RTA link pairs the goggle with a thermal sight on the weapon in the player's hands.
     private static bool IsCarryingRtaSight()
     {
-        var items = Singleton<GameWorld>.Instance?.MainPlayer?.Profile?.Inventory?.AllRealPlayerItems;
+        if (Singleton<GameWorld>.Instance?.MainPlayer?.HandsController?.Item is not Weapon weapon) { return false; }
 
-        if (items == null) { return false; }
+        // The same call the game's WeaponPrefab uses to list a weapon and all its attachments.
+        WeaponParts.Clear();
+        weapon.GetAllItemsNonAlloc(WeaponParts, false, true);
 
-        foreach (var item in items)
+        foreach (var item in WeaponParts)
         {
             if (item != null && item.StringTemplateId == HolosunThermalOptic.TemplateId) { return true; }
         }
 
         return false;
     }
+
+
 
     private static string FormatClock(TimeSpan? time)
     {
@@ -334,9 +376,12 @@ public class FusionThermalHud : MonoBehaviour
         return $"{(int)value.TotalHours:00}:{value.Minutes:00}:{value.Seconds:00}";
     }
 
-    private static void SetText(Text? element, string value)
+    private void SetText(Text? element, string value)
     {
-        if (element && element!.text != value) { element.text = value; }
+        if (!element || element!.text == value) { return; }
+
+        element.text = value;
+        _dirty = true;
     }
 
     private void OnDestroy()

@@ -7,5 +7,5 @@
 public static class BuildFlags
 {
     // static readonly rather than const, so code behind a false flag does not warn as unreachable.
-    public static readonly bool DebugBuild = false;
+    public static readonly bool DebugBuild = true;
 }
