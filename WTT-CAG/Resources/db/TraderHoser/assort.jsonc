@@ -1785,13 +1785,13 @@
     },
     {
       "_id": "6b00def9343df31a297d12d5",
-      "_tpl": "6943c85be2f21398e70378cc",
+      "_tpl": "656fac30c6baea13cd07e10c",
       "parentId": "6b00def5efb7904d327d12d3",
       "slotId": "Front_plate"
     },
     {
       "_id": "6b00def884833a77ee7d12d4",
-      "_tpl": "6943c85be2f21398e70378cc",
+      "_tpl": "656fac30c6baea13cd07e10c",
       "parentId": "6b00def5efb7904d327d12d3",
       "slotId": "Back_plate"
     },
@@ -4544,7 +4544,7 @@
     // LShZ-1+ cover (Black)  
     "69653b6560fcf0a0300ac57b":  [ [ { "count": 3103,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
-    // LShZ-1+ cover (MultiCam)  
+    // LShZ-1+ cover (MultiCam) 
     "69653b6560fcf0a0300ac57c":  [ [ { "count": 3103,  "_tpl": "5449016a4bdc2d6f028b456f" } ] ],
 
     // Kiver RSP cover (EMR)  
