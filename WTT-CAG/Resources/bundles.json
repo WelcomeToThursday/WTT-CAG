@@ -42,9 +42,9 @@
     {
       "key": "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
-        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "shaders",
+        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
+        "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
@@ -174,6 +174,14 @@
         "assets/content/items/equipment/rig_plateminus_misplec/item_equipment_armor_plateminus_milspec.bundle",
         "assets/content/items/equipment/rig_plateminus_extreme/item_equipment_armor_plateminus_extreme.bundle",
         "assets/content/items/mods/magazines/mag_stanag_fn_mk16_std_556x45_30_fde.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/armoredRigs/cr_firstspear_aac_aor2.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_40_blk.bundle"
       ]
     },
     {
@@ -474,7 +482,6 @@
         "assets/content/items/equipment/rig_bd4_firstspear/item_equipment_armor_bd4_firstspear.bundle",
         "shaders",
         "cubemaps",
-        "cab-5fee59e965bc0f3a65913a7975e81921",
         "assets/content/items/ammo/patrons/patron_12x70_flechette.bundle",
         "assets/content/items/mods/magazines/mag_ak_molot_mag_223_556x45_45.bundle",
         "assets/content/items/mods/magazines/mag_ak_arsenal_cwp_mag_556x45_30.bundle",
@@ -2488,33 +2495,22 @@
       ]
     },
     {
-      "key": "Misc/item_barter_l3harris_prc117g.bundle",
-      "dependencyKeys": [
-        "assets/commonassets/physics/physicsmaterials.bundle",
-        "shaders",
-        "cubemaps"
-      ]
-    },
-    {
       "key": "Misc/holosun_dnv.bundle",
       "dependencyKeys": [
-        "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
         "assets/systems/effects/nightvision/mask_nv_textures",
         "assets/systems/effects/nightvision.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle",
         "cubemaps"
       ]
     },
     {
       "key": "Headwear/nvgs/nvg-pvs-skeet.bundle",
       "dependencyKeys": [
-
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
         "cubemaps"
       ]
     }
     ]
-      
 }
-    
