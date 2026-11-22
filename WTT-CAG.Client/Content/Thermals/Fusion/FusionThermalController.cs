@@ -1,9 +1,9 @@
-﻿using WTT_CAG.Client.Core;
-using System;
+﻿using System;
 using BSG.CameraEffects;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 
@@ -140,6 +140,13 @@ public class FusionThermalController : MonoBehaviour
         if (_zoneCamera && _zoneCamera!.IsActive != wanted)
         {
             _zoneCamera.SetActive(wanted);
+        }
+
+        var zoomProfile = ThermalDeviceProfiles.Active;
+
+        if (_zoneCamera && zoomProfile != null)
+        {
+            _zoneCamera!.SetPointFiltering(FusionThermalState.ZoomFactor(zoomProfile) > 1.01f);
         }
 
         UpdateCompositePath();

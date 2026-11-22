@@ -1,9 +1,9 @@
-﻿using WTT_CAG.Client.Core;
-using System.Reflection;
+﻿using System.Reflection;
 using BSG.CameraEffects;
 using UnityEngine;
 using UnityEngine.Rendering;
 using WTT_CAG.Client.Config;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 

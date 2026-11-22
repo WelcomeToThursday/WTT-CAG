@@ -1,6 +1,6 @@
-﻿using WTT_CAG.Client.Core;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Rendering;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals.Fusion;
 

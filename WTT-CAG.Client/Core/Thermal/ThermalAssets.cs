@@ -15,8 +15,8 @@ public static class ThermalAssets
     public static Material? FusionMaterial { get; private set; }
 
     // A compiled shader missing any of these was built from older source.
-    private static readonly string[] TraceProperties = ["_TraceThreshold", "_OutlineIntensity", "_HotColor", "_ColdColor", "_HeatPower", "_HeatGain", "_HeatFloor", "_DebugHeat"];
-    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_ZoneDebugFill", "_ZoneShape", "_HeatKeyBackground"];
+    private static readonly string[] TraceProperties = ["_TraceThreshold", "_OutlineIntensity", "_HotColor", "_ColdColor", "_HeatPower", "_HeatGain", "_HeatFloor", "_DebugHeat", "_ZoneSensorFx"];
+    private static readonly string[] FusionProperties = ["_ThermalZoneEnabled", "_ZoneCount", "_ThermalZoneUvScale", "_ThermalZoneZoom", "_HeatKeyOnly", "_OverlayTex", "_ZoneDebugFill", "_ZoneShape", "_HeatKeyBackground", "_TubeMaskSoft"];
 
     public static AssetBundle? HudBundle;
 

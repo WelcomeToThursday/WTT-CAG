@@ -1,11 +1,11 @@
-﻿using WTT_CAG.Client.Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Comfort.Common;
 using EFT;
 using UnityEngine;
 using WTT_CAG.Client.Config;
 using WTT_CAG.Client.Content.Thermals.Fusion;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 
 namespace WTT_CAG.Client.Content.Thermals;
 
@@ -68,6 +68,7 @@ public static class ThermalDeviceProfiles
             heatKeyOnly: false, heatKeyBackground: 1f,
             fxNoise: true, fxFpsStuck: true, fxMotionBlur: true, fxGlitch: true,
             modes: [ThermalMode.WhiteHot, ThermalMode.BlackHot, ThermalMode.EdgeDetect],
+            zoomLevels: [1f, 2f, 0.5f],
             hud: "SkeetIrHud", hudNeedsThermal: true, hudOffsetX: -225.3521f, hudOffsetY: 45.6338f);
 
         CagLog.Info($"[WTT-CAG] Registered {ProfileCache.Count} thermal device profile(s).");
@@ -102,6 +103,12 @@ public static class ThermalDeviceProfiles
         Color? cold = null,
         float fov = 40f,
         int resolution = 640,
+        int refreshRate = 60,
+        float thermalRange = 910f,
+        float distanceFade = 0f,
+        float noiseIntensity = 0.07f,
+        float[]? zoomLevels = null,
+        bool softTubeMask = false,
         float zoom = 1.5f,
         float radius = 0.35f,
         float softness = 0.05f,
@@ -159,6 +166,12 @@ public static class ThermalDeviceProfiles
 
         profile.Fov.Default = fov;
         profile.Resolution.Default = resolution;
+        profile.RefreshRate.Default = refreshRate;
+        profile.ThermalRange.Default = thermalRange;
+        profile.DistanceFade.Default = distanceFade;
+        profile.NoiseIntensity.Default = noiseIntensity;
+        profile.ZoomLevels = zoomLevels is { Length: > 0 } ? zoomLevels : [1f];
+        profile.SoftTubeMask.Default = softTubeMask;
         profile.Zoom.Default = zoom;
         profile.CullLayers.Default = false;
         profile.ExcludeLayers.Default = "Player,PlayerRenderers,HighPolyCollider";

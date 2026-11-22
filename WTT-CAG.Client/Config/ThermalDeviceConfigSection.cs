@@ -17,6 +17,9 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.Resolution.Bind(cfg, cam, "Resolution", "Horizontal resolution of the thermal render. Lower is cheaper; 320 approximates a real device's sensor.", new AcceptableValueRange<int>(128, 1024));
         profile.Zoom.Bind(cfg, cam, "Zoom", "1 keeps the thermal aligned 1:1 with the world behind the circle. Above 1 magnifies.", new AcceptableValueRange<float>(0.25f, 4f));
         profile.HoldZoomWhenAiming.Bind(cfg, cam, "Hold Zoom When Aiming", "On: the thermal keeps its hip-fire size when aiming down sights. Off: it zooms with the view and stays lined up with the night vision.");
+        profile.RefreshRate.Bind(cfg, cam, "Refresh Rate", "Sensor refresh rate in Hz. The thermal camera only renders this often.", new AcceptableValueRange<int>(5, 240));
+        profile.ThermalRange.Bind(cfg, cam, "Range", "How far the thermal camera sees, in metres.", new AcceptableValueRange<float>(50f, 3000f));
+        profile.DistanceFade.Bind(cfg, cam, "Distance Fade", "Heat fades with distance, as in the game's thermal (the T-7 uses 0.03). 0 disables.", new AcceptableValueRange<float>(0f, 0.2f));
         profile.CullLayers.Bind(cfg, cam, "Cull Layers", "Off by default: a real thermal sees whatever is in front of it, including your own hands.");
         profile.ExcludeLayers.Bind(cfg, cam, "Exclude Layers", "Comma-separated layer names to hide when Cull Layers is on. Unknown names are ignored and listed in the log.");
 
@@ -48,6 +51,7 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.TubeMaskScale.Bind(cfg, place, "Tube Mask Scale", "Fine adjustment if the clip does not line up with the tubes. 1 uses the game's own mask size unmodified.", new AcceptableValueRange<float>(0.5f, 2f));
         profile.TubeMaskSoftness.Bind(cfg, place, "Tube Mask Edge", "Softens the clip edge so thermal fades into the tube rim.", new AcceptableValueRange<float>(0f, 0.3f));
         profile.UseGoggleTubeMask.Bind(cfg, place, "Use Goggle Tube Mask", "Off: Clip To Tubes cuts with the game's thermal mask, which the baked values were tuned against. On: it cuts with this goggle's own tube mask, which needs Tube Mask Scale and Tube Mask Edge retuning.");
+        profile.SoftTubeMask.Bind(cfg, place, "Soft Tube Mask", "Fade the clip with the mask's own alpha, like the game draws its tubes, instead of a hard cut.");
         profile.TubeMaskChannel.Bind(cfg, place, "Tube Mask Channel", "Which channel of the mask texture is the tube shape. 0 = alpha, 1 = red. Try 1 if clipping removes everything.", new AcceptableValueRange<int>(0, 1));
         profile.HeatKeyOnly.Bind(cfg, place, "Heat Only", "ON: draw only hot pixels and let the night vision show through the cold ones, so the circle is an overlay rather than a cutout. OFF: the circle replaces the NVG image, cold areas included, which reads as black.");
         profile.HeatKeyThreshold.Bind(cfg, place, "Heat Only Threshold", "How bright a thermal pixel must be to be drawn when Heat Only is on. Raise to show only the hottest objects.", new AcceptableValueRange<float>(0f, 1f));
@@ -66,6 +70,7 @@ public class ThermalDeviceConfigSection(ThermalDeviceProfile profile) : IConfigS
         profile.OutlineWidth.Bind(cfg, image, "Outline Width", "Edge sampling thickness.", new AcceptableValueRange<float>(0.001f, 0.02f));
 
         profile.FxNoise.Bind(cfg, fx, "Noise", "Sensor noise, using the game's own thermal noise rather than a reimplementation. Uncooled microbolometers are noisier than cooled ones, so a cheap clip-on wants this and a dedicated sight may not.");
+        profile.NoiseIntensity.Bind(cfg, fx, "Noise Intensity", "Strength of the sensor noise while Noise is on. The game's T-7 uses 0.07.", new AcceptableValueRange<float>(0f, 0.5f));
         profile.FxFpsStuck.Bind(cfg, fx, "Low Refresh Rate", "Emulate a slow sensor refresh, so the thermal image updates in steps rather than every frame. This is the single most recognisable thermal artefact — export-restricted civilian units in particular run far below display framerate.");
         profile.FxMotionBlur.Bind(cfg, fx, "Motion Blur", "Smearing as the sensor integrates across a frame. Pairs with a low refresh rate; on its own it tends to look like a post effect rather than a sensor.");
         profile.FxGlitch.Bind(cfg, fx, "Glitch", "Occasional frame corruption. Sparing use only — constant glitching reads as broken hardware rather than a working device.");

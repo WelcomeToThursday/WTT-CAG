@@ -1,8 +1,8 @@
-﻿using WTT_CAG.Client.Core;
-using Comfort.Common;
+﻿using Comfort.Common;
 using EFT;
 using UnityEngine;
 using WTT_CAG.Client.Core.Thermal;
+using WTT_CAG.Client.Core;
 using WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 namespace WTT_CAG.Client.Content.Thermals.Holosun;

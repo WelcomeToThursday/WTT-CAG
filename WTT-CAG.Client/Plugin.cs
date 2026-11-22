@@ -13,12 +13,12 @@ using WTT_CAG.Client.Content.Thermals.Fusion;
 using WTT_CAG.Client.Core;
 using WTT_CAG.Client.Core.Thermal;
 using WTT_CAG.Client.Patches.NightVisionPatches;
+using WTT_CAG.Client.Patches.PlayerPatches;
 using WTT_CAG.Client.Patches.ThermalVisionPatches;
 
 namespace WTT_CAG.Client;
 
 [BepInPlugin(PluginConstants.Guid, PluginConstants.Name, PluginConstants.Version)]
-[BepInIncompatibility("com.lennoxp90.coti")]
 public class Plugin : BaseUnityPlugin
 {
     private const string ThermalBundleName = "ThermalTraceOverlay.bundle";
@@ -27,7 +27,6 @@ public class Plugin : BaseUnityPlugin
     internal static ManualLogSource? logger;
     private static ConfigFile? _configFile;
     internal static string? PluginFolder;
-    
 
     //internal static Dictionary<string, HelmetSlotConfigSection> HelmetConfigs = new();
     //internal static readonly List<CAGConfigurationManagerAttributes> AMPEditorAttributes = [];
@@ -56,6 +55,7 @@ public class Plugin : BaseUnityPlugin
         {
             EnablePatch(new SetMaterialPropertiesPatch());
             EnablePatch(new OnPreCullPatch());
+            EnablePatch(new PlayerOnDeadPatch());
         }
     }
 
@@ -64,6 +64,7 @@ public class Plugin : BaseUnityPlugin
         ThermalDeviceProfiles.RefreshActive();
 
         if (KeyboardConfigSection.ThermalModeKey?.Value.IsDown() == true) { FusionThermalState.CycleMode(); }
+        if (KeyboardConfigSection.ThermalZoomKey?.Value.IsDown() == true) { FusionThermalState.CycleZoom(); }
 
         //if (KeyboardConfigSection.CopyConfigKey?.Value.IsDown() != true) { return; }
         //logger!.LogInfo("===== HELMET CONFIG SNAPSHOT =====");

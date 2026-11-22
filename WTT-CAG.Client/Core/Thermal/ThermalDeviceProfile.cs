@@ -11,6 +11,21 @@ public class ThermalDeviceProfile(string name, string templateId)
     public readonly ThermalSetting<int> Resolution = new();
     public readonly ThermalSetting<float> Zoom = new();
     public readonly ThermalSetting<bool> CullLayers = new();
+
+    // Sensor refresh rate: the thermal camera only renders this many times a second.
+    public readonly ThermalSetting<int> RefreshRate = new();
+
+    // Thermal camera's far clip, in metres.
+    public readonly ThermalSetting<float> ThermalRange = new();
+
+    // Heat fades with distance as exp(-metres * this) ^ 0.25, as in the game's thermal. 0 disables.
+    public readonly ThermalSetting<float> DistanceFade = new();
+
+    // Sensor noise strength, used while Noise (FxNoise) is on.
+    public readonly ThermalSetting<float> NoiseIntensity = new();
+
+    // Digital zoom steps the zoom key cycles through. One entry means no zoom control.
+    public float[] ZoomLevels = [1f];
     public readonly ThermalSetting<string> ExcludeLayers = new();
 
     // On: the thermal keeps its hip-fire size when aiming. Off (default): it zooms with the view and stays registered on the night vision.
@@ -59,6 +74,9 @@ public class ThermalDeviceProfile(string name, string templateId)
 
     public readonly ThermalSetting<bool> UseGoggleTubeMask = new();
     public readonly ThermalSetting<int> TubeMaskChannel = new();
+
+    // Clip with the mask's alpha as a soft fade, like the game's own mask, instead of a hard cut.
+    public readonly ThermalSetting<bool> SoftTubeMask = new();
 
     public readonly ThermalSetting<bool> HeatKeyOnly = new();
     public readonly ThermalSetting<float> HeatKeyThreshold = new();

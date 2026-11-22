@@ -44,6 +44,12 @@ Shader "Thermals/ThermalTraceOverlay"
         _HeatGain               ("Heat Gain (strength)",  Range(1,4))   = 2.0
         _HeatFloor              ("Heat Floor (cold cutoff)", Range(0,1)) = 0.15
         _DebugHeat              ("DEBUG: Show Raw Heat",   Range(0,1))   = 0
+
+        // Set only on the goggles' thermal camera, so the Holosun keeps its own look.
+        _ZoneSensorFx           ("Goggle Sensor Effects",  Range(0,1))   = 0
+        _ZoneNoiseTex           ("Goggle Noise Texture",   2D)           = "black" {}
+        _ZoneNoiseIntensity     ("Goggle Noise Intensity", Float)        = 0
+        _ZoneDepthFade          ("Goggle Distance Fade",   Float)        = 0
     }
 
     SubShader
@@ -98,6 +104,31 @@ Shader "Thermals/ThermalTraceOverlay"
             // A float uniform can't be stripped, so all modes always work.
             //   0 = TRACE, 1 = FULL, 2 = OUTLINE, 3 = CLEAR
             float       _RenderMode;
+            float       _ZoneSensorFx;
+            sampler2D   _ZoneNoiseTex;
+            float       _ZoneNoiseIntensity;
+            float       _ZoneDepthFade;
+            sampler2D_float _CameraDepthTexture;
+
+            // The game's thermal fade: heat x exp(-metres x fade) ^ 0.25.
+            float DistanceFade(float2 uv)
+            {
+                if (_ZoneSensorFx < 0.5 || _ZoneDepthFade <= 0.0) return 1.0;
+
+                float metres = LinearEyeDepth(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv));
+                return sqrt(sqrt(saturate(exp(-metres * _ZoneDepthFade))));
+            }
+
+            // The game's thermal noise: sqrt(colour^2 + noise x intensity x 0.785), with the noise
+            // texture scrolled every frame by the same offsets the game uses.
+            float3 ApplyNoise(float3 col, float2 uv)
+            {
+                if (_ZoneSensorFx < 0.5 || _ZoneNoiseIntensity <= 0.0) return col;
+
+                float2 offset = frac(_Time.x * float2(14345.677734375, -12345.677734375));
+                float  n      = tex2D(_ZoneNoiseTex, uv + offset).r * _ZoneNoiseIntensity * 0.785;
+                return sqrt(col * col + n);
+            }
 
             v2f vert(appdata v)
             {
@@ -115,7 +146,7 @@ Shader "Thermals/ThermalTraceOverlay"
             // So we use luminance directly, with a small adjustable floor.
             float SampleHeatRaw(float2 uv)
             {
-                float lum = Luminance(tex2D(_MainTex, uv).rgb);
+                float lum = Luminance(tex2D(_MainTex, uv).rgb) * DistanceFade(uv);
                 // _HeatFloor removes the dark baseline so cold reads as 0.
                 return saturate((lum - _HeatFloor) / max(1.0 - _HeatFloor, 0.001));
             }
@@ -184,7 +215,7 @@ Shader "Thermals/ThermalTraceOverlay"
                 // ═══ FULL: entire view mapped to thermal palette ══════════════
                 if (mode == 1)
                 {
-                    return float4(thermalColor.rgb * _TraceIntensity, 1.0);
+                    return float4(ApplyNoise(thermalColor.rgb * _TraceIntensity, i.uv), 1.0);
                 }
 
                 // ═══ OUTLINE (mode 2): green edges, see-through cold, no white ══
@@ -209,7 +240,7 @@ Shader "Thermals/ThermalTraceOverlay"
                     float  suppress = saturate(hotRegion - outline);
                     float3 baseCol  = lerp(scene, scene * 0.15, suppress);
 
-                    float3 edgeCol  = _HotColor.rgb * _TraceIntensity;
+                    float3 edgeCol  = ApplyNoise(_HotColor.rgb * _TraceIntensity, i.uv);
                     float3 col      = lerp(baseCol, edgeCol, outline);
                     return float4(col, 1.0);
                 }
@@ -250,7 +281,7 @@ Shader "Thermals/ThermalTraceOverlay"
                     // Cold base = the see-through scene (_MainTex). Hot = bright
                     // solid green. This is the key difference from FULL.
                     float3 scene = tex2D(_MainTex, i.uv).rgb;
-                    float3 hotCol = _HotColor.rgb * _TraceIntensity;
+                    float3 hotCol = ApplyNoise(_HotColor.rgb * _TraceIntensity, i.uv);
                     float3 col   = lerp(scene, hotCol, fill);
                     return float4(col, 1.0);
                 }
@@ -288,10 +319,32 @@ Shader "Thermals/ThermalTraceOverlay"
             #pragma fragment frag_p2
             #include "UnityCG.cginc"
             sampler2D _MainTex;
+            float4    _MainTex_TexelSize;
+            float     _RadiusBlur;
+            float     _Bias;
+            float     _ZoneSensorFx;
             struct a2 { float4 v:POSITION; float2 uv:TEXCOORD0; };
             struct v2 { float4 p:SV_POSITION; float2 uv:TEXCOORD0; };
             v2 vert_p2(a2 i){v2 o;o.p=UnityObjectToClipPos(i.v);o.uv=i.uv;return o;}
-            float4 frag_p2(v2 i):SV_Target{return tex2D(_MainTex,i.uv);}
+
+            // The game's unsharp mask: a 3x3 blur at _RadiusBlur texels weighted 1-2-4, then
+            // Bias x colour - blur, or with Bias <= 0 a dilation, max(colour, -Bias x blur).
+            float4 frag_p2(v2 i):SV_Target
+            {
+                float4 c = tex2D(_MainTex, i.uv);
+
+                if (_ZoneSensorFx < 0.5) return c;
+
+                float2 r = _MainTex_TexelSize.xy * _RadiusBlur;
+
+                float4 edges = tex2D(_MainTex, i.uv + float2(0, -r.y)) + tex2D(_MainTex, i.uv + float2(-r.x, 0))
+                             + tex2D(_MainTex, i.uv + float2(r.x, 0))  + tex2D(_MainTex, i.uv + float2(0, r.y));
+                float4 corners = tex2D(_MainTex, i.uv + float2(-r.x, -r.y)) + tex2D(_MainTex, i.uv + float2(r.x, -r.y))
+                               + tex2D(_MainTex, i.uv + float2(-r.x, r.y))  + tex2D(_MainTex, i.uv + float2(r.x, r.y));
+                float4 blur = (c * 4.0 + edges * 2.0 + corners) * 0.0625;
+
+                return _Bias > 0.0 ? _Bias * c - blur : max(c, -_Bias * blur);
+            }
             ENDCG
         }
     }

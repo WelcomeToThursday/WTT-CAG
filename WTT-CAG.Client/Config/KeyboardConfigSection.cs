@@ -13,11 +13,14 @@ public class KeyboardConfigSection : IConfigSection
     // internal static ConfigEntry<KeyboardShortcut>? AmpEditPartKey;
 
     internal static ConfigEntry<KeyboardShortcut>? ThermalModeKey;
+    internal static ConfigEntry<KeyboardShortcut>? ThermalZoomKey;
     
     public void Init(ConfigFile cfg)
     {
         //CopyConfigKey = cfg.Bind("Keyboard", "Copy Helmet Configs To Log", new KeyboardShortcut(KeyCode.None), new ConfigDescription("Prints current F12 helmet slot values to BepInEx console as copy-pasteable C# code.", null, _advancedUsage));
 
         ThermalModeKey = cfg.Bind("Keyboard", "Fusion Goggle Thermal Mode", new KeyboardShortcut(KeyCode.None), new ConfigDescription("Steps the worn goggle through its thermal modes. On the fused goggles the last step switches the thermal off."));
+
+        ThermalZoomKey = cfg.Bind("Keyboard", "Thermal Zoom", new KeyboardShortcut(KeyCode.None), new ConfigDescription("Steps the worn goggle through its digital zoom levels, on goggles that have them."));
     }
 }
