@@ -25,7 +25,17 @@
         // Spiritus 34A (Multicam)
         "69534dfbedb3d1c75c40ffb3": 14624,
         // Platatac Peacekeeper (MCT)
-        "68bb4520b4883cef1fd7726e": 9219
+        "68bb4520b4883cef1fd7726e": 9219,
+        // PlateFrame Pigeon
+        "6abaabce62687ca9970ba4b5": 1504,
+        // MSV Gunner
+        "6abea72d4d2b98fa898b07e1": 3535,
+        // MSV standard
+        "6abeb364c8ca1bf0608b07f3": 5454,
+        // PERUN-6
+        "69af8c67b5dd41b53dc2a14f": 6783,
+        // JPC Coyote Brown
+        "69786ec0c5d74f55c1c91ceb": 4545
       }
     },
     "mods": {
@@ -80,6 +90,251 @@
         ],
         "mod_equipment_000": [
           "5f60c076f2bcbb675b00dac2"
+        ]
+      },
+      //////////////////
+      // ARMORED RIGS //
+      //////////////////
+      "6abea72d4d2b98fa898b07e1": { // MSV Machinegunner
+        "Soft_armor_front": [
+          "6abeac107b81045a5f8b07ee"
+        ],
+        "Soft_armor_back": [
+          "6abeac3cfdf421eef68b07ef"
+        ],
+        "Right_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Left_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Front_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ],
+        "Back_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ]
+      },
+      "6abeb364c8ca1bf0608b07f3": { // MSV Standard
+        "Soft_armor_front": [
+          "6abeac107b81045a5f8b07ee"
+        ],
+        "Soft_armor_back": [
+          "6abeac3cfdf421eef68b07ef"
+        ],
+        "Right_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Left_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Front_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ],
+        "Back_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ]
+      },
+      "6abaabce62687ca9970ba4b5": { // PlateFrame (Pigeon Edition)
+
+        "Right_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Left_side_plate": [
+          "6557458f83942d705f0c4962",
+          "64afdb577bb3bfe8fe03fd1d",
+          "64afd81707e2cf40e903a316"
+        ],
+        "Front_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ],
+        "Back_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ]
+      },
+      "69af8c67b5dd41b53dc2a14f": { // PERUN-6
+        "Soft_armor_front": [
+          "69af8d4225d8afca89c2a155"
+        ],
+        "Soft_armor_back": [
+          "69af91e3d59ab6c374c2a15f"
+        ],
+        "Groin": [
+          "69af8d78f523015697c2a156"
+        ],
+        "Front_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ],
+        "Back_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ]
+      },
+      "69786ec0c5d74f55c1c91ceb": { // JPC Coyote Brown
+        "Front_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
+        ],
+        "Back_plate": [
+          "656f9d5900d62bcd2e02407c",
+          "656fae5f7c2d57afe200c0d7",
+          "656faf0ca0dce000a2020f77",
+          "656fa0fb498d1b7e3e071d9c",
+          "656fafe3498d1b7e3e071da4",
+          "656fa76500d62bcd2e024080",
+          "656fad8c498d1b7e3e071da0",
+          "656fa25e94b480b8a500c0e0",
+          "656fa61e94b480b8a500c0e8",
+          "656fb21fa0dce000a2020f7c",
+          "656fac30c6baea13cd07e10c",
+          "656fb0bd7c2d57afe200c0dc",
+          "656f9fa0498d1b7e3e071d98",
+          "656fa53d94b480b8a500c0e4",
+          "655746010177119f4a097ff7",
+          "64afdcb83efdfea28601d041"
         ]
       }
     }
