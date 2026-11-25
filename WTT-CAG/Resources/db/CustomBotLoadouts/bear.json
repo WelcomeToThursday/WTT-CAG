@@ -104,6 +104,23 @@
       }
     },
     "mods": {
+      "6a0b240373d8e8a532c4d55a": {
+        "mod_cover": [
+          "6a0a1bef44d169794db4a862",
+          "6a0a1d1b98bfa8da0db4a863",
+          "6a0a22700f67790a19b4a864",
+          "6a0a2299714cddeb91b4a865",
+          "6a0a22bbfc1a34cac6b4a866",
+          "6a0a22edf4bbd75165b4a867",
+          "6a0a230b3d283d711cb4a868"
+        ],
+        "Helmet_top": [
+          "657f9897f4c82973640b235e"
+        ],
+        "Helmet_back": [
+          "657f9897f4c82973640b235e"
+        ]
+      },
       "689a138a035e1c4298c32357": {
         "mod_cover": [
           "689a1a005d2915b23e564474",
