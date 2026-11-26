@@ -51,11 +51,11 @@
     {
       "key": "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_mc.bundle",
       "dependencyKeys": [
-        "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
-        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
         "shaders",
-        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle",
-        "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle"
+        "Bodywear/armoredRigs/AVS/item_equipment_armor_crye_avs_green.bundle",
+        "assets/content/items/mods/magazines/mag_stanag_hk_416_steel_maritime_556x45_30.bundle",
+        "assets/content/items/mods/magazines/mag_glock_glock_std_9x19_17.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
     {
@@ -179,8 +179,8 @@
     {
       "key": "Bodywear/armoredRigs/cr_firstspear_aac_aor2.bundle",
       "dependencyKeys": [
-        "cubemaps",
         "shaders",
+        "cubemaps",
         "assets/content/items/mods/magazines/mag_stanag_magpul_pmag_gen_m3_556x45_40_blk.bundle"
       ]
     },
@@ -221,7 +221,7 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "assets/content/items/equipment/rig_plateminus_extreme/item_equipment_armor_plateminus_extreme.bundle",
+        "content/items/equipment/rig_plateminus_extreme/item_equipment_armor_plateminus_extreme.bundle",
         "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
@@ -731,6 +731,27 @@
       "dependencyKeys": [
         "assets/systems/effects/particlesystems/effects.bundle",
         "shaders"
+      ]
+    },
+    {
+      "key": "Bodywear/unarmoredRigs/microfight/cr_ss_microfight_5_mc.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
+        "assets/content/items/mods/magazines/mag_mk17_fn_mk17_std_762x51_20.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
+      ]
+    },
+    {
+      "key": "Bodywear/unarmoredRigs/microfight/cr_ss_microfight_5_odg.bundle",
+      "dependencyKeys": [
+        "Bodywear/armoredRigs/item_equipment_armor_msv_gen2_general.bundle",
+        "Bodywear/unarmoredRigs/microfight/cr_ss_microfight_5_mc.bundle",
+        "shaders",
+        "cubemaps",
+        "assets/content/items/mods/magazines/mag_mk17_fn_mk17_std_762x51_20.bundle",
+        "assets/content/items/equipment/rig_jpc_first_gen_mil_spec_v1/item_equipment_rig_jpc_first_gen_mil_spec_v1.bundle"
       ]
     },
     {
@@ -2223,39 +2244,39 @@
       "key": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_cadpat.bundle",
       "dependencyKeys": [
         "Headwear/helmets/pasgt_bk3/item_equipment_helmet_sb_bk3.bundle",
-        "cubemaps",
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
       "key": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_dcu.bundle",
       "dependencyKeys": [
         "Headwear/helmets/pasgt_bk3/item_equipment_helmet_sb_bk3.bundle",
-        "cubemaps",
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
       "key": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_jigsaw.bundle",
       "dependencyKeys": [
         "Headwear/helmets/pasgt_bk3/item_equipment_helmet_sb_bk3.bundle",
-        "cubemaps",
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
       "key": "Headwear/helmets/pasgt_bk3/helmet_cover_bk3_m81.bundle",
       "dependencyKeys": [
         "Headwear/helmets/pasgt_bk3/item_equipment_helmet_sb_bk3.bundle",
-        "cubemaps",
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
       "key": "Headwear/helmets/pasgt_bk3/item_equipment_helmet_sb_bk3.bundle",
       "dependencyKeys": [
-        "cubemaps",
-        "shaders"
+        "shaders",
+        "cubemaps"
       ]
     },
     {
@@ -2421,6 +2442,13 @@
       ]
     },
     {
+      "key": "Headwear/nvgs/nvg-pvs-skeet.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
       "key": "Headwear/nvgs/nvg_actinblack_dtnvg.bundle",
       "dependencyKeys": [
         "cubemaps",
@@ -2505,12 +2533,12 @@
       ]
     },
     {
-      "key": "Headwear/nvgs/nvg-pvs-skeet.bundle",
+      "key": "Misc/item_barter_l3harris_prc117g.bundle",
       "dependencyKeys": [
         "assets/commonassets/physics/physicsmaterials.bundle",
         "shaders",
         "cubemaps"
       ]
     }
-    ]
+  ]
 }

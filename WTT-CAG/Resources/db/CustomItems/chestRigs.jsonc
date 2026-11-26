@@ -1206,7 +1206,7 @@
     "locales": {
       "en": {
         "name": "Spiritus Systems Micro Fight Mk.4 chest rig",
-        "shortName": "Micro Fight",
+        "shortName": "MF Mk.4",
         "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems."
       }
     },
@@ -1252,7 +1252,7 @@
     "locales": {
       "en": {
         "name": "Spiritus Systems Micro Fight Mk.4 chest rig (M81 Woodland)",
-        "shortName": "Micro Fight",
+        "shortName": "MF Mk.4",
         "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.4 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems. M81 Woodland version."
       }
     },
@@ -2161,6 +2161,308 @@
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
         "probability": 1100
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6b08a404ef4c905bc6ee0307": { // Spiritus Systems Microfight Mk.5 (MultiCam)
+    "itemTplToClone": "5e9db13186f7742f845ee9d3",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/unarmoredRigs/microfight/cr_ss_microfight_5_mc.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 1.093,
+      "Height": 4,
+      "Width": 3,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -2,
+      "RigLayoutName": "cr_ss_microfight_5",
+      "Grids": [
+        {
+          "_id": "31b6db5a7a94ceeff74126a5",
+          "_name": "GridView (1)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "12a628bea4be43b6d8ccfbe1",
+          "_name": "GridView (2)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0e8a5894ee5f13b340d6bb13",
+          "_name": "GridView (3)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3fba445ca4401f9b9a338c71",
+          "_name": "GridView (4)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "dfe7a96ea4540d9d0a8eacef",
+          "_name": "GridView (5)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "cedb1ea2c2de52524ea1b8d1",
+          "_name": "GridView (6)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "c81edab702627ecf498e1999",
+          "_name": "GridView (7)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "fc8fda0bb59188080baee892",
+          "_name": "GridView (8)",
+          "_parent": "6b08a404ef4c905bc6ee0307",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems Micro Fight Mk.5 chest rig (MultiCam)",
+        "shortName": "MF Mk.5",
+        "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.5 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 85700,
+    "handbookPriceRoubles": 47489,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
+      }
+    ],
+    "addWeaponPreset": false,
+    "weaponPresets": []
+  },
+  "6b08a4f2132c097b5cee0308": { // Spiritus Systems Microfight Mk.5 (Olive Drab)
+    "itemTplToClone": "6b08a404ef4c905bc6ee0307", // Spiritus Systems Microfight Mk.5 (MultiCam)
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Bodywear/unarmoredRigs/microfight/cr_ss_microfight_5_odg.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 1.093,
+      "Height": 4,
+      "Width": 3,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -3,
+      "weaponErgonomicPenalty": -2,
+      "RigLayoutName": "cr_ss_microfight_5"
+    },
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems Micro Fight Mk.5 chest rig (Olive Drab)",
+        "shortName": "MF Mk.5",
+        "description": "A simple chest rig designed for use with the Micro Fight series of placards. This rig has the Micro Fight Mk.5 placard with a SACK Mk.4 dangler pouch for maximum carrying capacity. Manufactured by Spiritus Systems. Olive Drab version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "addtoTraders": false,
+    "traders": {},
+    "fleaPriceRoubles": 85700,
+    "handbookPriceRoubles": 47489,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 500
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 60
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 50
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 10
       }
     ],
     "addWeaponPreset": false,
